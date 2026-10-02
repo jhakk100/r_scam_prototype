@@ -23,9 +23,11 @@ REQUIRED_PYTHON = (3, 11, 6)
 REQUIRED_PACKAGES = {
     "torch": "2.7.0",
     "transformers": "5.14.1",
+    # peft와 trl이 의존성으로 accelerate 최신 버전을 먼저 설치할 수 있으므로
+    # 이 프로젝트의 고정 버전을 선행 설치한다.
+    "accelerate": "1.14.0",
     "peft": "0.20.0",
     "trl": "1.9.2",
-    "accelerate": "1.14.0",
     "bitsandbytes": "0.50.2",
     "datasets": "5.0.1",
     "safetensors": "0.8.0",
@@ -287,6 +289,43 @@ def check_and_install_packages():
             )
 
         else:
+
+            print(
+                f"[VERSION MISMATCH] {name} "
+                f"(현재 {installed}, "
+                f"필요 {required_version})"
+            )
+
+            if AUTO_INSTALL_MISSING:
+
+                install_package(
+                    name,
+                    required_version,
+                )
+
+                corrected = get_installed_version(name)
+
+                if (
+                    corrected is not None
+                    and strip_build_tag(corrected)
+                    == required_version
+                ):
+
+                    ok(
+                        f"{name}: "
+                        f"{corrected} "
+                        f"(버전 교정 완료)"
+                    )
+
+                else:
+
+                    error(
+                        f"{name} 버전 교정 실패 "
+                        f"(현재 {corrected}, "
+                        f"필요 {required_version})"
+                    )
+
+                continue
 
             error(
                 f"{name} 버전 불일치 "
