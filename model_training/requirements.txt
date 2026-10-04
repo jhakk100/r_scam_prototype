@@ -1,0 +1,6 @@
+# CHECK_ENV_and_AUTO_LIB_INSTALLER.py의 환경 명세. torch CUDA wheel은 별도 설치한다.
+# 구현은 Transformers Trainer + PEFT를 사용한다. TRL/datasets는 기존 환경 명세에 보존한다.
+-r ../architecture/requirements.txt
+trl==1.9.2
+datasets==5.0.1
+psutil

@@ -1,0 +1,13 @@
+{
+  "input_file": "answer dataset/archive/dataset.original.jsonl",
+  "input_sha256": "3c0c485e11e2ce0e9e7fdec4df133d233ca197db713bce8ec7827f20193ef252",
+  "record_count": 372,
+  "confirmed_at": "2026-10-04",
+  "timezone": "Asia/Seoul",
+  "confirmation_source": "User statement in this chat",
+  "user_statement": "ㄴㄴ 원본은 논문 관계자가 나에게 작성해서 준 검증된 자료임",
+  "verified": true,
+  "scope": "Existing conversation labels in this exact supplied dataset",
+  "verification_origin": "Human verification by paper contributor, confirmed by the user; not LLM verification",
+  "limitations": "Contributor identity and detailed verification procedure were not supplied. Optional annotation consistency and case/derivative grouping are separate checks."
+}

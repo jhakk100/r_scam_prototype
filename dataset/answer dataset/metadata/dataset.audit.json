@@ -1,0 +1,133 @@
+{
+  "input_file": "answer dataset/archive/dataset.original.jsonl",
+  "input_sha256": "3c0c485e11e2ce0e9e7fdec4df133d233ca197db713bce8ec7827f20193ef252",
+  "study_file": "study dataset/dataset.jsonl",
+  "answer_file": "answer dataset/answers.jsonl",
+  "join_key": "conversation_id",
+  "train_validation_test_split_created": false,
+  "document_comparison": "Dataset guide v1 and paper sections 3.2, 3.4, 4.1-4.3 agree",
+  "input_count": 372,
+  "output_count": 372,
+  "removed_count": 0,
+  "input_labels": {
+    "NON_SCAM": 192,
+    "SCAM": 180
+  },
+  "output_labels": {
+    "NON_SCAM": 192,
+    "SCAM": 180
+  },
+  "verified_true_count": 372,
+  "rag_eligible_count": 372,
+  "verification_provenance": {
+    "input_file": "answer dataset/archive/dataset.original.jsonl",
+    "input_sha256": "3c0c485e11e2ce0e9e7fdec4df133d233ca197db713bce8ec7827f20193ef252",
+    "record_count": 372,
+    "confirmed_at": "2026-10-04",
+    "timezone": "Asia/Seoul",
+    "confirmation_source": "User statement in this chat",
+    "user_statement": "ㄴㄴ 원본은 논문 관계자가 나에게 작성해서 준 검증된 자료임",
+    "verified": true,
+    "scope": "Existing conversation labels in this exact supplied dataset",
+    "verification_origin": "Human verification by paper contributor, confirmed by the user; not LLM verification",
+    "limitations": "Contributor identity and detailed verification procedure were not supplied. Optional annotation consistency and case/derivative grouping are separate checks."
+  },
+  "messages_preserved": true,
+  "case_groups_confirmed": false,
+  "optional_annotations_omitted": [
+    "scam_stage",
+    "risk_factors",
+    "evidence",
+    "reason_summary"
+  ],
+  "original_annotation_issues": [
+    {
+      "line": 214,
+      "conversation_id": "CONV_000214",
+      "evidence_index": 2,
+      "code": "EVIDENCE_FACTOR_NOT_IN_RISK_FACTORS"
+    },
+    {
+      "line": 218,
+      "conversation_id": "CONV_000218",
+      "evidence_index": 0,
+      "code": "EVIDENCE_FACTOR_NOT_IN_RISK_FACTORS"
+    },
+    {
+      "line": 238,
+      "conversation_id": "CONV_000238",
+      "evidence_index": 1,
+      "code": "EVIDENCE_FACTOR_NOT_IN_RISK_FACTORS"
+    },
+    {
+      "line": 257,
+      "conversation_id": "CONV_000257",
+      "evidence_index": 0,
+      "code": "EVIDENCE_FACTOR_NOT_IN_RISK_FACTORS"
+    },
+    {
+      "line": 259,
+      "conversation_id": "CONV_000259",
+      "evidence_index": 0,
+      "code": "EVIDENCE_FACTOR_NOT_IN_RISK_FACTORS"
+    },
+    {
+      "line": 259,
+      "conversation_id": "CONV_000259",
+      "evidence_index": 1,
+      "code": "EVIDENCE_FACTOR_NOT_IN_RISK_FACTORS"
+    },
+    {
+      "line": 263,
+      "conversation_id": "CONV_000263",
+      "evidence_index": 2,
+      "code": "EVIDENCE_FACTOR_NOT_IN_RISK_FACTORS"
+    },
+    {
+      "line": 265,
+      "conversation_id": "CONV_000265",
+      "evidence_index": 0,
+      "code": "EVIDENCE_FACTOR_NOT_IN_RISK_FACTORS"
+    },
+    {
+      "line": 267,
+      "conversation_id": "CONV_000267",
+      "evidence_index": 0,
+      "code": "EVIDENCE_FACTOR_NOT_IN_RISK_FACTORS"
+    },
+    {
+      "line": 273,
+      "conversation_id": "CONV_000273",
+      "evidence_index": 0,
+      "code": "EVIDENCE_FACTOR_NOT_IN_RISK_FACTORS"
+    },
+    {
+      "line": 276,
+      "conversation_id": "CONV_000276",
+      "evidence_index": 1,
+      "code": "EVIDENCE_FACTOR_NOT_IN_RISK_FACTORS"
+    },
+    {
+      "line": 280,
+      "conversation_id": "CONV_000280",
+      "evidence_index": 1,
+      "code": "EVIDENCE_FACTOR_NOT_IN_RISK_FACTORS"
+    },
+    {
+      "line": 282,
+      "conversation_id": "CONV_000282",
+      "evidence_index": 0,
+      "code": "EVIDENCE_FACTOR_NOT_IN_RISK_FACTORS"
+    }
+  ],
+  "exact_duplicate_groups": [],
+  "duplicate_source_keys": [],
+  "similarity_screen": {
+    "metric": "character trigram set Jaccard on messages-json-v1",
+    "threshold": 0.8,
+    "pairs": [],
+    "limitations": "Lexical screen only; does not rule out semantic duplicates, translations or derivatives"
+  },
+  "tokenizer_length_check": "NOT_RUN: model/embedding tokenizers and limits are unspecified",
+  "training_readiness": "Original confirmed labels preserved for supervised learning; tokenizer checks and leakage-safe splitting remain training setup tasks"
+}

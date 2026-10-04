@@ -1,0 +1,53 @@
+{
+  "data": {
+    "inputs": "../../dataset/study dataset/dataset.jsonl",
+    "answers": "../../dataset/answer dataset/answers.jsonl",
+    "split": "../../artifacts/splits/split.json",
+    "expected_sha256": null,
+    "verified_only": true
+  },
+  "model": {
+    "backend": "label_likelihood",
+    "family": "gemma4",
+    "path": "../../models/REPLACE_WITH_BASE_MODEL",
+    "revision": "REPLACE_WITH_FIXED_MODEL_VERSION",
+    "local_files_only": true,
+    "max_input_tokens": 2048,
+    "reserved_tokens": 32,
+    "dtype": "bfloat16",
+    "quantization": "nf4"
+  },
+  "embedding": {
+    "path": "../../models/REPLACE_WITH_MEAN_POOLING_ENCODER",
+    "revision": "REPLACE_WITH_FIXED_EMBEDDING_VERSION",
+    "local_files_only": true,
+    "dimension": 384,
+    "max_input_tokens": 128,
+    "pooling": "mean",
+    "device_map": "cpu",
+    "dtype": "float32",
+    "quantization": "none"
+  },
+  "lora": {"r": 16, "alpha": 32, "dropout": 0.05, "target_modules": "all-linear"},
+  "training": {
+    "output_dir": "../../models/runs/run-001",
+    "device": "cuda:0",
+    "epochs": 3,
+    "learning_rate": 0.0002,
+    "batch_size": 1,
+    "gradient_accumulation_steps": 16,
+    "gradient_checkpointing": true,
+    "warmup_ratio": 0.03,
+    "weight_decay": 0,
+    "max_grad_norm": 1,
+    "seed": 42,
+    "logging_steps": 10,
+    "save_total_limit": 2,
+    "optim": "paged_adamw_8bit"
+  },
+  "pipeline": {
+    "rag": {"k_retrieve": 8, "k_max": 5, "tau": 0.6, "gap_threshold": 0.12, "gamma": 1.0, "kappa": 1.0},
+    "formula": {"alpha": 1.0, "beta": 1.0, "fusion_mode": "q"},
+    "decision": {"low_threshold": 40.0, "high_threshold": 60.0}
+  }
+}
