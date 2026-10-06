@@ -1,0 +1,5 @@
+-r requirements-test.txt
+-r ../architecture/requirements.txt
+# Install an appropriate CUDA PyTorch wheel separately before these packages.
+# The measured local run used torch 2.7.0+cu126 with Python 3.11.
+tzdata

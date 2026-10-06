@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="560" height="398" viewBox="0 0 560 398">
+<rect width="560" height="398" fill="white"/>
+<polyline points="165,6 395,6 395,40 165,40 165,6" fill="none" stroke="#526E80" stroke-width="1.1"/>
+<polygon points="165,6 395,6 395,40 165,40" fill="#FFFFFF" stroke="#526E80" stroke-width="1.1"/>
+<text x="280" y="27" font-family="Malgun Gothic,맑은 고딕,sans-serif" font-size="13" font-weight="700" text-anchor="middle" fill="#000000">입력 대화</text>
+<polyline points="8,64 258,64 258,114 8,114 8,64" fill="none" stroke="#526E80" stroke-width="1.1"/>
+<polygon points="8,64 258,64 258,114 8,114" fill="#FFFFFF" stroke="#526E80" stroke-width="1.1"/>
+<text x="133" y="84.5" font-family="Malgun Gothic,맑은 고딕,sans-serif" font-size="12.5" font-weight="700" text-anchor="middle" fill="#000000">특화 언어모델</text>
+<text x="133" y="103" font-family="Malgun Gothic,맑은 고딕,sans-serif" font-size="11" font-weight="400" text-anchor="middle" fill="#000000">대화 JSON + 주제 및 행동 보조 정보</text>
+<polyline points="302,64 552,64 552,114 302,114 302,64" fill="none" stroke="#526E80" stroke-width="1.1"/>
+<polygon points="302,64 552,64 552,114 302,114" fill="#FFFFFF" stroke="#526E80" stroke-width="1.1"/>
+<text x="427" y="84.5" font-family="Malgun Gothic,맑은 고딕,sans-serif" font-size="12.5" font-weight="700" text-anchor="middle" fill="#000000">원문을 X·Y 좌표로 변환</text>
+<text x="427" y="103" font-family="Malgun Gothic,맑은 고딕,sans-serif" font-size="11" font-weight="400" text-anchor="middle" fill="#000000">문자 TF-IDF → SVD 두 성분</text>
+<polyline points="8,136 258,136 258,186 8,186 8,136" fill="none" stroke="#526E80" stroke-width="1.1"/>
+<polygon points="8,136 258,136 258,186 8,186" fill="#FFFFFF" stroke="#526E80" stroke-width="1.1"/>
+<text x="133" y="156" font-family="Malgun Gothic,맑은 고딕,sans-serif" font-size="12" font-weight="700" text-anchor="middle" fill="#000000">모델의 답변별 점수 계산</text>
+<text x="133" y="175" font-family="Malgun Gothic,맑은 고딕,sans-serif" font-size="11" font-weight="400" text-anchor="middle" fill="#000000">세 가지 답변의 점수 → 모델 마진 M</text>
+<polyline points="302,136 552,136 552,202 302,202 302,136" fill="none" stroke="#526E80" stroke-width="1.1"/>
+<polygon points="302,136 552,136 552,202 302,202" fill="#FFFFFF" stroke="#526E80" stroke-width="1.1"/>
+<text x="427" y="155" font-family="Malgun Gothic,맑은 고딕,sans-serif" font-size="12" font-weight="700" text-anchor="middle" fill="#000000">X·Y 거리로 유사 사례 검색</text>
+<text x="427" y="173.7" font-family="Malgun Gothic,맑은 고딕,sans-serif" font-size="10.7" font-weight="400" text-anchor="middle" fill="#000000">검증된 학습 사례 226건  (113 : 113)</text>
+<text x="427" y="191.7" font-family="Malgun Gothic,맑은 고딕,sans-serif" font-size="10.7" font-weight="400" text-anchor="middle" fill="#000000">후보 8건 → 그룹 중복 제거 → 최대 5건</text>
+<polyline points="302,220 552,220 552,263 302,263 302,220" fill="none" stroke="#526E80" stroke-width="1.1"/>
+<polygon points="302,220 552,220 552,263 302,263" fill="#FFFFFF" stroke="#526E80" stroke-width="1.1"/>
+<text x="427" y="238" font-family="Malgun Gothic,맑은 고딕,sans-serif" font-size="12" font-weight="700" text-anchor="middle" fill="#000000">이웃 라벨과 거리 집계</text>
+<text x="427" y="256.7" font-family="Malgun Gothic,맑은 고딕,sans-serif" font-size="10.7" font-weight="400" text-anchor="middle" fill="#000000">R : 거리 가중 투표     q : 평균 근접성</text>
+<text x="133" y="224.5" font-family="Malgun Gothic,맑은 고딕,sans-serif" font-size="10.5" font-weight="400" text-anchor="middle" fill="#4E5962">검색 사례 원문은</text>
+<text x="133" y="241.5" font-family="Malgun Gothic,맑은 고딕,sans-serif" font-size="10.5" font-weight="400" text-anchor="middle" fill="#4E5962">언어모델에 전달하지 않음</text>
+<polyline points="92,285 468,285 468,331 92,331 92,285" fill="none" stroke="#526E80" stroke-width="1.1"/>
+<polygon points="92,285 468,285 468,331 92,331" fill="#FFFFFF" stroke="#526E80" stroke-width="1.1"/>
+<text x="280" y="303" font-family="Malgun Gothic,맑은 고딕,sans-serif" font-size="12" font-weight="700" text-anchor="middle" fill="#000000">거리 가치에 따라 두 결과 결합</text>
+<text x="280" y="324" font-family="Malgun Gothic,맑은 고딕,sans-serif" font-size="11" font-weight="400" text-anchor="middle" fill="#000000">모델 마진 완화 + 검색 비중 조절</text>
+<polyline points="153,353 407,353 407,389 153,389 153,353" fill="none" stroke="#526E80" stroke-width="1.1"/>
+<polygon points="153,353 407,353 407,389 153,389" fill="#FFFFFF" stroke="#526E80" stroke-width="1.1"/>
+<text x="280" y="370.3" font-family="Malgun Gothic,맑은 고딕,sans-serif" font-size="11.3" font-weight="700" text-anchor="middle" fill="#000000">위험 지수와 LOW · UNKNOWN · HIGH</text>
+<polyline points="236,40 133,64" fill="none" stroke="#526E80" stroke-width="1.2"/>
+<polygon points="133,64 138.44773756812887,59.60430262770544 139.82963601516863,65.53495012958446" fill="#526E80" stroke="none" stroke-width="0.8"/>
+<polyline points="324,40 427,64" fill="none" stroke="#526E80" stroke-width="1.2"/>
+<polygon points="427,64 420.17036398483134,65.53495012958446 421.55226243187116,59.60430262770544" fill="#526E80" stroke="none" stroke-width="0.8"/>
+<polyline points="133,114 133,136" fill="none" stroke="#526E80" stroke-width="1.2"/>
+<polygon points="133,136 129.95524126122137,129.69687028353127 136.04475873877863,129.69687028353127" fill="#526E80" stroke="none" stroke-width="0.8"/>
+<polyline points="427,114 427,136" fill="none" stroke="#526E80" stroke-width="1.2"/>
+<polygon points="427,136 423.9552412612214,129.69687028353127 430.0447587387786,129.69687028353127" fill="#526E80" stroke="none" stroke-width="0.8"/>
+<polyline points="427,202 427,220" fill="none" stroke="#526E80" stroke-width="1.2"/>
+<polygon points="427,220 423.9552412612214,213.69687028353127 430.0447587387786,213.69687028353127" fill="#526E80" stroke="none" stroke-width="0.8"/>
+<polyline points="68,186 68,274" fill="none" stroke="#526E80" stroke-width="1.2"/>
+<polygon points="68,274 64.95524126122139,267.69687028353127 71.04475873877861,267.69687028353127" fill="#526E80" stroke="none" stroke-width="0.8"/>
+<polyline points="68,274 173,285" fill="none" stroke="#526E80" stroke-width="1.2"/>
+<polygon points="173,285 166.41393813719066,287.3714529595268 167.0484153763174,281.3150793133169" fill="#526E80" stroke="none" stroke-width="0.8"/>
+<text x="51" y="266" font-family="Malgun Gothic,맑은 고딕,sans-serif" font-size="11" font-weight="400" text-anchor="middle" fill="#000000">M</text>
+<polyline points="427,263 390,285" fill="none" stroke="#526E80" stroke-width="1.2"/>
+<polygon points="390,285 393.86166492951696,279.16154609745536 396.9738674667918,284.39570491014484" fill="#526E80" stroke="none" stroke-width="0.8"/>
+<text x="464" y="279.5" font-family="Malgun Gothic,맑은 고딕,sans-serif" font-size="10.5" font-weight="400" text-anchor="middle" fill="#000000">R, q</text>
+<polyline points="280,331 280,353" fill="none" stroke="#526E80" stroke-width="1.2"/>
+<polygon points="280,353 276.9552412612214,346.69687028353127 283.0447587387786,346.69687028353127" fill="#526E80" stroke="none" stroke-width="0.8"/>
+</svg>

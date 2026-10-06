@@ -1,0 +1,76 @@
+{
+  "created_at": "2026-10-06T17:42:26.642974+09:00",
+  "purpose": "frozen_model_and_rag_challenge_evaluation",
+  "status": "GENERATED_NOT_HUMAN_VERIFIED_NOT_EVALUATED",
+  "source_file": "V4\\runtime\\test-balanced.json",
+  "source_file_sha256": "e84af49525c239399beedb74873a16ee7e6fabb84ab5564728dd7e3d72ab126f",
+  "source_selection": "20 verified=true held-out test cases; manually selected without predictions",
+  "source_count": 20,
+  "family_count": 10,
+  "total": 90,
+  "binary_test_count": 80,
+  "binary_labels": {
+    "SCAM": 40,
+    "NON_SCAM": 40
+  },
+  "information_insufficient_count": 10,
+  "categories": {
+    "surface_variation": 20,
+    "irrelevant_context": 20,
+    "subtle_scam": 10,
+    "hard_negative": 10,
+    "counterfactual_pair": 20,
+    "insufficient_information": 10
+  },
+  "topic_counts": {
+    "investment": 9,
+    "benefits": 9,
+    "travel": 9,
+    "documents": 9,
+    "work": 9,
+    "health": 9,
+    "shopping": 9,
+    "shared": 9,
+    "digital": 9,
+    "daily": 9
+  },
+  "human_verified_count": 0,
+  "model_inference_run": false,
+  "training_and_rag_registration_performed": false,
+  "copied_cached_embeddings_or_coordinates": false,
+  "checks": {
+    "unique_input_texts": true,
+    "source_ids_groups_excluded_from_train_rag": true,
+    "exact_input_matches_with_train_rag": 0,
+    "protected_files_unchanged": true
+  },
+  "protected_files_sha256": {
+    "V4\\runtime\\test-balanced.json": "e84af49525c239399beedb74873a16ee7e6fabb84ab5564728dd7e3d72ab126f",
+    "V4\\runtime\\rag_index.json": "3084ec7bd555f069521671c80b61fd833c88e46ec87d21192450c9dca9048b95",
+    "V4\\active_runtime.json": "33d06610fe2127c70fbef0fb0b1dca8d4a6bcd77e7c6e8ec1cf045447ae7177a",
+    "V4\\fusion-config.json": "dbf3160330a7f624069a0c9c440cce6e279ad47c3f90055278e39c30a651c25b",
+    "V3\\active_case_runtime.json": "99ecdb20b096778f85f8b152940cb45acd7396858485bea539645f3cce02354e",
+    "V3\\dataset\\runs\\20261006_131323\\train_3d.jsonl": "c98cc750c33e53345aeccfea9b759d58ede09cc65a85f32f360bcaca2d06513c",
+    "V3\\doc\\paper\\romance_scam_technical_v3_ko.docx": "3a154bc31b020e0ddd478b7384738e54a3f5239b74516ca3923c11ad7a4b0af9",
+    "r_scam_prototype\\doc\\paper\\romance_scam_technical_draft_ko.docx": "b32ef00922a656640f884845f8e510f462fc48825ddbfc71aff212b9414b79c4"
+  },
+  "limitations": [
+    "Source-derived challenge data, not an independent real-world test set.",
+    "Authored labels require human review before final reported accuracy.",
+    "Insufficient-information cases excluded from binary accuracy.",
+    "Balanced topic construction does not match deployment prevalence.",
+    "Lexical rules may contribute to failures; evaluate model-only, RAG-only and fusion separately."
+  ],
+  "artifacts_sha256": {
+    "answers.jsonl": "8eb4759ee90b2a145e9c34f8fe25231b7fbd1bf9b840bb322fdbeb0488313e0a",
+    "binary-test.json": "4bdb40efe50be7b621a18213c8f3f2924717cf6ad92312387c8329116278fb83",
+    "build_variant_dataset.py": "e1670a30c354b725d12f9d1716c241ea3a5ed4818782158cd37064738c9e0c39",
+    "dataset.json": "25d28effe04a69277ede1830b11e8a1b425e36819f73a1ba0871c228d2267fad",
+    "information-insufficient.json": "92ed609326acc60e70c1df3d2efcb10670362655ed1fd2701a63657454993af9",
+    "inputs.json": "72c05e001eb64520361590266e70880892510596e8f99684185ded21b0e61324",
+    "inputs.jsonl": "bad78d8d30cb1d85a45a6fa4bc10f3788f760fa1304086de9d8ea5e996520096",
+    "README_KO.md": "d5e77ef90bac98fcd76862fe209e0508dd948fb289d2c3534c6e4f9635d20bb7",
+    "REVIEW_KO.md": "412b0adff8a38dd098847204d6eb4b2a5fbac5687f87aed0357b38e2b7fa17fa",
+    "source-reference.json": "6ba20a8c6f123f53cc8f6415f3b8eb1eb3ad38516acfc8e41c86db574d71a88b"
+  }
+}

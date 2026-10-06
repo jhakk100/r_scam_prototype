@@ -1,0 +1,372 @@
+[
+  {
+    "conversation_id": "VARIANT_0009",
+    "case_group_id": "VARIANT_FAMILY_01",
+    "split": "challenge_test",
+    "label": null,
+    "verified": false,
+    "label_status": "PROVISIONAL_AUTHOR_REVIEW_REQUIRED",
+    "rag_eligible": false,
+    "training_eligible": false,
+    "challenge_type": "insufficient_information",
+    "topic_id": "investment",
+    "source_conversation_ids": [
+      "original__CONV_000065"
+    ],
+    "source_case_group_ids": [
+      "SYNTH_COIN_INVESTMENT_0005"
+    ],
+    "source_labels": [
+      "SCAM"
+    ],
+    "pair_id": null,
+    "label_rationale_ko": "원본 SCAM의 위험 정황이 나오기 전 첫 2턴만 제공. 원본 전체 라벨은 상속하지 않음. 사용자 기준: 관찰된 위험 LOW와 정보 부족을 별도로 표시. 실제 비사기 여부의 정답은 아님.",
+    "information_insufficient": true,
+    "expected_risk_label": "LOW",
+    "include_in_binary_acc": false,
+    "messages": [
+      {
+        "speaker": "A",
+        "text": "오늘 기분 안 좋다더니 좀 괜찮아졌어?"
+      },
+      {
+        "speaker": "B",
+        "text": "응, 네가 물어봐줘서 좀 나아."
+      }
+    ],
+    "input_sha256": "25f2c48838350be4d056321993c195a362b41c4cd7beed584e092e110d70590b"
+  },
+  {
+    "conversation_id": "VARIANT_0018",
+    "case_group_id": "VARIANT_FAMILY_02",
+    "split": "challenge_test",
+    "label": null,
+    "verified": false,
+    "label_status": "PROVISIONAL_AUTHOR_REVIEW_REQUIRED",
+    "rag_eligible": false,
+    "training_eligible": false,
+    "challenge_type": "insufficient_information",
+    "topic_id": "benefits",
+    "source_conversation_ids": [
+      "original__CONV_000241"
+    ],
+    "source_case_group_ids": [
+      "SYNTH_POINT_EXCHANGE_0001"
+    ],
+    "source_labels": [
+      "SCAM"
+    ],
+    "pair_id": null,
+    "label_rationale_ko": "원본 SCAM의 위험 정황이 나오기 전 첫 2턴만 제공. 원본 전체 라벨은 상속하지 않음. 사용자 기준: 관찰된 위험 LOW와 정보 부족을 별도로 표시. 실제 비사기 여부의 정답은 아님.",
+    "information_insufficient": true,
+    "expected_risk_label": "LOW",
+    "include_in_binary_acc": false,
+    "messages": [
+      {
+        "speaker": "A",
+        "text": "오늘 뭐 했어? 너랑 얘기하면 시간 가는 줄 모르겠어."
+      },
+      {
+        "speaker": "B",
+        "text": "그냥 집에 있었어. 너는?"
+      }
+    ],
+    "input_sha256": "05d47a3d0bff808e4b0464f1fb4218e4738200e38d7ab1b7d2d18e45d90b0482"
+  },
+  {
+    "conversation_id": "VARIANT_0027",
+    "case_group_id": "VARIANT_FAMILY_03",
+    "split": "challenge_test",
+    "label": null,
+    "verified": false,
+    "label_status": "PROVISIONAL_AUTHOR_REVIEW_REQUIRED",
+    "rag_eligible": false,
+    "training_eligible": false,
+    "challenge_type": "insufficient_information",
+    "topic_id": "travel",
+    "source_conversation_ids": [
+      "original__CONV_000204"
+    ],
+    "source_case_group_ids": [
+      "SYNTH_COST_PROXY_0024"
+    ],
+    "source_labels": [
+      "SCAM"
+    ],
+    "pair_id": null,
+    "label_rationale_ko": "원본 SCAM의 위험 정황이 나오기 전 첫 2턴만 제공. 원본 전체 라벨은 상속하지 않음. 사용자 기준: 관찰된 위험 LOW와 정보 부족을 별도로 표시. 실제 비사기 여부의 정답은 아님.",
+    "information_insufficient": true,
+    "expected_risk_label": "LOW",
+    "include_in_binary_acc": false,
+    "messages": [
+      {
+        "speaker": "A",
+        "text": "오늘은 뭐 하면서 보냈어?"
+      },
+      {
+        "speaker": "B",
+        "text": "집에서 쉬었어. 너는?"
+      }
+    ],
+    "input_sha256": "e448cde62d88685507294267ce8e18baa10d981e23462ca554da78b9239d024b"
+  },
+  {
+    "conversation_id": "VARIANT_0036",
+    "case_group_id": "VARIANT_FAMILY_04",
+    "split": "challenge_test",
+    "label": null,
+    "verified": false,
+    "label_status": "PROVISIONAL_AUTHOR_REVIEW_REQUIRED",
+    "rag_eligible": false,
+    "training_eligible": false,
+    "challenge_type": "insufficient_information",
+    "topic_id": "documents",
+    "source_conversation_ids": [
+      "original__CONV_000193"
+    ],
+    "source_case_group_ids": [
+      "SYNTH_COST_PROXY_0013"
+    ],
+    "source_labels": [
+      "SCAM"
+    ],
+    "pair_id": null,
+    "label_rationale_ko": "원본 SCAM의 위험 정황이 나오기 전 첫 2턴만 제공. 원본 전체 라벨은 상속하지 않음. 사용자 기준: 관찰된 위험 LOW와 정보 부족을 별도로 표시. 실제 비사기 여부의 정답은 아님.",
+    "information_insufficient": true,
+    "expected_risk_label": "LOW",
+    "include_in_binary_acc": false,
+    "messages": [
+      {
+        "speaker": "A",
+        "text": "오늘 일은 좀 어땠어? 네 얘기 듣는 시간이 제일 편해."
+      },
+      {
+        "speaker": "B",
+        "text": "그냥 바빴어. 너는?"
+      }
+    ],
+    "input_sha256": "0467878a2768d1f28483e93fc3325a404a7f82912c39bcc59e0fc379c7ada174"
+  },
+  {
+    "conversation_id": "VARIANT_0045",
+    "case_group_id": "VARIANT_FAMILY_05",
+    "split": "challenge_test",
+    "label": null,
+    "verified": false,
+    "label_status": "PROVISIONAL_AUTHOR_REVIEW_REQUIRED",
+    "rag_eligible": false,
+    "training_eligible": false,
+    "challenge_type": "insufficient_information",
+    "topic_id": "work",
+    "source_conversation_ids": [
+      "original__CONV_000104"
+    ],
+    "source_case_group_ids": [
+      "SYNTH_COIN_INVESTMENT_0044"
+    ],
+    "source_labels": [
+      "SCAM"
+    ],
+    "pair_id": null,
+    "label_rationale_ko": "원본 SCAM의 위험 정황이 나오기 전 첫 2턴만 제공. 원본 전체 라벨은 상속하지 않음. 사용자 기준: 관찰된 위험 LOW와 정보 부족을 별도로 표시. 실제 비사기 여부의 정답은 아님.",
+    "information_insufficient": true,
+    "expected_risk_label": "LOW",
+    "include_in_binary_acc": false,
+    "messages": [
+      {
+        "speaker": "A",
+        "text": "오늘은 일찍 끝났어? 네 목소리 듣고 싶다."
+      },
+      {
+        "speaker": "B",
+        "text": "저녁 먹고 통화하자."
+      }
+    ],
+    "input_sha256": "adcee78f1212a3d87f9609a3ce8a0645f8bd34fa90d68b38ab068024ffa098e5"
+  },
+  {
+    "conversation_id": "VARIANT_0054",
+    "case_group_id": "VARIANT_FAMILY_06",
+    "split": "challenge_test",
+    "label": null,
+    "verified": false,
+    "label_status": "PROVISIONAL_AUTHOR_REVIEW_REQUIRED",
+    "rag_eligible": false,
+    "training_eligible": false,
+    "challenge_type": "insufficient_information",
+    "topic_id": "health",
+    "source_conversation_ids": [
+      "original__CONV_000181"
+    ],
+    "source_case_group_ids": [
+      "SYNTH_COST_PROXY_0001"
+    ],
+    "source_labels": [
+      "SCAM"
+    ],
+    "pair_id": null,
+    "label_rationale_ko": "원본 SCAM의 위험 정황이 나오기 전 첫 2턴만 제공. 원본 전체 라벨은 상속하지 않음. 사용자 기준: 관찰된 위험 LOW와 정보 부족을 별도로 표시. 실제 비사기 여부의 정답은 아님.",
+    "information_insufficient": true,
+    "expected_risk_label": "LOW",
+    "include_in_binary_acc": false,
+    "messages": [
+      {
+        "speaker": "A",
+        "text": "오늘도 일 끝났어? 밥은 먹었고?"
+      },
+      {
+        "speaker": "B",
+        "text": "응, 이제 집 가는 중이야. 너는?"
+      }
+    ],
+    "input_sha256": "44e088b73ded160ce54b521f52118fa01f8ba0f8d13c7ff00b1a6e96898b0246"
+  },
+  {
+    "conversation_id": "VARIANT_0063",
+    "case_group_id": "VARIANT_FAMILY_07",
+    "split": "challenge_test",
+    "label": null,
+    "verified": false,
+    "label_status": "PROVISIONAL_AUTHOR_REVIEW_REQUIRED",
+    "rag_eligible": false,
+    "training_eligible": false,
+    "challenge_type": "insufficient_information",
+    "topic_id": "shopping",
+    "source_conversation_ids": [
+      "original__CONV_000182"
+    ],
+    "source_case_group_ids": [
+      "SYNTH_COST_PROXY_0002"
+    ],
+    "source_labels": [
+      "SCAM"
+    ],
+    "pair_id": null,
+    "label_rationale_ko": "원본 SCAM의 위험 정황이 나오기 전 첫 2턴만 제공. 원본 전체 라벨은 상속하지 않음. 사용자 기준: 관찰된 위험 LOW와 정보 부족을 별도로 표시. 실제 비사기 여부의 정답은 아님.",
+    "information_insufficient": true,
+    "expected_risk_label": "LOW",
+    "include_in_binary_acc": false,
+    "messages": [
+      {
+        "speaker": "A",
+        "text": "오늘 네가 좋아한다던 향수 매장 봤어. 너 생각나더라."
+      },
+      {
+        "speaker": "B",
+        "text": "아직 만난 적도 없는데 벌써 그런 걸 봤어?"
+      }
+    ],
+    "input_sha256": "2018d544d9156ddcec36cf2ace97287c7f9c7b376ebc14a4f2766ad02c93523d"
+  },
+  {
+    "conversation_id": "VARIANT_0072",
+    "case_group_id": "VARIANT_FAMILY_08",
+    "split": "challenge_test",
+    "label": null,
+    "verified": false,
+    "label_status": "PROVISIONAL_AUTHOR_REVIEW_REQUIRED",
+    "rag_eligible": false,
+    "training_eligible": false,
+    "challenge_type": "insufficient_information",
+    "topic_id": "shared",
+    "source_conversation_ids": [
+      "original__CONV_000087"
+    ],
+    "source_case_group_ids": [
+      "SYNTH_COIN_INVESTMENT_0027"
+    ],
+    "source_labels": [
+      "SCAM"
+    ],
+    "pair_id": null,
+    "label_rationale_ko": "원본 SCAM의 위험 정황이 나오기 전 첫 2턴만 제공. 원본 전체 라벨은 상속하지 않음. 사용자 기준: 관찰된 위험 LOW와 정보 부족을 별도로 표시. 실제 비사기 여부의 정답은 아님.",
+    "information_insufficient": true,
+    "expected_risk_label": "LOW",
+    "include_in_binary_acc": false,
+    "messages": [
+      {
+        "speaker": "A",
+        "text": "네 전시 이야기 듣는 게 참 좋아."
+      },
+      {
+        "speaker": "B",
+        "text": "나도 작품 보는 걸 좋아해."
+      }
+    ],
+    "input_sha256": "fc3ced4a535efc58009eab18f60578d7f091ae5fdb0e22cf93d75b1b4262f8e0"
+  },
+  {
+    "conversation_id": "VARIANT_0081",
+    "case_group_id": "VARIANT_FAMILY_09",
+    "split": "challenge_test",
+    "label": null,
+    "verified": false,
+    "label_status": "PROVISIONAL_AUTHOR_REVIEW_REQUIRED",
+    "rag_eligible": false,
+    "training_eligible": false,
+    "challenge_type": "insufficient_information",
+    "topic_id": "digital",
+    "source_conversation_ids": [
+      "original__CONV_000082"
+    ],
+    "source_case_group_ids": [
+      "SYNTH_COIN_INVESTMENT_0022"
+    ],
+    "source_labels": [
+      "SCAM"
+    ],
+    "pair_id": null,
+    "label_rationale_ko": "원본 SCAM의 위험 정황이 나오기 전 첫 2턴만 제공. 원본 전체 라벨은 상속하지 않음. 사용자 기준: 관찰된 위험 LOW와 정보 부족을 별도로 표시. 실제 비사기 여부의 정답은 아님.",
+    "information_insufficient": true,
+    "expected_risk_label": "LOW",
+    "include_in_binary_acc": false,
+    "messages": [
+      {
+        "speaker": "A",
+        "text": "비 오니까 출근길 힘들었지? 우산 챙겼어?"
+      },
+      {
+        "speaker": "B",
+        "text": "응, 바지가 좀 젖었지만 괜찮아."
+      }
+    ],
+    "input_sha256": "5f4d9cea8754255ea38de3ca9e685fcb35aa4e5de6735ecd36f7b506ff329369"
+  },
+  {
+    "conversation_id": "VARIANT_0090",
+    "case_group_id": "VARIANT_FAMILY_10",
+    "split": "challenge_test",
+    "label": null,
+    "verified": false,
+    "label_status": "PROVISIONAL_AUTHOR_REVIEW_REQUIRED",
+    "rag_eligible": false,
+    "training_eligible": false,
+    "challenge_type": "insufficient_information",
+    "topic_id": "daily",
+    "source_conversation_ids": [
+      "original__CONV_000092"
+    ],
+    "source_case_group_ids": [
+      "SYNTH_COIN_INVESTMENT_0032"
+    ],
+    "source_labels": [
+      "SCAM"
+    ],
+    "pair_id": null,
+    "label_rationale_ko": "원본 SCAM의 위험 정황이 나오기 전 첫 2턴만 제공. 원본 전체 라벨은 상속하지 않음. 사용자 기준: 관찰된 위험 LOW와 정보 부족을 별도로 표시. 실제 비사기 여부의 정답은 아님.",
+    "information_insufficient": true,
+    "expected_risk_label": "LOW",
+    "include_in_binary_acc": false,
+    "messages": [
+      {
+        "speaker": "A",
+        "text": "오늘도 늦게까지 일했지? 고생 많았어."
+      },
+      {
+        "speaker": "B",
+        "text": "이제 막 집에 왔어."
+      }
+    ],
+    "input_sha256": "54fbf9f4ed3bf727a34bcf1da034189bb6eb96cd0b6b9b453001a1eb54138b0c"
+  }
+]

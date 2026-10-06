@@ -1,0 +1,19 @@
+{
+  "status": "READY",
+  "candidate": "D03",
+  "html": "C:\\Users\\bjh38\\OneDrive\\바탕 화면\\r_scam_proto\\V4\\map\\case-map-3d.html",
+  "dataset": "C:\\Users\\bjh38\\OneDrive\\바탕 화면\\r_scam_proto\\V4\\map\\dataset-3d.json",
+  "experiment": "C:\\Users\\bjh38\\OneDrive\\바탕 화면\\r_scam_proto\\V4\\experiments\\d03-final-paired-20261006_205128",
+  "counts": {
+    "rag": 226,
+    "original": 176,
+    "variant": 80
+  },
+  "xy_fit_train_only": true,
+  "z_fixed_stored_label": true,
+  "query_true_z_used": false,
+  "coordinate_dataset_sha256": "7242c0f862c12be470de3b5b917f29a51fc41ba5dc02c06b0a206028ed76a085",
+  "runtime_changed": true,
+  "paper_changed": true,
+  "final_selection": true
+}

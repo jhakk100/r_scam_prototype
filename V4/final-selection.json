@@ -1,0 +1,34 @@
+{
+  "status": "FINAL_V4_SELECTED_BY_USER",
+  "model": {
+    "name": "V3 3차원 데이터셋 학습 모델",
+    "run": "20261006_131323",
+    "adapter_path": "@repo/V4/model/final_adapter",
+    "adapter_revision": "4f896fca6d1e441937d052fb9002a62b793cb786df7e8c2dd59f121082c2a5ff"
+  },
+  "method": "D03_plain_text_tfidf_svd_xy",
+  "comparison": "@repo/V4/experiments/d03-final-paired-20261006_205128",
+  "report": "@repo/V4/experiments/d03-final-paired-20261006_205128/REPORT_KO.md",
+  "independent_validation": false,
+  "paper": "@repo/V4/paper/romance_scam_ko.docx",
+  "technical_spec": "@repo/V4/docs/v4_technical_spec_ko.docx",
+  "easy_guide": "@repo/V4/docs/v4_easy_guide_ko.pdf",
+  "runtime": {
+    "experiment": "@repo/V4/runtime",
+    "dataset": "@repo/V4/datasets/training",
+    "model_run": "@repo/V4/model",
+    "inference_config": "@repo/V4/runtime/specialized-inference.json",
+    "projection": "@repo/V4/datasets/training/projection.json",
+    "index": "@repo/V4/runtime/rag_index.json",
+    "retrieval_config": "@repo/V4/runtime/retrieval-config.json",
+    "fusion_config": "@repo/V4/fusion-config.json",
+    "balanced_test": "@repo/V4/datasets/test-original.json",
+    "xy_profile": "@repo/V4/runtime/xy-profile.json",
+    "model_variant": "v3_finetuned_final",
+    "temporary": false,
+    "retrieval_method": "D03_plain_text_tfidf_svd_xy",
+    "rag_policy_status": "USER_SELECTED_FINAL_EXPLORATORY",
+    "selection_basis": "User-selected final retrieval; model and fusion coefficients unchanged"
+  },
+  "verification": "@repo/V4/runtime/release-verification.json"
+}

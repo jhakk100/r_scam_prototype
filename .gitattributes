@@ -1,0 +1,2 @@
+# Frozen artifacts are checked by byte-level SHA-256; preserve exact bytes on all platforms.
+V4/** -text whitespace=cr-at-eol

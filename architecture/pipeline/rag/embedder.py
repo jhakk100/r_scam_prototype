@@ -14,12 +14,15 @@ class EmbeddingSpec:
     tokenizer: str
     max_input_tokens: int
     pooling: str = "mean"
+    text_prefix: str = ""
 
     def __post_init__(self):
         for key in ("model_id", "revision", "tokenizer", "pooling"):
             identifier(getattr(self, key), key, ConfigurationError)
         positive_integer(self.dimension, "dimension", ConfigurationError)
         positive_integer(self.max_input_tokens, "max_input_tokens", ConfigurationError)
+        if not isinstance(self.text_prefix, str):
+            raise ConfigurationError("embedding.text_prefix는 문자열이어야 합니다.")
 
     def to_dict(self):
         return asdict(self)

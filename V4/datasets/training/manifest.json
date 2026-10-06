@@ -1,0 +1,230 @@
+{
+  "method": "topic_region_case_comparison_v1",
+  "seed": 42,
+  "stratified_by": [
+    "rule_extracted_topic",
+    "label"
+  ],
+  "total": 452,
+  "partitions": {
+    "train": {
+      "count": 271,
+      "labels": {
+        "NON_SCAM": 139,
+        "SCAM": 132
+      },
+      "verified": 227
+    },
+    "test": {
+      "count": 181,
+      "labels": {
+        "NON_SCAM": 93,
+        "SCAM": 88
+      },
+      "verified": 145
+    }
+  },
+  "strata": [
+    {
+      "topic_id": "benefits",
+      "label": "SCAM",
+      "total": 55,
+      "train": 33,
+      "test": 22,
+      "train_ratio": 0.6
+    },
+    {
+      "topic_id": "daily",
+      "label": "SCAM",
+      "total": 4,
+      "train": 2,
+      "test": 2,
+      "train_ratio": 0.5
+    },
+    {
+      "topic_id": "digital",
+      "label": "SCAM",
+      "total": 4,
+      "train": 2,
+      "test": 2,
+      "train_ratio": 0.5
+    },
+    {
+      "topic_id": "documents",
+      "label": "SCAM",
+      "total": 27,
+      "train": 16,
+      "test": 11,
+      "train_ratio": 0.5925925925925926
+    },
+    {
+      "topic_id": "health",
+      "label": "SCAM",
+      "total": 7,
+      "train": 4,
+      "test": 3,
+      "train_ratio": 0.5714285714285714
+    },
+    {
+      "topic_id": "hobby",
+      "label": "SCAM",
+      "total": 1,
+      "train": 1,
+      "test": 0,
+      "train_ratio": 1.0
+    },
+    {
+      "topic_id": "investment",
+      "label": "SCAM",
+      "total": 60,
+      "train": 36,
+      "test": 24,
+      "train_ratio": 0.6
+    },
+    {
+      "topic_id": "shared",
+      "label": "SCAM",
+      "total": 9,
+      "train": 5,
+      "test": 4,
+      "train_ratio": 0.5555555555555556
+    },
+    {
+      "topic_id": "shopping",
+      "label": "SCAM",
+      "total": 6,
+      "train": 4,
+      "test": 2,
+      "train_ratio": 0.6666666666666666
+    },
+    {
+      "topic_id": "travel",
+      "label": "SCAM",
+      "total": 28,
+      "train": 17,
+      "test": 11,
+      "train_ratio": 0.6071428571428571
+    },
+    {
+      "topic_id": "unknown",
+      "label": "SCAM",
+      "total": 11,
+      "train": 7,
+      "test": 4,
+      "train_ratio": 0.6363636363636364
+    },
+    {
+      "topic_id": "work",
+      "label": "SCAM",
+      "total": 8,
+      "train": 5,
+      "test": 3,
+      "train_ratio": 0.625
+    },
+    {
+      "topic_id": "benefits",
+      "label": "NON_SCAM",
+      "total": 30,
+      "train": 18,
+      "test": 12,
+      "train_ratio": 0.6
+    },
+    {
+      "topic_id": "daily",
+      "label": "NON_SCAM",
+      "total": 8,
+      "train": 5,
+      "test": 3,
+      "train_ratio": 0.625
+    },
+    {
+      "topic_id": "digital",
+      "label": "NON_SCAM",
+      "total": 35,
+      "train": 21,
+      "test": 14,
+      "train_ratio": 0.6
+    },
+    {
+      "topic_id": "documents",
+      "label": "NON_SCAM",
+      "total": 2,
+      "train": 1,
+      "test": 1,
+      "train_ratio": 0.5
+    },
+    {
+      "topic_id": "health",
+      "label": "NON_SCAM",
+      "total": 3,
+      "train": 2,
+      "test": 1,
+      "train_ratio": 0.6666666666666666
+    },
+    {
+      "topic_id": "hobby",
+      "label": "NON_SCAM",
+      "total": 12,
+      "train": 7,
+      "test": 5,
+      "train_ratio": 0.5833333333333334
+    },
+    {
+      "topic_id": "investment",
+      "label": "NON_SCAM",
+      "total": 66,
+      "train": 40,
+      "test": 26,
+      "train_ratio": 0.6060606060606061
+    },
+    {
+      "topic_id": "shared",
+      "label": "NON_SCAM",
+      "total": 42,
+      "train": 25,
+      "test": 17,
+      "train_ratio": 0.5952380952380952
+    },
+    {
+      "topic_id": "shopping",
+      "label": "NON_SCAM",
+      "total": 9,
+      "train": 5,
+      "test": 4,
+      "train_ratio": 0.5555555555555556
+    },
+    {
+      "topic_id": "travel",
+      "label": "NON_SCAM",
+      "total": 16,
+      "train": 10,
+      "test": 6,
+      "train_ratio": 0.625
+    },
+    {
+      "topic_id": "unknown",
+      "label": "NON_SCAM",
+      "total": 4,
+      "train": 2,
+      "test": 2,
+      "train_ratio": 0.5
+    },
+    {
+      "topic_id": "work",
+      "label": "NON_SCAM",
+      "total": 5,
+      "train": 3,
+      "test": 2,
+      "train_ratio": 0.6
+    }
+  ],
+  "rag_cases": 227,
+  "leakage": {
+    "test_rag_id_overlap": 0,
+    "test_rag_group_overlap": 0,
+    "test_rag_text_overlap": 0
+  },
+  "tiny_stratum_note": "A one-case topic/label cannot appear in both splits. Integer rounding is recorded.",
+  "test_previously_inspected": true,
+  "all_data_evaluation_is_resubstitution": true
+}

@@ -3,8 +3,11 @@
 import unittest
 from types import SimpleNamespace
 
-from architecture.pipeline.backends import DEFAULT_INSTRUCTION, TransformersModelScorer
-from architecture.pipeline.errors import InputError, ModelError
+from architecture.pipeline.backends import DEFAULT_INSTRUCTION, TransformersEmbedder, TransformersModelScorer
+from architecture.pipeline.errors import ConfigurationError, InputError, ModelError, RetrievalError
+from architecture.pipeline.rag.embedder import EmbeddingSpec
+from architecture.pipeline.rag.vector_search import VectorIndex
+from model_training.preparation import TokenizerBudget
 
 
 class CharacterTokenizer:
@@ -47,6 +50,24 @@ class BackendContractTests(unittest.TestCase):
     def test_response_reservation_checked(self):
         with self.assertRaises(InputError):
             self.scorer(reserved_tokens=1).candidate_token_ids("conversation")
+
+    def test_embedding_prefix_budget_rejects_overflow_before_inference(self):
+        spec = EmbeddingSpec("fixture", "v1", 2, "fixture-tokenizer", 10, "mean", "query: ")
+        embedder = TransformersEmbedder(FixtureModel(), CharacterTokenizer(), spec, None)
+        budget = TokenizerBudget(CharacterTokenizer(), {"path": "fixture", "revision": "v1",
+            "max_input_tokens": 10, "text_prefix": "query: "}, FixtureModel.config)
+        self.assertEqual(embedder.count_tokens("abcd"), budget.count_tokens("abcd"))
+        self.assertGreater(embedder.count_tokens("abcd"), 10)
+        with self.assertRaises(InputError):
+            embedder.embed("abcd")
+
+    def test_embedding_prefix_change_rejects_stale_index(self):
+        original = EmbeddingSpec("fixture", "v1", 2, "tokenizer", 100, "mean")
+        prefixed = EmbeddingSpec("fixture", "v1", 2, "tokenizer", 100, "mean", "query: ")
+        with self.assertRaises(RetrievalError):
+            VectorIndex(original, []).search([1, 0], prefixed, 1)
+        with self.assertRaises(ConfigurationError):
+            EmbeddingSpec("fixture", "v1", 2, "tokenizer", 100, "mean", None)
 
     def test_incompatible_prefix_rejected(self):
         class WrongTemplate(CharacterTokenizer):

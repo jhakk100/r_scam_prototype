@@ -35,9 +35,14 @@ class TokenizerBudget:
         self.tokenizer = tokenizer
         self.max_input_tokens = _token_limit(tokenizer, model_config, settings["max_input_tokens"])
         self.tokenizer_identity = f"{settings.get('tokenizer_path', settings['path'])}@{settings['revision']}"
+        self.text_prefix = settings.get("text_prefix", "")
+        if not isinstance(self.text_prefix, str):
+            raise ConfigurationError("embedding.text_prefix는 문자열이어야 합니다.")
+        if self.text_prefix:
+            self.tokenizer_identity += "/prefix:" + hashlib.sha256(self.text_prefix.encode("utf-8")).hexdigest()
 
     def count_tokens(self, conversation):
-        return len(self.tokenizer(conversation, truncation=False)["input_ids"])
+        return len(self.tokenizer(self.text_prefix + conversation, truncation=False)["input_ids"])
 
 
 def load_tokenizers(settings):

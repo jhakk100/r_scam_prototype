@@ -1,0 +1,39 @@
+{
+  "status": "PASSED",
+  "paired_fresh_inference_completed": true,
+  "active_D03_selected": true,
+  "metric_counts_recomputed": true,
+  "legacy_feature_api_checks": [
+    {
+      "model": "original",
+      "id": "anomalous_romance_scam_40_12turn__CONV_000377",
+      "matching": true,
+      "stored_actual_llm_score_replayed": true
+    },
+    {
+      "model": "original",
+      "id": "VARIANT_0047",
+      "matching": true,
+      "stored_actual_llm_score_replayed": true
+    },
+    {
+      "model": "specialized",
+      "id": "anomalous_romance_scam_40_12turn__CONV_000377",
+      "matching": true,
+      "stored_actual_llm_score_replayed": true
+    },
+    {
+      "model": "specialized",
+      "id": "VARIANT_0047",
+      "matching": true,
+      "stored_actual_llm_score_replayed": true
+    }
+  ],
+  "weights_and_papers_unchanged": true,
+  "deployed_sources_sha256": {
+    "C:\\Users\\bjh38\\OneDrive\\바탕 화면\\r_scam_proto\\V4\\pipeline.py": "59bb9009833c6919405c0631b52c4fccff98ec2bdd18b14d1ed5ee51c4421e4d",
+    "C:\\Users\\bjh38\\OneDrive\\바탕 화면\\r_scam_proto\\V4\\d03_retrieval.py": "37b96b712f3cf9f3471a443fde9dc8ad821845499910bb17a5ae4a31e7c3577c"
+  },
+  "actual_comparison_sources_preserved_in_experiment": true,
+  "comparison_was_fresh_inference_replay_only_for_post_selection_API_check": true
+}

@@ -1,0 +1,45 @@
+{
+  "status": "PASS",
+  "date": "2026-10-06",
+  "stored_prediction_replay": 512,
+  "max_formula_delta": 2.1316282072803006e-14,
+  "rag_ratio": "113:113",
+  "final_k_max": 5,
+  "train_test_and_variant_parent_exclusions": true,
+  "unit_tests": {
+    "total": 62,
+    "passed": 61,
+    "skipped": 1,
+    "failures": 0
+  },
+  "fresh_gpu_smoke": {
+    "status": "PASS",
+    "risk": 93.42095995170834,
+    "risk_delta": 0.0,
+    "level": "HIGH",
+    "fresh_gpu_inference": true,
+    "input_hash_identical": true,
+    "search_identical": true
+  },
+  "clean_checkout_without_weights": {
+    "status": "PASS",
+    "replayed_cases": 512
+  },
+  "documents_copied_without_content_changes": true,
+  "weights_in_git": false,
+  "paper_sha256": "d206b9ad5d25f6be642b3cedbc5a7bd41a11272364250f0f81865b9277155672",
+  "cleanup": "Obsolete docs archived outside repository; originals and model weights preserved",
+  "sources_sha256": {
+    "case_retrieval.py": "f225cf5353057c0863c4d6e5744b6f684614d61262648e24b930cf887f799630",
+    "common.py": "f836b02a2759203684493782c2b68ed158c85879807f827e269e9da7a2523d29",
+    "core.py": "12862cc380e92f5c3f9f5bd52550a62daabe08b1e4c755afe0ca6faf93e4c18a",
+    "d03_retrieval.py": "f237315915159f108d098c863712ac168932b70cdf8647b00b29699a9ac4a544",
+    "evaluate_d03_final.py": "501c8e767111ae0ac886fbd14012da879e1c49a386ee8dda089457b6d2b831aa",
+    "evaluation_utils.py": "f237c4c03526e61556db18972d87e24cd904d0010cd7d4ce0e81f4db82751338",
+    "fusion.py": "90fc8e76b3065e56141cfbda4e1a62606a3f51931c670842974ddabee127e34d",
+    "pipeline.py": "2854ae911d510555d10350b904c31da6685fd6dc02c7f654909cdb2e54297019",
+    "serve_map.py": "cf2b1eacadb38a4a3c9fa2669e2d4586ee335633ae341adc7f68098c2ffd4ba0",
+    "topic_behavior.py": "135675aadbbcc2f6ac732b8363c4a7ed4f3c023d449dae89957d841ad68b8827",
+    "verify_release.py": "f62e360556f1b615a99e41d3aa43ddac61ff45b20469bb938d085c59cf092878"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "run": "20261006_131323",
+  "adapter_fingerprint": "4f896fca6d1e441937d052fb9002a62b793cb786df7e8c2dd59f121082c2a5ff",
+  "files_sha256": {
+    "adapter_config.json": "ae6ff04063282fe3a385c45c81cea19c66590a9442650f32406eb3a8bfe24d56",
+    "adapter_model.safetensors": "95c004827f9cf99d547e72dbe01acba0cc6359b3a947b71f4570ee845b4d5483",
+    "chat_template.jinja": "c0e1a4e78b51cbe4924a195b1939a1e0728e86054736d92f370692d1709abb4c",
+    "README.md": "f410b6e49028a73d85fef30ee8a10499d0ebaf3375a1f92131dabdf7a4852945",
+    "tokenizer.json": "cc8d3a0ce36466ccc1278bf987df5f71db1719b9ca6b4118264f45cb627bfe0f",
+    "tokenizer_config.json": "9f10c7560fa8a916b3fb17168f1bbe84e93dac971fe1609c2d9527ecc91741ea"
+  },
+  "weights_committed": false,
+  "base_model": "google/gemma-4-E2B-it",
+  "base_revision": "3e22461f65e89153144f8adb70e3b8c2cc9845a7",
+  "note": "Weights and tokenizer remain local; copy matching final_adapter here for GPU inference."
+}

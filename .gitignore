@@ -4,3 +4,11 @@ __pycache__/
 models/
 artifacts/
 .pytest_cache/
+models_original/
+V4/model/final_adapter/
+V4/map/server.json
+V4/runtime/release-verification.json
+model_training/configs/train.local.json
+model_training/configs/train.20*.json
+*.log
+~$*

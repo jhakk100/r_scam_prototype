@@ -1,7 +1,7 @@
 # 추론 아키텍처
 
 로맨스 스캠 텍스트 대화를 분석하는 **v1 추론 아키텍처 프로토타입**이다.
-설계 기준은 `doc/v1`의 네 문서이며 전체 기술 설명은 `doc/paper`의 한국어 논문 초안을 참고한다.
+이 폴더는 초기 아키텍처의 공통 입력 계약과 모델 백엔드를 제공한다. 최종 실행은 [V4](../V4/README.md), 최신 논문은 [최종 논문](../V4/paper/romance_scam_ko.docx)을 참고한다.
 추론은 이 폴더에서, 모델 학습은 별도 `model_training/`에서 구현한다. 임계값 튜닝 및 실제 판별 성능 평가는 이후 실험 단계다.
 
 ## 현재 폴더 구성
@@ -80,6 +80,11 @@ CPU 실행 환경이면 실제 하드웨어에 맞는 PyTorch를 별도로 설�
 검색 알고리즘·수식·기능 범위는 v1을 따른다.
 
 ## 모델과 embedding 설정
+
+`embedding.text_prefix`는 선택한 encoder가 요구하는 고정 접두사이며 생략 시 빈 문자열이다.
+E5로 같은 형식의 대화 간 의미 유사도를 검색할 때는 `"query: "`를 query와 corpus 양쪽에 사용한다.
+접두사를 포함한 실제 token 수를 검사하며, index의 embedding 계약에도 저장한다.
+접두사를 바꾸면 index를 다시 생성해야 한다.
 
 ```powershell
 Copy-Item architecture/configs/inference.example.json architecture/configs/inference.local.json

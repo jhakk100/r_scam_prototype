@@ -1,0 +1,16 @@
+{
+  "experiment": "C:\\Users\\bjh38\\OneDrive\\바탕 화면\\r_scam_proto\\V4\\runtime",
+  "dataset": "C:\\Users\\bjh38\\OneDrive\\바탕 화면\\r_scam_proto\\V3\\dataset\\runs\\20261006_131323",
+  "model_run": "C:\\Users\\bjh38\\OneDrive\\바탕 화면\\r_scam_proto\\V3\\models\\runs\\20261006_131323",
+  "inference_config": "C:\\Users\\bjh38\\OneDrive\\바탕 화면\\r_scam_proto\\V3\\models\\runs\\20261006_131323\\inference_config.tested.json",
+  "projection": "C:\\Users\\bjh38\\OneDrive\\바탕 화면\\r_scam_proto\\V3\\dataset\\runs\\20261006_131323\\projection.json",
+  "index": "C:\\Users\\bjh38\\OneDrive\\바탕 화면\\r_scam_proto\\V4\\runtime\\rag_index.json",
+  "retrieval_config": "C:\\Users\\bjh38\\OneDrive\\바탕 화면\\r_scam_proto\\V4\\runtime\\retrieval-config.json",
+  "fusion_config": "C:\\Users\\bjh38\\OneDrive\\바탕 화면\\r_scam_proto\\V4\\fusion-config.json",
+  "balanced_test": "C:\\Users\\bjh38\\OneDrive\\바탕 화면\\r_scam_proto\\V4\\runtime\\test-balanced.json",
+  "model_variant": "v3_finetuned_final",
+  "temporary": false,
+  "paper_modification": false,
+  "selection_basis": "User selected V3-trained model; current V4 RAG retained",
+  "rag_policy_status": "retained_exploratory_not_claimed_optimal"
+}

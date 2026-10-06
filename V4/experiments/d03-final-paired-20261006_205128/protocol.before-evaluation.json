@@ -1,0 +1,68 @@
+{
+  "status": "PREPARED",
+  "selected_rag": "D03",
+  "source": "C:\\Users\\bjh38\\OneDrive\\바탕 화면\\r_scam_proto\\V4\\experiments\\xy-fixed-z-20261006_180606",
+  "fusion": {
+    "id": "temporary_quality_g0.65_c8_r0.7",
+    "type": "distance_gate",
+    "rag_cap": 0.7,
+    "distance_multiplier": 8.0,
+    "model_attenuation": 0.65,
+    "status": "TEMPORARY_EXPLORATORY",
+    "selection_basis": "User-selected provisional 65% after original E2B diagnostic sweep; not independently validated optimum",
+    "selected_date": "2026-10-06"
+  },
+  "test_counts": {
+    "original": 176,
+    "variant": 80
+  },
+  "rag_counts": {
+    "SCAM": 113,
+    "NON_SCAM": 113
+  },
+  "fresh_inference_for_both_models": true,
+  "same_model_input_format": "original dialogue plus fixed label-free V3_CONTEXT",
+  "retrieved_text_supplied_to_llm": false,
+  "fit_train_only": true,
+  "fit_labels_used": false,
+  "query_label_or_z_used": false,
+  "new_training": false,
+  "threshold_tuning": false,
+  "test_used_in_previous_exploration": true,
+  "independent_validation": false,
+  "variant_labels_provisional": true,
+  "variant_parent_correlated": true,
+  "verification": {
+    "max_train_xy_delta": 0.0,
+    "max_query_xy_delta": 0.0,
+    "max_neighbor_distance_delta": 0.0,
+    "all_256_previous_neighbors_matched": true,
+    "all_training_and_rag_test_ID_group_hash_disjoint": true,
+    "variant_parent_groups_excluded": true
+  },
+  "protected_sha256": {
+    "C:\\Users\\bjh38\\OneDrive\\바탕 화면\\r_scam_proto\\V4\\active_runtime.json": "33d06610fe2127c70fbef0fb0b1dca8d4a6bcd77e7c6e8ec1cf045447ae7177a",
+    "C:\\Users\\bjh38\\OneDrive\\바탕 화면\\r_scam_proto\\V4\\runtime\\rag_index.json": "3084ec7bd555f069521671c80b61fd833c88e46ec87d21192450c9dca9048b95",
+    "C:\\Users\\bjh38\\OneDrive\\바탕 화면\\r_scam_proto\\V4\\runtime\\retrieval-config.json": "2d99d91ced73ca7736abfc6f8d2ba13abd1e09a16e210bf3834ee3931714e1b0",
+    "C:\\Users\\bjh38\\OneDrive\\바탕 화면\\r_scam_proto\\V3\\dataset\\runs\\20261006_131323\\projection.json": "28b8af831bebdf9d18da3d17dc79d7de012425fec714bb3c9ec2954a2da2ada8",
+    "C:\\Users\\bjh38\\OneDrive\\바탕 화면\\r_scam_proto\\V3\\models\\runs\\20261006_131323\\inference_config.tested.json": "cb0f846529f8eaebe7bec14416c6d65f55f1d36e6624696c6a46a2807f343095",
+    "C:\\Users\\bjh38\\OneDrive\\바탕 화면\\r_scam_proto\\V4\\fusion-config.json": "dbf3160330a7f624069a0c9c440cce6e279ad47c3f90055278e39c30a651c25b",
+    "C:\\Users\\bjh38\\OneDrive\\바탕 화면\\r_scam_proto\\V3\\doc\\paper\\romance_scam_technical_v3_ko.docx": "3a154bc31b020e0ddd478b7384738e54a3f5239b74516ca3923c11ad7a4b0af9",
+    "C:\\Users\\bjh38\\OneDrive\\바탕 화면\\r_scam_proto\\r_scam_prototype\\doc\\paper\\romance_scam_technical_draft_ko.docx": "b32ef00922a656640f884845f8e510f462fc48825ddbfc71aff212b9414b79c4",
+    "C:\\Users\\bjh38\\OneDrive\\바탕 화면\\r_scam_proto\\V3\\models\\runs\\20261006_131323\\final_adapter\\adapter_model.safetensors": "95c004827f9cf99d547e72dbe01acba0cc6359b3a947b71f4570ee845b4d5483"
+  },
+  "frozen_sha256": {
+    "C:\\Users\\bjh38\\OneDrive\\바탕 화면\\r_scam_proto\\V4\\experiments\\d03-final-paired-20261006_205128\\runtime\\fusion-config.json": "dbf3160330a7f624069a0c9c440cce6e279ad47c3f90055278e39c30a651c25b",
+    "C:\\Users\\bjh38\\OneDrive\\바탕 화면\\r_scam_proto\\V4\\experiments\\d03-final-paired-20261006_205128\\runtime\\original-runtime.json": "ee4fce36904c53654af794d344a407b9ddff2ac75cb0e3b2407bcc1da22fc839",
+    "C:\\Users\\bjh38\\OneDrive\\바탕 화면\\r_scam_proto\\V4\\experiments\\d03-final-paired-20261006_205128\\runtime\\rag_index.json": "4993116eb75cd70d662e00107c96a91b3ae8589a9449c3acd6d47b3caae0beb9",
+    "C:\\Users\\bjh38\\OneDrive\\바탕 화면\\r_scam_proto\\V4\\experiments\\d03-final-paired-20261006_205128\\runtime\\retrieval-config.json": "e6635359cb72187c118233f65bd4715683362aa6b274975199ea2c6a2e9273e6",
+    "C:\\Users\\bjh38\\OneDrive\\바탕 화면\\r_scam_proto\\V4\\experiments\\d03-final-paired-20261006_205128\\runtime\\specialized-runtime.json": "35e1cc48b0a093564b1aa2ae093574743cbe69bbe3846c25cc4021e75bc1ae59",
+    "C:\\Users\\bjh38\\OneDrive\\바탕 화면\\r_scam_proto\\V4\\experiments\\d03-final-paired-20261006_205128\\runtime\\xy-profile.json": "d913f149a2263d5faaba6e2e984dbaf71b5ac60b066669a9ec362e7ea1087f78"
+  },
+  "source_sha256": {
+    "C:\\Users\\bjh38\\OneDrive\\바탕 화면\\r_scam_proto\\V4\\evaluate_d03_final.py": "e30c55129417beb25137e419b407478f12c329f5b27f0b823be4ef787ec35c36",
+    "C:\\Users\\bjh38\\OneDrive\\바탕 화면\\r_scam_proto\\V4\\pipeline.py": "ad36f0165826d008027a3acaea97fa017eaa048c287210f471f6490e605bfc96",
+    "C:\\Users\\bjh38\\OneDrive\\바탕 화면\\r_scam_proto\\V4\\d03_retrieval.py": "37b96b712f3cf9f3471a443fde9dc8ad821845499910bb17a5ae4a31e7c3577c",
+    "C:\\Users\\bjh38\\OneDrive\\바탕 화면\\r_scam_proto\\V4\\fusion.py": "90fc8e76b3065e56141cfbda4e1a62606a3f51931c670842974ddabee127e34d"
+  }
+}

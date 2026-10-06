@@ -1,0 +1,17 @@
+{
+  "experiment": "@repo/V4/runtime",
+  "dataset": "@repo/V4/datasets/training",
+  "model_run": "@repo/V4/model",
+  "inference_config": "@repo/V4/runtime/specialized-inference.json",
+  "projection": "@repo/V4/datasets/training/projection.json",
+  "index": "@repo/V4/runtime/rag_index.json",
+  "retrieval_config": "@repo/V4/runtime/retrieval-config.json",
+  "fusion_config": "@repo/V4/fusion-config.json",
+  "balanced_test": "@repo/V4/datasets/test-original.json",
+  "xy_profile": "@repo/V4/runtime/xy-profile.json",
+  "model_variant": "v3_finetuned_final",
+  "temporary": false,
+  "retrieval_method": "D03_plain_text_tfidf_svd_xy",
+  "rag_policy_status": "USER_SELECTED_FINAL_EXPLORATORY",
+  "selection_basis": "User-selected final retrieval; model and fusion coefficients unchanged"
+}

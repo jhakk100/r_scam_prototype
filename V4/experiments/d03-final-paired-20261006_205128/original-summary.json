@@ -1,0 +1,273 @@
+{
+  "status": "COMPLETED",
+  "model_identity": "C:\\Users\\bjh38\\OneDrive\\바탕 화면\\r_scam_proto\\r_scam_prototype\\models_original\\E2B@3e22461f65e89153144f8adb70e3b8c2cc9845a7/label_likelihood/prompt:68233a0b6ca684d42fa366a331e61fdc54fce2118a217bb5350bc69814356849",
+  "adapter_loaded": false,
+  "results": {
+    "original": {
+      "model_only": {
+        "count": 176,
+        "correct": 118,
+        "accuracy": 0.6704545454545454,
+        "opposite_label_errors": 52,
+        "unknown": 6,
+        "coverage": 0.9659090909090909,
+        "scam_precision": 1.0,
+        "scam_recall": 0.3409090909090909,
+        "scam_f1": 0.5084745762711864,
+        "confusion": {
+          "SCAM": {
+            "LOW": 52,
+            "UNKNOWN": 6,
+            "HIGH": 30,
+            "INPUT_ERROR": 0
+          },
+          "NON_SCAM": {
+            "LOW": 88,
+            "UNKNOWN": 0,
+            "HIGH": 0,
+            "INPUT_ERROR": 0
+          }
+        },
+        "input_errors": 0
+      },
+      "combined": {
+        "count": 176,
+        "correct": 145,
+        "accuracy": 0.8238636363636364,
+        "opposite_label_errors": 16,
+        "unknown": 15,
+        "coverage": 0.9147727272727273,
+        "scam_precision": 1.0,
+        "scam_recall": 0.6477272727272727,
+        "scam_f1": 0.7862068965517242,
+        "confusion": {
+          "SCAM": {
+            "LOW": 16,
+            "UNKNOWN": 15,
+            "HIGH": 57,
+            "INPUT_ERROR": 0
+          },
+          "NON_SCAM": {
+            "LOW": 88,
+            "UNKNOWN": 0,
+            "HIGH": 0,
+            "INPUT_ERROR": 0
+          }
+        },
+        "input_errors": 0
+      },
+      "rag_only": {
+        "count": 176,
+        "correct": 165,
+        "accuracy": 0.9375,
+        "opposite_label_errors": 9,
+        "unknown": 2,
+        "coverage": 0.9886363636363636,
+        "scam_precision": 1.0,
+        "scam_recall": 0.875,
+        "scam_f1": 0.9333333333333333,
+        "confusion": {
+          "SCAM": {
+            "LOW": 9,
+            "UNKNOWN": 2,
+            "HIGH": 77,
+            "INPUT_ERROR": 0
+          },
+          "NON_SCAM": {
+            "LOW": 88,
+            "UNKNOWN": 0,
+            "HIGH": 0,
+            "INPUT_ERROR": 0
+          }
+        },
+        "input_errors": 0
+      }
+    },
+    "variant": {
+      "model_only": {
+        "count": 80,
+        "correct": 61,
+        "accuracy": 0.7625,
+        "opposite_label_errors": 17,
+        "unknown": 2,
+        "coverage": 0.975,
+        "scam_precision": 1.0,
+        "scam_recall": 0.525,
+        "scam_f1": 0.6885245901639345,
+        "confusion": {
+          "SCAM": {
+            "LOW": 17,
+            "UNKNOWN": 2,
+            "HIGH": 21,
+            "INPUT_ERROR": 0
+          },
+          "NON_SCAM": {
+            "LOW": 40,
+            "UNKNOWN": 0,
+            "HIGH": 0,
+            "INPUT_ERROR": 0
+          }
+        },
+        "input_errors": 0
+      },
+      "combined": {
+        "count": 80,
+        "correct": 65,
+        "accuracy": 0.8125,
+        "opposite_label_errors": 13,
+        "unknown": 2,
+        "coverage": 0.975,
+        "scam_precision": 1.0,
+        "scam_recall": 0.625,
+        "scam_f1": 0.7692307692307693,
+        "confusion": {
+          "SCAM": {
+            "LOW": 13,
+            "UNKNOWN": 2,
+            "HIGH": 25,
+            "INPUT_ERROR": 0
+          },
+          "NON_SCAM": {
+            "LOW": 40,
+            "UNKNOWN": 0,
+            "HIGH": 0,
+            "INPUT_ERROR": 0
+          }
+        },
+        "input_errors": 0
+      },
+      "rag_only": {
+        "count": 80,
+        "correct": 72,
+        "accuracy": 0.9,
+        "opposite_label_errors": 7,
+        "unknown": 1,
+        "coverage": 0.9875,
+        "scam_precision": 0.9705882352941176,
+        "scam_recall": 0.825,
+        "scam_f1": 0.8918918918918919,
+        "confusion": {
+          "SCAM": {
+            "LOW": 6,
+            "UNKNOWN": 1,
+            "HIGH": 33,
+            "INPUT_ERROR": 0
+          },
+          "NON_SCAM": {
+            "LOW": 39,
+            "UNKNOWN": 0,
+            "HIGH": 1,
+            "INPUT_ERROR": 0
+          }
+        },
+        "input_errors": 0
+      }
+    },
+    "all": {
+      "model_only": {
+        "count": 256,
+        "correct": 179,
+        "accuracy": 0.69921875,
+        "opposite_label_errors": 69,
+        "unknown": 8,
+        "coverage": 0.96875,
+        "scam_precision": 1.0,
+        "scam_recall": 0.3984375,
+        "scam_f1": 0.5698324022346368,
+        "confusion": {
+          "SCAM": {
+            "LOW": 69,
+            "UNKNOWN": 8,
+            "HIGH": 51,
+            "INPUT_ERROR": 0
+          },
+          "NON_SCAM": {
+            "LOW": 128,
+            "UNKNOWN": 0,
+            "HIGH": 0,
+            "INPUT_ERROR": 0
+          }
+        },
+        "input_errors": 0
+      },
+      "combined": {
+        "count": 256,
+        "correct": 210,
+        "accuracy": 0.8203125,
+        "opposite_label_errors": 29,
+        "unknown": 17,
+        "coverage": 0.93359375,
+        "scam_precision": 1.0,
+        "scam_recall": 0.640625,
+        "scam_f1": 0.780952380952381,
+        "confusion": {
+          "SCAM": {
+            "LOW": 29,
+            "UNKNOWN": 17,
+            "HIGH": 82,
+            "INPUT_ERROR": 0
+          },
+          "NON_SCAM": {
+            "LOW": 128,
+            "UNKNOWN": 0,
+            "HIGH": 0,
+            "INPUT_ERROR": 0
+          }
+        },
+        "input_errors": 0
+      },
+      "rag_only": {
+        "count": 256,
+        "correct": 237,
+        "accuracy": 0.92578125,
+        "opposite_label_errors": 16,
+        "unknown": 3,
+        "coverage": 0.98828125,
+        "scam_precision": 0.990990990990991,
+        "scam_recall": 0.859375,
+        "scam_f1": 0.9205020920502092,
+        "confusion": {
+          "SCAM": {
+            "LOW": 15,
+            "UNKNOWN": 3,
+            "HIGH": 110,
+            "INPUT_ERROR": 0
+          },
+          "NON_SCAM": {
+            "LOW": 127,
+            "UNKNOWN": 0,
+            "HIGH": 1,
+            "INPUT_ERROR": 0
+          }
+        },
+        "input_errors": 0
+      }
+    }
+  },
+  "transitions": {
+    "original": {
+      "fixed_error": 27,
+      "correct_to_error": 0,
+      "level_changes": 43
+    },
+    "variant": {
+      "fixed_error": 4,
+      "correct_to_error": 0,
+      "level_changes": 6
+    },
+    "all": {
+      "fixed_error": 31,
+      "correct_to_error": 0,
+      "level_changes": 49
+    }
+  },
+  "mean_rag_share": 0.4192283009891808,
+  "mean_distance_quality": 0.4297033780094576,
+  "mean_rag_share_by_set": {
+    "original": 0.48978421086919877,
+    "variant": 0.26400529925314126
+  },
+  "model_extreme_count": 176,
+  "fresh_inference": true,
+  "input_errors": 0
+}

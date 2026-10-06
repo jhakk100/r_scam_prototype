@@ -1,67 +1,49 @@
-# r_scam_prototype
+# 로맨스 스캠 대화 판별 프로토타입
 
-로맨스 스캠 텍스트 대화 판별 프로토타입이다. 구현을 추론 아키텍처와 모델 학습 파이프라인으로 구분한다.
-설계 기준은 `doc/v1/`이며 전체 기술 설명은 `doc/paper/`의 한국어 논문 초안을 참고한다.
-
-## 폴더 구성
+최종 시스템은 **특화 E2B 언어모델 + 유사 사례 검색 + 거리 기반 점수 결합**이다.
+대화를 두 경로가 각각 분석하며, 검색 사례의 원문을 모델에 전달하지 않고 점수를 후단에서 결합한다.
+현재 실행 대상은 [V4](V4/README.md)다.
 
 ```text
 r_scam_prototype/
-├── architecture/                 # 추론 아키텍처 전체
-│   ├── pipeline/                 # 모델 연결·RAG·수식·판정·출력
-│   ├── configs/
-│   ├── examples/
-│   ├── tests/
-│   ├── docs/
-│   ├── requirements.txt
-│   └── README.md
-├── model_training/               # 별도 PEFT LoRA/QLoRA 학습 파이프라인
-│   ├── configs/                  # 모델·데이터 분할·학습 설정
-│   ├── tests/
-│   ├── docs/
-│   ├── requirements.txt
-│   └── README.md
-├── dataset/                      # 공통 대화 입력·정답·정제 기록
-├── doc/
-│   ├── v0.1/
-│   ├── v1/
-│   └── paper/
-├── models/                       # 학습 시 산출물 및 embedding 공용 경로
-├── CHECK_ENV_and_AUTO_LIB_INSTALLER.py
-├── LICENSE
-└── README.md
+├── V4/                  # 최종 코드, 검색 좌표, 데이터, 결과, 논문과 지도
+├── architecture/        # 공통 입력 계약과 모델 점수 계산 백엔드
+├── model_training/      # 학습 도구와 어댑터 무결성 검사
+├── dataset/             # 기존 원천 데이터와 정제 기록
+├── models_original/     # 원본 E2B 가중치 (로컬 전용, Git 제외)
+└── models/              # 기존 로컬 모델 산출물 (Git 제외)
 ```
 
-현재 구현된 아키텍처의 코드·설정·예시·테스트·의존성·설명을 `architecture/`에 모았다.
-학습 코드는 `model_training/`에 구현했으며 기존 아키텍처와 입력·라벨 토큰 계약을 공유한다.
-데이터셋, 설계 문서, 논문 초안과 환경 검사기는 두 영역이 함께 참조한다.
+## 실행
 
-## 아키텍처 실행
-
-프로젝트 루트에서 실행한다. 아래 명령은 모델 다운로드·GPU·학습 없이 구조를 확인한다.
+Python 3.11에서 저장 결과와 검색·산술식을 확인한다. 가중치나 GPU 없이 실행된다.
 
 ```powershell
-python -m unittest discover -s architecture/tests -v
-python -m architecture.pipeline audit-data
-python -m architecture.pipeline demo
+python -m pip install -r V4/requirements-test.txt
+python V4/verify_release.py
+python V4/serve_map.py
 ```
 
-`demo`는 고정 합성 수치와 벡터를 사용하는 연결 확인이며 실제 판별 결과가 아니다.
-실제 모델·embedding 설치, index 생성과 추론 명령은 [아키텍처 실행 안내](architecture/README.md)에 있다.
-구현 범위와 다음 단계 학습 연결 계약은 [아키텍처 구현 상태](architecture/docs/ARCHITECTURE_STATUS.md)를 참고한다.
+실제 추론에는 원본 E2B 가중치와 최종 특화 어댑터, CUDA PyTorch 및 [추론 의존성](V4/requirements.txt)이 필요하다.
+설치 위치와 실행 방법은 [V4 실행 안내](V4/README.md)에 있다. 자동 다운로드나 재학습은 수행하지 않는다.
 
-## 모델 학습
+## 문서와 결과
 
-[모델 학습 실행 안내](model_training/README.md)에 데이터 분할, 환경 설치, 설정, QLoRA 학습 및 추론 연결 명령이 있다.
-입력/정답 연결, 사건 분할·입력 한도 검사, assistant 라벨 전용 학습, Validation checkpoint 선택,
-PEFT adapter/tokenizer 저장과 추론 설정 내보내기를 구현했다. 실제 학습·GPU 실행은 다른 컴퓨터에서 진행한다.
+- [최종 논문](V4/paper/romance_scam_ko.docx): 쉬운 용어 수정본, 구조도와 3차원 지도.
+- [기술 명세](V4/docs/v4_technical_spec_ko.docx), [쉬운 설명 PDF](V4/docs/v4_easy_guide_ko.pdf).
+- [폴더 이전 안내](V4/docs/REPOSITORY_LAYOUT.md): 기존 기술 명세의 경로를 현재 배치에 대응시키는 안내.
+- [실험 결과](V4/experiments/d03-final-paired-20261006_205128/REPORT_KO.md).
 
-```powershell
-python -m model_training audit-data
-python -m model_training demo
-python -m unittest discover -s model_training/tests -v
-```
+| 구성 | 원본 176건 | 변형 80건 | 합산 256건 |
+|---|---:|---:|---:|
+| 원본 E2B 단독 | 67.05% | 76.25% | 69.92% |
+| 원본 E2B + 검색 | 82.39% | 81.25% | 82.03% |
+| 특화 E2B 단독 | 100.00% | 97.50% | 99.22% |
+| 특화 E2B + 검색 | 100.00% | 97.50% | 99.22% |
+| 검색 단독 | 93.75% | 90.00% | 92.58% |
 
-위 audit/demo는 실제 모델 학습이나 판별 성능 실험이 아니다. 실제 데이터의 분할/학습 가중치는 아직 생성하지 않았다.
-현재 데이터의 UNKNOWN 정답은 0건이며 임의 보충하지 않는다. 준비 및 검증 범위는
-[학습 구현 상태](model_training/docs/TRAINING_STATUS.md)에 기록했다.
+후보 선택에 이미 사용한 테스트의 재평가이며 독립 검증은 아니다. 변형 라벨은 미검증이다.
+최종 검색 방식에서 사례 수 증가에 따른 정확도의 지속 상승은 아직 검증하지 않았다.
+
+**모델의 분석은 부정확할 수 있다. 결과는 참고 자료이며, 사기 여부나 상대방의 안전성을 확정하는 근거로 사용하지 않는다.**
+이 저장소는 프로토타입이며 실제 피해 확률을 산출하지 않는다.

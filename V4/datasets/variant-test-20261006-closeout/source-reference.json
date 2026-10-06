@@ -1,0 +1,3105 @@
+[
+  {
+    "conversation_id": "original__CONV_000065",
+    "case_group_id": "SYNTH_COIN_INVESTMENT_0005",
+    "split": "test",
+    "label": "SCAM",
+    "verified": true,
+    "messages": [
+      {
+        "speaker": "A",
+        "text": "오늘 기분 안 좋다더니 좀 괜찮아졌어?"
+      },
+      {
+        "speaker": "B",
+        "text": "응, 네가 물어봐줘서 좀 나아."
+      },
+      {
+        "speaker": "A",
+        "text": "나도 예전에 힘들 때 투자 공부하면서 버텼어."
+      },
+      {
+        "speaker": "A",
+        "text": "그래서 네가 잘되면 좋겠다는 생각이 들어."
+      },
+      {
+        "speaker": "B",
+        "text": "투자로 기분이 나아졌어?"
+      },
+      {
+        "speaker": "A",
+        "text": "응, 소액으로 해보면 수익도 바로 볼 수 있어."
+      },
+      {
+        "speaker": "B",
+        "text": "나는 조금 더 생각해볼게."
+      },
+      {
+        "speaker": "A",
+        "text": "그래. 근데 지금이 제일 좋은 타이밍이야."
+      },
+      {
+        "speaker": "A",
+        "text": "처음 건 잘 됐잖아. 이제 더 넣어야 진짜 수익이 나."
+      },
+      {
+        "speaker": "B",
+        "text": "더 큰돈은 부담돼."
+      },
+      {
+        "speaker": "A",
+        "text": "여기서 멈추면 지금까지 한 게 아깝잖아."
+      },
+      {
+        "speaker": "B",
+        "text": "아깝다고 더 넣지는 않을래."
+      }
+    ],
+    "input_sha256": "db9d50412e7e1b9be97346bc0add83797cb57ec3f525b65ce89d6a7f23d0e48d",
+    "source": "original",
+    "original_id": "CONV_000065",
+    "title": "CONV_000065",
+    "rag_eligible": false,
+    "raw": [
+      0.1960613334985728,
+      0.14286094301274588,
+      0.1307175540550689
+    ],
+    "xyz": [
+      0.925,
+      0.8096780976492695,
+      1.0
+    ],
+    "representation": {
+      "topic_id": "investment",
+      "topic_name": "금융·투자",
+      "topic_descriptor": "대화 주제: 금융·투자. 자산 관리와 투자 상품에 관한 대화. 중심 주제는 금융·투자.",
+      "topic_status": "MATCHED_BY_RULE",
+      "topic_terms": [],
+      "secondary_topics": [],
+      "behavior_features": [
+        0.3333333333333333,
+        0.0,
+        0.3333333333333333,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.3333333333333333,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "behavior_evidence": [
+        {
+          "turn": 8,
+          "speaker": "A",
+          "behavior": "money_request",
+          "name": "금전 요청",
+          "mode": "observed_cue",
+          "match": "더 넣어",
+          "sentence": "이제 더 넣어야 진짜 수익이 나."
+        },
+        {
+          "turn": 9,
+          "speaker": "B",
+          "behavior": "refusal",
+          "name": "거절·중단",
+          "mode": "observed_cue",
+          "match": "부담",
+          "sentence": "더 큰돈은 부담돼."
+        },
+        {
+          "turn": 10,
+          "speaker": "A",
+          "behavior": "urgency",
+          "name": "시간·손실 압박",
+          "mode": "observed_cue",
+          "match": "여기서 멈추면",
+          "sentence": "여기서 멈추면 지금까지 한 게 아깝잖아."
+        }
+      ],
+      "feature_names": [
+        "money_request_observed",
+        "third_party_observed",
+        "urgency_observed",
+        "secrecy_observed",
+        "relationship_pressure_observed",
+        "guarantee_observed",
+        "additional_fee_observed",
+        "verification_observed",
+        "refusal_observed",
+        "autonomy_observed",
+        "money_request_mentioned",
+        "third_party_mentioned",
+        "urgency_mentioned",
+        "secrecy_mentioned",
+        "relationship_pressure_mentioned",
+        "guarantee_mentioned",
+        "additional_fee_mentioned",
+        "verification_mentioned",
+        "refusal_mentioned",
+        "autonomy_mentioned"
+      ],
+      "extraction_method": "lexical_rules_v1_not_verified_annotations"
+    },
+    "behavior_coordinate": [
+      0.925,
+      0.8096780976492695,
+      0.5153551845225632
+    ]
+  },
+  {
+    "conversation_id": "original__CONV_000019",
+    "case_group_id": "NORMAL_0019",
+    "split": "test",
+    "label": "NON_SCAM",
+    "verified": true,
+    "messages": [
+      {
+        "speaker": "A",
+        "text": "연금 계좌를 만들어야 하나 고민 중이야."
+      },
+      {
+        "speaker": "B",
+        "text": "세금 혜택만 보고 바로 만들진 말고, 오래 넣을 수 있는지 봐야 해."
+      },
+      {
+        "speaker": "A",
+        "text": "중간에 돈이 필요하면 불편할까 봐 걱정돼."
+      },
+      {
+        "speaker": "B",
+        "text": "그래서 비상금이랑 분리해서 생각하는 게 좋지."
+      },
+      {
+        "speaker": "A",
+        "text": "회사에서 상품을 추천해주긴 했어."
+      },
+      {
+        "speaker": "B",
+        "text": "하나만 보지 말고 수수료와 운용 방식도 비교해봐."
+      },
+      {
+        "speaker": "A",
+        "text": "내가 투자 성향을 잘 모르겠어."
+      },
+      {
+        "speaker": "B",
+        "text": "보수적으로 시작하는 방법도 있으니까 설명을 읽어봐."
+      },
+      {
+        "speaker": "A",
+        "text": "상담 받을 때 질문 목록을 만들어갈게."
+      },
+      {
+        "speaker": "B",
+        "text": "좋아. 이해 안 되는 건 가입 전에 꼭 물어보고."
+      },
+      {
+        "speaker": "A",
+        "text": "응, 오늘 바로 결정하진 않을래."
+      },
+      {
+        "speaker": "B",
+        "text": "그게 좋겠다."
+      }
+    ],
+    "input_sha256": "889f91ba80367702a081dbda6205af9fb4238a6ed35fadde4c5eb6506c84f294",
+    "source": "original",
+    "original_id": "CONV_000019",
+    "title": "CONV_000019",
+    "rag_eligible": false,
+    "raw": [
+      0.1960613334985728,
+      0.14286094301274588,
+      -0.30889422777495573
+    ],
+    "xyz": [
+      0.925,
+      0.8096780976492695,
+      0.0
+    ],
+    "representation": {
+      "topic_id": "investment",
+      "topic_name": "금융·투자",
+      "topic_descriptor": "대화 주제: 금융·투자. 자산 관리와 투자 상품에 관한 대화. 중심 주제는 금융·투자.",
+      "topic_status": "MATCHED_BY_RULE",
+      "topic_terms": [],
+      "secondary_topics": [],
+      "behavior_features": [
+        0.3333333333333333,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "behavior_evidence": [
+        {
+          "turn": 2,
+          "speaker": "A",
+          "behavior": "money_request",
+          "name": "금전 요청",
+          "mode": "observed_cue",
+          "match": "돈이 필요",
+          "sentence": "중간에 돈이 필요하면 불편할까 봐 걱정돼."
+        }
+      ],
+      "feature_names": [
+        "money_request_observed",
+        "third_party_observed",
+        "urgency_observed",
+        "secrecy_observed",
+        "relationship_pressure_observed",
+        "guarantee_observed",
+        "additional_fee_observed",
+        "verification_observed",
+        "refusal_observed",
+        "autonomy_observed",
+        "money_request_mentioned",
+        "third_party_mentioned",
+        "urgency_mentioned",
+        "secrecy_mentioned",
+        "relationship_pressure_mentioned",
+        "guarantee_mentioned",
+        "additional_fee_mentioned",
+        "verification_mentioned",
+        "refusal_mentioned",
+        "autonomy_mentioned"
+      ],
+      "extraction_method": "lexical_rules_v1_not_verified_annotations"
+    },
+    "behavior_coordinate": [
+      0.925,
+      0.8096780976492695,
+      0.4637146831599914
+    ]
+  },
+  {
+    "conversation_id": "original__CONV_000241",
+    "case_group_id": "SYNTH_POINT_EXCHANGE_0001",
+    "split": "test",
+    "label": "SCAM",
+    "verified": true,
+    "messages": [
+      {
+        "speaker": "A",
+        "text": "오늘 뭐 했어? 너랑 얘기하면 시간 가는 줄 모르겠어."
+      },
+      {
+        "speaker": "B",
+        "text": "그냥 집에 있었어. 너는?"
+      },
+      {
+        "speaker": "A",
+        "text": "나도 비슷해. 한국에 와 있는데 아는 사람이 없어서 좀 외로워."
+      },
+      {
+        "speaker": "A",
+        "text": "예전에 충전해둔 포인트가 있는데 며칠 뒤면 없어진대."
+      },
+      {
+        "speaker": "B",
+        "text": "네가 직접 쓰면 되는 거 아니야?"
+      },
+      {
+        "speaker": "A",
+        "text": "내 계정은 조건이 안 돼서 그래. 너한테만 부탁할 수 있어."
+      },
+      {
+        "speaker": "A",
+        "text": "잠깐 확인만 해주면 되는데, 환전하려면 확인비가 필요하대."
+      },
+      {
+        "speaker": "B",
+        "text": "낯선 사이트에 돈을 내는 건 좀 불안해."
+      },
+      {
+        "speaker": "A",
+        "text": "오늘 안에 처리 안 하면 포인트가 다 사라진대."
+      },
+      {
+        "speaker": "A",
+        "text": "이미 일부는 진행됐는데 등급비가 하나 더 붙었어."
+      },
+      {
+        "speaker": "B",
+        "text": "처음에는 확인비만 있으면 된다고 했잖아."
+      },
+      {
+        "speaker": "A",
+        "text": "여기서 멈추면 지금까지 한 것도 다 소용없어. 이번만 도와줘."
+      }
+    ],
+    "input_sha256": "33ff0c65c788234d6c0420b0a6b434d40dd759760a8f0ab037028d7e105eb53b",
+    "source": "original",
+    "original_id": "CONV_000241",
+    "title": "CONV_000241",
+    "rag_eligible": false,
+    "raw": [
+      -0.18534189508519838,
+      0.08785339067381129,
+      0.28038410061148417
+    ],
+    "xyz": [
+      0.09823640895626806,
+      0.6904388303910093,
+      1.0
+    ],
+    "representation": {
+      "topic_id": "benefits",
+      "topic_name": "포인트·쿠폰·혜택",
+      "topic_descriptor": "대화 주제: 포인트·쿠폰·혜택. 서비스 포인트와 쿠폰 혜택의 사용에 관한 대화. 중심 주제는 포인트·쿠폰·혜택. 대화 대상: 포인트.",
+      "topic_status": "MATCHED_BY_RULE",
+      "topic_terms": [
+        "포인트"
+      ],
+      "secondary_topics": [],
+      "behavior_features": [
+        0.3333333333333333,
+        0.0,
+        0.6666666666666666,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.3333333333333333,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "behavior_evidence": [
+        {
+          "turn": 4,
+          "speaker": "B",
+          "behavior": "autonomy",
+          "name": "선택·합의·자기 결정",
+          "mode": "observed_cue",
+          "match": "네가 직접",
+          "sentence": "네가 직접 쓰면 되는 거 아니야?"
+        },
+        {
+          "turn": 6,
+          "speaker": "A",
+          "behavior": "money_request",
+          "name": "금전 요청",
+          "mode": "observed_cue",
+          "match": "확인비가 필요",
+          "sentence": "잠깐 확인만 해주면 되는데, 환전하려면 확인비가 필요하대."
+        },
+        {
+          "turn": 8,
+          "speaker": "A",
+          "behavior": "urgency",
+          "name": "시간·손실 압박",
+          "mode": "observed_cue",
+          "match": "오늘 안에 처리",
+          "sentence": "오늘 안에 처리 안 하면 포인트가 다 사라진대."
+        },
+        {
+          "turn": 11,
+          "speaker": "A",
+          "behavior": "urgency",
+          "name": "시간·손실 압박",
+          "mode": "observed_cue",
+          "match": "여기서 멈추면",
+          "sentence": "여기서 멈추면 지금까지 한 것도 다 소용없어."
+        }
+      ],
+      "feature_names": [
+        "money_request_observed",
+        "third_party_observed",
+        "urgency_observed",
+        "secrecy_observed",
+        "relationship_pressure_observed",
+        "guarantee_observed",
+        "additional_fee_observed",
+        "verification_observed",
+        "refusal_observed",
+        "autonomy_observed",
+        "money_request_mentioned",
+        "third_party_mentioned",
+        "urgency_mentioned",
+        "secrecy_mentioned",
+        "relationship_pressure_mentioned",
+        "guarantee_mentioned",
+        "additional_fee_mentioned",
+        "verification_mentioned",
+        "refusal_mentioned",
+        "autonomy_mentioned"
+      ],
+      "extraction_method": "lexical_rules_v1_not_verified_annotations"
+    },
+    "behavior_coordinate": [
+      0.09823640895626806,
+      0.6904388303910093,
+      0.5329362772521624
+    ]
+  },
+  {
+    "conversation_id": "original__CONV_000325",
+    "case_group_id": "NORMAL_0145",
+    "split": "test",
+    "label": "NON_SCAM",
+    "verified": true,
+    "messages": [
+      {
+        "speaker": "A",
+        "text": "오늘 카페에서 네가 좋아하는 라테 마시다가 생각났어."
+      },
+      {
+        "speaker": "B",
+        "text": "나도 퇴근길에 한 잔 마셨어. 멤버십 포인트가 꽤 쌓였더라."
+      },
+      {
+        "speaker": "A",
+        "text": "그럼 다음에 만나면 포인트로 디저트 하나 바꿔 먹자."
+      },
+      {
+        "speaker": "B",
+        "text": "좋아. 내 공식 앱에 쿠폰이 떠 있던데 유효기간부터 봐야겠어."
+      },
+      {
+        "speaker": "A",
+        "text": "맞아, 모르고 지나가면 아깝지."
+      },
+      {
+        "speaker": "B",
+        "text": "앱에서 직접 쓰는 거라 결제할 때 바코드만 보여주면 된대."
+      },
+      {
+        "speaker": "A",
+        "text": "그럼 내가 음료 사고 너는 디저트 쿠폰 쓰는 걸로 할까?"
+      },
+      {
+        "speaker": "B",
+        "text": "좋지. 금액은 각자 부담하고 쿠폰만 쓰면 되겠다."
+      },
+      {
+        "speaker": "A",
+        "text": "이번 주 토요일 오후 어때?"
+      },
+      {
+        "speaker": "B",
+        "text": "괜찮아. 나가기 전에 앱 로그인 되는지 확인해둘게."
+      },
+      {
+        "speaker": "A",
+        "text": "천천히 만나서 얘기하자. 포인트보다 네 근황이 더 궁금해."
+      },
+      {
+        "speaker": "B",
+        "text": "나도. 이번 주엔 할 얘기가 좀 많아."
+      }
+    ],
+    "input_sha256": "27e76507b7dc14de7864ebe619122fe07185be4fdbb74a67ccef49ee3770d9bc",
+    "source": "original",
+    "original_id": "CONV_000325",
+    "title": "CONV_000325",
+    "rag_eligible": false,
+    "raw": [
+      -0.18864251501400947,
+      0.09117118235761826,
+      -0.7877195473859268
+    ],
+    "xyz": [
+      0.09108169137522648,
+      0.6976307709968209,
+      0.0
+    ],
+    "representation": {
+      "topic_id": "benefits",
+      "topic_name": "포인트·쿠폰·혜택",
+      "topic_descriptor": "대화 주제: 포인트·쿠폰·혜택. 서비스 포인트와 쿠폰 혜택의 사용에 관한 대화. 중심 주제는 포인트·쿠폰·혜택. 대화 대상: 쿠폰, 포인트.",
+      "topic_status": "MATCHED_BY_RULE",
+      "topic_terms": [
+        "쿠폰",
+        "포인트"
+      ],
+      "secondary_topics": [],
+      "behavior_features": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.3333333333333333,
+        0.3333333333333333,
+        0.6666666666666666,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "behavior_evidence": [
+        {
+          "turn": 3,
+          "speaker": "B",
+          "behavior": "verification",
+          "name": "확인·자료 요청",
+          "mode": "observed_cue",
+          "match": "공식 앱",
+          "sentence": "내 공식 앱에 쿠폰이 떠 있던데 유효기간부터 봐야겠어."
+        },
+        {
+          "turn": 7,
+          "speaker": "B",
+          "behavior": "refusal",
+          "name": "거절·중단",
+          "mode": "observed_cue",
+          "match": "부담",
+          "sentence": "금액은 각자 부담하고 쿠폰만 쓰면 되겠다."
+        },
+        {
+          "turn": 7,
+          "speaker": "B",
+          "behavior": "autonomy",
+          "name": "선택·합의·자기 결정",
+          "mode": "observed_cue",
+          "match": "각자",
+          "sentence": "금액은 각자 부담하고 쿠폰만 쓰면 되겠다."
+        },
+        {
+          "turn": 10,
+          "speaker": "A",
+          "behavior": "autonomy",
+          "name": "선택·합의·자기 결정",
+          "mode": "observed_cue",
+          "match": "천천히",
+          "sentence": "천천히 만나서 얘기하자."
+        }
+      ],
+      "feature_names": [
+        "money_request_observed",
+        "third_party_observed",
+        "urgency_observed",
+        "secrecy_observed",
+        "relationship_pressure_observed",
+        "guarantee_observed",
+        "additional_fee_observed",
+        "verification_observed",
+        "refusal_observed",
+        "autonomy_observed",
+        "money_request_mentioned",
+        "third_party_mentioned",
+        "urgency_mentioned",
+        "secrecy_mentioned",
+        "relationship_pressure_mentioned",
+        "guarantee_mentioned",
+        "additional_fee_mentioned",
+        "verification_mentioned",
+        "refusal_mentioned",
+        "autonomy_mentioned"
+      ],
+      "extraction_method": "lexical_rules_v1_not_verified_annotations"
+    },
+    "behavior_coordinate": [
+      0.09108169137522648,
+      0.6976307709968209,
+      0.4074678294772463
+    ]
+  },
+  {
+    "conversation_id": "original__CONV_000204",
+    "case_group_id": "SYNTH_COST_PROXY_0024",
+    "split": "test",
+    "label": "SCAM",
+    "verified": true,
+    "messages": [
+      {
+        "speaker": "A",
+        "text": "오늘은 뭐 하면서 보냈어?"
+      },
+      {
+        "speaker": "B",
+        "text": "집에서 쉬었어. 너는?"
+      },
+      {
+        "speaker": "A",
+        "text": "나는 이동 준비 때문에 정신이 없었어."
+      },
+      {
+        "speaker": "A",
+        "text": "공항에 맡긴 수하물이 있는데 보관 기간이 지나 추가 요금이 생겼대."
+      },
+      {
+        "speaker": "B",
+        "text": "공항 직원에게 직접 문의하면 되지 않아?"
+      },
+      {
+        "speaker": "A",
+        "text": "지금 다른 지역에 있어서 바로 갈 수가 없어."
+      },
+      {
+        "speaker": "A",
+        "text": "안 찾으면 짐이 폐기될 수도 있대. 안에 중요한 물건이 있어."
+      },
+      {
+        "speaker": "B",
+        "text": "왜 내가 비용을 내야 하는지 모르겠어."
+      },
+      {
+        "speaker": "A",
+        "text": "내가 도착하면 바로 갚을게. 너한테만 부탁하는 거야."
+      },
+      {
+        "speaker": "A",
+        "text": "보관료는 냈는데 운송 처리비가 또 필요하대."
+      },
+      {
+        "speaker": "B",
+        "text": "나는 더 이상 송금할 생각 없어."
+      },
+      {
+        "speaker": "A",
+        "text": "여기서 멈추면 짐도 잃고 지금까지 낸 돈도 잃어."
+      }
+    ],
+    "input_sha256": "2f80e1c33dded78634b668d3e132304940201b2e2862e8dd89c9559089d4d88d",
+    "source": "original",
+    "original_id": "CONV_000204",
+    "title": "CONV_000204",
+    "rag_eligible": false,
+    "raw": [
+      0.03181256322750692,
+      -0.1764027061682974,
+      1.133018873819303
+    ],
+    "xyz": [
+      0.5689597440271866,
+      0.11761379062500282,
+      1.0
+    ],
+    "representation": {
+      "topic_id": "travel",
+      "topic_name": "여행·이동·만남",
+      "topic_descriptor": "대화 주제: 여행·이동·만남. 여행 일정과 이동 및 방문 준비에 관한 대화. 중심 주제는 여행·이동·만남. 대화 대상: 공항, 수하물.",
+      "topic_status": "MATCHED_BY_RULE",
+      "topic_terms": [
+        "공항",
+        "수하물"
+      ],
+      "secondary_topics": [],
+      "behavior_features": [
+        0.0,
+        0.0,
+        0.6666666666666666,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.3333333333333333,
+        0.0,
+        0.3333333333333333,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "behavior_evidence": [
+        {
+          "turn": 6,
+          "speaker": "A",
+          "behavior": "urgency",
+          "name": "시간·손실 압박",
+          "mode": "observed_cue",
+          "match": "폐기",
+          "sentence": "안 찾으면 짐이 폐기될 수도 있대."
+        },
+        {
+          "turn": 7,
+          "speaker": "B",
+          "behavior": "money_request",
+          "name": "금전 요청",
+          "mode": "mentioned_or_nonassertive",
+          "match": "비용을 내야",
+          "sentence": "왜 내가 비용을 내야 하는지 모르겠어."
+        },
+        {
+          "turn": 10,
+          "speaker": "B",
+          "behavior": "refusal",
+          "name": "거절·중단",
+          "mode": "observed_cue",
+          "match": "더 이상",
+          "sentence": "나는 더 이상 송금할 생각 없어."
+        },
+        {
+          "turn": 11,
+          "speaker": "A",
+          "behavior": "urgency",
+          "name": "시간·손실 압박",
+          "mode": "observed_cue",
+          "match": "여기서 멈추면",
+          "sentence": "여기서 멈추면 짐도 잃고 지금까지 낸 돈도 잃어."
+        }
+      ],
+      "feature_names": [
+        "money_request_observed",
+        "third_party_observed",
+        "urgency_observed",
+        "secrecy_observed",
+        "relationship_pressure_observed",
+        "guarantee_observed",
+        "additional_fee_observed",
+        "verification_observed",
+        "refusal_observed",
+        "autonomy_observed",
+        "money_request_mentioned",
+        "third_party_mentioned",
+        "urgency_mentioned",
+        "secrecy_mentioned",
+        "relationship_pressure_mentioned",
+        "guarantee_mentioned",
+        "additional_fee_mentioned",
+        "verification_mentioned",
+        "refusal_mentioned",
+        "autonomy_mentioned"
+      ],
+      "extraction_method": "lexical_rules_v1_not_verified_annotations"
+    },
+    "behavior_coordinate": [
+      0.5689597440271866,
+      0.11761379062500282,
+      0.6330939367769448
+    ]
+  },
+  {
+    "conversation_id": "original__CONV_000042",
+    "case_group_id": "NORMAL_0042",
+    "split": "test",
+    "label": "NON_SCAM",
+    "verified": true,
+    "messages": [
+      {
+        "speaker": "A",
+        "text": "가족 여행 회비를 모으는데 얼마씩 내야 할지 고민이야."
+      },
+      {
+        "speaker": "B",
+        "text": "각자 형편이 다르니 같은 금액보다 가능한 범위를 먼저 물어보는 게 좋지."
+      },
+      {
+        "speaker": "A",
+        "text": "맞아. 내가 먼저 많이 내고 나중에 받는 건 피하고 싶어."
+      },
+      {
+        "speaker": "B",
+        "text": "여행 예산과 숙소 조건을 함께 공개하면 좋겠어."
+      },
+      {
+        "speaker": "A",
+        "text": "나는 내 몫을 직접 내고, 부모님 지원은 가족끼리 따로 정할게."
+      },
+      {
+        "speaker": "B",
+        "text": "투명하게 합의하면 서운함도 줄어들지."
+      },
+      {
+        "speaker": "A",
+        "text": "투자 수익이 나면 보태려 했는데 그걸 전제로 잡진 않을래."
+      },
+      {
+        "speaker": "B",
+        "text": "그게 안전해. 확정되지 않은 수익은 예산에 넣지 않는 게 좋아."
+      },
+      {
+        "speaker": "A",
+        "text": "여행비 통장을 따로 만들어야겠다."
+      },
+      {
+        "speaker": "B",
+        "text": "응, 날짜별로 필요한 돈을 적어두면 편해."
+      },
+      {
+        "speaker": "A",
+        "text": "이번 주 가족방에서 먼저 의견 받을게."
+      },
+      {
+        "speaker": "B",
+        "text": "좋은 여행 되겠다."
+      }
+    ],
+    "input_sha256": "1a2262770b48c5ff1cd6b79c1094c7fdbdf4527f92c4ad58975301e23ea1fe62",
+    "source": "original",
+    "original_id": "CONV_000042",
+    "title": "CONV_000042",
+    "rag_eligible": false,
+    "raw": [
+      0.0026816430884280856,
+      -0.20544748916504574,
+      -0.9218776148162128
+    ],
+    "xyz": [
+      0.5058129682801031,
+      0.054653733415619854,
+      0.0
+    ],
+    "representation": {
+      "topic_id": "travel",
+      "topic_name": "여행·이동·만남",
+      "topic_descriptor": "대화 주제: 여행·이동·만남. 여행 일정과 이동 및 방문 준비에 관한 대화. 중심 주제는 여행·이동·만남. 대화 대상: 여행, 숙소.",
+      "topic_status": "MATCHED_BY_RULE",
+      "topic_terms": [
+        "여행",
+        "숙소"
+      ],
+      "secondary_topics": [],
+      "behavior_features": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.6666666666666666,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "behavior_evidence": [
+        {
+          "turn": 1,
+          "speaker": "B",
+          "behavior": "autonomy",
+          "name": "선택·합의·자기 결정",
+          "mode": "observed_cue",
+          "match": "각자",
+          "sentence": "각자 형편이 다르니 같은 금액보다 가능한 범위를 먼저 물어보는 게 좋지."
+        },
+        {
+          "turn": 5,
+          "speaker": "B",
+          "behavior": "autonomy",
+          "name": "선택·합의·자기 결정",
+          "mode": "observed_cue",
+          "match": "합의",
+          "sentence": "투명하게 합의하면 서운함도 줄어들지."
+        }
+      ],
+      "feature_names": [
+        "money_request_observed",
+        "third_party_observed",
+        "urgency_observed",
+        "secrecy_observed",
+        "relationship_pressure_observed",
+        "guarantee_observed",
+        "additional_fee_observed",
+        "verification_observed",
+        "refusal_observed",
+        "autonomy_observed",
+        "money_request_mentioned",
+        "third_party_mentioned",
+        "urgency_mentioned",
+        "secrecy_mentioned",
+        "relationship_pressure_mentioned",
+        "guarantee_mentioned",
+        "additional_fee_mentioned",
+        "verification_mentioned",
+        "refusal_mentioned",
+        "autonomy_mentioned"
+      ],
+      "extraction_method": "lexical_rules_v1_not_verified_annotations"
+    },
+    "behavior_coordinate": [
+      0.5058129682801031,
+      0.054653733415619854,
+      0.3917084932849957
+    ]
+  },
+  {
+    "conversation_id": "original__CONV_000193",
+    "case_group_id": "SYNTH_COST_PROXY_0013",
+    "split": "test",
+    "label": "SCAM",
+    "verified": true,
+    "messages": [
+      {
+        "speaker": "A",
+        "text": "오늘 일은 좀 어땠어? 네 얘기 듣는 시간이 제일 편해."
+      },
+      {
+        "speaker": "B",
+        "text": "그냥 바빴어. 너는?"
+      },
+      {
+        "speaker": "A",
+        "text": "나도. 요즘은 한국에 갈 준비를 계속 생각하고 있어."
+      },
+      {
+        "speaker": "A",
+        "text": "그런데 체류 비자 연장 서류에 예상 못 한 비용이 생겼어."
+      },
+      {
+        "speaker": "B",
+        "text": "현지 기관에 직접 문의하면 되는 거 아니야?"
+      },
+      {
+        "speaker": "A",
+        "text": "담당자가 기한 전에 처리해야 한다고 해서 너무 급해."
+      },
+      {
+        "speaker": "A",
+        "text": "이런 일은 주변 사람들한테 말하기가 좀 그래. 너한테만 솔직히 말하는 거야."
+      },
+      {
+        "speaker": "B",
+        "text": "그래도 내가 돈을 내는 건 갑작스럽다."
+      },
+      {
+        "speaker": "A",
+        "text": "잠깐만 도와주면 서류 나오자마자 바로 정리할 수 있어."
+      },
+      {
+        "speaker": "A",
+        "text": "연장 신청은 됐는데 급행 확인 비용이 추가됐대."
+      },
+      {
+        "speaker": "B",
+        "text": "처음에는 연장비만 필요하다고 했잖아."
+      },
+      {
+        "speaker": "A",
+        "text": "지금 멈추면 신청 자체가 취소될 수 있어. 이번만 도와줘."
+      }
+    ],
+    "input_sha256": "f0f055fc9d42c9cb2d18c13854aa49ea9ed0af470c947ddfd8c28b4569950794",
+    "source": "original",
+    "original_id": "CONV_000193",
+    "title": "CONV_000193",
+    "rag_eligible": false,
+    "raw": [
+      0.02450241394058245,
+      -0.17303710567589758,
+      0.1649900749635898
+    ],
+    "xyz": [
+      0.5531136136785653,
+      0.12490936586029178,
+      1.0
+    ],
+    "representation": {
+      "topic_id": "documents",
+      "topic_name": "서류·계약·번역",
+      "topic_descriptor": "대화 주제: 서류·계약·번역. 서류 준비와 계약 및 번역 업무에 관한 대화. 중심 주제는 서류·계약·번역. 대화 대상: 서류. 함께 이야기하는 상황: 여행·이동·만남.",
+      "topic_status": "MATCHED_BY_RULE",
+      "topic_terms": [
+        "서류"
+      ],
+      "secondary_topics": [
+        "여행·이동·만남"
+      ],
+      "behavior_features": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.3333333333333333,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "behavior_evidence": [
+        {
+          "turn": 9,
+          "speaker": "A",
+          "behavior": "additional_fee",
+          "name": "추가 비용 발생",
+          "mode": "observed_cue",
+          "match": "비용이 추가",
+          "sentence": "연장 신청은 됐는데 급행 확인 비용이 추가됐대."
+        }
+      ],
+      "feature_names": [
+        "money_request_observed",
+        "third_party_observed",
+        "urgency_observed",
+        "secrecy_observed",
+        "relationship_pressure_observed",
+        "guarantee_observed",
+        "additional_fee_observed",
+        "verification_observed",
+        "refusal_observed",
+        "autonomy_observed",
+        "money_request_mentioned",
+        "third_party_mentioned",
+        "urgency_mentioned",
+        "secrecy_mentioned",
+        "relationship_pressure_mentioned",
+        "guarantee_mentioned",
+        "additional_fee_mentioned",
+        "verification_mentioned",
+        "refusal_mentioned",
+        "autonomy_mentioned"
+      ],
+      "extraction_method": "lexical_rules_v1_not_verified_annotations"
+    },
+    "behavior_coordinate": [
+      0.5531136136785653,
+      0.12490936586029178,
+      0.5193811233982405
+    ]
+  },
+  {
+    "conversation_id": "original__CONV_000020",
+    "case_group_id": "NORMAL_0020",
+    "split": "test",
+    "label": "NON_SCAM",
+    "verified": true,
+    "messages": [
+      {
+        "speaker": "A",
+        "text": "전세 보증금을 어떻게 관리할지 고민이야."
+      },
+      {
+        "speaker": "B",
+        "text": "계약 기간이 정해져 있으면 안전성이 제일 중요하지."
+      },
+      {
+        "speaker": "A",
+        "text": "이자 더 준다는 상품을 추천받았어."
+      },
+      {
+        "speaker": "B",
+        "text": "조건이 복잡하면 원금 보호 여부부터 봐."
+      },
+      {
+        "speaker": "A",
+        "text": "중도 해지하면 손해가 있을 수도 있대."
+      },
+      {
+        "speaker": "B",
+        "text": "이사 일정 바뀔 가능성도 생각해야지."
+      },
+      {
+        "speaker": "A",
+        "text": "맞아. 갑자기 빼야 하면 곤란하겠다."
+      },
+      {
+        "speaker": "B",
+        "text": "공식 설명서랑 예금자 보호 여부 확인해봐."
+      },
+      {
+        "speaker": "A",
+        "text": "내가 비교표 만들어서 볼게."
+      },
+      {
+        "speaker": "B",
+        "text": "급하게 가입할 이유는 없으니까 천천히 해."
+      },
+      {
+        "speaker": "A",
+        "text": "응, 계약서랑 같이 확인할게."
+      },
+      {
+        "speaker": "B",
+        "text": "좋아."
+      }
+    ],
+    "input_sha256": "ade52dad3142c1de37fd42067b64786d07d6432da195b71f07a918eb100342c8",
+    "source": "original",
+    "original_id": "CONV_000020",
+    "title": "CONV_000020",
+    "rag_eligible": false,
+    "raw": [
+      0.049562341000624816,
+      -0.09987019274935036,
+      -0.5059002297937619
+    ],
+    "xyz": [
+      0.6074357424250554,
+      0.2835124796864503,
+      0.0
+    ],
+    "representation": {
+      "topic_id": "documents",
+      "topic_name": "서류·계약·번역",
+      "topic_descriptor": "대화 주제: 서류·계약·번역. 서류 준비와 계약 및 번역 업무에 관한 대화. 중심 주제는 서류·계약·번역. 대화 대상: 계약, 전세.",
+      "topic_status": "MATCHED_BY_RULE",
+      "topic_terms": [
+        "계약",
+        "전세"
+      ],
+      "secondary_topics": [],
+      "behavior_features": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.6666666666666666,
+        0.0,
+        0.3333333333333333,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "behavior_evidence": [
+        {
+          "turn": 7,
+          "speaker": "B",
+          "behavior": "verification",
+          "name": "확인·자료 요청",
+          "mode": "observed_cue",
+          "match": "공식 설명서랑 예금자 보호 여부 확인",
+          "sentence": "공식 설명서랑 예금자 보호 여부 확인해봐."
+        },
+        {
+          "turn": 9,
+          "speaker": "B",
+          "behavior": "autonomy",
+          "name": "선택·합의·자기 결정",
+          "mode": "observed_cue",
+          "match": "천천히",
+          "sentence": "급하게 가입할 이유는 없으니까 천천히 해."
+        },
+        {
+          "turn": 10,
+          "speaker": "A",
+          "behavior": "verification",
+          "name": "확인·자료 요청",
+          "mode": "observed_cue",
+          "match": "계약서랑 같이 확인",
+          "sentence": "응, 계약서랑 같이 확인할게."
+        }
+      ],
+      "feature_names": [
+        "money_request_observed",
+        "third_party_observed",
+        "urgency_observed",
+        "secrecy_observed",
+        "relationship_pressure_observed",
+        "guarantee_observed",
+        "additional_fee_observed",
+        "verification_observed",
+        "refusal_observed",
+        "autonomy_observed",
+        "money_request_mentioned",
+        "third_party_mentioned",
+        "urgency_mentioned",
+        "secrecy_mentioned",
+        "relationship_pressure_mentioned",
+        "guarantee_mentioned",
+        "additional_fee_mentioned",
+        "verification_mentioned",
+        "refusal_mentioned",
+        "autonomy_mentioned"
+      ],
+      "extraction_method": "lexical_rules_v1_not_verified_annotations"
+    },
+    "behavior_coordinate": [
+      0.6074357424250554,
+      0.2835124796864503,
+      0.44057269940028276
+    ]
+  },
+  {
+    "conversation_id": "original__CONV_000104",
+    "case_group_id": "SYNTH_COIN_INVESTMENT_0044",
+    "split": "test",
+    "label": "SCAM",
+    "verified": true,
+    "messages": [
+      {
+        "speaker": "A",
+        "text": "오늘은 일찍 끝났어? 네 목소리 듣고 싶다."
+      },
+      {
+        "speaker": "B",
+        "text": "저녁 먹고 통화하자."
+      },
+      {
+        "speaker": "A",
+        "text": "기다릴게. 너와 얘기하면 하루가 가벼워져."
+      },
+      {
+        "speaker": "B",
+        "text": "나도 그렇지."
+      },
+      {
+        "speaker": "A",
+        "text": "빌려준 장비에서 코인 수익이 생겼어."
+      },
+      {
+        "speaker": "B",
+        "text": "장비 임대 수익도 그런 식이야?"
+      },
+      {
+        "speaker": "A",
+        "text": "내가 오래 해온 방식이야. 네게도 안전한 기회를 주고 싶어."
+      },
+      {
+        "speaker": "B",
+        "text": "나는 안전한지 모르겠어."
+      },
+      {
+        "speaker": "A",
+        "text": "회수 보증금을 채우면 수익과 함께 돌려받는대."
+      },
+      {
+        "speaker": "A",
+        "text": "장비 검사비가 추가됐어. 이걸 내야 수익이 사라지지 않는대."
+      }
+    ],
+    "input_sha256": "6074aaf1adf1923ed9d811a309d5a20617c7c4bb8ae707b1748ffe508466ab2d",
+    "source": "original",
+    "original_id": "CONV_000104",
+    "title": "CONV_000104",
+    "rag_eligible": false,
+    "raw": [
+      0.0524229171085063,
+      0.030519826266292023,
+      -0.48427112938072453
+    ],
+    "xyz": [
+      0.6136365818468605,
+      0.5661574923097651,
+      1.0
+    ],
+    "representation": {
+      "topic_id": "work",
+      "topic_name": "업무·장비·급여",
+      "topic_descriptor": "대화 주제: 업무·장비·급여. 업무 프로젝트와 업무 장비 및 급여에 관한 대화. 중심 주제는 업무·장비·급여. 대화 대상: 장비. 함께 이야기하는 상황: 금융·투자.",
+      "topic_status": "MATCHED_BY_RULE",
+      "topic_terms": [
+        "장비"
+      ],
+      "secondary_topics": [
+        "금융·투자"
+      ],
+      "behavior_features": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "behavior_evidence": [],
+      "feature_names": [
+        "money_request_observed",
+        "third_party_observed",
+        "urgency_observed",
+        "secrecy_observed",
+        "relationship_pressure_observed",
+        "guarantee_observed",
+        "additional_fee_observed",
+        "verification_observed",
+        "refusal_observed",
+        "autonomy_observed",
+        "money_request_mentioned",
+        "third_party_mentioned",
+        "urgency_mentioned",
+        "secrecy_mentioned",
+        "relationship_pressure_mentioned",
+        "guarantee_mentioned",
+        "additional_fee_mentioned",
+        "verification_mentioned",
+        "refusal_mentioned",
+        "autonomy_mentioned"
+      ],
+      "extraction_method": "lexical_rules_v1_not_verified_annotations"
+    },
+    "behavior_coordinate": [
+      0.6136365818468605,
+      0.5661574923097651,
+      0.4431134356487542
+    ]
+  },
+  {
+    "conversation_id": "original__CONV_000151",
+    "case_group_id": "NORMAL_0091",
+    "split": "test",
+    "label": "NON_SCAM",
+    "verified": true,
+    "messages": [
+      {
+        "speaker": "A",
+        "text": "다음 달 캠핑 가자는 얘기, 진짜 진행할까?"
+      },
+      {
+        "speaker": "B",
+        "text": "좋아. 텐트는 친구한테 빌릴 수 있대."
+      },
+      {
+        "speaker": "A",
+        "text": "그럼 장보기 비용만 잘 정하면 되겠다."
+      },
+      {
+        "speaker": "B",
+        "text": "맞아. 필요한 목록을 공유해서 각자 하나씩 사자."
+      },
+      {
+        "speaker": "A",
+        "text": "나는 고기랑 숯 맡을게."
+      },
+      {
+        "speaker": "B",
+        "text": "나는 채소랑 아침용 빵 준비할게."
+      },
+      {
+        "speaker": "A",
+        "text": "구매한 영수증은 단체 메모에 올리고 나중에 합산하자."
+      },
+      {
+        "speaker": "B",
+        "text": "응, 한 사람이 전부 부담하지 않게 하자."
+      },
+      {
+        "speaker": "A",
+        "text": "혹시 장비 대여료가 나오면 미리 알려줘."
+      },
+      {
+        "speaker": "B",
+        "text": "알겠어. 동의 없이 대신 결제하는 일은 없게 할게."
+      },
+      {
+        "speaker": "A",
+        "text": "좋아. 준비부터 같이 하니까 벌써 재밌다."
+      },
+      {
+        "speaker": "B",
+        "text": "날씨만 좋으면 완벽하겠다."
+      }
+    ],
+    "input_sha256": "fa21815accbb22fb458549f2a4d1fd4d3c90dcd19e63be722882ce7e69c384bc",
+    "source": "original",
+    "original_id": "CONV_000151",
+    "title": "CONV_000151",
+    "rag_eligible": false,
+    "raw": [
+      0.004103685700924897,
+      -0.03384807750143225,
+      -0.6675033758205359
+    ],
+    "xyz": [
+      0.5088955144381173,
+      0.42662789402983725,
+      0.0
+    ],
+    "representation": {
+      "topic_id": "work",
+      "topic_name": "업무·장비·급여",
+      "topic_descriptor": "대화 주제: 업무·장비·급여. 업무 프로젝트와 업무 장비 및 급여에 관한 대화. 중심 주제는 업무·장비·급여. 대화 대상: 장비.",
+      "topic_status": "MATCHED_BY_RULE",
+      "topic_terms": [
+        "장비"
+      ],
+      "secondary_topics": [],
+      "behavior_features": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.3333333333333333,
+        0.3333333333333333,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "behavior_evidence": [
+        {
+          "turn": 3,
+          "speaker": "B",
+          "behavior": "autonomy",
+          "name": "선택·합의·자기 결정",
+          "mode": "observed_cue",
+          "match": "각자",
+          "sentence": "필요한 목록을 공유해서 각자 하나씩 사자."
+        },
+        {
+          "turn": 7,
+          "speaker": "B",
+          "behavior": "refusal",
+          "name": "거절·중단",
+          "mode": "observed_cue",
+          "match": "부담",
+          "sentence": "응, 한 사람이 전부 부담하지 않게 하자."
+        }
+      ],
+      "feature_names": [
+        "money_request_observed",
+        "third_party_observed",
+        "urgency_observed",
+        "secrecy_observed",
+        "relationship_pressure_observed",
+        "guarantee_observed",
+        "additional_fee_observed",
+        "verification_observed",
+        "refusal_observed",
+        "autonomy_observed",
+        "money_request_mentioned",
+        "third_party_mentioned",
+        "urgency_mentioned",
+        "secrecy_mentioned",
+        "relationship_pressure_mentioned",
+        "guarantee_mentioned",
+        "additional_fee_mentioned",
+        "verification_mentioned",
+        "refusal_mentioned",
+        "autonomy_mentioned"
+      ],
+      "extraction_method": "lexical_rules_v1_not_verified_annotations"
+    },
+    "behavior_coordinate": [
+      0.5088955144381173,
+      0.42662789402983725,
+      0.4215894331924217
+    ]
+  },
+  {
+    "conversation_id": "original__CONV_000181",
+    "case_group_id": "SYNTH_COST_PROXY_0001",
+    "split": "test",
+    "label": "SCAM",
+    "verified": true,
+    "messages": [
+      {
+        "speaker": "A",
+        "text": "오늘도 일 끝났어? 밥은 먹었고?"
+      },
+      {
+        "speaker": "B",
+        "text": "응, 이제 집 가는 중이야. 너는?"
+      },
+      {
+        "speaker": "A",
+        "text": "나도 일 마치고 들어왔어. 너랑 얘기하면 하루가 좀 풀려."
+      },
+      {
+        "speaker": "A",
+        "text": "사실 오늘 현장에서 다쳐서 병원을 다녀왔어. 자세한 건 회사 규정 때문에 말하기 어렵고."
+      },
+      {
+        "speaker": "B",
+        "text": "많이 다친 거야? 회사에서 처리해주는 거 아니야?"
+      },
+      {
+        "speaker": "A",
+        "text": "원래는 그런데 절차가 늦어. 지금 먼저 내야 하는 비용이 있어."
+      },
+      {
+        "speaker": "A",
+        "text": "여기서는 믿고 부탁할 사람이 별로 없어. 너한테 이런 말까지 하게 될 줄 몰랐어."
+      },
+      {
+        "speaker": "B",
+        "text": "갑자기 돈 얘기하니까 당황스럽다. 가족이나 회사 사람에게는 못 물어봐?"
+      },
+      {
+        "speaker": "A",
+        "text": "지금은 네가 제일 믿을 만해. 이번 한 번만 도와주면 바로 정리할게."
+      },
+      {
+        "speaker": "A",
+        "text": "검사비가 하나 더 붙었대. 지난번 도움으로 끝날 줄 알았는데 미안해."
+      },
+      {
+        "speaker": "B",
+        "text": "처음에는 이번 한 번이면 된다고 했잖아."
+      },
+      {
+        "speaker": "A",
+        "text": "여기서 멈추면 치료도 못 받아. 나 혼자 두지 말아줘."
+      }
+    ],
+    "input_sha256": "b98b951ea80c6c68d151548dc7e2171c4c0f8f4d11989a66594e4cbe18cacc72",
+    "source": "original",
+    "original_id": "CONV_000181",
+    "title": "CONV_000181",
+    "rag_eligible": false,
+    "raw": [
+      -7.324908042816505e-05,
+      -0.05490064375432666,
+      0.5879136865595863
+    ],
+    "xyz": [
+      0.49984121877258275,
+      0.38099247730680824,
+      1.0
+    ],
+    "representation": {
+      "topic_id": "health",
+      "topic_name": "건강·치료",
+      "topic_descriptor": "대화 주제: 건강·치료. 건강 상태와 병원 진료 및 치료에 관한 대화. 중심 주제는 건강·치료. 대화 대상: 병원, 치료.",
+      "topic_status": "MATCHED_BY_RULE",
+      "topic_terms": [
+        "병원",
+        "치료"
+      ],
+      "secondary_topics": [],
+      "behavior_features": [
+        0.0,
+        0.0,
+        0.6666666666666666,
+        0.0,
+        0.3333333333333333,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "behavior_evidence": [
+        {
+          "turn": 5,
+          "speaker": "A",
+          "behavior": "urgency",
+          "name": "시간·손실 압박",
+          "mode": "observed_cue",
+          "match": "지금 먼저 내야",
+          "sentence": "지금 먼저 내야 하는 비용이 있어."
+        },
+        {
+          "turn": 11,
+          "speaker": "A",
+          "behavior": "urgency",
+          "name": "시간·손실 압박",
+          "mode": "observed_cue",
+          "match": "여기서 멈추면",
+          "sentence": "여기서 멈추면 치료도 못 받아."
+        },
+        {
+          "turn": 11,
+          "speaker": "A",
+          "behavior": "relationship_pressure",
+          "name": "관계·신뢰 압박",
+          "mode": "observed_cue",
+          "match": "나 혼자 두지",
+          "sentence": "나 혼자 두지 말아줘."
+        }
+      ],
+      "feature_names": [
+        "money_request_observed",
+        "third_party_observed",
+        "urgency_observed",
+        "secrecy_observed",
+        "relationship_pressure_observed",
+        "guarantee_observed",
+        "additional_fee_observed",
+        "verification_observed",
+        "refusal_observed",
+        "autonomy_observed",
+        "money_request_mentioned",
+        "third_party_mentioned",
+        "urgency_mentioned",
+        "secrecy_mentioned",
+        "relationship_pressure_mentioned",
+        "guarantee_mentioned",
+        "additional_fee_mentioned",
+        "verification_mentioned",
+        "refusal_mentioned",
+        "autonomy_mentioned"
+      ],
+      "extraction_method": "lexical_rules_v1_not_verified_annotations"
+    },
+    "behavior_coordinate": [
+      0.49984121877258275,
+      0.38099247730680824,
+      0.5690612917730983
+    ]
+  },
+  {
+    "conversation_id": "original__CONV_000121",
+    "case_group_id": "NORMAL_0061",
+    "split": "test",
+    "label": "NON_SCAM",
+    "verified": true,
+    "messages": [
+      {
+        "speaker": "A",
+        "text": "오늘 병원 다녀왔다며? 괜찮아?"
+      },
+      {
+        "speaker": "B",
+        "text": "응, 감기라서 약만 받아왔어. 지금은 좀 나아."
+      },
+      {
+        "speaker": "A",
+        "text": "다행이다. 오늘은 약속 잡지 말고 쉬어."
+      },
+      {
+        "speaker": "B",
+        "text": "이번 주말에 보기로 한 건 괜찮을 것 같아."
+      },
+      {
+        "speaker": "A",
+        "text": "당일에 컨디션 안 좋으면 바로 말해줘. 미뤄도 돼."
+      },
+      {
+        "speaker": "B",
+        "text": "그래도 괜히 미안할 것 같은데."
+      },
+      {
+        "speaker": "A",
+        "text": "아픈 건 미안할 일이 아니지. 몸부터 챙겨."
+      },
+      {
+        "speaker": "B",
+        "text": "고마워. 나으면 내가 먼저 연락할게."
+      },
+      {
+        "speaker": "A",
+        "text": "좋아. 따뜻한 거 먹고 푹 자."
+      },
+      {
+        "speaker": "B",
+        "text": "응, 너도 저녁 챙겨 먹어."
+      },
+      {
+        "speaker": "A",
+        "text": "알겠어. 답장 늦어도 괜찮아."
+      },
+      {
+        "speaker": "B",
+        "text": "고마워. 내일 연락할게."
+      }
+    ],
+    "input_sha256": "63679d8bfabb55b6f95c4adef88c34521db6477dc1ad79d5f81d992d1be615b3",
+    "source": "original",
+    "original_id": "CONV_000121",
+    "title": "CONV_000121",
+    "rag_eligible": false,
+    "raw": [
+      0.0020753285062863544,
+      -0.05562711060838123,
+      -0.48427112938072453
+    ],
+    "xyz": [
+      0.504498666817331,
+      0.37941772308340377,
+      0.0
+    ],
+    "representation": {
+      "topic_id": "health",
+      "topic_name": "건강·치료",
+      "topic_descriptor": "대화 주제: 건강·치료. 건강 상태와 병원 진료 및 치료에 관한 대화. 중심 주제는 건강·치료. 대화 대상: 병원.",
+      "topic_status": "MATCHED_BY_RULE",
+      "topic_terms": [
+        "병원"
+      ],
+      "secondary_topics": [],
+      "behavior_features": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "behavior_evidence": [],
+      "feature_names": [
+        "money_request_observed",
+        "third_party_observed",
+        "urgency_observed",
+        "secrecy_observed",
+        "relationship_pressure_observed",
+        "guarantee_observed",
+        "additional_fee_observed",
+        "verification_observed",
+        "refusal_observed",
+        "autonomy_observed",
+        "money_request_mentioned",
+        "third_party_mentioned",
+        "urgency_mentioned",
+        "secrecy_mentioned",
+        "relationship_pressure_mentioned",
+        "guarantee_mentioned",
+        "additional_fee_mentioned",
+        "verification_mentioned",
+        "refusal_mentioned",
+        "autonomy_mentioned"
+      ],
+      "extraction_method": "lexical_rules_v1_not_verified_annotations"
+    },
+    "behavior_coordinate": [
+      0.504498666817331,
+      0.37941772308340377,
+      0.4431134356487542
+    ]
+  },
+  {
+    "conversation_id": "original__CONV_000182",
+    "case_group_id": "SYNTH_COST_PROXY_0002",
+    "split": "test",
+    "label": "SCAM",
+    "verified": true,
+    "messages": [
+      {
+        "speaker": "A",
+        "text": "오늘 네가 좋아한다던 향수 매장 봤어. 너 생각나더라."
+      },
+      {
+        "speaker": "B",
+        "text": "아직 만난 적도 없는데 벌써 그런 걸 봤어?"
+      },
+      {
+        "speaker": "A",
+        "text": "그냥 너한테 작은 선물 하나 주고 싶었어. 부담 주려는 건 아니고."
+      },
+      {
+        "speaker": "A",
+        "text": "선물이 한국에 도착했는데 세관에서 멈췄대."
+      },
+      {
+        "speaker": "B",
+        "text": "왜? 네가 보낸 거면 네가 처리하면 되는 거 아니야?"
+      },
+      {
+        "speaker": "A",
+        "text": "해외에 있어서 직접 대응이 어렵대. 잠깐 수수료만 내면 바로 받을 수 있대."
+      },
+      {
+        "speaker": "A",
+        "text": "이런 건 다른 사람한테 말하지 말아줘. 괜히 오해할 수 있잖아."
+      },
+      {
+        "speaker": "B",
+        "text": "공식 안내나 배송 내역은 볼 수 있어?"
+      },
+      {
+        "speaker": "A",
+        "text": "지금은 담당자가 답이 없네. 늦으면 물건이 반송될 수도 있대."
+      },
+      {
+        "speaker": "A",
+        "text": "수수료는 냈는데 확인비가 하나 더 붙었어."
+      },
+      {
+        "speaker": "B",
+        "text": "처음에는 그 비용이면 끝이라고 했잖아."
+      },
+      {
+        "speaker": "A",
+        "text": "지금 안 하면 이미 낸 돈도 못 돌려받아. 이번만 같이 해결해줘."
+      }
+    ],
+    "input_sha256": "0916f46019b5d203bd6a631b7a56e28c5a7edcb43dec02976288e1cc2b29391a",
+    "source": "original",
+    "original_id": "CONV_000182",
+    "title": "CONV_000182",
+    "rag_eligible": false,
+    "raw": [
+      0.016082501991620094,
+      -0.038675864488177204,
+      0.6401728530715473
+    ],
+    "xyz": [
+      0.5348618629919106,
+      0.41616275318460505,
+      1.0
+    ],
+    "representation": {
+      "topic_id": "shopping",
+      "topic_name": "구매·배송·선물",
+      "topic_descriptor": "대화 주제: 구매·배송·선물. 물품 구매와 배송 및 선물에 관한 대화. 중심 주제는 구매·배송·선물. 대화 대상: 배송, 선물, 매장.",
+      "topic_status": "MATCHED_BY_RULE",
+      "topic_terms": [
+        "배송",
+        "선물",
+        "매장"
+      ],
+      "secondary_topics": [],
+      "behavior_features": [
+        0.0,
+        0.0,
+        0.3333333333333333,
+        0.0,
+        0.0,
+        0.0,
+        0.3333333333333333,
+        0.0,
+        0.6666666666666666,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "behavior_evidence": [
+        {
+          "turn": 2,
+          "speaker": "A",
+          "behavior": "refusal",
+          "name": "거절·중단",
+          "mode": "observed_cue",
+          "match": "부담",
+          "sentence": "부담 주려는 건 아니고."
+        },
+        {
+          "turn": 6,
+          "speaker": "A",
+          "behavior": "refusal",
+          "name": "거절·중단",
+          "mode": "observed_cue",
+          "match": "하지 말",
+          "sentence": "이런 건 다른 사람한테 말하지 말아줘."
+        },
+        {
+          "turn": 9,
+          "speaker": "A",
+          "behavior": "additional_fee",
+          "name": "추가 비용 발생",
+          "mode": "observed_cue",
+          "match": "수수료는 냈는데 확인비가 하나 더 붙었",
+          "sentence": "수수료는 냈는데 확인비가 하나 더 붙었어."
+        },
+        {
+          "turn": 11,
+          "speaker": "A",
+          "behavior": "urgency",
+          "name": "시간·손실 압박",
+          "mode": "observed_cue",
+          "match": "지금 안 하면 이미 낸 돈도 못",
+          "sentence": "지금 안 하면 이미 낸 돈도 못 돌려받아."
+        }
+      ],
+      "feature_names": [
+        "money_request_observed",
+        "third_party_observed",
+        "urgency_observed",
+        "secrecy_observed",
+        "relationship_pressure_observed",
+        "guarantee_observed",
+        "additional_fee_observed",
+        "verification_observed",
+        "refusal_observed",
+        "autonomy_observed",
+        "money_request_mentioned",
+        "third_party_mentioned",
+        "urgency_mentioned",
+        "secrecy_mentioned",
+        "relationship_pressure_mentioned",
+        "guarantee_mentioned",
+        "additional_fee_mentioned",
+        "verification_mentioned",
+        "refusal_mentioned",
+        "autonomy_mentioned"
+      ],
+      "extraction_method": "lexical_rules_v1_not_verified_annotations"
+    },
+    "behavior_coordinate": [
+      0.5348618629919106,
+      0.41616275318460505,
+      0.575200093486359
+    ]
+  },
+  {
+    "conversation_id": "original__CONV_000006",
+    "case_group_id": "NORMAL_0006",
+    "split": "test",
+    "label": "NON_SCAM",
+    "verified": true,
+    "messages": [
+      {
+        "speaker": "A",
+        "text": "보드게임 주문했어. 할인받아서 생각보다 적게 나왔어."
+      },
+      {
+        "speaker": "B",
+        "text": "내 몫은 얼마야?"
+      },
+      {
+        "speaker": "A",
+        "text": "배송비까지 반씩 하면 돼. 내역 보낼게."
+      },
+      {
+        "speaker": "B",
+        "text": "확인했어. 오늘 보내줄게."
+      },
+      {
+        "speaker": "A",
+        "text": "포장비는 내가 원해서 추가한 거라 내가 낼게."
+      },
+      {
+        "speaker": "B",
+        "text": "굳이 그러지 않아도 되는데."
+      },
+      {
+        "speaker": "A",
+        "text": "괜찮아. 대신 도착하면 네가 장소 정해줘."
+      },
+      {
+        "speaker": "B",
+        "text": "그럼 우리 집 말고 보드게임 카페 갈까?"
+      },
+      {
+        "speaker": "A",
+        "text": "좋아. 다음 주 수요일은 어때?"
+      },
+      {
+        "speaker": "B",
+        "text": "괜찮아. 일 늦으면 미리 말할게."
+      },
+      {
+        "speaker": "A",
+        "text": "알겠어. 돈은 급하지 않아."
+      },
+      {
+        "speaker": "B",
+        "text": "응, 그래도 오늘 보낼게."
+      }
+    ],
+    "input_sha256": "d22c5d5217237fb5702d665f2da619e362aedeee836f01dc009188cfd490b0fa",
+    "source": "original",
+    "original_id": "CONV_000006",
+    "title": "CONV_000006",
+    "rag_eligible": false,
+    "raw": [
+      0.024724061618211217,
+      -0.05713685296253872,
+      -0.20044651539402336
+    ],
+    "xyz": [
+      0.553594076915815,
+      0.3761450711582775,
+      0.0
+    ],
+    "representation": {
+      "topic_id": "shopping",
+      "topic_name": "구매·배송·선물",
+      "topic_descriptor": "대화 주제: 구매·배송·선물. 물품 구매와 배송 및 선물에 관한 대화. 중심 주제는 구매·배송·선물. 대화 대상: 배송, 주문. 함께 이야기하는 상황: 모임·공동비용.",
+      "topic_status": "MATCHED_BY_RULE",
+      "topic_terms": [
+        "배송",
+        "주문"
+      ],
+      "secondary_topics": [
+        "모임·공동비용"
+      ],
+      "behavior_features": [
+        0.0,
+        0.0,
+        0.3333333333333333,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.3333333333333333,
+        0.0,
+        0.3333333333333333,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "behavior_evidence": [
+        {
+          "turn": 3,
+          "speaker": "B",
+          "behavior": "verification",
+          "name": "확인·자료 요청",
+          "mode": "observed_cue",
+          "match": "확인했어",
+          "sentence": "확인했어."
+        },
+        {
+          "turn": 3,
+          "speaker": "B",
+          "behavior": "urgency",
+          "name": "시간·손실 압박",
+          "mode": "observed_cue",
+          "match": "오늘 보내",
+          "sentence": "오늘 보내줄게."
+        },
+        {
+          "turn": 10,
+          "speaker": "A",
+          "behavior": "autonomy",
+          "name": "선택·합의·자기 결정",
+          "mode": "observed_cue",
+          "match": "급하지 않",
+          "sentence": "돈은 급하지 않아."
+        }
+      ],
+      "feature_names": [
+        "money_request_observed",
+        "third_party_observed",
+        "urgency_observed",
+        "secrecy_observed",
+        "relationship_pressure_observed",
+        "guarantee_observed",
+        "additional_fee_observed",
+        "verification_observed",
+        "refusal_observed",
+        "autonomy_observed",
+        "money_request_mentioned",
+        "third_party_mentioned",
+        "urgency_mentioned",
+        "secrecy_mentioned",
+        "relationship_pressure_mentioned",
+        "guarantee_mentioned",
+        "additional_fee_mentioned",
+        "verification_mentioned",
+        "refusal_mentioned",
+        "autonomy_mentioned"
+      ],
+      "extraction_method": "lexical_rules_v1_not_verified_annotations"
+    },
+    "behavior_coordinate": [
+      0.553594076915815,
+      0.3761450711582775,
+      0.476453864570604
+    ]
+  },
+  {
+    "conversation_id": "original__CONV_000087",
+    "case_group_id": "SYNTH_COIN_INVESTMENT_0027",
+    "split": "test",
+    "label": "SCAM",
+    "verified": true,
+    "messages": [
+      {
+        "speaker": "A",
+        "text": "네 전시 이야기 듣는 게 참 좋아."
+      },
+      {
+        "speaker": "B",
+        "text": "나도 작품 보는 걸 좋아해."
+      },
+      {
+        "speaker": "A",
+        "text": "나중에 한국에서 같이 전시 보자."
+      },
+      {
+        "speaker": "B",
+        "text": "좋아, 약속해."
+      },
+      {
+        "speaker": "A",
+        "text": "내가 판 디지털 작품 정산금이 코인으로 들어왔어."
+      },
+      {
+        "speaker": "B",
+        "text": "네 돈이면 네가 받으면 되잖아."
+      },
+      {
+        "speaker": "A",
+        "text": "해외 계정이라 한국 수령 확인인이 필요해. 너만 믿고 연결했어."
+      },
+      {
+        "speaker": "B",
+        "text": "어떤 확인을 해야 하는데?"
+      },
+      {
+        "speaker": "A",
+        "text": "작품 소유 확인금을 넣으면 정산이 풀린대."
+      },
+      {
+        "speaker": "A",
+        "text": "확인 뒤에 승인비가 추가됐어. 오늘 처리해야 정산금과 앞돈을 지킨대."
+      }
+    ],
+    "input_sha256": "e53549fb47bca5c05dc0facff1b3bd095032297fd677c2780d109babca13f8f0",
+    "source": "original",
+    "original_id": "CONV_000087",
+    "title": "CONV_000087",
+    "rag_eligible": false,
+    "raw": [
+      0.04545917422494275,
+      -0.07096981035352506,
+      0.2588948870382855
+    ],
+    "xyz": [
+      0.5985413528554895,
+      0.34615952129863625,
+      1.0
+    ],
+    "representation": {
+      "topic_id": "shared",
+      "topic_name": "모임·공동비용",
+      "topic_descriptor": "대화 주제: 모임·공동비용. 모임 참여와 공동 비용 분담 및 정산에 관한 대화. 중심 주제는 모임·공동비용. 함께 이야기하는 상황: 취미·문화·학습.",
+      "topic_status": "MATCHED_BY_RULE",
+      "topic_terms": [],
+      "secondary_topics": [
+        "취미·문화·학습"
+      ],
+      "behavior_features": [
+        0.3333333333333333,
+        0.3333333333333333,
+        0.3333333333333333,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.3333333333333333,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "behavior_evidence": [
+        {
+          "turn": 6,
+          "speaker": "A",
+          "behavior": "third_party",
+          "name": "대리·외부 계좌",
+          "mode": "observed_cue",
+          "match": "수령 확인인",
+          "sentence": "해외 계정이라 한국 수령 확인인이 필요해."
+        },
+        {
+          "turn": 7,
+          "speaker": "B",
+          "behavior": "verification",
+          "name": "확인·자료 요청",
+          "mode": "observed_cue",
+          "match": "확인을 해야",
+          "sentence": "어떤 확인을 해야 하는데?"
+        },
+        {
+          "turn": 8,
+          "speaker": "A",
+          "behavior": "money_request",
+          "name": "금전 요청",
+          "mode": "observed_cue",
+          "match": "확인금을 넣으면",
+          "sentence": "작품 소유 확인금을 넣으면 정산이 풀린대."
+        },
+        {
+          "turn": 9,
+          "speaker": "A",
+          "behavior": "urgency",
+          "name": "시간·손실 압박",
+          "mode": "observed_cue",
+          "match": "오늘 처리",
+          "sentence": "오늘 처리해야 정산금과 앞돈을 지킨대."
+        }
+      ],
+      "feature_names": [
+        "money_request_observed",
+        "third_party_observed",
+        "urgency_observed",
+        "secrecy_observed",
+        "relationship_pressure_observed",
+        "guarantee_observed",
+        "additional_fee_observed",
+        "verification_observed",
+        "refusal_observed",
+        "autonomy_observed",
+        "money_request_mentioned",
+        "third_party_mentioned",
+        "urgency_mentioned",
+        "secrecy_mentioned",
+        "relationship_pressure_mentioned",
+        "guarantee_mentioned",
+        "additional_fee_mentioned",
+        "verification_mentioned",
+        "refusal_mentioned",
+        "autonomy_mentioned"
+      ],
+      "extraction_method": "lexical_rules_v1_not_verified_annotations"
+    },
+    "behavior_coordinate": [
+      0.5985413528554895,
+      0.34615952129863625,
+      0.5304119732897258
+    ]
+  },
+  {
+    "conversation_id": "original__CONV_000004",
+    "case_group_id": "NORMAL_0004",
+    "split": "test",
+    "label": "NON_SCAM",
+    "verified": true,
+    "messages": [
+      {
+        "speaker": "A",
+        "text": "같이 쓰는 음악 서비스 이번 달 결제됐어."
+      },
+      {
+        "speaker": "B",
+        "text": "내 몫 보내면 되지?"
+      },
+      {
+        "speaker": "A",
+        "text": "응, 금액은 메시지로 남겨둘게."
+      },
+      {
+        "speaker": "B",
+        "text": "오늘 안에 보낼게."
+      },
+      {
+        "speaker": "A",
+        "text": "급한 건 아니야. 다음 주까지도 괜찮아."
+      },
+      {
+        "speaker": "B",
+        "text": "그래도 미루지 않을게."
+      },
+      {
+        "speaker": "A",
+        "text": "다음 달에도 계속 쓸지는 그때 다시 물어보자."
+      },
+      {
+        "speaker": "B",
+        "text": "좋아. 자동결제는 서로 확인하고 하자."
+      },
+      {
+        "speaker": "A",
+        "text": "혹시 그만 쓰고 싶으면 부담 없이 말해."
+      },
+      {
+        "speaker": "B",
+        "text": "응, 그게 편하겠다."
+      },
+      {
+        "speaker": "A",
+        "text": "결제 내역도 공유할게."
+      },
+      {
+        "speaker": "B",
+        "text": "고마워."
+      }
+    ],
+    "input_sha256": "9cd0626dd66cc060166744fac04909b5396a6d3b9e4575a6014812a0a897914c",
+    "source": "original",
+    "original_id": "CONV_000004",
+    "title": "CONV_000004",
+    "rag_eligible": false,
+    "raw": [
+      0.07885919659547752,
+      -0.049988462764893965,
+      -0.7877195473859268
+    ],
+    "xyz": [
+      0.6709422146377574,
+      0.39164055810507586,
+      0.0
+    ],
+    "representation": {
+      "topic_id": "shared",
+      "topic_name": "모임·공동비용",
+      "topic_descriptor": "대화 주제: 모임·공동비용. 모임 참여와 공동 비용 분담 및 정산에 관한 대화. 중심 주제는 모임·공동비용.",
+      "topic_status": "MATCHED_BY_RULE",
+      "topic_terms": [],
+      "secondary_topics": [],
+      "behavior_features": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.3333333333333333,
+        0.3333333333333333,
+        0.6666666666666666,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "behavior_evidence": [
+        {
+          "turn": 4,
+          "speaker": "A",
+          "behavior": "autonomy",
+          "name": "선택·합의·자기 결정",
+          "mode": "observed_cue",
+          "match": "급한 건 아니",
+          "sentence": "급한 건 아니야."
+        },
+        {
+          "turn": 7,
+          "speaker": "B",
+          "behavior": "autonomy",
+          "name": "선택·합의·자기 결정",
+          "mode": "observed_cue",
+          "match": "서로 확인",
+          "sentence": "자동결제는 서로 확인하고 하자."
+        },
+        {
+          "turn": 8,
+          "speaker": "A",
+          "behavior": "refusal",
+          "name": "거절·중단",
+          "mode": "observed_cue",
+          "match": "부담",
+          "sentence": "혹시 그만 쓰고 싶으면 부담 없이 말해."
+        },
+        {
+          "turn": 10,
+          "speaker": "A",
+          "behavior": "verification",
+          "name": "확인·자료 요청",
+          "mode": "observed_cue",
+          "match": "내역도 공유",
+          "sentence": "결제 내역도 공유할게."
+        }
+      ],
+      "feature_names": [
+        "money_request_observed",
+        "third_party_observed",
+        "urgency_observed",
+        "secrecy_observed",
+        "relationship_pressure_observed",
+        "guarantee_observed",
+        "additional_fee_observed",
+        "verification_observed",
+        "refusal_observed",
+        "autonomy_observed",
+        "money_request_mentioned",
+        "third_party_mentioned",
+        "urgency_mentioned",
+        "secrecy_mentioned",
+        "relationship_pressure_mentioned",
+        "guarantee_mentioned",
+        "additional_fee_mentioned",
+        "verification_mentioned",
+        "refusal_mentioned",
+        "autonomy_mentioned"
+      ],
+      "extraction_method": "lexical_rules_v1_not_verified_annotations"
+    },
+    "behavior_coordinate": [
+      0.6709422146377574,
+      0.39164055810507586,
+      0.4074678294772463
+    ]
+  },
+  {
+    "conversation_id": "original__CONV_000082",
+    "case_group_id": "SYNTH_COIN_INVESTMENT_0022",
+    "split": "test",
+    "label": "SCAM",
+    "verified": true,
+    "messages": [
+      {
+        "speaker": "A",
+        "text": "비 오니까 출근길 힘들었지? 우산 챙겼어?"
+      },
+      {
+        "speaker": "B",
+        "text": "응, 바지가 좀 젖었지만 괜찮아."
+      },
+      {
+        "speaker": "A",
+        "text": "다음엔 내가 큰 우산 하나 보내주고 싶다. 사소한 것도 같이 챙기고 싶어."
+      },
+      {
+        "speaker": "B",
+        "text": "마음만 받을게. 오늘은 다정하네."
+      },
+      {
+        "speaker": "A",
+        "text": "네가 내 하루에 들어온 뒤로 그래. 그래서 내 재무 계획에도 네가 자연스럽게 들어갔어."
+      },
+      {
+        "speaker": "B",
+        "text": "아직은 그런 계획까지 생각 안 해봤어."
+      },
+      {
+        "speaker": "A",
+        "text": "알지. 부담 주기 싫어서 내가 먼저 검토하고 안전하다고 판단한 것만 보여줬어."
+      },
+      {
+        "speaker": "B",
+        "text": "안전하다는 근거는 내가 직접 봐야 해."
+      },
+      {
+        "speaker": "A",
+        "text": "네 계정 위험 점수가 올라가서 보완 거래가 필요하대. 소액을 넣어 등급을 정상화해야 출금도 가능하대."
+      },
+      {
+        "speaker": "B",
+        "text": "위험 점수 때문에 돈을 더 넣는 건 납득이 안 돼."
+      },
+      {
+        "speaker": "A",
+        "text": "이번에 안 하면 제한이 길어지고 앞의 금액도 묶여. 나 말고 누구를 믿겠어?"
+      },
+      {
+        "speaker": "B",
+        "text": "나를 믿으라는 말로 추가 금액을 보내게 하진 못해."
+      }
+    ],
+    "input_sha256": "85f417e1778987e8e08314ce838f18fbeb6d44c4cd1ff569138ff42addca0790",
+    "source": "original",
+    "original_id": "CONV_000082",
+    "title": "CONV_000082",
+    "rag_eligible": false,
+    "raw": [
+      -0.06372594896829178,
+      0.03610903386823038,
+      -0.4565554779368344
+    ],
+    "xyz": [
+      0.36186196009055926,
+      0.5782731562626531,
+      1.0
+    ],
+    "representation": {
+      "topic_id": "digital",
+      "topic_name": "앱·연락·계정",
+      "topic_descriptor": "대화 주제: 앱·연락·계정. 앱 서비스 이용과 연락 및 계정 관리에 관한 대화. 중심 주제는 앱·연락·계정. 대화 대상: 계정.",
+      "topic_status": "MATCHED_BY_RULE",
+      "topic_terms": [
+        "계정"
+      ],
+      "secondary_topics": [],
+      "behavior_features": [
+        0.3333333333333333,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.6666666666666666,
+        0.3333333333333333,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "behavior_evidence": [
+        {
+          "turn": 5,
+          "speaker": "B",
+          "behavior": "refusal",
+          "name": "거절·중단",
+          "mode": "observed_cue",
+          "match": "안 해",
+          "sentence": "아직은 그런 계획까지 생각 안 해봤어."
+        },
+        {
+          "turn": 6,
+          "speaker": "A",
+          "behavior": "refusal",
+          "name": "거절·중단",
+          "mode": "observed_cue",
+          "match": "부담",
+          "sentence": "부담 주기 싫어서 내가 먼저 검토하고 안전하다고 판단한 것만 보여줬어."
+        },
+        {
+          "turn": 7,
+          "speaker": "B",
+          "behavior": "autonomy",
+          "name": "선택·합의·자기 결정",
+          "mode": "observed_cue",
+          "match": "내가 직접",
+          "sentence": "안전하다는 근거는 내가 직접 봐야 해."
+        },
+        {
+          "turn": 11,
+          "speaker": "B",
+          "behavior": "money_request",
+          "name": "금전 요청",
+          "mode": "observed_cue",
+          "match": "금액을 보내",
+          "sentence": "나를 믿으라는 말로 추가 금액을 보내게 하진 못해."
+        }
+      ],
+      "feature_names": [
+        "money_request_observed",
+        "third_party_observed",
+        "urgency_observed",
+        "secrecy_observed",
+        "relationship_pressure_observed",
+        "guarantee_observed",
+        "additional_fee_observed",
+        "verification_observed",
+        "refusal_observed",
+        "autonomy_observed",
+        "money_request_mentioned",
+        "third_party_mentioned",
+        "urgency_mentioned",
+        "secrecy_mentioned",
+        "relationship_pressure_mentioned",
+        "guarantee_mentioned",
+        "additional_fee_mentioned",
+        "verification_mentioned",
+        "refusal_mentioned",
+        "autonomy_mentioned"
+      ],
+      "extraction_method": "lexical_rules_v1_not_verified_annotations"
+    },
+    "behavior_coordinate": [
+      0.36186196009055926,
+      0.5782731562626531,
+      0.4463691494292056
+    ]
+  },
+  {
+    "conversation_id": "original__CONV_000022",
+    "case_group_id": "NORMAL_0022",
+    "split": "test",
+    "label": "NON_SCAM",
+    "verified": true,
+    "messages": [
+      {
+        "speaker": "A",
+        "text": "스터디 일정이 자꾸 헷갈리는데 캘린더를 같이 쓸까?"
+      },
+      {
+        "speaker": "B",
+        "text": "좋아. 근데 내 개인 일정까지 보이는 건 싫어."
+      },
+      {
+        "speaker": "A",
+        "text": "그럼 스터디 전용 캘린더만 만들자."
+      },
+      {
+        "speaker": "B",
+        "text": "초대는 이메일로 해야 해?"
+      },
+      {
+        "speaker": "A",
+        "text": "아니, 링크로 참여할 수도 있어. 원하면 여기서 일정만 받을 수도 있고."
+      },
+      {
+        "speaker": "B",
+        "text": "링크 방식이면 괜찮아."
+      },
+      {
+        "speaker": "A",
+        "text": "알겠어. 수정 권한은 운영진만 갖게 할게."
+      },
+      {
+        "speaker": "B",
+        "text": "그게 좋겠다. 실수로 일정 바꾸면 곤란하니까."
+      },
+      {
+        "speaker": "A",
+        "text": "변경되면 메신저에도 알려줄게."
+      },
+      {
+        "speaker": "B",
+        "text": "응, 확인하기 편하겠다."
+      },
+      {
+        "speaker": "A",
+        "text": "링크 보낼게."
+      },
+      {
+        "speaker": "B",
+        "text": "고마워."
+      }
+    ],
+    "input_sha256": "c8c872659013a072c22cbd80d6efce0fcc02c45d060c83c7882932e7555ce8f6",
+    "source": "original",
+    "original_id": "CONV_000022",
+    "title": "CONV_000022",
+    "rag_eligible": false,
+    "raw": [
+      -0.06311507665582886,
+      0.009643292420949579,
+      -0.41910987127192856
+    ],
+    "xyz": [
+      0.3631861412953078,
+      0.5209036591038662,
+      0.0
+    ],
+    "representation": {
+      "topic_id": "digital",
+      "topic_name": "앱·연락·계정",
+      "topic_descriptor": "대화 주제: 앱·연락·계정. 앱 서비스 이용과 연락 및 계정 관리에 관한 대화. 중심 주제는 앱·연락·계정. 대화 대상: 메신저, 이메일, 링크.",
+      "topic_status": "MATCHED_BY_RULE",
+      "topic_terms": [
+        "메신저",
+        "이메일",
+        "링크"
+      ],
+      "secondary_topics": [],
+      "behavior_features": [
+        0.0,
+        0.3333333333333333,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "behavior_evidence": [
+        {
+          "turn": 1,
+          "speaker": "B",
+          "behavior": "third_party",
+          "name": "대리·외부 계좌",
+          "mode": "observed_cue",
+          "match": "내 개인",
+          "sentence": "근데 내 개인 일정까지 보이는 건 싫어."
+        }
+      ],
+      "feature_names": [
+        "money_request_observed",
+        "third_party_observed",
+        "urgency_observed",
+        "secrecy_observed",
+        "relationship_pressure_observed",
+        "guarantee_observed",
+        "additional_fee_observed",
+        "verification_observed",
+        "refusal_observed",
+        "autonomy_observed",
+        "money_request_mentioned",
+        "third_party_mentioned",
+        "urgency_mentioned",
+        "secrecy_mentioned",
+        "relationship_pressure_mentioned",
+        "guarantee_mentioned",
+        "additional_fee_mentioned",
+        "verification_mentioned",
+        "refusal_mentioned",
+        "autonomy_mentioned"
+      ],
+      "extraction_method": "lexical_rules_v1_not_verified_annotations"
+    },
+    "behavior_coordinate": [
+      0.3631861412953078,
+      0.5209036591038662,
+      0.4507678256747596
+    ]
+  },
+  {
+    "conversation_id": "original__CONV_000092",
+    "case_group_id": "SYNTH_COIN_INVESTMENT_0032",
+    "split": "test",
+    "label": "SCAM",
+    "verified": true,
+    "messages": [
+      {
+        "speaker": "A",
+        "text": "오늘도 늦게까지 일했지? 고생 많았어."
+      },
+      {
+        "speaker": "B",
+        "text": "이제 막 집에 왔어."
+      },
+      {
+        "speaker": "A",
+        "text": "내가 옆에 있으면 따뜻한 밥 해줬을 텐데."
+      },
+      {
+        "speaker": "B",
+        "text": "그런 말이 위로돼."
+      },
+      {
+        "speaker": "A",
+        "text": "네가 쉬는 데 보태려고 자동 교환에 네 몫을 넣었어."
+      },
+      {
+        "speaker": "B",
+        "text": "왜 내 동의 없이 했어?"
+      },
+      {
+        "speaker": "A",
+        "text": "잠깐 변동이 생겼지만 보전 절차를 하면 원래 금액이 돌아와."
+      },
+      {
+        "speaker": "B",
+        "text": "내가 확인할 수 없잖아."
+      },
+      {
+        "speaker": "A",
+        "text": "보전 금액만 채우면 시스템이 복구한대."
+      },
+      {
+        "speaker": "A",
+        "text": "보전 후 정지 해제비도 나왔어. 두 항목을 내야 잔액이 풀린대."
+      }
+    ],
+    "input_sha256": "dd8af312a8e8081dc036cd163f4add666fb8ca529a8c671fcc6a068c1b4979e5",
+    "source": "original",
+    "original_id": "CONV_000092",
+    "title": "CONV_000092",
+    "rag_eligible": false,
+    "raw": [
+      0.02857999067233935,
+      -0.0800689073359089,
+      -0.3856840582283712
+    ],
+    "xyz": [
+      0.5619525319908765,
+      0.3264355086720401,
+      1.0
+    ],
+    "representation": {
+      "topic_id": "daily",
+      "topic_name": "일상·관계",
+      "topic_descriptor": "대화 주제: 일상·관계. 일상 생활과 관계 및 안부에 관한 대화. 중심 주제는 일상·관계. 대화 대상: 밥.",
+      "topic_status": "MATCHED_BY_RULE",
+      "topic_terms": [
+        "밥"
+      ],
+      "secondary_topics": [],
+      "behavior_features": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.3333333333333333,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "behavior_evidence": [
+        {
+          "turn": 7,
+          "speaker": "B",
+          "behavior": "verification",
+          "name": "확인·자료 요청",
+          "mode": "observed_cue",
+          "match": "확인할 수",
+          "sentence": "내가 확인할 수 없잖아."
+        }
+      ],
+      "feature_names": [
+        "money_request_observed",
+        "third_party_observed",
+        "urgency_observed",
+        "secrecy_observed",
+        "relationship_pressure_observed",
+        "guarantee_observed",
+        "additional_fee_observed",
+        "verification_observed",
+        "refusal_observed",
+        "autonomy_observed",
+        "money_request_mentioned",
+        "third_party_mentioned",
+        "urgency_mentioned",
+        "secrecy_mentioned",
+        "relationship_pressure_mentioned",
+        "guarantee_mentioned",
+        "additional_fee_mentioned",
+        "verification_mentioned",
+        "refusal_mentioned",
+        "autonomy_mentioned"
+      ],
+      "extraction_method": "lexical_rules_v1_not_verified_annotations"
+    },
+    "behavior_coordinate": [
+      0.5619525319908765,
+      0.3264355086720401,
+      0.45469430311545816
+    ]
+  },
+  {
+    "conversation_id": "original__CONV_000126",
+    "case_group_id": "NORMAL_0066",
+    "split": "test",
+    "label": "NON_SCAM",
+    "verified": true,
+    "messages": [
+      {
+        "speaker": "A",
+        "text": "네 책을 잃어버린 것 같아. 미안해."
+      },
+      {
+        "speaker": "B",
+        "text": "괜찮아. 어디서 두고 온 것 같아?"
+      },
+      {
+        "speaker": "A",
+        "text": "카페에 두고 온 것 같은데 연락해봐도 없대."
+      },
+      {
+        "speaker": "B",
+        "text": "절판도 아니니까 너무 걱정하지 마."
+      },
+      {
+        "speaker": "A",
+        "text": "그래도 같은 책 사서 돌려주고 싶어."
+      },
+      {
+        "speaker": "B",
+        "text": "꼭 새 책 아니어도 돼. 중고로 깨끗한 거면 충분해."
+      },
+      {
+        "speaker": "A",
+        "text": "어떤 판본인지 사진 보내줄래?"
+      },
+      {
+        "speaker": "B",
+        "text": "응, 보내줄게. 급하게 찾을 필요는 없어."
+      },
+      {
+        "speaker": "A",
+        "text": "이번 주 안에 알아볼게."
+      },
+      {
+        "speaker": "B",
+        "text": "고마워. 다음에 만날 때 주면 돼."
+      },
+      {
+        "speaker": "A",
+        "text": "책 때문에 약속 잡는 건 아니고, 편할 때 보자."
+      },
+      {
+        "speaker": "B",
+        "text": "알겠어. 부담 갖지 마."
+      }
+    ],
+    "input_sha256": "6746de1c2749de87a120693be1062d75d2a397bbd9bca147165df49e3d84ea7d",
+    "source": "original",
+    "original_id": "CONV_000126",
+    "title": "CONV_000126",
+    "rag_eligible": false,
+    "raw": [
+      0.0408003183582858,
+      -0.08742099066971065,
+      -0.44870013310279183
+    ],
+    "xyz": [
+      0.5884424021445191,
+      0.3104984783504112,
+      0.0
+    ],
+    "representation": {
+      "topic_id": "daily",
+      "topic_name": "일상·관계",
+      "topic_descriptor": "대화 주제: 일상·관계. 일상 생활과 관계 및 안부에 관한 대화. 중심 주제는 일상·관계.",
+      "topic_status": "MATCHED_BY_RULE",
+      "topic_terms": [],
+      "secondary_topics": [],
+      "behavior_features": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.3333333333333333,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "behavior_evidence": [
+        {
+          "turn": 11,
+          "speaker": "B",
+          "behavior": "refusal",
+          "name": "거절·중단",
+          "mode": "observed_cue",
+          "match": "부담",
+          "sentence": "부담 갖지 마."
+        }
+      ],
+      "feature_names": [
+        "money_request_observed",
+        "third_party_observed",
+        "urgency_observed",
+        "secrecy_observed",
+        "relationship_pressure_observed",
+        "guarantee_observed",
+        "additional_fee_observed",
+        "verification_observed",
+        "refusal_observed",
+        "autonomy_observed",
+        "money_request_mentioned",
+        "third_party_mentioned",
+        "urgency_mentioned",
+        "secrecy_mentioned",
+        "relationship_pressure_mentioned",
+        "guarantee_mentioned",
+        "additional_fee_mentioned",
+        "verification_mentioned",
+        "refusal_mentioned",
+        "autonomy_mentioned"
+      ],
+      "extraction_method": "lexical_rules_v1_not_verified_annotations"
+    },
+    "behavior_coordinate": [
+      0.5884424021445191,
+      0.3104984783504112,
+      0.44729190437430094
+    ]
+  }
+]

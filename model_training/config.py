@@ -37,7 +37,7 @@ def validate_config(raw, root):
         values = settings[name]
         allowed = {"path", "revision", "local_files_only", "tokenizer_path", "max_input_tokens",
                    "dtype", "quantization", "device_map"}
-        allowed |= {"backend", "family", "instruction", "reserved_tokens"} if name == "model" else {"dimension", "pooling"}
+        allowed |= {"backend", "family", "instruction", "reserved_tokens"} if name == "model" else {"dimension", "pooling", "text_prefix"}
         if set(values) - allowed:
             raise ConfigurationError(f"알 수 없는 {name} 설정입니다.")
         values.setdefault("local_files_only", True)
@@ -69,6 +69,8 @@ def validate_config(raw, root):
     embedding = settings["embedding"]
     if embedding.get("pooling") != "mean":
         raise ConfigurationError("기존 embedding 계약의 mean pooling을 사용하십시오.")
+    if not isinstance(embedding.get("text_prefix", ""), str):
+        raise ConfigurationError("embedding.text_prefix는 문자열이어야 합니다.")
     positive_integer(embedding.get("dimension"), "embedding.dimension", ConfigurationError)
     lora = settings["lora"]
     if set(lora) != {"r", "alpha", "dropout", "target_modules"} or lora["target_modules"] != "all-linear":

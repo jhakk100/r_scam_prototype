@@ -219,6 +219,8 @@ class TransformersEmbedder:
         self.model, self.tokenizer, self.spec, self.torch = model, tokenizer, spec, torch_module
         self.max_input_tokens = _token_limit(tokenizer, model.config, spec.max_input_tokens)
         self.tokenizer_identity = spec.tokenizer
+        if spec.text_prefix:
+            self.tokenizer_identity += "/prefix:" + hashlib.sha256(spec.text_prefix.encode("utf-8")).hexdigest()
         model.eval()
 
     @classmethod
@@ -235,7 +237,7 @@ class TransformersEmbedder:
             spec = EmbeddingSpec(path, revision, positive_integer(settings.get("dimension"),
                 "embedding.dimension", ConfigurationError),
                 f"{settings.get('tokenizer_path', path)}@{revision}",
-                settings.get("max_input_tokens"), "mean")
+                settings.get("max_input_tokens"), "mean", settings.get("text_prefix", ""))
             return cls(model, tokenizer, spec, torch)
         except (ConfigurationError, ModelError):
             raise
@@ -243,12 +245,12 @@ class TransformersEmbedder:
             raise RetrievalError(f"embedding 모델 로드 실패: {exc}") from exc
 
     def count_tokens(self, conversation):
-        return len(self.tokenizer(conversation, truncation=False)["input_ids"])
+        return len(self.tokenizer(self.spec.text_prefix + conversation, truncation=False)["input_ids"])
 
     def embed(self, conversation):
         if self.count_tokens(conversation) > self.max_input_tokens:
             raise InputError("embedding 입력 한도 초과; truncation하지 않습니다.")
-        batch = self.tokenizer(conversation, truncation=False, return_tensors="pt")
+        batch = self.tokenizer(self.spec.text_prefix + conversation, truncation=False, return_tensors="pt")
         batch = {key: value.to(_input_device(self.model)) for key, value in batch.items()}
         with self.torch.inference_mode():
             output = self.model(**batch)
