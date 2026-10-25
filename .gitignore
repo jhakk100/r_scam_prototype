@@ -13,6 +13,8 @@ model_training/configs/train.20*.json
 *.log
 ~$*
 homepage/runtime/
+homepage/실행묶음/
+homepage/standalone-bundle/
 homepage/maeum-check-source/ocr/*.wasm
 homepage/maeum-check-source/ocr/*.wasm.js
 homepage/maeum-check-source/ocr/*.traineddata.gz

@@ -34,6 +34,8 @@ python V4/serve_map.py
 
 이미지 문장 추출을 사용하려면 최초 한 번 `python homepage/download_ocr.py`로 공개 OCR 자산을 준비한다. 홈페이지의 실제 분석에는 위의 모델 가중치와 Python 환경이 필요하다. 종료할 때는 `homepage/마음체크_종료.cmd`를 실행한다. 자세한 내용은 [홈페이지 안내](homepage/읽어주세요.md)에 있다.
 
+홈페이지·모델·필수 데이터·독립 Python을 폴더 하나로 묶으려면 기존 실행 환경으로 `homepage/build_standalone.py`를 실행한다. 기본 출력은 `homepage/실행묶음`이며, 완성 후에는 그 폴더의 `마음체크_시작.cmd`를 사용한다. [묶음 안내](homepage/standalone-guide.md), [구성 요약](homepage/standalone-summary.json), [검증 결과](homepage/standalone-verification.json)를 참고한다. 대용량 가중치와 복사한 실행 환경은 로컬 묶음에만 포함한다.
+
 ## 문서와 결과
 
 - [최종 논문](V4/paper/romance_scam.docx): 용어 정리, 구조도·3차원 지도와 사례 수 비교 결과를 반영한 최신본.

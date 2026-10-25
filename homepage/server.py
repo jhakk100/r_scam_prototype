@@ -14,7 +14,8 @@ from urllib.parse import unquote, urlsplit
 import uuid
 
 HERE = Path(__file__).resolve().parent
-REPO = HERE.parent if (HERE.parent / 'V4/active_runtime.json').is_file() else HERE.parent / 'r_scam_prototype'
+REPO = (HERE / 'engine' if (HERE / 'engine/V4/active_runtime.json').is_file() else
+        HERE.parent if (HERE.parent / 'V4/active_runtime.json').is_file() else HERE.parent / 'r_scam_prototype')
 V4 = REPO / 'V4'
 STATIC = HERE / 'app'
 ORIGINAL = HERE / 'maeum-check-source'
@@ -27,9 +28,12 @@ APP_ID = 'maeum-check-final-v4'
 runtime = read(V4 / 'active_runtime.json')
 selection = read(V4 / 'final-selection.json')
 index_data = read(runtime['index'])
-points = {p['id']: p for p in read(V4 / 'map/dataset-3d.json')['points']}
-known = {prepare_input(r['messages']).sha256: r for r in
-         read(V4 / 'experiments/d03-final-paired-20261006_205128/test-inputs.json')}
+cases_path = V4 / 'runtime/reference-cases.json'
+points = {p['id']: p for p in read(cases_path if cases_path.is_file() else V4 / 'map/dataset-3d.json')['points']}
+exclusions_path = V4 / 'runtime/query-exclusions.json'
+known = ({r['input_sha256']: r for r in read(exclusions_path)} if exclusions_path.is_file() else
+         {prepare_input(r['messages']).sha256: r for r in
+          read(V4 / 'experiments/d03-final-paired-20261006_205128/test-inputs.json')})
 pipeline = None
 model_lock = threading.Lock()
 state_lock = threading.Lock()

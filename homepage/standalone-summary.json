@@ -1,0 +1,28 @@
+{
+  "file_count": 10588,
+  "total_bytes": 15845738533,
+  "bytes_by_category": {
+    "application": 48615,
+    "web_assets": 19199311,
+    "inference_code": 81641,
+    "adapter_integrity": 2585,
+    "frozen_configuration": 1360385,
+    "feature_rules": 11282,
+    "reference_dataset": 328534,
+    "reference_exclusions": 48117,
+    "base_model": 10246655035,
+    "final_adapter": 137621818,
+    "license": 37953,
+    "python_runtime": 20985495,
+    "python_packages": 5419353031,
+    "runtime_versions": 2492,
+    "documentation": 2239
+  },
+  "runtime_distributions": 44,
+  "reference_case_count": 226,
+  "adapter_revision": "4f896fca6d1e441937d052fb9002a62b793cb786df7e8c2dd59f121082c2a5ff",
+  "retrieval_method": "D03_plain_text_tfidf_svd_xy",
+  "external_paths_in_python_pth": false,
+  "training_code_included": false,
+  "experiments_included": false
+}

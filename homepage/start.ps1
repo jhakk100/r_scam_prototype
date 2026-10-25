@@ -3,7 +3,7 @@ $ErrorActionPreference = 'Stop'
 $taskHomepage = $PSScriptRoot
 $taskProject = Split-Path $taskHomepage -Parent
 $taskRepo = if (Test-Path -LiteralPath (Join-Path $taskProject 'V4\active_runtime.json')) { $taskProject } else { Join-Path $taskProject 'r_scam_prototype' }
-$taskPython = Join-Path $taskRepo '.venv\Scripts\python.exe'
+$taskPython = if (Test-Path -LiteralPath (Join-Path $taskHomepage 'python\python.exe')) { Join-Path $taskHomepage 'python\python.exe' } else { Join-Path $taskRepo '.venv\Scripts\python.exe' }
 $taskRuntime = Join-Path $taskHomepage 'runtime'
 $taskInfoPath = Join-Path $taskRuntime 'server.json'
 New-Item -ItemType Directory -Path $taskRuntime -Force | Out-Null
