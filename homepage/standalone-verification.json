@@ -1,12 +1,21 @@
 {
   "status": "PASSED",
-  "manifest_sha256": "0f7b55e65a825e7f7d3b0d35fa09179357b544cc40e0c20a89b0d14a19e9c77a",
+  "manifest_sha256": "7b7866347d3203def89a6c5dd09305ef07cc57ff432c309cb3022018d7b59236",
+  "payload_compressed_bytes": 9618168104,
+  "lfs_parts": 6,
+  "payload_restore": {
+    "status": "PASSED",
+    "restored_files": 10592,
+    "verified_bundle_files": 10590,
+    "payload_sha256": "a1a3c810e37e5d812c21e418ce3fc9377700108e065384e8c7763f8cb5fd5307",
+    "all_restored_hashes_match": true
+  },
   "integrity": {
     "status": "PASSED",
     "all_imports_inside_bundle": true,
-    "files_checked": 10588,
-    "hashes_checked": 10588,
-    "all_file_hashes_checked": true,
+    "files_checked": 10590,
+    "hashes_checked": 45,
+    "all_file_hashes_checked": false,
     "reference_cases": 226,
     "adapter_revision": "4f896fca6d1e441937d052fb9002a62b793cb786df7e8c2dd59f121082c2a5ff",
     "cuda_available": true
@@ -32,7 +41,7 @@
         "rag_score": 83.3966329945695,
         "final_score": 93.42095995170834,
         "level": "HIGH",
-        "seconds": 15.83,
+        "seconds": 11.44,
         "neighbors": 5,
         "input_sha256": "f3a66665d8984986b3282e98494124d6bfdca850b57eaaada4be18c036a478bb",
         "saved_reference_delta": 0.0
@@ -54,7 +63,7 @@
         "rag_score": 0.0,
         "final_score": 1.1883548836145674,
         "level": "LOW",
-        "seconds": 0.47,
+        "seconds": 0.44,
         "neighbors": 5,
         "input_sha256": "c8453bdab6518795af2e95e72f8325f1f1b5928c1a8242bacdc0534b66357d03"
       }

@@ -1,0 +1,11 @@
+{
+  "k_retrieve": 8,
+  "k_max": 5,
+  "distance_cutoff": 0.021776729612532828,
+  "search_dimensions": 2,
+  "distance": "euclidean_xy_div_sqrt2",
+  "topic_filter": false,
+  "fit_count": 226,
+  "fit_labels_used": false,
+  "selection_basis": "user-selected D03 after exploratory comparisons"
+}

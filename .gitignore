@@ -18,3 +18,5 @@ homepage/standalone-bundle/
 homepage/maeum-check-source/ocr/*.wasm
 homepage/maeum-check-source/ocr/*.wasm.js
 homepage/maeum-check-source/ocr/*.traineddata.gz
+!homepage/bootstrap-python/*.pyd
+!homepage/bootstrap-libs/zstandard/*.pyd

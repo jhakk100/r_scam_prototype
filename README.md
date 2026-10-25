@@ -1,60 +1,64 @@
-# 로맨스 스캠 대화 판별 프로토타입
-codex를 통해 문서작성을 도움 받음
+# 마음체크
 
-최종 시스템은 **특화 E2B 언어모델 + 유사 사례 검색 + 거리 기반 점수 결합**이다.
-대화를 두 경로가 각각 분석하며, 검색 사례의 원문을 모델에 전달하지 않고 점수를 후단에서 결합한다.
-현재 실행 대상은 [V4](V4/README.md)다.
+대화를 입력하거나 대화 이미지를 올려 위험 신호를 확인하는 **로컬 홈페이지**입니다.
+**실행에는 `homepage` 폴더만 있으면 됩니다.** 모델·필수 데이터·분석 모듈·Python·라이브러리까지 포함한 실행 묶음을 Git LFS로 제공합니다.
 
-```text
-r_scam_prototype/
-├── V4/                  # 최종 코드, 검색 좌표, 데이터, 결과, 논문과 지도
-├── homepage/            # 로컬 홈페이지, 문장 확인과 실제 모델 분석
-├── architecture/        # 공통 입력 계약과 모델 점수 계산 백엔드
-├── model_training/      # 학습 도구와 어댑터 무결성 검사
-├── dataset/             # 기존 원천 데이터와 정제 기록
-├── models_original/     # 원본 E2B 가중치 (로컬 전용, Git 제외)
-└── models/              # 기존 로컬 모델 산출물 (Git 제외)
+## 받기
+
+Windows에 [Git](https://git-scm.com/download/win)과 [Git LFS](https://git-lfs.com/)가 설치되어 있어야 합니다. PowerShell에서 다음을 실행하세요.
+
+```powershell
+git lfs install
+git clone --filter=blob:none --sparse https://github.com/jhakk100/r_scam_prototype.git
+cd r_scam_prototype
+git sparse-checkout set homepage
+git lfs pull --include="homepage/payload/*"
 ```
+
+이 방법은 실행에 필요한 `homepage` 폴더를 내려받습니다. 다운로드가 끝나면 `homepage` 폴더 전체를 다른 위치로 옮겨도 실행할 수 있습니다. GitHub 웹 화면에서 소스 ZIP만 받으면 LFS 데이터가 빠질 수 있으므로 위 방법을 사용하세요.
 
 ## 실행
 
-Python 3.11에서 저장 결과와 검색·산술식을 확인한다. 가중치나 GPU 없이 실행된다.
+1. `homepage/마음체크_시작.cmd`를 더블클릭합니다.
+2. 첫 실행에서 모델과 실행 환경을 자동으로 풀고 파일 무결성을 확인합니다. 이 과정은 몇 분 걸릴 수 있습니다.
+3. 홈페이지가 열리면 대화를 입력하고 문장을 확인한 뒤 분석합니다.
+4. 종료할 때는 `homepage/마음체크_종료.cmd`를 실행합니다.
+
+PowerShell에서도 실행할 수 있습니다.
 
 ```powershell
-python -m pip install -r V4/requirements-test.txt
-python V4/verify_release.py
-python V4/serve_map.py
+.\homepage\마음체크_시작.cmd
 ```
 
-실제 추론에는 원본 E2B 가중치와 최종 특화 어댑터, CUDA PyTorch 및 [추론 의존성](V4/requirements.txt)이 필요하다.
-설치 위치와 실행 방법은 [V4 실행 안내](V4/README.md)에 있다. 자동 다운로드나 재학습은 수행하지 않는다.
+모든 파일을 받은 뒤에는 Python 설치나 인터넷 연결 없이 실행합니다. 다른 폴더의 모델·데이터·라이브러리를 참조하지 않습니다.
 
-### 로컬 홈페이지
+## 실행 환경
 
-`homepage/마음체크_시작.cmd`를 실행한다. 대화를 붙여 넣고 문장·화자를 확인한 다음 분석할 수 있다. 문장 목록은 내부에서 스크롤되며, 결과 화면에는 위험 지수와 참고 사례를 표시한다.
+- Windows 64비트와 NVIDIA GPU, 호환 NVIDIA 드라이버
+- 검증 환경: RTX 4070 Ti 12GB
+- 내려받는 압축 파일과 압축을 푼 실행 묶음을 함께 저장할 디스크 여유 공간: 약 40GB 이상 권장
+- 다른 운영체제나 GPU 환경에서의 실행은 검증하지 않았습니다.
 
-이미지 문장 추출을 사용하려면 최초 한 번 `python homepage/download_ocr.py`로 공개 OCR 자산을 준비한다. 홈페이지의 실제 분석에는 위의 모델 가중치와 Python 환경이 필요하다. 종료할 때는 `homepage/마음체크_종료.cmd`를 실행한다. 자세한 내용은 [홈페이지 안내](homepage/읽어주세요.md)에 있다.
+## 홈페이지 폴더 구성
 
-홈페이지·모델·필수 데이터·독립 Python을 폴더 하나로 묶으려면 기존 실행 환경으로 `homepage/build_standalone.py`를 실행한다. 기본 출력은 `homepage/실행묶음`이며, 완성 후에는 그 폴더의 `마음체크_시작.cmd`를 사용한다. [묶음 안내](homepage/standalone-guide.md), [구성 요약](homepage/standalone-summary.json), [검증 결과](homepage/standalone-verification.json)를 참고한다. 대용량 가중치와 복사한 실행 환경은 로컬 묶음에만 포함한다.
+```text
+homepage/
+├── 마음체크_시작.cmd / 마음체크_종료.cmd
+├── payload/             # 모델·데이터·모듈·Python을 담은 무손실 압축 LFS 조각
+├── bootstrap-python/    # 최초 복원에 사용하는 Python
+├── bootstrap-libs/      # 압축 해제 라이브러리
+├── bootstrap.py         # 조각 검증·자동 복원
+└── 실행묶음/            # 첫 실행 시 만들어지는 실제 실행 폴더
+```
 
-## 문서와 결과
+원본 가중치와 최종 어댑터, 실제 검색에 사용하는 대화 226건, 고정 검색·판정 설정, 이미지 문장 인식 자산과 GPU 실행 라이브러리를 포함합니다. 학습 데이터 전체·실험 기록·논문·이전 모델은 실행에 필요하지 않습니다.
 
-- [최종 논문](V4/paper/romance_scam.docx): 용어 정리, 구조도·3차원 지도와 사례 수 비교 결과를 반영한 최신본.
-- [기술 명세](V4/docs/v4_technical_spec_ko.docx), [쉬운 설명 PDF](V4/docs/v4_easy_guide_ko.pdf).
-- [폴더 이전 안내](V4/docs/REPOSITORY_LAYOUT.md): 기존 기술 명세의 경로를 현재 배치에 대응시키는 안내.
-- [실험 결과](V4/experiments/d03-final-paired-20261006_205128/REPORT_KO.md).
-- [논문 보충 측정](V4/experiments/paper-support-20261007/): 좌표 후보와 사례 수 비교 측정, 재현 코드.
+모델과 어댑터는 기존 최종 실험과 같습니다. 디스크의 원본 가중치는 BF16이며, 4비트 양자화는 불러올 때 적용합니다. 업로드를 위한 무손실 압축은 가중치 값을 바꾸지 않습니다.
 
-| 구성 | 원본 176건 | 변형 80건 | 합산 256건 |
-|---|---:|---:|---:|
-| 원본 E2B 단독 | 67.05% | 76.25% | 69.92% |
-| 원본 E2B + 검색 | 82.39% | 81.25% | 82.03% |
-| 특화 E2B 단독 | 100.00% | 97.50% | 99.22% |
-| 특화 E2B + 검색 | 100.00% | 97.50% | 99.22% |
-| 검색 단독 | 93.75% | 90.00% | 92.58% |
+자세한 실행·문제 해결 안내는 [homepage/README.md](homepage/README.md), 파일 구성과 검증 기록은 [구성 요약](homepage/standalone-summary.json), [검증 결과](homepage/standalone-verification.json)를 참고하세요.
 
-후보 선택에 이미 사용한 테스트의 재평가이며 독립 검증은 아니다. 변형 라벨은 미검증이다.
-최종 검색 방식에서 사례 수 증가에 따른 정확도의 지속 상승은 아직 검증하지 않았다.
+## 참고
 
-**모델의 분석은 부정확할 수 있다. 결과는 참고 자료이며, 사기 여부나 상대방의 안전성을 확정하는 근거로 사용하지 않는다.**
-이 저장소는 프로토타입이며 실제 피해 확률을 산출하지 않는다.
+결과는 참고용 위험 지수이며 실제 사기 확률이나 확정 판정이 아닙니다. 대화와 이미지는 이 컴퓨터에서 처리하며 외부 분석 서버로 전송하지 않습니다.
+
+이 저장소의 애플리케이션 코드는 MIT 라이선스입니다. 포함된 원본 모델과 각 라이브러리에는 해당 구성요소의 라이선스가 적용되며 실행 묶음에 관련 문서를 보존했습니다. 문서 작성에는 Codex의 도움을 받았습니다.

@@ -151,6 +151,12 @@ def main():
                  'tokenizer_config.json', 'chat_template.jinja', 'README.md']:
         copy_file(REPO / 'V4/model/final_adapter' / name, 'engine/V4/model/final_adapter/' + name, 'final_adapter')
     copy_file(REPO / 'LICENSE', 'engine/LICENSE', 'license')
+    copy_file(HERE / 'maeum-check-source/ocr/LICENSE.tesseract-js-core.txt',
+              'engine/models_original/E2B/LICENSE.txt', 'license')
+    write_bytes('engine/models_original/E2B/NOTICE.txt',
+        b'Base model: google/gemma-4-E2B\nAuthors: Google DeepMind\nLicense: Apache License 2.0\n'
+        b'Source: https://huggingface.co/google/gemma-4-E2B\n'
+        b'The application source is provided under the repository MIT license.\n', 'license')
 
     print('Copying isolated Python 3.11...', flush=True)
     native = Path(sys.executable).parent

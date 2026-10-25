@@ -1,0 +1,2946 @@
+{
+  "entries": [
+    {
+      "conversation_id": "original__CONV_000001",
+      "case_group_id": "NORMAL_0001",
+      "input_sha256": "4be3c8d3f01dded51e28621380b59abb54f92e1ac4bb123d01c2f7c817b14f21",
+      "label": "NON_SCAM",
+      "xyz": [
+        -0.37672818583215556,
+        -0.2882499405723379,
+        0.0
+      ],
+      "verified": true,
+      "split": "train"
+    },
+    {
+      "conversation_id": "original__CONV_000002",
+      "case_group_id": "NORMAL_0002",
+      "input_sha256": "99c91bab44b3ee8e41cb4d969b85b33398bca9cd70b0084846ff1ffd4fc2e691",
+      "label": "NON_SCAM",
+      "xyz": [
+        -0.15732259070063093,
+        -0.6303139182949995,
+        0.0
+      ],
+      "verified": true,
+      "split": "train"
+    },
+    {
+      "conversation_id": "original__CONV_000003",
+      "case_group_id": "NORMAL_0003",
+      "input_sha256": "c2e91218eb2852b36c54cea514471d668c8f81226f034ba02291d836392d7142",
+      "label": "NON_SCAM",
+      "xyz": [
+        0.002348206394847674,
+        -0.7731101179397102,
+        0.0
+      ],
+      "verified": true,
+      "split": "train"
+    },
+    {
+      "conversation_id": "original__CONV_000005",
+      "case_group_id": "NORMAL_0005",
+      "input_sha256": "c0e1966582d330812e333d2002f89e4a409397c4f75b027c93603433ff03b63c",
+      "label": "NON_SCAM",
+      "xyz": [
+        0.04776002143574487,
+        -1.1509513444266033,
+        0.0
+      ],
+      "verified": true,
+      "split": "train"
+    },
+    {
+      "conversation_id": "original__CONV_000007",
+      "case_group_id": "NORMAL_0007",
+      "input_sha256": "ffce8f5e942651a83674266d38c91da1ecbc915fbb413796d9f66a48289ca17a",
+      "label": "NON_SCAM",
+      "xyz": [
+        -0.3859921797900859,
+        -0.43972912635806,
+        0.0
+      ],
+      "verified": true,
+      "split": "train"
+    },
+    {
+      "conversation_id": "original__CONV_000008",
+      "case_group_id": "NORMAL_0008",
+      "input_sha256": "7cf4cb16fafd7a46a6b0da406d1f4be708ae9e0d8bff1173b163d5bfa2caa62a",
+      "label": "NON_SCAM",
+      "xyz": [
+        -0.28560940997838985,
+        -0.8103449329842356,
+        0.0
+      ],
+      "verified": true,
+      "split": "train"
+    },
+    {
+      "conversation_id": "original__CONV_000009",
+      "case_group_id": "NORMAL_0009",
+      "input_sha256": "81cd2d6f30ba83f51fd45cf41ba5056a7033b5808adaeeac5ad338ec30fffaa4",
+      "label": "NON_SCAM",
+      "xyz": [
+        -0.06535398016713434,
+        -0.663607075788137,
+        0.0
+      ],
+      "verified": true,
+      "split": "train"
+    },
+    {
+      "conversation_id": "original__CONV_000010",
+      "case_group_id": "NORMAL_0010",
+      "input_sha256": "15cf9ca8f7a8bd3a96ae74b683295df499cad2b06b852b0c7044bb1a3fc7814f",
+      "label": "NON_SCAM",
+      "xyz": [
+        0.04390697727929882,
+        -1.1452913607574036,
+        0.0
+      ],
+      "verified": true,
+      "split": "train"
+    },
+    {
+      "conversation_id": "original__CONV_000011",
+      "case_group_id": "NORMAL_0011",
+      "input_sha256": "9309616c2920938ee419c4e9fa879ee213d94d2920657d2fafd4ddc597a4b29a",
+      "label": "NON_SCAM",
+      "xyz": [
+        -0.10954162282057811,
+        -1.0686929521902202,
+        0.0
+      ],
+      "verified": true,
+      "split": "train"
+    },
+    {
+      "conversation_id": "original__CONV_000012",
+      "case_group_id": "NORMAL_0012",
+      "input_sha256": "34f8a9179caa26a00b619662de451b879a19676801fab5060d5abee77155874a",
+      "label": "NON_SCAM",
+      "xyz": [
+        -0.10219054585415999,
+        -0.9153894412806258,
+        0.0
+      ],
+      "verified": true,
+      "split": "train"
+    },
+    {
+      "conversation_id": "original__CONV_000013",
+      "case_group_id": "NORMAL_0013",
+      "input_sha256": "53a7546e05ac4f9f116395afd73d66bf8b84fc34239a301063b8c6368440c3dc",
+      "label": "NON_SCAM",
+      "xyz": [
+        -0.02601322254757954,
+        -0.7060821492853149,
+        0.0
+      ],
+      "verified": true,
+      "split": "train"
+    },
+    {
+      "conversation_id": "original__CONV_000014",
+      "case_group_id": "NORMAL_0014",
+      "input_sha256": "0631321f3c00f16cd8c873af1240f610acc74929c21a2d544fabdc77837ae42a",
+      "label": "NON_SCAM",
+      "xyz": [
+        0.20096912827179791,
+        -0.7814380004889498,
+        0.0
+      ],
+      "verified": true,
+      "split": "train"
+    },
+    {
+      "conversation_id": "original__CONV_000015",
+      "case_group_id": "NORMAL_0015",
+      "input_sha256": "24cb89cff1ea1087fdf09af0782367e25630021b7c49bbcc7a56702ad2b37be5",
+      "label": "NON_SCAM",
+      "xyz": [
+        -0.5165478872786358,
+        -0.05031111127735376,
+        0.0
+      ],
+      "verified": true,
+      "split": "train"
+    },
+    {
+      "conversation_id": "original__CONV_000017",
+      "case_group_id": "NORMAL_0017",
+      "input_sha256": "16f7388f1e5ce7d1c54460130f4d2fcc9b1f5336a1fbbba231b3a139716e3b86",
+      "label": "NON_SCAM",
+      "xyz": [
+        0.1584333533054083,
+        -1.4956516780544487,
+        0.0
+      ],
+      "verified": true,
+      "split": "train"
+    },
+    {
+      "conversation_id": "original__CONV_000018",
+      "case_group_id": "NORMAL_0018",
+      "input_sha256": "e2f36626ce9f470801c5bb1540707c88390c839d1247cb7c2c26bc363e03f53d",
+      "label": "NON_SCAM",
+      "xyz": [
+        0.19504579116944643,
+        -1.445168569279998,
+        0.0
+      ],
+      "verified": true,
+      "split": "train"
+    },
+    {
+      "conversation_id": "original__CONV_000021",
+      "case_group_id": "NORMAL_0021",
+      "input_sha256": "d76b6a05bde6dd1e9273872f3b8b9b4e78bcb7820e853a79eac91e7f0337774e",
+      "label": "NON_SCAM",
+      "xyz": [
+        0.10553017729739322,
+        -0.8858879722510745,
+        0.0
+      ],
+      "verified": true,
+      "split": "train"
+    },
+    {
+      "conversation_id": "original__CONV_000027",
+      "case_group_id": "NORMAL_0027",
+      "input_sha256": "e05885a1f2e1411135c3128290dcd7bf8c25668b890a769a95deeaabda78d29e",
+      "label": "NON_SCAM",
+      "xyz": [
+        -0.029518120800373637,
+        -0.7225542834376274,
+        0.0
+      ],
+      "verified": true,
+      "split": "train"
+    },
+    {
+      "conversation_id": "original__CONV_000028",
+      "case_group_id": "NORMAL_0028",
+      "input_sha256": "3ced742a24fc7673243fdcf0a814022beda41ff98c87c6d6b9214c5d9e9540cb",
+      "label": "NON_SCAM",
+      "xyz": [
+        0.19849473390120498,
+        -0.7181598060018705,
+        0.0
+      ],
+      "verified": true,
+      "split": "train"
+    },
+    {
+      "conversation_id": "original__CONV_000033",
+      "case_group_id": "NORMAL_0033",
+      "input_sha256": "9162f08221cdedf879c39a3a6e52b55b5ca81d9415c83f478d61bd9ddd48f33a",
+      "label": "NON_SCAM",
+      "xyz": [
+        0.08919050346688606,
+        -0.627111909611001,
+        0.0
+      ],
+      "verified": true,
+      "split": "train"
+    },
+    {
+      "conversation_id": "original__CONV_000035",
+      "case_group_id": "NORMAL_0035",
+      "input_sha256": "0b13bbfba93e6ccd4e7e1b3ba1e00b0fc8aab07eb5f9828bde8dec17f6e639dc",
+      "label": "NON_SCAM",
+      "xyz": [
+        -0.1241240991657927,
+        -0.7669503132101281,
+        0.0
+      ],
+      "verified": true,
+      "split": "train"
+    },
+    {
+      "conversation_id": "original__CONV_000037",
+      "case_group_id": "NORMAL_0037",
+      "input_sha256": "0647198cd933a0f496ff35a7a0bc8c58f5f5ff092e0a5116b581c79fa8a37ba4",
+      "label": "NON_SCAM",
+      "xyz": [
+        0.03668977717033617,
+        -1.146087689816472,
+        0.0
+      ],
+      "verified": true,
+      "split": "train"
+    },
+    {
+      "conversation_id": "original__CONV_000038",
+      "case_group_id": "NORMAL_0038",
+      "input_sha256": "6428e545cdc362436c86b8747fb99c64349ac194f0ce7edc317c46d0459051b9",
+      "label": "NON_SCAM",
+      "xyz": [
+        -0.2541462386806406,
+        -0.6810586747496599,
+        0.0
+      ],
+      "verified": true,
+      "split": "train"
+    },
+    {
+      "conversation_id": "original__CONV_000040",
+      "case_group_id": "NORMAL_0040",
+      "input_sha256": "c4091b69934840b779b2a36b6e1d58e062c04ec94a6e317e36f7eaa2e5b6eacb",
+      "label": "NON_SCAM",
+      "xyz": [
+        0.10360538492771576,
+        -1.0871496594856045,
+        0.0
+      ],
+      "verified": true,
+      "split": "train"
+    },
+    {
+      "conversation_id": "original__CONV_000041",
+      "case_group_id": "NORMAL_0041",
+      "input_sha256": "55aaba996eb9a93f0045f7df10d46cc8ea9d6e149e1b610cef7291253d4e01d4",
+      "label": "NON_SCAM",
+      "xyz": [
+        -0.16772215996429973,
+        -0.5406309798526159,
+        0.0
+      ],
+      "verified": true,
+      "split": "train"
+    },
+    {
+      "conversation_id": "original__CONV_000043",
+      "case_group_id": "NORMAL_0043",
+      "input_sha256": "a1d9b2f17ec5ca7a3edb3258dcdb1c9edc2620469cd1d8ffb402b1b70da5089a",
+      "label": "NON_SCAM",
+      "xyz": [
+        0.3974069488189591,
+        -0.9120147941944694,
+        0.0
+      ],
+      "verified": true,
+      "split": "train"
+    },
+    {
+      "conversation_id": "original__CONV_000044",
+      "case_group_id": "NORMAL_0044",
+      "input_sha256": "2c981ebf3fe9a7a71dadef2e2879eab7624b9931825bb9c2e327148ee20201ce",
+      "label": "NON_SCAM",
+      "xyz": [
+        -0.2563924999391609,
+        -0.7810802036559086,
+        0.0
+      ],
+      "verified": true,
+      "split": "train"
+    },
+    {
+      "conversation_id": "original__CONV_000046",
+      "case_group_id": "NORMAL_0046",
+      "input_sha256": "7fd5a3f781f9724d0d00d8b6e60216a43aae222618b50b61dde5eb096d7f706b",
+      "label": "NON_SCAM",
+      "xyz": [
+        0.1032119330745418,
+        -0.9149306075044601,
+        0.0
+      ],
+      "verified": true,
+      "split": "train"
+    },
+    {
+      "conversation_id": "original__CONV_000047",
+      "case_group_id": "NORMAL_0047",
+      "input_sha256": "0bf42258d0952d15001cd50b3675b9fd0773e7f2144a13f42b88eaf3ab181d67",
+      "label": "NON_SCAM",
+      "xyz": [
+        -0.07248658602555746,
+        -0.9711164336374117,
+        0.0
+      ],
+      "verified": true,
+      "split": "train"
+    },
+    {
+      "conversation_id": "original__CONV_000050",
+      "case_group_id": "NORMAL_0050",
+      "input_sha256": "b1fbd9afc745bb5a7c958d31bf17a3c42a0ec2cc3434dd1f872c016c2112bf03",
+      "label": "NON_SCAM",
+      "xyz": [
+        0.25370776679105866,
+        -0.9611560499011763,
+        0.0
+      ],
+      "verified": true,
+      "split": "train"
+    },
+    {
+      "conversation_id": "original__CONV_000052",
+      "case_group_id": "NORMAL_0052",
+      "input_sha256": "546a103f0bf12d06c9c72df6cc828f4bc93f299404aac83293ae707a6b2a363c",
+      "label": "NON_SCAM",
+      "xyz": [
+        0.10237997214414707,
+        -1.613749066082053,
+        0.0
+      ],
+      "verified": true,
+      "split": "train"
+    },
+    {
+      "conversation_id": "original__CONV_000058",
+      "case_group_id": "NORMAL_0058",
+      "input_sha256": "e193e027827f8fe80a21dffbf7ae3bd9be4821ed73b7e4d4224c0b7f54eeca7c",
+      "label": "NON_SCAM",
+      "xyz": [
+        -0.051479697984809225,
+        -1.5483149632106474,
+        0.0
+      ],
+      "verified": true,
+      "split": "train"
+    },
+    {
+      "conversation_id": "original__CONV_000059",
+      "case_group_id": "NORMAL_0059",
+      "input_sha256": "7404449f6cb7b9db6e2d16d69661ae6f70336daee81bd46709a46d9b2be76860",
+      "label": "NON_SCAM",
+      "xyz": [
+        -0.10648682203872606,
+        -1.336191636787906,
+        0.0
+      ],
+      "verified": true,
+      "split": "train"
+    },
+    {
+      "conversation_id": "original__CONV_000060",
+      "case_group_id": "NORMAL_0060",
+      "input_sha256": "14afdd25ca43ef03f3063ca0afcbf44f1101c6b118e8291e904eb3f5c03d8c34",
+      "label": "NON_SCAM",
+      "xyz": [
+        -0.1775590197836302,
+        -0.993204963352437,
+        0.0
+      ],
+      "verified": true,
+      "split": "train"
+    },
+    {
+      "conversation_id": "original__CONV_000061",
+      "case_group_id": "SYNTH_COIN_INVESTMENT_0001",
+      "input_sha256": "4919792bc5a742fd0585579a90df60aaf02f7a9e139e3035cea28f7c92a54459",
+      "label": "SCAM",
+      "xyz": [
+        0.27376037521170404,
+        0.26949066389766274,
+        1.0
+      ],
+      "verified": true,
+      "split": "train"
+    },
+    {
+      "conversation_id": "original__CONV_000062",
+      "case_group_id": "SYNTH_COIN_INVESTMENT_0002",
+      "input_sha256": "45509e6371fb1ecc8038badac21bc2519410846d00bffe37391df327e0fdbb3e",
+      "label": "SCAM",
+      "xyz": [
+        0.21815967543899806,
+        0.07096507712814361,
+        1.0
+      ],
+      "verified": true,
+      "split": "train"
+    },
+    {
+      "conversation_id": "original__CONV_000063",
+      "case_group_id": "SYNTH_COIN_INVESTMENT_0003",
+      "input_sha256": "e2c658250484cbd89162c6917452ee54d723646d473df8903c3e6f82c7b0b937",
+      "label": "SCAM",
+      "xyz": [
+        0.14331528997582665,
+        0.41701984742185977,
+        1.0
+      ],
+      "verified": true,
+      "split": "train"
+    },
+    {
+      "conversation_id": "original__CONV_000064",
+      "case_group_id": "SYNTH_COIN_INVESTMENT_0004",
+      "input_sha256": "724002609153d489c92514f65b86679fe6426a19913878115f56509fbd17197d",
+      "label": "SCAM",
+      "xyz": [
+        0.2246743368556714,
+        0.2190583760987546,
+        1.0
+      ],
+      "verified": true,
+      "split": "train"
+    },
+    {
+      "conversation_id": "original__CONV_000066",
+      "case_group_id": "SYNTH_COIN_INVESTMENT_0006",
+      "input_sha256": "3b1e5fbc127f21f63525d9580b1b1c7eba53d7bc325cbe164686bce81b21e0e2",
+      "label": "SCAM",
+      "xyz": [
+        0.1943776420083293,
+        0.7655972719197269,
+        1.0
+      ],
+      "verified": true,
+      "split": "train"
+    },
+    {
+      "conversation_id": "original__CONV_000067",
+      "case_group_id": "SYNTH_COIN_INVESTMENT_0007",
+      "input_sha256": "1e6f2d44334d87beac94b061c17a9182dce2df0eec575943be2b91bc553ab6aa",
+      "label": "SCAM",
+      "xyz": [
+        0.0161798161460619,
+        0.3288488772539796,
+        1.0
+      ],
+      "verified": true,
+      "split": "train"
+    },
+    {
+      "conversation_id": "original__CONV_000068",
+      "case_group_id": "SYNTH_COIN_INVESTMENT_0008",
+      "input_sha256": "03ac40086b68e959dbc37f31288384fee1ddc6b72cccae45995cbda9935be26a",
+      "label": "SCAM",
+      "xyz": [
+        -0.01199703689815701,
+        0.1844371758771591,
+        1.0
+      ],
+      "verified": true,
+      "split": "train"
+    },
+    {
+      "conversation_id": "original__CONV_000070",
+      "case_group_id": "SYNTH_COIN_INVESTMENT_0010",
+      "input_sha256": "e01417771cc5a5c6fc2ad14f75c156e99f0108ee89398fe5ad3a8d5565343d8d",
+      "label": "SCAM",
+      "xyz": [
+        0.23030683672164265,
+        0.16338212908172017,
+        1.0
+      ],
+      "verified": true,
+      "split": "train"
+    },
+    {
+      "conversation_id": "original__CONV_000071",
+      "case_group_id": "SYNTH_COIN_INVESTMENT_0011",
+      "input_sha256": "3a9c6d70b73e32e54cf9b29479266b9c0fd8e6222ce34341f07a9fa0ccd9c620",
+      "label": "SCAM",
+      "xyz": [
+        0.06213459819698397,
+        0.5968298445836507,
+        1.0
+      ],
+      "verified": true,
+      "split": "train"
+    },
+    {
+      "conversation_id": "original__CONV_000072",
+      "case_group_id": "SYNTH_COIN_INVESTMENT_0012",
+      "input_sha256": "339517f36acfef39dfef0c151b1a3de926fa1e93be0db397ad83296b1d86d4ec",
+      "label": "SCAM",
+      "xyz": [
+        -0.17025847190825727,
+        0.11220825561240096,
+        1.0
+      ],
+      "verified": true,
+      "split": "train"
+    },
+    {
+      "conversation_id": "original__CONV_000074",
+      "case_group_id": "SYNTH_COIN_INVESTMENT_0014",
+      "input_sha256": "82745a4310775225a31b9cd102a7a6380b9aacb8b16a51bba59a23054a12006e",
+      "label": "SCAM",
+      "xyz": [
+        0.4112002471115245,
+        0.509410182269267,
+        1.0
+      ],
+      "verified": true,
+      "split": "train"
+    },
+    {
+      "conversation_id": "original__CONV_000076",
+      "case_group_id": "SYNTH_COIN_INVESTMENT_0016",
+      "input_sha256": "81afd7795f3797ffe3dbe6c3c65ec6eac6e03b6ecbb9ffbb56c7698527be3cd1",
+      "label": "SCAM",
+      "xyz": [
+        0.5453427953530776,
+        0.33711935669832144,
+        1.0
+      ],
+      "verified": true,
+      "split": "train"
+    },
+    {
+      "conversation_id": "original__CONV_000077",
+      "case_group_id": "SYNTH_COIN_INVESTMENT_0017",
+      "input_sha256": "cbca487781fe3fa61f8c319d7591f0a25810826052bffdb740f5c92fd4c88a90",
+      "label": "SCAM",
+      "xyz": [
+        0.6123414681594913,
+        0.5635591074899685,
+        1.0
+      ],
+      "verified": true,
+      "split": "train"
+    },
+    {
+      "conversation_id": "original__CONV_000078",
+      "case_group_id": "SYNTH_COIN_INVESTMENT_0018",
+      "input_sha256": "d98fdbb9c5edc463704b4b7e54df700751dee09237f0b3915ab13ab92c04643c",
+      "label": "SCAM",
+      "xyz": [
+        0.5278423769935797,
+        0.28792729935826894,
+        1.0
+      ],
+      "verified": true,
+      "split": "train"
+    },
+    {
+      "conversation_id": "original__CONV_000079",
+      "case_group_id": "SYNTH_COIN_INVESTMENT_0019",
+      "input_sha256": "3338dc38ea3632a077e73a0c8e6d9e9ebcf820845c0ec14e419891257066f708",
+      "label": "SCAM",
+      "xyz": [
+        0.218998358252408,
+        0.30650494787215077,
+        1.0
+      ],
+      "verified": true,
+      "split": "train"
+    },
+    {
+      "conversation_id": "original__CONV_000080",
+      "case_group_id": "SYNTH_COIN_INVESTMENT_0020",
+      "input_sha256": "f1f2297e882b790f009df8d156ed21be21a99edc20db18fce647632e5e627694",
+      "label": "SCAM",
+      "xyz": [
+        0.4273420434239489,
+        0.5049786515102649,
+        1.0
+      ],
+      "verified": true,
+      "split": "train"
+    },
+    {
+      "conversation_id": "original__CONV_000081",
+      "case_group_id": "SYNTH_COIN_INVESTMENT_0021",
+      "input_sha256": "57156b0a4e0d9c8971f97e5baad6dc111a28d5349f6015f431482b81cd1484e0",
+      "label": "SCAM",
+      "xyz": [
+        0.4754364516584192,
+        0.3642447533227068,
+        1.0
+      ],
+      "verified": true,
+      "split": "train"
+    },
+    {
+      "conversation_id": "original__CONV_000088",
+      "case_group_id": "SYNTH_COIN_INVESTMENT_0028",
+      "input_sha256": "48d187abe69ad19f91f4eb62f0e3272aeb7ac36fdb9a55b3a977f091f379bb09",
+      "label": "SCAM",
+      "xyz": [
+        0.02470720238269941,
+        0.9234477885433271,
+        1.0
+      ],
+      "verified": true,
+      "split": "train"
+    },
+    {
+      "conversation_id": "original__CONV_000090",
+      "case_group_id": "SYNTH_COIN_INVESTMENT_0030",
+      "input_sha256": "aca549dd7a4a8efa9eab014bdc952383c5486951cb379c80b8a368882217b93c",
+      "label": "SCAM",
+      "xyz": [
+        0.011343885512649088,
+        0.8694122784680423,
+        1.0
+      ],
+      "verified": true,
+      "split": "train"
+    },
+    {
+      "conversation_id": "original__CONV_000093",
+      "case_group_id": "SYNTH_COIN_INVESTMENT_0033",
+      "input_sha256": "dad2bd9bec2733c37643a879bf11bcec895557225b1931d9fe652b70b62a4a36",
+      "label": "SCAM",
+      "xyz": [
+        -0.11930380154227593,
+        0.6647504767522787,
+        1.0
+      ],
+      "verified": true,
+      "split": "train"
+    },
+    {
+      "conversation_id": "original__CONV_000094",
+      "case_group_id": "SYNTH_COIN_INVESTMENT_0034",
+      "input_sha256": "ff2ec687be6eb4796bd27bb92b6ed2f3fe698532e5deee42b27aeeafc96c979a",
+      "label": "SCAM",
+      "xyz": [
+        -0.29063750773371283,
+        1.1050806304950385,
+        1.0
+      ],
+      "verified": true,
+      "split": "train"
+    },
+    {
+      "conversation_id": "original__CONV_000095",
+      "case_group_id": "SYNTH_COIN_INVESTMENT_0035",
+      "input_sha256": "71d4f52004f326a6b509f1850384e8ed03633fda9372b5c8a5fc746d77834baf",
+      "label": "SCAM",
+      "xyz": [
+        -0.018546593720344395,
+        0.5653085208419912,
+        1.0
+      ],
+      "verified": true,
+      "split": "train"
+    },
+    {
+      "conversation_id": "original__CONV_000097",
+      "case_group_id": "SYNTH_COIN_INVESTMENT_0037",
+      "input_sha256": "df0e55fc83e4d9cdaa6993a0fe8d4eb300c981289f0d5667dee07b8239518e35",
+      "label": "SCAM",
+      "xyz": [
+        -0.1544980449981681,
+        1.199774665277543,
+        1.0
+      ],
+      "verified": true,
+      "split": "train"
+    },
+    {
+      "conversation_id": "original__CONV_000101",
+      "case_group_id": "SYNTH_COIN_INVESTMENT_0041",
+      "input_sha256": "bb91261b90cdfdd6ed24b46116136e72cdb16bb24ffe44f22b2e11036150e78f",
+      "label": "SCAM",
+      "xyz": [
+        -0.4677394570198551,
+        1.1682140684811289,
+        1.0
+      ],
+      "verified": true,
+      "split": "train"
+    },
+    {
+      "conversation_id": "original__CONV_000102",
+      "case_group_id": "SYNTH_COIN_INVESTMENT_0042",
+      "input_sha256": "9cd680125b6c8532555ba25539ee6b1bde017899b0c45c6ef6e7f1a474d57ec5",
+      "label": "SCAM",
+      "xyz": [
+        -0.27870047139588294,
+        0.8296737909223919,
+        1.0
+      ],
+      "verified": true,
+      "split": "train"
+    },
+    {
+      "conversation_id": "original__CONV_000103",
+      "case_group_id": "SYNTH_COIN_INVESTMENT_0043",
+      "input_sha256": "be431c4b8d4a28dea1324311643b351ed144c35042390d747bc3c3abaa1ee1a9",
+      "label": "SCAM",
+      "xyz": [
+        -0.31415604023899285,
+        0.9918171527898096,
+        1.0
+      ],
+      "verified": true,
+      "split": "train"
+    },
+    {
+      "conversation_id": "original__CONV_000105",
+      "case_group_id": "SYNTH_COIN_INVESTMENT_0045",
+      "input_sha256": "72a5f531f895c2910a77af7cf89a2cb1d2b5ba0c7d314b6864dba4a11808af96",
+      "label": "SCAM",
+      "xyz": [
+        -0.48148336975409267,
+        0.8645314625134344,
+        1.0
+      ],
+      "verified": true,
+      "split": "train"
+    },
+    {
+      "conversation_id": "original__CONV_000107",
+      "case_group_id": "SYNTH_COIN_INVESTMENT_0047",
+      "input_sha256": "6c42faf7c28d215339e88598ddcfd49b089571ca5ec9a0bd41b0326e33663279",
+      "label": "SCAM",
+      "xyz": [
+        -0.3530501323471663,
+        1.171122349350851,
+        1.0
+      ],
+      "verified": true,
+      "split": "train"
+    },
+    {
+      "conversation_id": "original__CONV_000109",
+      "case_group_id": "SYNTH_COIN_INVESTMENT_0049",
+      "input_sha256": "65d5094a0ac0cb2caa8ff0987d841c393163c3fc2af459c701909d15028b2b1d",
+      "label": "SCAM",
+      "xyz": [
+        -0.07914137203771987,
+        1.2154357309488808,
+        1.0
+      ],
+      "verified": true,
+      "split": "train"
+    },
+    {
+      "conversation_id": "original__CONV_000111",
+      "case_group_id": "SYNTH_COIN_INVESTMENT_0051",
+      "input_sha256": "8fb8e797388b0d71841ee3cccb1c7e5480e99daef711e5edffaaea5b422fe7ca",
+      "label": "SCAM",
+      "xyz": [
+        -0.20755423626118208,
+        0.6940728321467725,
+        1.0
+      ],
+      "verified": true,
+      "split": "train"
+    },
+    {
+      "conversation_id": "original__CONV_000112",
+      "case_group_id": "SYNTH_COIN_INVESTMENT_0052",
+      "input_sha256": "5cccfbc96d7512aa3ddfc11a3fd048b222d23ba0e2519a1ced54828de6a8aa92",
+      "label": "SCAM",
+      "xyz": [
+        -0.2578894083478081,
+        0.899052298753671,
+        1.0
+      ],
+      "verified": true,
+      "split": "train"
+    },
+    {
+      "conversation_id": "original__CONV_000113",
+      "case_group_id": "SYNTH_COIN_INVESTMENT_0053",
+      "input_sha256": "b72fa01e55b3e7b9c663a38d3a138666adfd5d396431ece7f2e60d34a2200266",
+      "label": "SCAM",
+      "xyz": [
+        -0.15596651237916093,
+        0.6469033424875787,
+        1.0
+      ],
+      "verified": true,
+      "split": "train"
+    },
+    {
+      "conversation_id": "original__CONV_000115",
+      "case_group_id": "SYNTH_COIN_INVESTMENT_0055",
+      "input_sha256": "ecd888eae29194f337d4066a581c1d8de0a8e24de8083fe27ebc25b0d70a9334",
+      "label": "SCAM",
+      "xyz": [
+        -0.22030904761496772,
+        1.0182931321354178,
+        1.0
+      ],
+      "verified": true,
+      "split": "train"
+    },
+    {
+      "conversation_id": "original__CONV_000117",
+      "case_group_id": "SYNTH_COIN_INVESTMENT_0057",
+      "input_sha256": "292dc2f4584daf8989defc7f4ded1c6e0bcbbebd6389f75f820f165e6f066854",
+      "label": "SCAM",
+      "xyz": [
+        -0.09831127165314757,
+        1.3759309046724764,
+        1.0
+      ],
+      "verified": true,
+      "split": "train"
+    },
+    {
+      "conversation_id": "original__CONV_000118",
+      "case_group_id": "SYNTH_COIN_INVESTMENT_0058",
+      "input_sha256": "7aaaa4e5d107310f2072a4b980a55c2ff785d4fe9f2f42120af37e2ccfaea4f5",
+      "label": "SCAM",
+      "xyz": [
+        -0.15743103971783579,
+        1.0241339422700957,
+        1.0
+      ],
+      "verified": true,
+      "split": "train"
+    },
+    {
+      "conversation_id": "original__CONV_000119",
+      "case_group_id": "SYNTH_COIN_INVESTMENT_0059",
+      "input_sha256": "582c4f953e9fa3064242ea627b45d100ebb47a1d4fcb99e1cac6ee033f46232b",
+      "label": "SCAM",
+      "xyz": [
+        -0.47151173269891766,
+        0.9926924343432855,
+        1.0
+      ],
+      "verified": true,
+      "split": "train"
+    },
+    {
+      "conversation_id": "original__CONV_000122",
+      "case_group_id": "NORMAL_0062",
+      "input_sha256": "2951da8a45ce5ffe9d826b362ecefbcd18efb7758834868a652155da11ad058c",
+      "label": "NON_SCAM",
+      "xyz": [
+        0.4072581307476991,
+        -0.9666267135825137,
+        0.0
+      ],
+      "verified": true,
+      "split": "train"
+    },
+    {
+      "conversation_id": "original__CONV_000123",
+      "case_group_id": "NORMAL_0063",
+      "input_sha256": "d40ca5b7e5e1bd5f77c7621cd41e8e09280624ac055cb7dc9513555748721214",
+      "label": "NON_SCAM",
+      "xyz": [
+        0.2304294036402449,
+        -0.4487386970036433,
+        0.0
+      ],
+      "verified": true,
+      "split": "train"
+    },
+    {
+      "conversation_id": "original__CONV_000124",
+      "case_group_id": "NORMAL_0064",
+      "input_sha256": "f12df69c9816f8d7b8fcc72539decb0b748475a9718de4ebe5748b9805eb8c1e",
+      "label": "NON_SCAM",
+      "xyz": [
+        0.22256270581053228,
+        -1.282039964121275,
+        0.0
+      ],
+      "verified": true,
+      "split": "train"
+    },
+    {
+      "conversation_id": "original__CONV_000127",
+      "case_group_id": "NORMAL_0067",
+      "input_sha256": "ca7f4174bd88638f8b4763078c23c1b87856355f0d8de6ded9fac26a5542b701",
+      "label": "NON_SCAM",
+      "xyz": [
+        0.06383850146597425,
+        -0.844826335798837,
+        0.0
+      ],
+      "verified": true,
+      "split": "train"
+    },
+    {
+      "conversation_id": "original__CONV_000128",
+      "case_group_id": "NORMAL_0068",
+      "input_sha256": "d77909a706c0bcf36046cba6b8bddfbb94b805fc5134602adb5b90fd2b3ac59a",
+      "label": "NON_SCAM",
+      "xyz": [
+        -0.04897848868600341,
+        -0.4257671509873645,
+        0.0
+      ],
+      "verified": true,
+      "split": "train"
+    },
+    {
+      "conversation_id": "original__CONV_000129",
+      "case_group_id": "NORMAL_0069",
+      "input_sha256": "62729a7b9c6eeb386f535d520553b41da4ed61708612e9b4478ac4b3602a114b",
+      "label": "NON_SCAM",
+      "xyz": [
+        -0.007678533366652918,
+        -0.7331710166683924,
+        0.0
+      ],
+      "verified": true,
+      "split": "train"
+    },
+    {
+      "conversation_id": "original__CONV_000130",
+      "case_group_id": "NORMAL_0070",
+      "input_sha256": "44137e8a65b689195d57eeae7429c05aa4cf9f2ff4e30abec669d99d18c3b4bb",
+      "label": "NON_SCAM",
+      "xyz": [
+        -0.02314281558766118,
+        -1.0882174804213374,
+        0.0
+      ],
+      "verified": true,
+      "split": "train"
+    },
+    {
+      "conversation_id": "original__CONV_000131",
+      "case_group_id": "NORMAL_0071",
+      "input_sha256": "69b500f3619d4229017b659c9566fb9e0d2a65984fe752d049ec83e737f800c5",
+      "label": "NON_SCAM",
+      "xyz": [
+        -0.22822157291652323,
+        -1.5035342880236011,
+        0.0
+      ],
+      "verified": true,
+      "split": "train"
+    },
+    {
+      "conversation_id": "original__CONV_000132",
+      "case_group_id": "NORMAL_0072",
+      "input_sha256": "4d3f5aff0ce6c08787a34f7475599127dd8610b73c7e20adbf3c8ee7fede29fd",
+      "label": "NON_SCAM",
+      "xyz": [
+        -0.4389199165420249,
+        -1.0778500039945058,
+        0.0
+      ],
+      "verified": true,
+      "split": "train"
+    },
+    {
+      "conversation_id": "original__CONV_000134",
+      "case_group_id": "NORMAL_0074",
+      "input_sha256": "70e6eb79e180b02f08e5d7eec5a3df8d4831eee5af223655ad3f05e45e38be51",
+      "label": "NON_SCAM",
+      "xyz": [
+        -0.04710126200974496,
+        -0.39290745579675723,
+        0.0
+      ],
+      "verified": true,
+      "split": "train"
+    },
+    {
+      "conversation_id": "original__CONV_000139",
+      "case_group_id": "NORMAL_0079",
+      "input_sha256": "6f42e6d07397565ccfc83ad688ac5b45119b5e8319183dcbb96acc0265d33992",
+      "label": "NON_SCAM",
+      "xyz": [
+        0.09419548288252866,
+        -1.028512970108843,
+        0.0
+      ],
+      "verified": true,
+      "split": "train"
+    },
+    {
+      "conversation_id": "original__CONV_000144",
+      "case_group_id": "NORMAL_0084",
+      "input_sha256": "0eade4e68ad075bed3cae764a1442fe317eaaaed15c18526dcceb8d94d410f4b",
+      "label": "NON_SCAM",
+      "xyz": [
+        -0.1923219592747033,
+        -1.0377993337724891,
+        0.0
+      ],
+      "verified": true,
+      "split": "train"
+    },
+    {
+      "conversation_id": "original__CONV_000148",
+      "case_group_id": "NORMAL_0088",
+      "input_sha256": "af076a1625ff216c38f9df209cf790ede8373bb6cf07253f88333d08bfe03224",
+      "label": "NON_SCAM",
+      "xyz": [
+        0.07580386663985916,
+        -0.9524446657778602,
+        0.0
+      ],
+      "verified": true,
+      "split": "train"
+    },
+    {
+      "conversation_id": "original__CONV_000149",
+      "case_group_id": "NORMAL_0089",
+      "input_sha256": "7fc9685321c2f2a0aa3e50aabd5e03f1f398df1983a6bbf4b80ac1249e4dfa3d",
+      "label": "NON_SCAM",
+      "xyz": [
+        0.18351410457347284,
+        -0.9964007955704601,
+        0.0
+      ],
+      "verified": true,
+      "split": "train"
+    },
+    {
+      "conversation_id": "original__CONV_000154",
+      "case_group_id": "NORMAL_0094",
+      "input_sha256": "ed2b8a86f0599f48e4f232e7694a4697b4dfb554573301324ed3cdcca92507e6",
+      "label": "NON_SCAM",
+      "xyz": [
+        0.3467076987985862,
+        -0.9634508192752653,
+        0.0
+      ],
+      "verified": true,
+      "split": "train"
+    },
+    {
+      "conversation_id": "original__CONV_000155",
+      "case_group_id": "NORMAL_0095",
+      "input_sha256": "13a65db9957e40ef3a6e8e790f7636ceddb2244b07ddf5ea677ae78df390ec96",
+      "label": "NON_SCAM",
+      "xyz": [
+        0.08554056806948485,
+        -1.4412685211707603,
+        0.0
+      ],
+      "verified": true,
+      "split": "train"
+    },
+    {
+      "conversation_id": "original__CONV_000156",
+      "case_group_id": "NORMAL_0096",
+      "input_sha256": "e4d318c44a759839d8efd2f62420f14384dca107879fa2882d1473d242335b68",
+      "label": "NON_SCAM",
+      "xyz": [
+        0.2240808798312416,
+        -1.1919404097650308,
+        0.0
+      ],
+      "verified": true,
+      "split": "train"
+    },
+    {
+      "conversation_id": "original__CONV_000157",
+      "case_group_id": "NORMAL_0097",
+      "input_sha256": "4d35cf8760e11efb785ac89cf8b03a0a0f06d135f0a9c5205b174242f587d742",
+      "label": "NON_SCAM",
+      "xyz": [
+        0.25243563057116336,
+        -1.2055544755502552,
+        0.0
+      ],
+      "verified": true,
+      "split": "train"
+    },
+    {
+      "conversation_id": "original__CONV_000158",
+      "case_group_id": "NORMAL_0098",
+      "input_sha256": "899d5a9a5b7add25bd5cb72bff326c19847fb46718911e138d5eed1268725468",
+      "label": "NON_SCAM",
+      "xyz": [
+        0.053566912957274115,
+        -1.4530731418663174,
+        0.0
+      ],
+      "verified": true,
+      "split": "train"
+    },
+    {
+      "conversation_id": "original__CONV_000159",
+      "case_group_id": "NORMAL_0099",
+      "input_sha256": "610e7cc102f26b66c5c0d1e2bb97e1f2236bd57fba928248fa2ae3df7f4c6d3f",
+      "label": "NON_SCAM",
+      "xyz": [
+        0.290568401789148,
+        -1.0258666554018,
+        0.0
+      ],
+      "verified": true,
+      "split": "train"
+    },
+    {
+      "conversation_id": "original__CONV_000160",
+      "case_group_id": "NORMAL_0100",
+      "input_sha256": "b5585fe84aaf1c03a0164c672471d5849f7525f97554a036c317d7d64616cd7e",
+      "label": "NON_SCAM",
+      "xyz": [
+        0.11051032696010044,
+        -1.6473904202536884,
+        0.0
+      ],
+      "verified": true,
+      "split": "train"
+    },
+    {
+      "conversation_id": "original__CONV_000161",
+      "case_group_id": "NORMAL_0101",
+      "input_sha256": "26a1fc8044c0ac5e173630161a02b353f76333a6c46f886b501a6b5cdca4cda3",
+      "label": "NON_SCAM",
+      "xyz": [
+        0.04455835612885817,
+        -0.6067131507443521,
+        0.0
+      ],
+      "verified": true,
+      "split": "train"
+    },
+    {
+      "conversation_id": "original__CONV_000162",
+      "case_group_id": "NORMAL_0102",
+      "input_sha256": "dd5c8a4d724416369a168206e34ebdb84e1bb73914f5266e2677a6f690c37e66",
+      "label": "NON_SCAM",
+      "xyz": [
+        0.31344040094198444,
+        -1.041153853595246,
+        0.0
+      ],
+      "verified": true,
+      "split": "train"
+    },
+    {
+      "conversation_id": "original__CONV_000164",
+      "case_group_id": "NORMAL_0104",
+      "input_sha256": "e77995bc0c743e07fac862df9ff5eed3e009e7d7a1995c4a522ae4d93923a8e6",
+      "label": "NON_SCAM",
+      "xyz": [
+        0.5586642190225866,
+        -0.6786951842202323,
+        0.0
+      ],
+      "verified": true,
+      "split": "train"
+    },
+    {
+      "conversation_id": "original__CONV_000166",
+      "case_group_id": "NORMAL_0106",
+      "input_sha256": "2868bacf51d86fdca71a7ead12952c7ea353aaa7a8140d58ccf650ca26612ad1",
+      "label": "NON_SCAM",
+      "xyz": [
+        0.17990535519159245,
+        -0.8418632538259856,
+        0.0
+      ],
+      "verified": true,
+      "split": "train"
+    },
+    {
+      "conversation_id": "original__CONV_000167",
+      "case_group_id": "NORMAL_0107",
+      "input_sha256": "3e24afcecc6f95d12860dd7f2129150f2597088a24833fad23794b1343fc9499",
+      "label": "NON_SCAM",
+      "xyz": [
+        0.1175141729964041,
+        -0.8626179469869102,
+        0.0
+      ],
+      "verified": true,
+      "split": "train"
+    },
+    {
+      "conversation_id": "original__CONV_000171",
+      "case_group_id": "NORMAL_0111",
+      "input_sha256": "5fa2966d3794fefd05273edd17a7bcd92f5f44d89726e6fb5016f0843819a77d",
+      "label": "NON_SCAM",
+      "xyz": [
+        0.5030237683681782,
+        -0.9208565419799009,
+        0.0
+      ],
+      "verified": true,
+      "split": "train"
+    },
+    {
+      "conversation_id": "original__CONV_000172",
+      "case_group_id": "NORMAL_0112",
+      "input_sha256": "31218d6ae53c5f451ce55b75fd6c491e6093b93d4f5584ee49f271e713769acd",
+      "label": "NON_SCAM",
+      "xyz": [
+        0.12646747994986773,
+        -1.5671470364805853,
+        0.0
+      ],
+      "verified": true,
+      "split": "train"
+    },
+    {
+      "conversation_id": "original__CONV_000173",
+      "case_group_id": "NORMAL_0113",
+      "input_sha256": "ac5321680ad0a23e7de72720af644ab536649535d7c1f1a6774d0ee8994c3f6e",
+      "label": "NON_SCAM",
+      "xyz": [
+        0.12769528436413435,
+        -1.7696022600863264,
+        0.0
+      ],
+      "verified": true,
+      "split": "train"
+    },
+    {
+      "conversation_id": "original__CONV_000174",
+      "case_group_id": "NORMAL_0114",
+      "input_sha256": "13d0f402248b439987a8f7cd70acbc0cd8393b9d8fba8574ae4ed1ca65896f44",
+      "label": "NON_SCAM",
+      "xyz": [
+        0.16928279079063413,
+        -1.1516648307110182,
+        0.0
+      ],
+      "verified": true,
+      "split": "train"
+    },
+    {
+      "conversation_id": "original__CONV_000176",
+      "case_group_id": "NORMAL_0116",
+      "input_sha256": "14ab6514936ec35a305aa1ca05c17b2a7930d9221086b0eaf73f113a7a0f5f78",
+      "label": "NON_SCAM",
+      "xyz": [
+        0.08407023194622942,
+        -1.7009611617680145,
+        0.0
+      ],
+      "verified": true,
+      "split": "train"
+    },
+    {
+      "conversation_id": "original__CONV_000177",
+      "case_group_id": "NORMAL_0117",
+      "input_sha256": "ccbc46ed37e8aced7eae7764663d9d2718f161e941bb2e80068246a0ceb84c1c",
+      "label": "NON_SCAM",
+      "xyz": [
+        0.013344088448118407,
+        -1.3557280571576784,
+        0.0
+      ],
+      "verified": true,
+      "split": "train"
+    },
+    {
+      "conversation_id": "original__CONV_000178",
+      "case_group_id": "NORMAL_0118",
+      "input_sha256": "8d7ee6db2beb55f0b106a7e09070309f3c30aedf2d14ccf2fe5fa8f0e00a29bf",
+      "label": "NON_SCAM",
+      "xyz": [
+        0.2475380973918334,
+        -1.5125127287215308,
+        0.0
+      ],
+      "verified": true,
+      "split": "train"
+    },
+    {
+      "conversation_id": "original__CONV_000179",
+      "case_group_id": "NORMAL_0119",
+      "input_sha256": "1b35c1931d77bdea4c2103a79379fb47c97911206617ad8d5257c083db940e6f",
+      "label": "NON_SCAM",
+      "xyz": [
+        -0.15648973937413158,
+        -0.6249062063315546,
+        0.0
+      ],
+      "verified": true,
+      "split": "train"
+    },
+    {
+      "conversation_id": "original__CONV_000180",
+      "case_group_id": "NORMAL_0120",
+      "input_sha256": "048e54dfc43daa7b561a4d912f860cf816ea9447c2216c2440d0a782798d98d7",
+      "label": "NON_SCAM",
+      "xyz": [
+        0.05875250153142608,
+        -1.738739320775704,
+        0.0
+      ],
+      "verified": true,
+      "split": "train"
+    },
+    {
+      "conversation_id": "original__CONV_000183",
+      "case_group_id": "SYNTH_COST_PROXY_0003",
+      "input_sha256": "c8fd8fcbad7f0a744b0e2156eb78845ac5a00d92b534934985b30b3546676772",
+      "label": "SCAM",
+      "xyz": [
+        0.2779822989995445,
+        0.7793285890135607,
+        1.0
+      ],
+      "verified": true,
+      "split": "train"
+    },
+    {
+      "conversation_id": "original__CONV_000184",
+      "case_group_id": "SYNTH_COST_PROXY_0004",
+      "input_sha256": "b5cd2d3b6e9eda2101a55903abc833511b52fd72115d86dc7920d4aa1787724d",
+      "label": "SCAM",
+      "xyz": [
+        0.0622813309456971,
+        0.4046193837122676,
+        1.0
+      ],
+      "verified": true,
+      "split": "train"
+    },
+    {
+      "conversation_id": "original__CONV_000185",
+      "case_group_id": "SYNTH_COST_PROXY_0005",
+      "input_sha256": "e077ea42c8e6523c1a5904630ab38520b74aaec02d07002f6f2c8fd94027d6b9",
+      "label": "SCAM",
+      "xyz": [
+        0.2608493248214705,
+        0.6362375960236165,
+        1.0
+      ],
+      "verified": true,
+      "split": "train"
+    },
+    {
+      "conversation_id": "original__CONV_000186",
+      "case_group_id": "SYNTH_COST_PROXY_0006",
+      "input_sha256": "5c4221b33bdbc7554bddd3b7dea01c8bb74ab6c889e5c95a87a7b9f084a36cee",
+      "label": "SCAM",
+      "xyz": [
+        0.3637649178749386,
+        1.0364274935271323,
+        1.0
+      ],
+      "verified": true,
+      "split": "train"
+    },
+    {
+      "conversation_id": "original__CONV_000187",
+      "case_group_id": "SYNTH_COST_PROXY_0007",
+      "input_sha256": "e57cbecb5eaea945f3ed484ed70184302703ac25e36c65441c0e547e4ae014ff",
+      "label": "SCAM",
+      "xyz": [
+        0.22117680725123823,
+        0.6148546435928823,
+        1.0
+      ],
+      "verified": true,
+      "split": "train"
+    },
+    {
+      "conversation_id": "original__CONV_000188",
+      "case_group_id": "SYNTH_COST_PROXY_0008",
+      "input_sha256": "e50c99b108ddf0468c6a2601ccd0de6260dd034fdc80a22bffbd5d6ed88900f2",
+      "label": "SCAM",
+      "xyz": [
+        0.2069050540268158,
+        0.8999248876638807,
+        1.0
+      ],
+      "verified": true,
+      "split": "train"
+    },
+    {
+      "conversation_id": "original__CONV_000189",
+      "case_group_id": "SYNTH_COST_PROXY_0009",
+      "input_sha256": "d601fd7b2980c6ffb82778bd9acefce8da389c4e95de5e0b0fadeefd000004d0",
+      "label": "SCAM",
+      "xyz": [
+        0.5277019701877689,
+        0.7463296926932671,
+        1.0
+      ],
+      "verified": true,
+      "split": "train"
+    },
+    {
+      "conversation_id": "original__CONV_000191",
+      "case_group_id": "SYNTH_COST_PROXY_0011",
+      "input_sha256": "957453bcf4ebaf83275a8296bf8aa91fc21cc964dfd79847398df8325f35e9f4",
+      "label": "SCAM",
+      "xyz": [
+        0.09600079669576045,
+        0.5312018329906796,
+        1.0
+      ],
+      "verified": true,
+      "split": "train"
+    },
+    {
+      "conversation_id": "original__CONV_000192",
+      "case_group_id": "SYNTH_COST_PROXY_0012",
+      "input_sha256": "699595f9dfcb00c98ceccbf2f47de58ef9da899b88fbd8ff19254bebd2bdfbae",
+      "label": "SCAM",
+      "xyz": [
+        0.4285882614481945,
+        0.6451435950546928,
+        1.0
+      ],
+      "verified": true,
+      "split": "train"
+    },
+    {
+      "conversation_id": "original__CONV_000194",
+      "case_group_id": "SYNTH_COST_PROXY_0014",
+      "input_sha256": "23ef44214494c0330ebbae779d20b87ec91191ae467396763dea13b584900311",
+      "label": "SCAM",
+      "xyz": [
+        0.18329061450979622,
+        0.9935787874223684,
+        1.0
+      ],
+      "verified": true,
+      "split": "train"
+    },
+    {
+      "conversation_id": "original__CONV_000195",
+      "case_group_id": "SYNTH_COST_PROXY_0015",
+      "input_sha256": "37ed90ed35e42ebd80d6e552581e2503df0eb8440d2cdfdeeee599f188cc54ec",
+      "label": "SCAM",
+      "xyz": [
+        0.25799840044567757,
+        0.9149946429174292,
+        1.0
+      ],
+      "verified": true,
+      "split": "train"
+    },
+    {
+      "conversation_id": "original__CONV_000196",
+      "case_group_id": "SYNTH_COST_PROXY_0016",
+      "input_sha256": "15e21e6c3a4ecbddfaca835cfa629877b3326c8de2ddf476de9313fc93321262",
+      "label": "SCAM",
+      "xyz": [
+        0.21196424972227623,
+        0.9230263817011408,
+        1.0
+      ],
+      "verified": true,
+      "split": "train"
+    },
+    {
+      "conversation_id": "original__CONV_000197",
+      "case_group_id": "SYNTH_COST_PROXY_0017",
+      "input_sha256": "fef12c54b62db894cbddce5f94631c985b059992b539049045131ac3d300ccad",
+      "label": "SCAM",
+      "xyz": [
+        0.26717926415750215,
+        1.003016357771796,
+        1.0
+      ],
+      "verified": true,
+      "split": "train"
+    },
+    {
+      "conversation_id": "original__CONV_000201",
+      "case_group_id": "SYNTH_COST_PROXY_0021",
+      "input_sha256": "895a2eb9bd1b92bdf6e9e069576424442e1135b253b98e5824c3532c6e30f432",
+      "label": "SCAM",
+      "xyz": [
+        0.20033186276871617,
+        0.8139604475203299,
+        1.0
+      ],
+      "verified": true,
+      "split": "train"
+    },
+    {
+      "conversation_id": "original__CONV_000202",
+      "case_group_id": "SYNTH_COST_PROXY_0022",
+      "input_sha256": "5589191a314c05b4ffdae87ea99fad38af9d1bfdc08c7db62a038da682df8608",
+      "label": "SCAM",
+      "xyz": [
+        0.3731831422165488,
+        0.6216730516000554,
+        1.0
+      ],
+      "verified": true,
+      "split": "train"
+    },
+    {
+      "conversation_id": "original__CONV_000205",
+      "case_group_id": "SYNTH_COST_PROXY_0025",
+      "input_sha256": "e8afd3f1529c1bceb363b43c9502124ce0a89aaa2c78774b5067e4871b82bb80",
+      "label": "SCAM",
+      "xyz": [
+        0.6683516039828774,
+        0.9778062267104269,
+        1.0
+      ],
+      "verified": true,
+      "split": "train"
+    },
+    {
+      "conversation_id": "original__CONV_000206",
+      "case_group_id": "SYNTH_COST_PROXY_0026",
+      "input_sha256": "6bd56f8029c31c1149bf58d39d6146064abdd659adb8cfad2db858180900baf3",
+      "label": "SCAM",
+      "xyz": [
+        0.32299661208581965,
+        0.8851510790999304,
+        1.0
+      ],
+      "verified": true,
+      "split": "train"
+    },
+    {
+      "conversation_id": "original__CONV_000207",
+      "case_group_id": "SYNTH_COST_PROXY_0027",
+      "input_sha256": "c0e34d661f6b558f59b791ab778a8ac30c36107f74101d402ed8c65bf09e6d0a",
+      "label": "SCAM",
+      "xyz": [
+        0.16874962250721104,
+        0.634330358549588,
+        1.0
+      ],
+      "verified": true,
+      "split": "train"
+    },
+    {
+      "conversation_id": "original__CONV_000208",
+      "case_group_id": "SYNTH_COST_PROXY_0028",
+      "input_sha256": "0c3be007793b14af76f515f4e87bdd07929018e45bb82e34531bd3eb2fa80369",
+      "label": "SCAM",
+      "xyz": [
+        0.5588150462711178,
+        0.6628873220064602,
+        1.0
+      ],
+      "verified": true,
+      "split": "train"
+    },
+    {
+      "conversation_id": "original__CONV_000211",
+      "case_group_id": "SYNTH_COST_PROXY_0031",
+      "input_sha256": "9227e092d0f1504703e52f21440b1a693cbfdce083e746a1003a6a25516c135c",
+      "label": "SCAM",
+      "xyz": [
+        0.22760235110981852,
+        1.0831826418818011,
+        1.0
+      ],
+      "verified": true,
+      "split": "train"
+    },
+    {
+      "conversation_id": "original__CONV_000213",
+      "case_group_id": "SYNTH_COST_PROXY_0033",
+      "input_sha256": "7c39b801410e7d090dec003427f54a62640f24ab81157edf2dd86855f70bcd5f",
+      "label": "SCAM",
+      "xyz": [
+        0.22007866289217415,
+        0.7764067993261392,
+        1.0
+      ],
+      "verified": true,
+      "split": "train"
+    },
+    {
+      "conversation_id": "original__CONV_000214",
+      "case_group_id": "SYNTH_COST_PROXY_0034",
+      "input_sha256": "343f05c0364315330bd4cf83dc519f051702fbfe20af807e82e6758de0150a32",
+      "label": "SCAM",
+      "xyz": [
+        0.3285474142568645,
+        1.171879058019137,
+        1.0
+      ],
+      "verified": true,
+      "split": "train"
+    },
+    {
+      "conversation_id": "original__CONV_000216",
+      "case_group_id": "SYNTH_COST_PROXY_0036",
+      "input_sha256": "daee593efa9c4dc1d7aa30ee01e91224618b2655eec7b61970dadd19d4633148",
+      "label": "SCAM",
+      "xyz": [
+        0.2921961170512888,
+        0.8767763060909187,
+        1.0
+      ],
+      "verified": true,
+      "split": "train"
+    },
+    {
+      "conversation_id": "original__CONV_000217",
+      "case_group_id": "SYNTH_COST_PROXY_0037",
+      "input_sha256": "8cf059dd3893ff1cd3ad72c58af56bbfb39953dd706a888f2695a2403bf236ab",
+      "label": "SCAM",
+      "xyz": [
+        0.48533194635501153,
+        1.2198215220558712,
+        1.0
+      ],
+      "verified": true,
+      "split": "train"
+    },
+    {
+      "conversation_id": "original__CONV_000218",
+      "case_group_id": "SYNTH_COST_PROXY_0038",
+      "input_sha256": "faa3f06479524540abccdba0825c2b94ef3aa4bdfab1962e91b27362249f4020",
+      "label": "SCAM",
+      "xyz": [
+        0.0902849360390362,
+        0.8566891888732463,
+        1.0
+      ],
+      "verified": true,
+      "split": "train"
+    },
+    {
+      "conversation_id": "original__CONV_000220",
+      "case_group_id": "SYNTH_COST_PROXY_0040",
+      "input_sha256": "34d8292156d8c7ba48d107e3165ecc75fda2f3032a7d3c43e2c1ac706487f77d",
+      "label": "SCAM",
+      "xyz": [
+        0.19187402715614865,
+        0.9987465317399302,
+        1.0
+      ],
+      "verified": true,
+      "split": "train"
+    },
+    {
+      "conversation_id": "original__CONV_000222",
+      "case_group_id": "SYNTH_COST_PROXY_0042",
+      "input_sha256": "bf3ab9c18fbf78f4ea2f16ae89282227bcad96f14c98d41a5f21762f90554d7f",
+      "label": "SCAM",
+      "xyz": [
+        0.09922627106998982,
+        1.025575972316098,
+        1.0
+      ],
+      "verified": true,
+      "split": "train"
+    },
+    {
+      "conversation_id": "original__CONV_000223",
+      "case_group_id": "SYNTH_COST_PROXY_0043",
+      "input_sha256": "9a5b04182d00275d18311dd4f1590782dca759548dd9da07c13db79293068207",
+      "label": "SCAM",
+      "xyz": [
+        -0.04282391351577153,
+        0.7312393407636225,
+        1.0
+      ],
+      "verified": true,
+      "split": "train"
+    },
+    {
+      "conversation_id": "original__CONV_000225",
+      "case_group_id": "SYNTH_COST_PROXY_0045",
+      "input_sha256": "8fedf71fec1801722f8d2fe97f17bdf6eee58e3a303455acdc4a95d4fef78690",
+      "label": "SCAM",
+      "xyz": [
+        0.19110623303863594,
+        0.9523850400476527,
+        1.0
+      ],
+      "verified": true,
+      "split": "train"
+    },
+    {
+      "conversation_id": "original__CONV_000227",
+      "case_group_id": "SYNTH_COST_PROXY_0047",
+      "input_sha256": "63d77026faa0d0dac68b411bc82c5a68c92814a3b5aa97b9427132ecf2837ab2",
+      "label": "SCAM",
+      "xyz": [
+        0.16494519789511886,
+        0.6879559259988688,
+        1.0
+      ],
+      "verified": true,
+      "split": "train"
+    },
+    {
+      "conversation_id": "original__CONV_000228",
+      "case_group_id": "SYNTH_COST_PROXY_0048",
+      "input_sha256": "4d11968be3cb450b8270755bac766475bac1bed2488c02bef435cbddb9e3717a",
+      "label": "SCAM",
+      "xyz": [
+        0.1545266413695695,
+        0.7677585517235862,
+        1.0
+      ],
+      "verified": true,
+      "split": "train"
+    },
+    {
+      "conversation_id": "original__CONV_000230",
+      "case_group_id": "SYNTH_COST_PROXY_0050",
+      "input_sha256": "0ff34d378cdb500170a1857ef401d42dded8111039a18eb31c25d75a766ebd4c",
+      "label": "SCAM",
+      "xyz": [
+        0.33317109023035363,
+        1.0945172888931425,
+        1.0
+      ],
+      "verified": true,
+      "split": "train"
+    },
+    {
+      "conversation_id": "original__CONV_000231",
+      "case_group_id": "SYNTH_COST_PROXY_0051",
+      "input_sha256": "69c6b98af94d30ecb14bc1ea038713056d6d1174e1d412cdc7052eb8cd00dfbc",
+      "label": "SCAM",
+      "xyz": [
+        0.06466761635387286,
+        0.83331271718705,
+        1.0
+      ],
+      "verified": true,
+      "split": "train"
+    },
+    {
+      "conversation_id": "original__CONV_000233",
+      "case_group_id": "SYNTH_COST_PROXY_0053",
+      "input_sha256": "8276cf64efd87ab89f09073ac0b39b55700ab8aad47b69d7fb99b5d0ac10e39d",
+      "label": "SCAM",
+      "xyz": [
+        0.19560565939584107,
+        0.9358230301553884,
+        1.0
+      ],
+      "verified": true,
+      "split": "train"
+    },
+    {
+      "conversation_id": "original__CONV_000234",
+      "case_group_id": "SYNTH_COST_PROXY_0054",
+      "input_sha256": "fc1558016cbbf6773f76d30063bfce854ed32e4c40a4f1793e3f9edabd1a6d95",
+      "label": "SCAM",
+      "xyz": [
+        0.02232521240496388,
+        0.8272110610978923,
+        1.0
+      ],
+      "verified": true,
+      "split": "train"
+    },
+    {
+      "conversation_id": "original__CONV_000235",
+      "case_group_id": "SYNTH_COST_PROXY_0055",
+      "input_sha256": "95ee6d467307cdffdbafb2babb02752d484bc30a8370f7d24c2fc229c9613edc",
+      "label": "SCAM",
+      "xyz": [
+        0.16055405345231977,
+        1.1106341981021968,
+        1.0
+      ],
+      "verified": true,
+      "split": "train"
+    },
+    {
+      "conversation_id": "original__CONV_000237",
+      "case_group_id": "SYNTH_COST_PROXY_0057",
+      "input_sha256": "68e4a2545632e883637b11fa96e1172cd406442be8b8a27cb403b31977465aa7",
+      "label": "SCAM",
+      "xyz": [
+        0.08976413648356552,
+        0.9825215487429895,
+        1.0
+      ],
+      "verified": true,
+      "split": "train"
+    },
+    {
+      "conversation_id": "original__CONV_000238",
+      "case_group_id": "SYNTH_COST_PROXY_0058",
+      "input_sha256": "c8f1260177ba88eb7bb0a52877e196aa7738eb7203b703d93f01a2a32aca3e46",
+      "label": "SCAM",
+      "xyz": [
+        0.16416300106444792,
+        0.7927378629418743,
+        1.0
+      ],
+      "verified": true,
+      "split": "train"
+    },
+    {
+      "conversation_id": "original__CONV_000239",
+      "case_group_id": "SYNTH_COST_PROXY_0059",
+      "input_sha256": "7dac152094393d4a1139a841836d6221c4751fb6c955273672a1be95039a3bd1",
+      "label": "SCAM",
+      "xyz": [
+        0.19312992126154838,
+        1.2202232677025007,
+        1.0
+      ],
+      "verified": true,
+      "split": "train"
+    },
+    {
+      "conversation_id": "original__CONV_000240",
+      "case_group_id": "SYNTH_COST_PROXY_0060",
+      "input_sha256": "6ca4971636d012020994b845954d1e0b514fd49b1be31783e82a6ddcae0f0667",
+      "label": "SCAM",
+      "xyz": [
+        0.31018486783505217,
+        1.0014339910986512,
+        1.0
+      ],
+      "verified": true,
+      "split": "train"
+    },
+    {
+      "conversation_id": "original__CONV_000243",
+      "case_group_id": "SYNTH_POINT_EXCHANGE_0003",
+      "input_sha256": "a9873468c60d99931cb484760362d30183afca7fa7e42e40f5bd338b856e949c",
+      "label": "SCAM",
+      "xyz": [
+        0.2139086986702632,
+        0.9779499344932361,
+        1.0
+      ],
+      "verified": true,
+      "split": "train"
+    },
+    {
+      "conversation_id": "original__CONV_000244",
+      "case_group_id": "SYNTH_POINT_EXCHANGE_0004",
+      "input_sha256": "7dee8fe0a0426321f38fb368e2bde4b9785d129ad1e0577ccd40d22c91083e0a",
+      "label": "SCAM",
+      "xyz": [
+        0.2832358279854247,
+        1.0049527370691775,
+        1.0
+      ],
+      "verified": true,
+      "split": "train"
+    },
+    {
+      "conversation_id": "original__CONV_000249",
+      "case_group_id": "SYNTH_POINT_EXCHANGE_0009",
+      "input_sha256": "ce02fd466977c677329b8175c7c2d57e303e794942c8981e83d6340d255b05c5",
+      "label": "SCAM",
+      "xyz": [
+        0.1785542808205598,
+        0.6258254992636336,
+        1.0
+      ],
+      "verified": true,
+      "split": "train"
+    },
+    {
+      "conversation_id": "original__CONV_000250",
+      "case_group_id": "SYNTH_POINT_EXCHANGE_0010",
+      "input_sha256": "51239c2a39d182eabe69d04f4b68c82f252f0789327d7a23e3720e75d0d92be1",
+      "label": "SCAM",
+      "xyz": [
+        0.21984369711372465,
+        0.9265835414863529,
+        1.0
+      ],
+      "verified": true,
+      "split": "train"
+    },
+    {
+      "conversation_id": "original__CONV_000251",
+      "case_group_id": "SYNTH_POINT_EXCHANGE_0011",
+      "input_sha256": "1c9f360cb41a39a6ea196bbdd4c07fe9eabe288a443afe92e094e0b20bdde3f5",
+      "label": "SCAM",
+      "xyz": [
+        0.11085981807835432,
+        0.6469610321570284,
+        1.0
+      ],
+      "verified": true,
+      "split": "train"
+    },
+    {
+      "conversation_id": "original__CONV_000252",
+      "case_group_id": "SYNTH_POINT_EXCHANGE_0012",
+      "input_sha256": "7b1292d5ec87ef0b04e1a28d2e82addd07610ae3b7fae7a0810ce933a050f785",
+      "label": "SCAM",
+      "xyz": [
+        0.0019075518640343514,
+        0.7721234588453497,
+        1.0
+      ],
+      "verified": true,
+      "split": "train"
+    },
+    {
+      "conversation_id": "original__CONV_000253",
+      "case_group_id": "SYNTH_POINT_EXCHANGE_0013",
+      "input_sha256": "814add3f31f501a7c55a93f6395b70c9f748642facb4e7f3fd2ee3d944c0bd80",
+      "label": "SCAM",
+      "xyz": [
+        1.210535139621055,
+        1.4435401627512825,
+        1.0
+      ],
+      "verified": true,
+      "split": "train"
+    },
+    {
+      "conversation_id": "original__CONV_000258",
+      "case_group_id": "SYNTH_POINT_EXCHANGE_0018",
+      "input_sha256": "9c29f5c25091538722782415001142c6b76ac281d31e3eaaed86f574c2a97413",
+      "label": "SCAM",
+      "xyz": [
+        0.7361092554513915,
+        0.8264985549792839,
+        1.0
+      ],
+      "verified": true,
+      "split": "train"
+    },
+    {
+      "conversation_id": "original__CONV_000260",
+      "case_group_id": "SYNTH_POINT_EXCHANGE_0020",
+      "input_sha256": "debd386ccf768100bef7eb42d893e2077e419d872d39bbe7744041350ded9777",
+      "label": "SCAM",
+      "xyz": [
+        0.7060531177983792,
+        1.2503793915547894,
+        1.0
+      ],
+      "verified": true,
+      "split": "train"
+    },
+    {
+      "conversation_id": "original__CONV_000261",
+      "case_group_id": "SYNTH_POINT_EXCHANGE_0021",
+      "input_sha256": "1cbe742b6548a1331ea056b146efaa39294e883cf64d214e67aae261b6731143",
+      "label": "SCAM",
+      "xyz": [
+        0.5782681628179409,
+        1.1588804266248989,
+        1.0
+      ],
+      "verified": true,
+      "split": "train"
+    },
+    {
+      "conversation_id": "original__CONV_000262",
+      "case_group_id": "SYNTH_POINT_EXCHANGE_0022",
+      "input_sha256": "2ec61d0ac8837d10c31a151daa920f489992f8839f05514b46898ef6f1f340cf",
+      "label": "SCAM",
+      "xyz": [
+        0.8372745380767022,
+        0.9158990797230122,
+        1.0
+      ],
+      "verified": true,
+      "split": "train"
+    },
+    {
+      "conversation_id": "original__CONV_000263",
+      "case_group_id": "SYNTH_POINT_EXCHANGE_0023",
+      "input_sha256": "5831b1e8dd175e73794b3b17bd29c6b8b5529bc44a1e7e0b7079c9bcd7f3829c",
+      "label": "SCAM",
+      "xyz": [
+        0.45264393399225444,
+        1.3516738774090873,
+        1.0
+      ],
+      "verified": true,
+      "split": "train"
+    },
+    {
+      "conversation_id": "original__CONV_000264",
+      "case_group_id": "SYNTH_POINT_EXCHANGE_0024",
+      "input_sha256": "3228ac0483b727885a2640b1457aeaff81e037adcb71b318ea91d2dd14327b61",
+      "label": "SCAM",
+      "xyz": [
+        0.5031678883997354,
+        1.3721580206973765,
+        1.0
+      ],
+      "verified": true,
+      "split": "train"
+    },
+    {
+      "conversation_id": "original__CONV_000265",
+      "case_group_id": "SYNTH_POINT_EXCHANGE_0025",
+      "input_sha256": "e713120c2ecbafc333998c8698aaf4fa06d78f2e69887c70ad746f557461eda5",
+      "label": "SCAM",
+      "xyz": [
+        -0.2857623440198029,
+        1.3297275368567507,
+        1.0
+      ],
+      "verified": true,
+      "split": "train"
+    },
+    {
+      "conversation_id": "original__CONV_000266",
+      "case_group_id": "SYNTH_POINT_EXCHANGE_0026",
+      "input_sha256": "e833dfbae93c7d1d17faf88ff4e0fe22973f7a4ee5ade2b4cf751a237bab33d1",
+      "label": "SCAM",
+      "xyz": [
+        -0.25425216300885733,
+        1.0883467484578435,
+        1.0
+      ],
+      "verified": true,
+      "split": "train"
+    },
+    {
+      "conversation_id": "original__CONV_000267",
+      "case_group_id": "SYNTH_POINT_EXCHANGE_0027",
+      "input_sha256": "7ff65af41c9e3fb8ebd316cf10f170c4bb67db527e3ecac14186d81c69e687b7",
+      "label": "SCAM",
+      "xyz": [
+        0.15901256103367511,
+        1.323929354760467,
+        1.0
+      ],
+      "verified": true,
+      "split": "train"
+    },
+    {
+      "conversation_id": "original__CONV_000268",
+      "case_group_id": "SYNTH_POINT_EXCHANGE_0028",
+      "input_sha256": "c0374bb9f42e4ff9564985f871c141d1b13c1511bcee18aaa7d1c51605c25050",
+      "label": "SCAM",
+      "xyz": [
+        -0.39828942888080976,
+        1.5273808010879188,
+        1.0
+      ],
+      "verified": true,
+      "split": "train"
+    },
+    {
+      "conversation_id": "original__CONV_000269",
+      "case_group_id": "SYNTH_POINT_EXCHANGE_0029",
+      "input_sha256": "52943b440fb0b85059c17e1bea79eaa426b9216c2059b9396c5296480a8e1f1f",
+      "label": "SCAM",
+      "xyz": [
+        -0.26336883537981387,
+        1.0259546877394328,
+        1.0
+      ],
+      "verified": true,
+      "split": "train"
+    },
+    {
+      "conversation_id": "original__CONV_000271",
+      "case_group_id": "SYNTH_POINT_EXCHANGE_0031",
+      "input_sha256": "979bc29ef73df3051a66d243c8bf93a26c02f12e4c0a8f8bd381af3a882c5dd6",
+      "label": "SCAM",
+      "xyz": [
+        -0.22959853918050777,
+        1.088252817113492,
+        1.0
+      ],
+      "verified": true,
+      "split": "train"
+    },
+    {
+      "conversation_id": "original__CONV_000272",
+      "case_group_id": "SYNTH_POINT_EXCHANGE_0032",
+      "input_sha256": "460604081a0805b648dfa004e15146204e017dcc08ba5ae9224245ce61ccb0bd",
+      "label": "SCAM",
+      "xyz": [
+        -0.33293956058974644,
+        1.1050246510524895,
+        1.0
+      ],
+      "verified": true,
+      "split": "train"
+    },
+    {
+      "conversation_id": "original__CONV_000273",
+      "case_group_id": "SYNTH_POINT_EXCHANGE_0033",
+      "input_sha256": "946c45e594341d184d55879840651672f68d87d46a54b837f3558ef83db5d6a7",
+      "label": "SCAM",
+      "xyz": [
+        -0.15864089029459572,
+        1.0536910502482797,
+        1.0
+      ],
+      "verified": true,
+      "split": "train"
+    },
+    {
+      "conversation_id": "original__CONV_000274",
+      "case_group_id": "SYNTH_POINT_EXCHANGE_0034",
+      "input_sha256": "6d0bd46747cac10d0eca2ea924f0e78874e9f6539fbfd5cf1784933b6a4bb9bd",
+      "label": "SCAM",
+      "xyz": [
+        -0.626631406291124,
+        1.2528025660988231,
+        1.0
+      ],
+      "verified": true,
+      "split": "train"
+    },
+    {
+      "conversation_id": "original__CONV_000275",
+      "case_group_id": "SYNTH_POINT_EXCHANGE_0035",
+      "input_sha256": "eef44d356407a7c1a09d10444c9c3370cc38315cfc1dceafce4446853782136e",
+      "label": "SCAM",
+      "xyz": [
+        -0.3090620998654603,
+        1.743083974986414,
+        1.0
+      ],
+      "verified": true,
+      "split": "train"
+    },
+    {
+      "conversation_id": "original__CONV_000277",
+      "case_group_id": "SYNTH_POINT_EXCHANGE_0037",
+      "input_sha256": "150a31918065c554e97b1c45f843f35a1e5481d2f66435084d53773994d4cce9",
+      "label": "SCAM",
+      "xyz": [
+        -0.005028053690619427,
+        1.684411206737719,
+        1.0
+      ],
+      "verified": true,
+      "split": "train"
+    },
+    {
+      "conversation_id": "original__CONV_000279",
+      "case_group_id": "SYNTH_POINT_EXCHANGE_0039",
+      "input_sha256": "aa6a9ffe187b9b9c1fe9d0f5b6112701907eabd64ccd28fc352bc1448c0e1c5e",
+      "label": "SCAM",
+      "xyz": [
+        0.008698100595810332,
+        1.3259498542953034,
+        1.0
+      ],
+      "verified": true,
+      "split": "train"
+    },
+    {
+      "conversation_id": "original__CONV_000280",
+      "case_group_id": "SYNTH_POINT_EXCHANGE_0040",
+      "input_sha256": "4252e6a3f922f5d776cf1107d92d5f5c4fdf9834763b038acf7aec03cdc2f1d1",
+      "label": "SCAM",
+      "xyz": [
+        0.009259551237605912,
+        1.6116101848550992,
+        1.0
+      ],
+      "verified": true,
+      "split": "train"
+    },
+    {
+      "conversation_id": "original__CONV_000282",
+      "case_group_id": "SYNTH_POINT_EXCHANGE_0042",
+      "input_sha256": "cdcf6110688d696c0f8a91ce360c358dfb23b29551ae5bcb7bf3018c863be3b0",
+      "label": "SCAM",
+      "xyz": [
+        -0.04898427552741058,
+        1.5256593768041034,
+        1.0
+      ],
+      "verified": true,
+      "split": "train"
+    },
+    {
+      "conversation_id": "original__CONV_000284",
+      "case_group_id": "SYNTH_POINT_EXCHANGE_0044",
+      "input_sha256": "dc897fda0ab06547786821a0c8934fa0e8e53b1a0aff336f7af9c8ef8b1d911f",
+      "label": "SCAM",
+      "xyz": [
+        -0.09120771064610733,
+        1.5544704408758472,
+        1.0
+      ],
+      "verified": true,
+      "split": "train"
+    },
+    {
+      "conversation_id": "original__CONV_000287",
+      "case_group_id": "SYNTH_POINT_EXCHANGE_0047",
+      "input_sha256": "030e30ff6b6d16d77fcf7949ee84b7eafe3a93b8d279494046f6509d417282f1",
+      "label": "SCAM",
+      "xyz": [
+        -0.3126337537555243,
+        1.2464239816413811,
+        1.0
+      ],
+      "verified": true,
+      "split": "train"
+    },
+    {
+      "conversation_id": "original__CONV_000288",
+      "case_group_id": "SYNTH_POINT_EXCHANGE_0048",
+      "input_sha256": "61032cbba54b389f49933055af3e821bb723fd1e83affff9abda7a832b347664",
+      "label": "SCAM",
+      "xyz": [
+        -0.2441468426080834,
+        1.5892959977806087,
+        1.0
+      ],
+      "verified": true,
+      "split": "train"
+    },
+    {
+      "conversation_id": "original__CONV_000290",
+      "case_group_id": "SYNTH_POINT_EXCHANGE_0050",
+      "input_sha256": "d50265769126f8f2169d0df1f5d8093026bcacf3c55ce611ab2c8ce2e2ab9b30",
+      "label": "SCAM",
+      "xyz": [
+        -0.49430614802418116,
+        1.4193779806752007,
+        1.0
+      ],
+      "verified": true,
+      "split": "train"
+    },
+    {
+      "conversation_id": "original__CONV_000292",
+      "case_group_id": "SYNTH_POINT_EXCHANGE_0052",
+      "input_sha256": "a741a0b7aafa9176887a3952af35b8ef4eaae6dd80d8b5a2a3c56e5e904b995f",
+      "label": "SCAM",
+      "xyz": [
+        -0.2567751541676175,
+        1.3228421429132426,
+        1.0
+      ],
+      "verified": true,
+      "split": "train"
+    },
+    {
+      "conversation_id": "original__CONV_000295",
+      "case_group_id": "SYNTH_POINT_EXCHANGE_0055",
+      "input_sha256": "d22fe43489392f3a149ad547f912978a4c248ca249bb47d95432345d8b13c4da",
+      "label": "SCAM",
+      "xyz": [
+        -0.2566229297415784,
+        1.5535463673894525,
+        1.0
+      ],
+      "verified": true,
+      "split": "train"
+    },
+    {
+      "conversation_id": "original__CONV_000296",
+      "case_group_id": "SYNTH_POINT_EXCHANGE_0056",
+      "input_sha256": "0f8bf2ae386550f82e46d07c7e1c156c9fe75ca0a13c06599733b7bfe97c9edf",
+      "label": "SCAM",
+      "xyz": [
+        -0.2190196303088765,
+        1.3986002087449596,
+        1.0
+      ],
+      "verified": true,
+      "split": "train"
+    },
+    {
+      "conversation_id": "original__CONV_000297",
+      "case_group_id": "SYNTH_POINT_EXCHANGE_0057",
+      "input_sha256": "f2c6184c76273cb55459b70c08af39509ea61482d9b6446817606149def49f96",
+      "label": "SCAM",
+      "xyz": [
+        -0.19052503411748134,
+        1.4509886216467685,
+        1.0
+      ],
+      "verified": true,
+      "split": "train"
+    },
+    {
+      "conversation_id": "original__CONV_000299",
+      "case_group_id": "SYNTH_POINT_EXCHANGE_0059",
+      "input_sha256": "4bdfea384f2580c53e79ac923c67e1b3c24269611d5ece8294480c0d8e84ef80",
+      "label": "SCAM",
+      "xyz": [
+        -0.3551569219794254,
+        1.3377230246740728,
+        1.0
+      ],
+      "verified": true,
+      "split": "train"
+    },
+    {
+      "conversation_id": "original__CONV_000300",
+      "case_group_id": "SYNTH_POINT_EXCHANGE_0060",
+      "input_sha256": "423eb7644507b0112e44a5f52793d62dda07b1dccab731fa93d967dcf5185343",
+      "label": "SCAM",
+      "xyz": [
+        -0.19832561359279077,
+        1.3541335092455737,
+        1.0
+      ],
+      "verified": true,
+      "split": "train"
+    },
+    {
+      "conversation_id": "original__CONV_000301",
+      "case_group_id": "NORMAL_0121",
+      "input_sha256": "b10e1e63840657309aefa213a9583a369f6425ba18dae5f7678c8875791a711b",
+      "label": "NON_SCAM",
+      "xyz": [
+        -0.3385490906522895,
+        -0.8177201360760615,
+        0.0
+      ],
+      "verified": true,
+      "split": "train"
+    },
+    {
+      "conversation_id": "original__CONV_000303",
+      "case_group_id": "NORMAL_0123",
+      "input_sha256": "c827ce27b7542d703624210a6855b5d94d74801320326170e8031070186b230c",
+      "label": "NON_SCAM",
+      "xyz": [
+        0.0800296929595945,
+        -0.15675947584454006,
+        0.0
+      ],
+      "verified": true,
+      "split": "train"
+    },
+    {
+      "conversation_id": "original__CONV_000306",
+      "case_group_id": "NORMAL_0126",
+      "input_sha256": "05fe1f1c27323134d102afbd77b201f2d3f1040a86c94dbd08cce00e62681401",
+      "label": "NON_SCAM",
+      "xyz": [
+        -0.005961521068093001,
+        -0.726948914975995,
+        0.0
+      ],
+      "verified": true,
+      "split": "train"
+    },
+    {
+      "conversation_id": "original__CONV_000309",
+      "case_group_id": "NORMAL_0129",
+      "input_sha256": "287d0970f6013ab2f4eca02588140ab7eb45f605aa13e6b7326ad40b6523ce93",
+      "label": "NON_SCAM",
+      "xyz": [
+        -0.13117894687455556,
+        -0.6754503879769412,
+        0.0
+      ],
+      "verified": true,
+      "split": "train"
+    },
+    {
+      "conversation_id": "original__CONV_000310",
+      "case_group_id": "NORMAL_0130",
+      "input_sha256": "fe8c0a72e7868f9706081bdf87867fcd3b4f5dcda352478d67616dc923023b56",
+      "label": "NON_SCAM",
+      "xyz": [
+        -0.1881557044815091,
+        -1.4110821070108153,
+        0.0
+      ],
+      "verified": true,
+      "split": "train"
+    },
+    {
+      "conversation_id": "original__CONV_000311",
+      "case_group_id": "NORMAL_0131",
+      "input_sha256": "827473cfa1b931b8bbc95c8b9d0d9c401e117de166dedbaf1ff9d46bcb81a7c7",
+      "label": "NON_SCAM",
+      "xyz": [
+        0.11936175430726559,
+        -1.0571707292572243,
+        0.0
+      ],
+      "verified": true,
+      "split": "train"
+    },
+    {
+      "conversation_id": "original__CONV_000312",
+      "case_group_id": "NORMAL_0132",
+      "input_sha256": "8cbaabe32f1795ae3344afd20cb6e4d6cc287321e1cb956e2b17b5a7ac2303f7",
+      "label": "NON_SCAM",
+      "xyz": [
+        -0.04892922575112757,
+        -1.1520670545424307,
+        0.0
+      ],
+      "verified": true,
+      "split": "train"
+    },
+    {
+      "conversation_id": "original__CONV_000313",
+      "case_group_id": "NORMAL_0133",
+      "input_sha256": "6375e9fc5ec7e345e3a12e395e1da41d4f2acc1d68737d8a6b895c543d2d9d55",
+      "label": "NON_SCAM",
+      "xyz": [
+        0.10022867639962685,
+        -1.0318800324826032,
+        0.0
+      ],
+      "verified": true,
+      "split": "train"
+    },
+    {
+      "conversation_id": "original__CONV_000314",
+      "case_group_id": "NORMAL_0134",
+      "input_sha256": "e89575e1d12e77b4174456ae61f576326b406b3abc2aa10e633d9c7619153fab",
+      "label": "NON_SCAM",
+      "xyz": [
+        0.04094036277241364,
+        -0.2703815788225022,
+        0.0
+      ],
+      "verified": true,
+      "split": "train"
+    },
+    {
+      "conversation_id": "original__CONV_000315",
+      "case_group_id": "NORMAL_0135",
+      "input_sha256": "dc00f7050dbc9db5d78d5ad2c8a989904a366e750e692665731792966f102e63",
+      "label": "NON_SCAM",
+      "xyz": [
+        0.3620465476066309,
+        -1.1829403620468657,
+        0.0
+      ],
+      "verified": true,
+      "split": "train"
+    },
+    {
+      "conversation_id": "original__CONV_000316",
+      "case_group_id": "NORMAL_0136",
+      "input_sha256": "1416528ac5bf7902876537b790377d57c53ffeed2450dcbac8835b76be4ea96d",
+      "label": "NON_SCAM",
+      "xyz": [
+        0.390301313436881,
+        -0.7307236866744481,
+        0.0
+      ],
+      "verified": true,
+      "split": "train"
+    },
+    {
+      "conversation_id": "original__CONV_000318",
+      "case_group_id": "NORMAL_0138",
+      "input_sha256": "3cdc6b27466a90f3d1a90283097bedda8905803a369fca97b442618599b0da41",
+      "label": "NON_SCAM",
+      "xyz": [
+        0.07903480707182053,
+        -0.8524291413540946,
+        0.0
+      ],
+      "verified": true,
+      "split": "train"
+    },
+    {
+      "conversation_id": "original__CONV_000320",
+      "case_group_id": "NORMAL_0140",
+      "input_sha256": "fedc867367cd0413e217e3322ae5f1a744a6f47ba551761d86d6c74ad11192e5",
+      "label": "NON_SCAM",
+      "xyz": [
+        0.45988961428739095,
+        -1.0519482901956103,
+        0.0
+      ],
+      "verified": true,
+      "split": "train"
+    },
+    {
+      "conversation_id": "original__CONV_000321",
+      "case_group_id": "NORMAL_0141",
+      "input_sha256": "95db352e87665eda041761c1ae78471df75e5071a2174ebdb59c588a13a4ac8d",
+      "label": "NON_SCAM",
+      "xyz": [
+        0.26292529413258436,
+        -0.7749208261015185,
+        0.0
+      ],
+      "verified": true,
+      "split": "train"
+    },
+    {
+      "conversation_id": "original__CONV_000322",
+      "case_group_id": "NORMAL_0142",
+      "input_sha256": "ff4e33e7d7cb01fd775f8ac466bf043e8ec5cc81ce90f681b6e3cd8d6845e2b0",
+      "label": "NON_SCAM",
+      "xyz": [
+        0.23531245375671583,
+        -1.856003127798976,
+        0.0
+      ],
+      "verified": true,
+      "split": "train"
+    },
+    {
+      "conversation_id": "original__CONV_000323",
+      "case_group_id": "NORMAL_0143",
+      "input_sha256": "e558781553281297a75e2def78a0e90c7f53b72e3f36d0d018f8aece11bc5b8b",
+      "label": "NON_SCAM",
+      "xyz": [
+        0.28318830833224395,
+        -0.9102143465304717,
+        0.0
+      ],
+      "verified": true,
+      "split": "train"
+    },
+    {
+      "conversation_id": "original__CONV_000324",
+      "case_group_id": "NORMAL_0144",
+      "input_sha256": "04ce436247f25a859dcb3762c88dd5f5f283c18862d3165b641694bfbae55888",
+      "label": "NON_SCAM",
+      "xyz": [
+        0.10277526707493212,
+        -1.5091024435289033,
+        0.0
+      ],
+      "verified": true,
+      "split": "train"
+    },
+    {
+      "conversation_id": "original__CONV_000326",
+      "case_group_id": "NORMAL_0146",
+      "input_sha256": "be045e90acb30bbbb8be747463cc29aac82a15117875fcdd524e62be21d26eb3",
+      "label": "NON_SCAM",
+      "xyz": [
+        0.27098298382350117,
+        -0.9393730147387118,
+        0.0
+      ],
+      "verified": true,
+      "split": "train"
+    },
+    {
+      "conversation_id": "original__CONV_000327",
+      "case_group_id": "NORMAL_0147",
+      "input_sha256": "b5baee2d416a99aeebf28ec4ee4c3ae5cbd0dd04a1ee5b6d4935c9ff1abc233a",
+      "label": "NON_SCAM",
+      "xyz": [
+        0.060099203301578474,
+        -0.5482120245473873,
+        0.0
+      ],
+      "verified": true,
+      "split": "train"
+    },
+    {
+      "conversation_id": "original__CONV_000328",
+      "case_group_id": "NORMAL_0148",
+      "input_sha256": "39201493f0890b81278b28c514cf988451373ba477d19bfec0762c3c9e70da0c",
+      "label": "NON_SCAM",
+      "xyz": [
+        0.2956027884325241,
+        -0.8031643524144624,
+        0.0
+      ],
+      "verified": true,
+      "split": "train"
+    },
+    {
+      "conversation_id": "original__CONV_000331",
+      "case_group_id": "NORMAL_0151",
+      "input_sha256": "316d1da1e8eaa3670f0cf33802bf63569b79fb664fcf3069a76b7e6e985ef8bc",
+      "label": "NON_SCAM",
+      "xyz": [
+        0.4792436331089578,
+        -0.8819074141564418,
+        0.0
+      ],
+      "verified": true,
+      "split": "train"
+    },
+    {
+      "conversation_id": "original__CONV_000333",
+      "case_group_id": "NORMAL_0153",
+      "input_sha256": "69b5556acd55738a70e5998e23811df373db8d91c3101d5b21224f1ff100035d",
+      "label": "NON_SCAM",
+      "xyz": [
+        0.20893691811829096,
+        -1.2476182031947398,
+        0.0
+      ],
+      "verified": true,
+      "split": "train"
+    },
+    {
+      "conversation_id": "original__CONV_000338",
+      "case_group_id": "NORMAL_0158",
+      "input_sha256": "5fae3e6f82d1be6ddc0a013d9b573de8c2963ac2f3f996555d7fc3d86f308bd8",
+      "label": "NON_SCAM",
+      "xyz": [
+        -0.7154157123348556,
+        -0.6002122027367197,
+        0.0
+      ],
+      "verified": true,
+      "split": "train"
+    },
+    {
+      "conversation_id": "original__CONV_000339",
+      "case_group_id": "NORMAL_0159",
+      "input_sha256": "f321dd9a57314cc2f82d140de9f1e9e3fff67ee2ebcca528f8d0770da67abd73",
+      "label": "NON_SCAM",
+      "xyz": [
+        -0.45988876279158486,
+        -0.32593760018028267,
+        0.0
+      ],
+      "verified": true,
+      "split": "train"
+    },
+    {
+      "conversation_id": "original__CONV_000341",
+      "case_group_id": "NORMAL_0161",
+      "input_sha256": "03ed699ebc82486f7cac22436509b7c2221c5528c6f2ecce44ee8e00b647896e",
+      "label": "NON_SCAM",
+      "xyz": [
+        -0.6389436503689235,
+        -0.9202305777092148,
+        0.0
+      ],
+      "verified": true,
+      "split": "train"
+    },
+    {
+      "conversation_id": "original__CONV_000342",
+      "case_group_id": "NORMAL_0162",
+      "input_sha256": "4dc21b29f7a3230a4f6fab91a648893326db3524452b7c104651d37c62587a5e",
+      "label": "NON_SCAM",
+      "xyz": [
+        -0.6831033579066056,
+        -0.5039955830134232,
+        0.0
+      ],
+      "verified": true,
+      "split": "train"
+    },
+    {
+      "conversation_id": "original__CONV_000343",
+      "case_group_id": "NORMAL_0163",
+      "input_sha256": "43aefbabfb7eec3a7656d3b5d0c18cd086719bbac272d38dd804b491d1a8a415",
+      "label": "NON_SCAM",
+      "xyz": [
+        -0.9790978832210617,
+        -0.6819124977744409,
+        0.0
+      ],
+      "verified": true,
+      "split": "train"
+    },
+    {
+      "conversation_id": "original__CONV_000344",
+      "case_group_id": "NORMAL_0164",
+      "input_sha256": "befdc2f3430d3f126bc8eaad95259b1401cf6585d0a2be558b8183bb2fab783f",
+      "label": "NON_SCAM",
+      "xyz": [
+        -0.31444854260280486,
+        -0.5413010087694202,
+        0.0
+      ],
+      "verified": true,
+      "split": "train"
+    },
+    {
+      "conversation_id": "original__CONV_000345",
+      "case_group_id": "NORMAL_0165",
+      "input_sha256": "3e760ad25ea72fcda9fd07c3f745dcc9cc2775a17cd00d94e1560feac9af1156",
+      "label": "NON_SCAM",
+      "xyz": [
+        -0.5533468813225245,
+        -0.8803879537175588,
+        0.0
+      ],
+      "verified": true,
+      "split": "train"
+    },
+    {
+      "conversation_id": "original__CONV_000346",
+      "case_group_id": "NORMAL_0166",
+      "input_sha256": "05e9d8b08482fb41c83d61f58c15c9b0bbe074b068192edf789317dca64ea40d",
+      "label": "NON_SCAM",
+      "xyz": [
+        -0.6267047781847496,
+        -0.5453108171083775,
+        0.0
+      ],
+      "verified": true,
+      "split": "train"
+    },
+    {
+      "conversation_id": "original__CONV_000347",
+      "case_group_id": "NORMAL_0167",
+      "input_sha256": "5d15654b7912c69421bf970a91db94395cd62b4e59eedac9f3fa07d1c2373523",
+      "label": "NON_SCAM",
+      "xyz": [
+        -0.43597696028286836,
+        -0.5573568855677883,
+        0.0
+      ],
+      "verified": true,
+      "split": "train"
+    },
+    {
+      "conversation_id": "original__CONV_000349",
+      "case_group_id": "NORMAL_0169",
+      "input_sha256": "6675ddddd3a3f06c3a2be398829a6f440a4fb6c4fd895545c09182786965ea2b",
+      "label": "NON_SCAM",
+      "xyz": [
+        -0.6133247254593605,
+        -0.7287312842662433,
+        0.0
+      ],
+      "verified": true,
+      "split": "train"
+    },
+    {
+      "conversation_id": "original__CONV_000350",
+      "case_group_id": "NORMAL_0170",
+      "input_sha256": "d0e384fee87e75f968aebd08dcc5b47ccd06d0f768c6710558d3b6d1e2d6c8f3",
+      "label": "NON_SCAM",
+      "xyz": [
+        -1.0664419571168293,
+        -0.3934599113445386,
+        0.0
+      ],
+      "verified": true,
+      "split": "train"
+    },
+    {
+      "conversation_id": "original__CONV_000354",
+      "case_group_id": "NORMAL_0174",
+      "input_sha256": "fd73f96dbae4cc014c62098fe15cadfe5a61f12f5ed6bb4246df27ee140c15d7",
+      "label": "NON_SCAM",
+      "xyz": [
+        -0.42511523715182575,
+        -0.3975319793533562,
+        0.0
+      ],
+      "verified": true,
+      "split": "train"
+    },
+    {
+      "conversation_id": "original__CONV_000355",
+      "case_group_id": "NORMAL_0175",
+      "input_sha256": "4cdeb36bb0df9158537d24f06e0b90f506c927750172f02736d0a4b5ba0b2a50",
+      "label": "NON_SCAM",
+      "xyz": [
+        -0.3316958036263795,
+        -0.7353414138033058,
+        0.0
+      ],
+      "verified": true,
+      "split": "train"
+    },
+    {
+      "conversation_id": "original__CONV_000356",
+      "case_group_id": "NORMAL_0176",
+      "input_sha256": "6e48a89b8e90a1b8a794dcfa9b5dd4062071746d31c9cd8f4862a2e2fdb83fcb",
+      "label": "NON_SCAM",
+      "xyz": [
+        -0.7801964558536983,
+        -0.988216977492008,
+        0.0
+      ],
+      "verified": true,
+      "split": "train"
+    },
+    {
+      "conversation_id": "original__CONV_000358",
+      "case_group_id": "NORMAL_0178",
+      "input_sha256": "93d659634738054f383847eb0ba7de771b54c8edc8995456941b1245dd9d51bc",
+      "label": "NON_SCAM",
+      "xyz": [
+        -1.0508727505850137,
+        -0.35410357099120376,
+        0.0
+      ],
+      "verified": true,
+      "split": "train"
+    },
+    {
+      "conversation_id": "original__CONV_000360",
+      "case_group_id": "NORMAL_0180",
+      "input_sha256": "d074c1b4d3e7ab667167e8dec118ecc9d2d4648df87ae9feb8f7a12143e80479",
+      "label": "NON_SCAM",
+      "xyz": [
+        -0.6565556697061531,
+        -1.020832820705809,
+        0.0
+      ],
+      "verified": true,
+      "split": "train"
+    },
+    {
+      "conversation_id": "original__CONV_000364",
+      "case_group_id": "NORMAL_0184",
+      "input_sha256": "7541e955899718231558aec4fc6ce8bf5eafe4bacc5bddded2f7d7aace844d85",
+      "label": "NON_SCAM",
+      "xyz": [
+        -0.9386189819563778,
+        -1.2206712760642773,
+        0.0
+      ],
+      "verified": true,
+      "split": "train"
+    },
+    {
+      "conversation_id": "original__CONV_000366",
+      "case_group_id": "NORMAL_0186",
+      "input_sha256": "a10ef21f189ac97161bcf06d866fe7ae5c9abe9088e4e7cca37b865e9f33e86b",
+      "label": "NON_SCAM",
+      "xyz": [
+        -0.6832207110712176,
+        -0.8973758885777037,
+        0.0
+      ],
+      "verified": true,
+      "split": "train"
+    },
+    {
+      "conversation_id": "original__CONV_000367",
+      "case_group_id": "NORMAL_0187",
+      "input_sha256": "28255e55e583d9d3b51d9b662a71fe445f9cfcbd5d88cadb7d8ab0c5c916339b",
+      "label": "NON_SCAM",
+      "xyz": [
+        -0.9714204565841283,
+        -0.9257077107256384,
+        0.0
+      ],
+      "verified": true,
+      "split": "train"
+    },
+    {
+      "conversation_id": "original__CONV_000369",
+      "case_group_id": "NORMAL_0189",
+      "input_sha256": "401f41acdd7de26786f71a56d049bf599bdb60e67737f61b80f8c930ea8ccc92",
+      "label": "NON_SCAM",
+      "xyz": [
+        -1.076934336795627,
+        -0.9310172180332107,
+        0.0
+      ],
+      "verified": true,
+      "split": "train"
+    },
+    {
+      "conversation_id": "original__CONV_000370",
+      "case_group_id": "NORMAL_0190",
+      "input_sha256": "327460e25190976d2b2b8cd1cfae5194629f532756496a380820cd94511ad2ff",
+      "label": "NON_SCAM",
+      "xyz": [
+        -0.8891570617895789,
+        -0.522848491341758,
+        0.0
+      ],
+      "verified": true,
+      "split": "train"
+    },
+    {
+      "conversation_id": "original__CONV_000371",
+      "case_group_id": "NORMAL_0191",
+      "input_sha256": "1bf51183de072068d4295d6afc0b1b333a3925f7dea998f0bef2f661a15e5044",
+      "label": "NON_SCAM",
+      "xyz": [
+        -0.9561561799637066,
+        -0.948196931684515,
+        0.0
+      ],
+      "verified": true,
+      "split": "train"
+    },
+    {
+      "conversation_id": "original__CONV_000372",
+      "case_group_id": "NORMAL_0192",
+      "input_sha256": "67004d04eff21036305683fbef52010fff2f6a3d2edc04621dce18f22928d303",
+      "label": "NON_SCAM",
+      "xyz": [
+        -0.6689744167077096,
+        -1.2182838124063522,
+        0.0
+      ],
+      "verified": true,
+      "split": "train"
+    }
+  ],
+  "profile_sha256": "d913f149a2263d5faaba6e2e984dbaf71b5ac60b066669a9ec362e7ea1087f78",
+  "method": "D03_plain_text_tfidf_svd_xy",
+  "fit_labels_used": false,
+  "query_z_used": false
+}

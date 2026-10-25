@@ -1,6 +1,6 @@
 {
-  "file_count": 10588,
-  "total_bytes": 15845738533,
+  "file_count": 10590,
+  "total_bytes": 15845750110,
   "bytes_by_category": {
     "application": 48615,
     "web_assets": 19199311,
@@ -12,7 +12,7 @@
     "reference_exclusions": 48117,
     "base_model": 10246655035,
     "final_adapter": 137621818,
-    "license": 37953,
+    "license": 49530,
     "python_runtime": 20985495,
     "python_packages": 5419353031,
     "runtime_versions": 2492,

@@ -1,0 +1,158 @@
+{
+  "format": "tar.zstd.parts.v1",
+  "compression": "zstd",
+  "zstandard_version": "0.25.0",
+  "uncompressed_file_bytes": 15846048417,
+  "archive_file_count": 10573,
+  "compressed_bytes": 9618168104,
+  "archive_sha256": "eab1f24c65bb7a0f290300c6e07b3c250b524159ad5a57cd09ffaf7acd5578ac",
+  "parts": [
+    {
+      "file": "maeum-check.tar.zst.part0001",
+      "bytes": 1800000000,
+      "sha256": "1dfa5f874d914339eddefb533864d3c1fd83a44b4bd7781992705f175934d62f"
+    },
+    {
+      "file": "maeum-check.tar.zst.part0002",
+      "bytes": 1800000000,
+      "sha256": "538ce9e8dd1e6733d2e9026661f344e310aec90d7f1f5f17aeac730617a54669"
+    },
+    {
+      "file": "maeum-check.tar.zst.part0003",
+      "bytes": 1800000000,
+      "sha256": "d2d1d0f177b0165af9ec586d613eb237cfe2316dffd82b8354fc57e0e2b78660"
+    },
+    {
+      "file": "maeum-check.tar.zst.part0004",
+      "bytes": 1800000000,
+      "sha256": "340798731892c08f699c1de70578fab02cf83f852e1d0c44ee585f57584b46b6"
+    },
+    {
+      "file": "maeum-check.tar.zst.part0005",
+      "bytes": 1800000000,
+      "sha256": "80cc8e4bc9a9ce9fbe6181355d99d15e649b2d55bbdd7c30e93f835b5974ef7b"
+    },
+    {
+      "file": "maeum-check.tar.zst.part0006",
+      "bytes": 618168104,
+      "sha256": "f5fa5a6d51b501b2070a0d18aabec36482f70040681ac62184681ac87ee8d84d"
+    }
+  ],
+  "bundle_manifest_sha256": "7b7866347d3203def89a6c5dd09305ef07cc57ff432c309cb3022018d7b59236",
+  "sidecar_files": [
+    {
+      "file": "configuration/engine/V4/runtime/feature-rules.json",
+      "target": "engine/V4/runtime/feature-rules.json",
+      "bytes": 11282,
+      "sha256": "4b1ed256ea1ba5ca265ec270cac9b5b776b09b56324980fcd96494a10f0907e5"
+    },
+    {
+      "file": "configuration/engine/V4/runtime/query-exclusions.json",
+      "target": "engine/V4/runtime/query-exclusions.json",
+      "bytes": 48117,
+      "sha256": "41f32254122f7d74bc0236a79f744b091390169e7cab75c1c6b5b71e6fe631f5"
+    },
+    {
+      "file": "configuration/engine/V4/runtime/rag_index.json",
+      "target": "engine/V4/runtime/rag_index.json",
+      "bytes": 85167,
+      "sha256": "4993116eb75cd70d662e00107c96a91b3ae8589a9449c3acd6d47b3caae0beb9"
+    },
+    {
+      "file": "configuration/engine/V4/runtime/reference-cases.json",
+      "target": "engine/V4/runtime/reference-cases.json",
+      "bytes": 328534,
+      "sha256": "f80173bb846063c378816cf7d111214770218f6f6bc298b9d9f6d4aafc47ebae"
+    },
+    {
+      "file": "configuration/engine/V4/runtime/retrieval-config.json",
+      "target": "engine/V4/runtime/retrieval-config.json",
+      "bytes": 301,
+      "sha256": "e6635359cb72187c118233f65bd4715683362aa6b274975199ea2c6a2e9273e6"
+    },
+    {
+      "file": "configuration/engine/V4/runtime/specialized-inference.json",
+      "target": "engine/V4/runtime/specialized-inference.json",
+      "bytes": 1353,
+      "sha256": "9332127f592ab45cf19d89ebadc095e0447ea2b40324155c9814528ec431aeba"
+    },
+    {
+      "file": "configuration/engine/V4/runtime/xy-profile.json",
+      "target": "engine/V4/runtime/xy-profile.json",
+      "bytes": 1272386,
+      "sha256": "d913f149a2263d5faaba6e2e984dbaf71b5ac60b066669a9ec362e7ea1087f78"
+    },
+    {
+      "file": "configuration/packages/torch/_inductor/runtime/__init__.py",
+      "target": "packages/torch/_inductor/runtime/__init__.py",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "file": "configuration/packages/torch/_inductor/runtime/autotune_cache.py",
+      "target": "packages/torch/_inductor/runtime/autotune_cache.py",
+      "bytes": 19410,
+      "sha256": "52aa4da9aa4d61878e9a2999ebbfd013ef13e397851e80838018f31ad3a51cdd"
+    },
+    {
+      "file": "configuration/packages/torch/_inductor/runtime/benchmarking.py",
+      "target": "packages/torch/_inductor/runtime/benchmarking.py",
+      "bytes": 11506,
+      "sha256": "5575383756a3b5dc70e8502fbc65baed54bf28ca9a34089b31a594770c9c91a7"
+    },
+    {
+      "file": "configuration/packages/torch/_inductor/runtime/cache_dir_utils.py",
+      "target": "packages/torch/_inductor/runtime/cache_dir_utils.py",
+      "bytes": 831,
+      "sha256": "c670f5af4bef8dce4e8cbf74ec2eed23b39163dcd34f1b68ba40008c2442b1e3"
+    },
+    {
+      "file": "configuration/packages/torch/_inductor/runtime/compile_tasks.py",
+      "target": "packages/torch/_inductor/runtime/compile_tasks.py",
+      "bytes": 2041,
+      "sha256": "eeff52171521a41e316736692fcb777084269a5872e4e23abde37df338cabb39"
+    },
+    {
+      "file": "configuration/packages/torch/_inductor/runtime/coordinate_descent_tuner.py",
+      "target": "packages/torch/_inductor/runtime/coordinate_descent_tuner.py",
+      "bytes": 10349,
+      "sha256": "d4b922f9470916da143f2e8fce884aa384c21df93d7609cf0e58f6b43b856dc7"
+    },
+    {
+      "file": "configuration/packages/torch/_inductor/runtime/halide_helpers.py",
+      "target": "packages/torch/_inductor/runtime/halide_helpers.py",
+      "bytes": 3660,
+      "sha256": "d5a0b7b3bc176b01b30616c002610f1119bacdfef06f7a93daa3ed41bde0a738"
+    },
+    {
+      "file": "configuration/packages/torch/_inductor/runtime/hints.py",
+      "target": "packages/torch/_inductor/runtime/hints.py",
+      "bytes": 7252,
+      "sha256": "4085ad0bc72b7d1920977ac8780b5ac10544c3b5e8609e77702ea2affaa11e2f"
+    },
+    {
+      "file": "configuration/packages/torch/_inductor/runtime/runtime_utils.py",
+      "target": "packages/torch/_inductor/runtime/runtime_utils.py",
+      "bytes": 5041,
+      "sha256": "0a8098e354b78c8bdc92c294f3a34e7c7d9a302872a64674c551a1b2e5d7f0b5"
+    },
+    {
+      "file": "configuration/packages/torch/_inductor/runtime/triton_compat.py",
+      "target": "packages/torch/_inductor/runtime/triton_compat.py",
+      "bytes": 3455,
+      "sha256": "7566010a7467a9627dfcc4c68bf4129c6595b07ba0bbc5f24d488783de2e42b6"
+    },
+    {
+      "file": "configuration/packages/torch/_inductor/runtime/triton_helpers.py",
+      "target": "packages/torch/_inductor/runtime/triton_helpers.py",
+      "bytes": 23301,
+      "sha256": "3e8d6ce0766586709e2a3b992a8c11b5ae40250388aee0d462879acff0034b6a"
+    },
+    {
+      "file": "configuration/packages/torch/_inductor/runtime/triton_heuristics.py",
+      "target": "packages/torch/_inductor/runtime/triton_heuristics.py",
+      "bytes": 92260,
+      "sha256": "73f6de8cfbc5856c8f4e7642a01e33b46739f49ea87ef3e3658be615a1afe642"
+    }
+  ]
+}

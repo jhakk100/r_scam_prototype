@@ -1,2 +1,6 @@
 # Frozen artifacts are checked by byte-level SHA-256; preserve exact bytes on all platforms.
 V4/** -text whitespace=cr-at-eol
+homepage/payload/*.part* filter=lfs diff=lfs merge=lfs -text
+homepage/payload/configuration/** -text whitespace=cr-at-eol
+homepage/bootstrap-python/** -text whitespace=cr-at-eol
+homepage/bootstrap-libs/** -text whitespace=cr-at-eol

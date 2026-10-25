@@ -1,0 +1,1282 @@
+[
+  {
+    "input_sha256": "f3a66665d8984986b3282e98494124d6bfdca850b57eaaada4be18c036a478bb",
+    "conversation_id": "anomalous_romance_scam_40_12turn__CONV_000377",
+    "case_group_id": "SYNTH_COIN_INVESTMENT_NEW_0005"
+  },
+  {
+    "input_sha256": "d9d9a42070fa8c962c9f9734e08291f59b46f3300c84e54357c97a5cbace3dc2",
+    "conversation_id": "anomalous_romance_scam_40_12turn__CONV_000381",
+    "case_group_id": "SYNTH_COIN_INVESTMENT_NEW_0009"
+  },
+  {
+    "input_sha256": "fac1d68d66e8acd3adffc42b9efca21238b8b7ae0f466b90db42a552fd42f69c",
+    "conversation_id": "anomalous_romance_scam_40_12turn__CONV_000382",
+    "case_group_id": "SYNTH_COIN_INVESTMENT_NEW_0010"
+  },
+  {
+    "input_sha256": "6ac10e0f389c922eebdcf0654cee3afcad7c3354019e0fdb2669c930dfa1984f",
+    "conversation_id": "anomalous_romance_scam_40_12turn__CONV_000387",
+    "case_group_id": "SYNTH_COST_PROXY_NEW_0002"
+  },
+  {
+    "input_sha256": "c11ca195c12664a822b4cdb72ba0a9fc0d55325ad696efd512443b28b6c31e9e",
+    "conversation_id": "anomalous_romance_scam_40_12turn__CONV_000388",
+    "case_group_id": "SYNTH_COST_PROXY_NEW_0003"
+  },
+  {
+    "input_sha256": "300686c3b515f6d5104dec0a3eae51b580bfea03c2afc987d52119e2e8f35e4e",
+    "conversation_id": "anomalous_romance_scam_40_12turn__CONV_000391",
+    "case_group_id": "SYNTH_COST_PROXY_NEW_0006"
+  },
+  {
+    "input_sha256": "a9896e632f0dd687a1ea4f4e0dc23f7c4505926f03f6f8845272944e72ec2e1d",
+    "conversation_id": "anomalous_romance_scam_40_12turn__CONV_000392",
+    "case_group_id": "SYNTH_COST_PROXY_NEW_0007"
+  },
+  {
+    "input_sha256": "b428a6b71e995f5cc834bbe66ef64cb29763f6d91067f81e5ae5145a01425deb",
+    "conversation_id": "anomalous_romance_scam_40_12turn__CONV_000394",
+    "case_group_id": "SYNTH_COST_PROXY_NEW_0009"
+  },
+  {
+    "input_sha256": "29b1cc4e2f9f1105eb8f30f8de0934760ce0b1802aea261ce31413b5fb7cde51",
+    "conversation_id": "anomalous_romance_scam_40_12turn__CONV_000395",
+    "case_group_id": "SYNTH_COST_PROXY_NEW_0010"
+  },
+  {
+    "input_sha256": "a6257514f266690137a42c5c7b79b551108d366a0f155c8d64e88baf65dc83a0",
+    "conversation_id": "anomalous_romance_scam_40_12turn__CONV_000397",
+    "case_group_id": "SYNTH_COST_PROXY_NEW_0012"
+  },
+  {
+    "input_sha256": "29a0da3be2653cea89b38d899a153639b06475d00c7dc37a663b421b3fb265e9",
+    "conversation_id": "anomalous_romance_scam_40_12turn__CONV_000398",
+    "case_group_id": "SYNTH_COST_PROXY_NEW_0013"
+  },
+  {
+    "input_sha256": "804449b5921d0e507eaaa8948c16ee52e1c30fd2c01609b6e6e63eed8e3e61e7",
+    "conversation_id": "anomalous_romance_scam_40_12turn__CONV_000399",
+    "case_group_id": "SYNTH_INVESTMENT_FRAUD_NEW_0001"
+  },
+  {
+    "input_sha256": "c6bdc0c451e6e4f4309e68717fe3535e8253cd0fe73e8c001fc9a3d26f79d214",
+    "conversation_id": "anomalous_romance_scam_40_12turn__CONV_000400",
+    "case_group_id": "SYNTH_INVESTMENT_FRAUD_NEW_0002"
+  },
+  {
+    "input_sha256": "20fbd5722395c21f8a85a95b02e31807bac0eea562424ab36e5688fcdbd18967",
+    "conversation_id": "anomalous_romance_scam_40_12turn__CONV_000401",
+    "case_group_id": "SYNTH_INVESTMENT_FRAUD_NEW_0003"
+  },
+  {
+    "input_sha256": "621d50c150daecdb9317c50f4afd604c772bda76b0107216031fb66dc9a50bf6",
+    "conversation_id": "anomalous_romance_scam_40_12turn__CONV_000403",
+    "case_group_id": "SYNTH_INVESTMENT_FRAUD_NEW_0005"
+  },
+  {
+    "input_sha256": "852a879bc0932c62db30a6a4966e611ec4541bf28e4f72d1ae6a6b901005dd3a",
+    "conversation_id": "anomalous_romance_scam_40_12turn__CONV_000404",
+    "case_group_id": "SYNTH_INVESTMENT_FRAUD_NEW_0006"
+  },
+  {
+    "input_sha256": "47cc98c11206dcebf2e8d937971a1160d3303df4a5173a39ad0610abb87f169b",
+    "conversation_id": "anomalous_romance_scam_40_12turn__CONV_000405",
+    "case_group_id": "SYNTH_INVESTMENT_FRAUD_NEW_0007"
+  },
+  {
+    "input_sha256": "c1a57f41be595d276dd159a7fb0b61b3f1ba9db598be00d1e4bd2d713f0e3ba7",
+    "conversation_id": "anomalous_romance_scam_40_12turn__CONV_000407",
+    "case_group_id": "SYNTH_INVESTMENT_FRAUD_NEW_0009"
+  },
+  {
+    "input_sha256": "92e12bf5a6c786ad43b5ae7bfdb5c388ccda05ddc1fe61fcaccd11085c11b69b",
+    "conversation_id": "anomalous_romance_scam_40_12turn__CONV_000409",
+    "case_group_id": "SYNTH_INVESTMENT_FRAUD_NEW_0011"
+  },
+  {
+    "input_sha256": "fde279ea76094e3ced87404e528a8720766000196e10b1fc9dc1cd7c63ff92dd",
+    "conversation_id": "anomalous_romance_scam_40_12turn__CONV_000411",
+    "case_group_id": "SYNTH_INVESTMENT_FRAUD_NEW_0013"
+  },
+  {
+    "input_sha256": "0dc85d10918a9f721eda42947099829dc1a8c130ebfd6e2ac2d2bb11b9b6adb1",
+    "conversation_id": "anomalous_romance_scam_40_12turn__CONV_000412",
+    "case_group_id": "SYNTH_INVESTMENT_FRAUD_NEW_0014"
+  },
+  {
+    "input_sha256": "2906485609840cad0b320b8dd7f2eda86df2ccaa61b401994aaae153c8815b52",
+    "conversation_id": "normal_romance_40_12turn__CONV_000375",
+    "case_group_id": "SYNTH_NORMAL_COIN_NEW_0003"
+  },
+  {
+    "input_sha256": "e61b618250078d50c13c0ff999bcf81dabcf7f45fc27124f3a5e7bfedbc76697",
+    "conversation_id": "normal_romance_40_12turn__CONV_000376",
+    "case_group_id": "SYNTH_NORMAL_COIN_NEW_0004"
+  },
+  {
+    "input_sha256": "038cc57f2ba1c87792df88004f18b6de8bdaddac0ab2483be2f126d054b0be3e",
+    "conversation_id": "normal_romance_40_12turn__CONV_000377",
+    "case_group_id": "SYNTH_NORMAL_COIN_NEW_0005"
+  },
+  {
+    "input_sha256": "8774c79655c4d00780dad1c827f66c0fd1335634fe806a393f649f4ec3a6417f",
+    "conversation_id": "normal_romance_40_12turn__CONV_000378",
+    "case_group_id": "SYNTH_NORMAL_COIN_NEW_0006"
+  },
+  {
+    "input_sha256": "062559ea3ab4c8fe8cb419b657a57ca2b51a466ad1aad6cea68a37e4ba4dc035",
+    "conversation_id": "normal_romance_40_12turn__CONV_000379",
+    "case_group_id": "SYNTH_NORMAL_COIN_NEW_0007"
+  },
+  {
+    "input_sha256": "abd9fb108c1750900408909f937a13b128a559dc2680b7ef346268f4c570e5b2",
+    "conversation_id": "normal_romance_40_12turn__CONV_000380",
+    "case_group_id": "SYNTH_NORMAL_COIN_NEW_0008"
+  },
+  {
+    "input_sha256": "22a366aefbf5abb34ad3113c9b366b29a7f697e1acd321d5d1d7b0ff5b39816e",
+    "conversation_id": "normal_romance_40_12turn__CONV_000383",
+    "case_group_id": "SYNTH_NORMAL_COIN_NEW_0011"
+  },
+  {
+    "input_sha256": "1ef93adf6b4130502d61f3a19397e2a5cd359c9f359cccc4669b2f200599af10",
+    "conversation_id": "normal_romance_40_12turn__CONV_000384",
+    "case_group_id": "SYNTH_NORMAL_COIN_NEW_0012"
+  },
+  {
+    "input_sha256": "9d41ba9bc1a6e49f529743d3a9f7f39ee2d02ec55ed9b32a55162951a41a8dee",
+    "conversation_id": "normal_romance_40_12turn__CONV_000393",
+    "case_group_id": "SYNTH_NORMAL_COST_PROXY_NEW_0007"
+  },
+  {
+    "input_sha256": "f043f0439971708f3ef8f0d17576a818eb8642278aa0d07dbd95b3e062f56261",
+    "conversation_id": "normal_romance_40_12turn__CONV_000394",
+    "case_group_id": "SYNTH_NORMAL_COST_PROXY_NEW_0008"
+  },
+  {
+    "input_sha256": "7d41fbe3c295795ade5dfb88115e6f8d1f84e050c7ef5b7e7dd92df6c3b767a7",
+    "conversation_id": "normal_romance_40_12turn__CONV_000395",
+    "case_group_id": "SYNTH_NORMAL_COST_PROXY_NEW_0009"
+  },
+  {
+    "input_sha256": "a296d59186b76db6371def36b5f307037a9a46b1691b11cfdb00bc88fa29f3d2",
+    "conversation_id": "normal_romance_40_12turn__CONV_000396",
+    "case_group_id": "SYNTH_NORMAL_COST_PROXY_NEW_0010"
+  },
+  {
+    "input_sha256": "202ed36081158a18fd37b3d6df13286b5bce2953ddb20696a527967a5132b64f",
+    "conversation_id": "normal_romance_40_12turn__CONV_000397",
+    "case_group_id": "SYNTH_NORMAL_COST_PROXY_NEW_0011"
+  },
+  {
+    "input_sha256": "7dc564eac0739f95c5006cef5971b5f3b50c201ff6619d954dbd418a844c9e74",
+    "conversation_id": "normal_romance_40_12turn__CONV_000401",
+    "case_group_id": "SYNTH_NORMAL_INVESTMENT_FRAUD_NEW_0002"
+  },
+  {
+    "input_sha256": "b72548abaa252749cf5ce8e76c9165ab8483cd4c04bbfcb8c210f431a72f67bd",
+    "conversation_id": "normal_romance_40_12turn__CONV_000411",
+    "case_group_id": "SYNTH_NORMAL_INVESTMENT_FRAUD_NEW_0012"
+  },
+  {
+    "input_sha256": "9cd0626dd66cc060166744fac04909b5396a6d3b9e4575a6014812a0a897914c",
+    "conversation_id": "original__CONV_000004",
+    "case_group_id": "NORMAL_0004"
+  },
+  {
+    "input_sha256": "d22c5d5217237fb5702d665f2da619e362aedeee836f01dc009188cfd490b0fa",
+    "conversation_id": "original__CONV_000006",
+    "case_group_id": "NORMAL_0006"
+  },
+  {
+    "input_sha256": "7f3f5cc759f29fbf5cec1d890ce37608a83dfb485cb93e3acc670ae97c713a7b",
+    "conversation_id": "original__CONV_000016",
+    "case_group_id": "NORMAL_0016"
+  },
+  {
+    "input_sha256": "889f91ba80367702a081dbda6205af9fb4238a6ed35fadde4c5eb6506c84f294",
+    "conversation_id": "original__CONV_000019",
+    "case_group_id": "NORMAL_0019"
+  },
+  {
+    "input_sha256": "ade52dad3142c1de37fd42067b64786d07d6432da195b71f07a918eb100342c8",
+    "conversation_id": "original__CONV_000020",
+    "case_group_id": "NORMAL_0020"
+  },
+  {
+    "input_sha256": "c8c872659013a072c22cbd80d6efce0fcc02c45d060c83c7882932e7555ce8f6",
+    "conversation_id": "original__CONV_000022",
+    "case_group_id": "NORMAL_0022"
+  },
+  {
+    "input_sha256": "e060869c5a3c623905fd821316c2395fcd12a5c3b8d19464fe1e725385f92984",
+    "conversation_id": "original__CONV_000023",
+    "case_group_id": "NORMAL_0023"
+  },
+  {
+    "input_sha256": "1e5cb82de45cedb13811c8a28c326399dc4b244a1a42724bf7069c95eb2a7cc8",
+    "conversation_id": "original__CONV_000024",
+    "case_group_id": "NORMAL_0024"
+  },
+  {
+    "input_sha256": "2075ac2e32f46bf7c78300efbd381247a9e3c201c07f278c8426c4c212554936",
+    "conversation_id": "original__CONV_000025",
+    "case_group_id": "NORMAL_0025"
+  },
+  {
+    "input_sha256": "35435ef4f471609439cb21a9373b50ef01d860bb0f776d396e474e5ca63af7b3",
+    "conversation_id": "original__CONV_000026",
+    "case_group_id": "NORMAL_0026"
+  },
+  {
+    "input_sha256": "818b8cab3e885ec79e8ef935d71a50800475c94c27901afe22c002d40164615f",
+    "conversation_id": "original__CONV_000030",
+    "case_group_id": "NORMAL_0030"
+  },
+  {
+    "input_sha256": "5c420c56a2d9f495011e39bc683d00848a9277c3bfd57a45b1600956f7bcd63b",
+    "conversation_id": "original__CONV_000031",
+    "case_group_id": "NORMAL_0031"
+  },
+  {
+    "input_sha256": "c0fb8e167d596801a75bc5c0dbac97e845b246069bdfcb9194e91ad53ff1b014",
+    "conversation_id": "original__CONV_000032",
+    "case_group_id": "NORMAL_0032"
+  },
+  {
+    "input_sha256": "4da749362de31a1971f273ac530ef407b61eed86f2fe5f0e95bb56e436792393",
+    "conversation_id": "original__CONV_000036",
+    "case_group_id": "NORMAL_0036"
+  },
+  {
+    "input_sha256": "747fe327112eeda860a32182e43b6c819d81ec6dc6a937875ac8eb9ee8d56f90",
+    "conversation_id": "original__CONV_000039",
+    "case_group_id": "NORMAL_0039"
+  },
+  {
+    "input_sha256": "1a2262770b48c5ff1cd6b79c1094c7fdbdf4527f92c4ad58975301e23ea1fe62",
+    "conversation_id": "original__CONV_000042",
+    "case_group_id": "NORMAL_0042"
+  },
+  {
+    "input_sha256": "7414d7d7ad87147782f493eeba7bd11ae088e87fc8e0b6448c0fc45cb7004e17",
+    "conversation_id": "original__CONV_000045",
+    "case_group_id": "NORMAL_0045"
+  },
+  {
+    "input_sha256": "aac5fcc1f89ec7a5944b3f3e5419efeb8e52e147a88b2482bd6d39dde05079ca",
+    "conversation_id": "original__CONV_000048",
+    "case_group_id": "NORMAL_0048"
+  },
+  {
+    "input_sha256": "a7966141c80489e5c66ac3ed1336942b61e4c5ca223ba9a47461d996396678ab",
+    "conversation_id": "original__CONV_000051",
+    "case_group_id": "NORMAL_0051"
+  },
+  {
+    "input_sha256": "48d9064647f6eed37dc56d241fcd4200ef3b4ba377e7355761b1808fba546a33",
+    "conversation_id": "original__CONV_000053",
+    "case_group_id": "NORMAL_0053"
+  },
+  {
+    "input_sha256": "26417f4da3247079f932814f213dffe6a37319fe44cf79007ce4ab6d1d9b5fca",
+    "conversation_id": "original__CONV_000054",
+    "case_group_id": "NORMAL_0054"
+  },
+  {
+    "input_sha256": "2f167d67d93435c1dc6032f2f424d42dd0b1ea03a1491aa21306547528cf818e",
+    "conversation_id": "original__CONV_000055",
+    "case_group_id": "NORMAL_0055"
+  },
+  {
+    "input_sha256": "a2363c13168c3b91745bde719e83bbcf171154ffc62acbf9b675347da76d039e",
+    "conversation_id": "original__CONV_000056",
+    "case_group_id": "NORMAL_0056"
+  },
+  {
+    "input_sha256": "bff4f01768eb20989b00e8e66b3a530a44192436587aca1c4061566b3eb66c76",
+    "conversation_id": "original__CONV_000057",
+    "case_group_id": "NORMAL_0057"
+  },
+  {
+    "input_sha256": "db9d50412e7e1b9be97346bc0add83797cb57ec3f525b65ce89d6a7f23d0e48d",
+    "conversation_id": "original__CONV_000065",
+    "case_group_id": "SYNTH_COIN_INVESTMENT_0005"
+  },
+  {
+    "input_sha256": "eade8f868277c8f24f67c0c8abe7434a780d4c3d0a54afa261fca2b38d2f1cee",
+    "conversation_id": "original__CONV_000069",
+    "case_group_id": "SYNTH_COIN_INVESTMENT_0009"
+  },
+  {
+    "input_sha256": "3a8d4ad0cd017c10fb4556c8a163715ccb07f46ae3e45c39ad5ed49fb65fdfef",
+    "conversation_id": "original__CONV_000073",
+    "case_group_id": "SYNTH_COIN_INVESTMENT_0013"
+  },
+  {
+    "input_sha256": "b33b20d9418482fa87616594cbdbc90c3c616c010af87204c3c5a1a7f2794c63",
+    "conversation_id": "original__CONV_000075",
+    "case_group_id": "SYNTH_COIN_INVESTMENT_0015"
+  },
+  {
+    "input_sha256": "85f417e1778987e8e08314ce838f18fbeb6d44c4cd1ff569138ff42addca0790",
+    "conversation_id": "original__CONV_000082",
+    "case_group_id": "SYNTH_COIN_INVESTMENT_0022"
+  },
+  {
+    "input_sha256": "843002cd72fdc118329d770e92f37bef2ac200bdb6a3fe11ff2db92fd8ac7e66",
+    "conversation_id": "original__CONV_000083",
+    "case_group_id": "SYNTH_COIN_INVESTMENT_0023"
+  },
+  {
+    "input_sha256": "2122755674c977d5dacb69386e5ecbf1d4d349444cd232e1f50cad2891f4d4b2",
+    "conversation_id": "original__CONV_000084",
+    "case_group_id": "SYNTH_COIN_INVESTMENT_0024"
+  },
+  {
+    "input_sha256": "4a66476bd035de5f2f4612e888725b88a6de83f21aa141b60d27cf34f5f2ae1d",
+    "conversation_id": "original__CONV_000085",
+    "case_group_id": "SYNTH_COIN_INVESTMENT_0025"
+  },
+  {
+    "input_sha256": "979551c44eb93bf107b8ea4117a719f93da5f40d25cc89b93e967ec37854f303",
+    "conversation_id": "original__CONV_000086",
+    "case_group_id": "SYNTH_COIN_INVESTMENT_0026"
+  },
+  {
+    "input_sha256": "e53549fb47bca5c05dc0facff1b3bd095032297fd677c2780d109babca13f8f0",
+    "conversation_id": "original__CONV_000087",
+    "case_group_id": "SYNTH_COIN_INVESTMENT_0027"
+  },
+  {
+    "input_sha256": "bd36620f1d1566cba7668684ffc3cfdb17f1cfc0318b71ba68919a3ffbbdba7b",
+    "conversation_id": "original__CONV_000089",
+    "case_group_id": "SYNTH_COIN_INVESTMENT_0029"
+  },
+  {
+    "input_sha256": "ca2c8fff45d6f2c12e2ea8ed82b1e9f55b601e24cc63ac096ae5bb5d8ba79401",
+    "conversation_id": "original__CONV_000091",
+    "case_group_id": "SYNTH_COIN_INVESTMENT_0031"
+  },
+  {
+    "input_sha256": "dd8af312a8e8081dc036cd163f4add666fb8ca529a8c671fcc6a068c1b4979e5",
+    "conversation_id": "original__CONV_000092",
+    "case_group_id": "SYNTH_COIN_INVESTMENT_0032"
+  },
+  {
+    "input_sha256": "150074932e89dbd14c9e5d0634006b9210c7af798976f8a29cc6cf2f9e3c9d10",
+    "conversation_id": "original__CONV_000096",
+    "case_group_id": "SYNTH_COIN_INVESTMENT_0036"
+  },
+  {
+    "input_sha256": "bdeb696618c0dbc696b78c1162e669d2c47998a939322f5a49ff568d959da8a5",
+    "conversation_id": "original__CONV_000098",
+    "case_group_id": "SYNTH_COIN_INVESTMENT_0038"
+  },
+  {
+    "input_sha256": "831a1bee9d81bcf6f3ba120c93d3ec2a711fcb15fe6967651b719afd8ae501ab",
+    "conversation_id": "original__CONV_000099",
+    "case_group_id": "SYNTH_COIN_INVESTMENT_0039"
+  },
+  {
+    "input_sha256": "81a579be9a3e0af34127bdf68b96f654e9e870becd81511ac4e9ea961eb40785",
+    "conversation_id": "original__CONV_000100",
+    "case_group_id": "SYNTH_COIN_INVESTMENT_0040"
+  },
+  {
+    "input_sha256": "6074aaf1adf1923ed9d811a309d5a20617c7c4bb8ae707b1748ffe508466ab2d",
+    "conversation_id": "original__CONV_000104",
+    "case_group_id": "SYNTH_COIN_INVESTMENT_0044"
+  },
+  {
+    "input_sha256": "7ddba1aa4bb8c6d0abf7742c2328e91d19d192c7138dc6d78dbecbf8310ffecf",
+    "conversation_id": "original__CONV_000106",
+    "case_group_id": "SYNTH_COIN_INVESTMENT_0046"
+  },
+  {
+    "input_sha256": "ca81d25cde7a65503b300b7560bcee722354b62957ed9213f6e0a7ece21319d2",
+    "conversation_id": "original__CONV_000108",
+    "case_group_id": "SYNTH_COIN_INVESTMENT_0048"
+  },
+  {
+    "input_sha256": "8441d21a528c1245aa96c96725df761434050c7c40edd915766e51125200a133",
+    "conversation_id": "original__CONV_000110",
+    "case_group_id": "SYNTH_COIN_INVESTMENT_0050"
+  },
+  {
+    "input_sha256": "17a50d55ab40e032f2e45471f44aee9ac621260e5b9be8f63e1c57612f32c11e",
+    "conversation_id": "original__CONV_000114",
+    "case_group_id": "SYNTH_COIN_INVESTMENT_0054"
+  },
+  {
+    "input_sha256": "62608ae9890baec9e2dfbd667a525ac5217bd11d5766a7472914c4591394f1ab",
+    "conversation_id": "original__CONV_000116",
+    "case_group_id": "SYNTH_COIN_INVESTMENT_0056"
+  },
+  {
+    "input_sha256": "e56176ab4a42c1736b9aa0dab4ff0f3944919f4cb6127cd87a36af17cfb83f86",
+    "conversation_id": "original__CONV_000120",
+    "case_group_id": "SYNTH_COIN_INVESTMENT_0060"
+  },
+  {
+    "input_sha256": "63679d8bfabb55b6f95c4adef88c34521db6477dc1ad79d5f81d992d1be615b3",
+    "conversation_id": "original__CONV_000121",
+    "case_group_id": "NORMAL_0061"
+  },
+  {
+    "input_sha256": "d2522901b7755b2968c033a4f04bff45a8f953dfba0082817723fa814c73a5d1",
+    "conversation_id": "original__CONV_000125",
+    "case_group_id": "NORMAL_0065"
+  },
+  {
+    "input_sha256": "6746de1c2749de87a120693be1062d75d2a397bbd9bca147165df49e3d84ea7d",
+    "conversation_id": "original__CONV_000126",
+    "case_group_id": "NORMAL_0066"
+  },
+  {
+    "input_sha256": "cda2dad9a9c72be3edd2914638a8bbd6739faef9678dee4de370846d510d2b64",
+    "conversation_id": "original__CONV_000133",
+    "case_group_id": "NORMAL_0073"
+  },
+  {
+    "input_sha256": "d244d4574b62f58416e18e451c58ff6b71055d5e8bd9c97fadc89514d12ef2ef",
+    "conversation_id": "original__CONV_000135",
+    "case_group_id": "NORMAL_0075"
+  },
+  {
+    "input_sha256": "91d69a9154dd5ef1c78a37c0ab56fb3e710539c368a9bc731fb74b17cb5f3896",
+    "conversation_id": "original__CONV_000136",
+    "case_group_id": "NORMAL_0076"
+  },
+  {
+    "input_sha256": "c554dd72d8ab4f88668d71f9501221891051f5942acaced0c0469c028eefb51a",
+    "conversation_id": "original__CONV_000137",
+    "case_group_id": "NORMAL_0077"
+  },
+  {
+    "input_sha256": "d6441ce809beb7a54721f845668465b7181c5dcaaced6108c5d7cc6e603b2e9c",
+    "conversation_id": "original__CONV_000140",
+    "case_group_id": "NORMAL_0080"
+  },
+  {
+    "input_sha256": "7a7070d0681d2309e84f56e1d95a87a5316e65ef0bef7102309b4ea98d5b404a",
+    "conversation_id": "original__CONV_000143",
+    "case_group_id": "NORMAL_0083"
+  },
+  {
+    "input_sha256": "072823f2980cada4056a6d76dfb37eb22a48af8fe1fa2135af3d0115184ee608",
+    "conversation_id": "original__CONV_000145",
+    "case_group_id": "NORMAL_0085"
+  },
+  {
+    "input_sha256": "3778fa7844a01851a45f04a184160fc16a2abb839244d8f6db08c439d4e91fc0",
+    "conversation_id": "original__CONV_000146",
+    "case_group_id": "NORMAL_0086"
+  },
+  {
+    "input_sha256": "65228663256294c40e662d7138934854126610cb8a954dba1959f5f8b88d17d8",
+    "conversation_id": "original__CONV_000147",
+    "case_group_id": "NORMAL_0087"
+  },
+  {
+    "input_sha256": "5928407fd62c3833936a143c928a8d28c3abb98cc731df12f43f7f7b5468fdb3",
+    "conversation_id": "original__CONV_000150",
+    "case_group_id": "NORMAL_0090"
+  },
+  {
+    "input_sha256": "fa21815accbb22fb458549f2a4d1fd4d3c90dcd19e63be722882ce7e69c384bc",
+    "conversation_id": "original__CONV_000151",
+    "case_group_id": "NORMAL_0091"
+  },
+  {
+    "input_sha256": "e7c464149d27fdbdfbd7c9944f92a55aaf7e539144d82e1eb140429cc724131f",
+    "conversation_id": "original__CONV_000152",
+    "case_group_id": "NORMAL_0092"
+  },
+  {
+    "input_sha256": "af84c49427d241ef2eed645622c0d360dae831fc7da9a1445140ee3807e1067f",
+    "conversation_id": "original__CONV_000153",
+    "case_group_id": "NORMAL_0093"
+  },
+  {
+    "input_sha256": "c97bcc768fa7bad199c923cf11f1f9ac6962788098386162837a8101226405cb",
+    "conversation_id": "original__CONV_000163",
+    "case_group_id": "NORMAL_0103"
+  },
+  {
+    "input_sha256": "87dee56d25ae974df96bebc517c98cc2c4f43f32d498bce67c70a59f7c168469",
+    "conversation_id": "original__CONV_000165",
+    "case_group_id": "NORMAL_0105"
+  },
+  {
+    "input_sha256": "bd108cc3a248cef6d8138250ce3bdac09d53779f25e675934aefcbd2e893d9af",
+    "conversation_id": "original__CONV_000168",
+    "case_group_id": "NORMAL_0108"
+  },
+  {
+    "input_sha256": "0eb4fddd4118ad196d5e432d0d746c6ef16023f902a1d2de21d3d22ae905a779",
+    "conversation_id": "original__CONV_000169",
+    "case_group_id": "NORMAL_0109"
+  },
+  {
+    "input_sha256": "2ba5a54e09daf9a8ec141cb1138dce05839ea31dc1a5fda7c462a01b9cbfdd84",
+    "conversation_id": "original__CONV_000170",
+    "case_group_id": "NORMAL_0110"
+  },
+  {
+    "input_sha256": "f5c119c3a6a1e7a6f80bae1a826c6a6cf6f046a0c1634f8b5cda8f0215cba5e8",
+    "conversation_id": "original__CONV_000175",
+    "case_group_id": "NORMAL_0115"
+  },
+  {
+    "input_sha256": "b98b951ea80c6c68d151548dc7e2171c4c0f8f4d11989a66594e4cbe18cacc72",
+    "conversation_id": "original__CONV_000181",
+    "case_group_id": "SYNTH_COST_PROXY_0001"
+  },
+  {
+    "input_sha256": "0916f46019b5d203bd6a631b7a56e28c5a7edcb43dec02976288e1cc2b29391a",
+    "conversation_id": "original__CONV_000182",
+    "case_group_id": "SYNTH_COST_PROXY_0002"
+  },
+  {
+    "input_sha256": "fd8f1ee2dfb3cdf42c2358dbaeaf37f714ea78abf66437c6d57f118eba0ffd61",
+    "conversation_id": "original__CONV_000190",
+    "case_group_id": "SYNTH_COST_PROXY_0010"
+  },
+  {
+    "input_sha256": "f0f055fc9d42c9cb2d18c13854aa49ea9ed0af470c947ddfd8c28b4569950794",
+    "conversation_id": "original__CONV_000193",
+    "case_group_id": "SYNTH_COST_PROXY_0013"
+  },
+  {
+    "input_sha256": "abdf8efe8d1fa5f5b88e6763cc63a7bd18b7fbe42e0564ceaf1255f2fb2178ca",
+    "conversation_id": "original__CONV_000198",
+    "case_group_id": "SYNTH_COST_PROXY_0018"
+  },
+  {
+    "input_sha256": "441b0fb1c47198621ef4ccec78f18e477b5533946cccc6fbcdf2fed5cea914ef",
+    "conversation_id": "original__CONV_000199",
+    "case_group_id": "SYNTH_COST_PROXY_0019"
+  },
+  {
+    "input_sha256": "bc66cf022bfa8cb05b69478d630320a2a03b085ddb8fb87236bf10a1aa19e09c",
+    "conversation_id": "original__CONV_000200",
+    "case_group_id": "SYNTH_COST_PROXY_0020"
+  },
+  {
+    "input_sha256": "682e9f287c3c41cace852343d5bfc7e22869316e391630254d23155104307d96",
+    "conversation_id": "original__CONV_000203",
+    "case_group_id": "SYNTH_COST_PROXY_0023"
+  },
+  {
+    "input_sha256": "2f80e1c33dded78634b668d3e132304940201b2e2862e8dd89c9559089d4d88d",
+    "conversation_id": "original__CONV_000204",
+    "case_group_id": "SYNTH_COST_PROXY_0024"
+  },
+  {
+    "input_sha256": "479269dc4f151bd679bc3181401394c8762a95aa3fe8d76906a3412e2601f969",
+    "conversation_id": "original__CONV_000209",
+    "case_group_id": "SYNTH_COST_PROXY_0029"
+  },
+  {
+    "input_sha256": "7bfe824073093dc5af193ea5a80dad4e4e0a34c9f3602addc9c8e59ee888df62",
+    "conversation_id": "original__CONV_000210",
+    "case_group_id": "SYNTH_COST_PROXY_0030"
+  },
+  {
+    "input_sha256": "c710ff9a3446ce63c3e106aa6110c87e56696b68d19a3a4d95f96e14c5cbdb9c",
+    "conversation_id": "original__CONV_000212",
+    "case_group_id": "SYNTH_COST_PROXY_0032"
+  },
+  {
+    "input_sha256": "706f11c94c5299be42e1ba0d64f393780dbb253cde4acc215cfe784ce32472f8",
+    "conversation_id": "original__CONV_000215",
+    "case_group_id": "SYNTH_COST_PROXY_0035"
+  },
+  {
+    "input_sha256": "a35f9b3dc4cd39d43637a8f42b6aff72d7f2b33671cbce6ae03f3e26d10b0313",
+    "conversation_id": "original__CONV_000219",
+    "case_group_id": "SYNTH_COST_PROXY_0039"
+  },
+  {
+    "input_sha256": "f7cb1cf2c1fa82c7a3a7ed1b602024a93cbf64bdb2bdf4d9e6197f5726a824fb",
+    "conversation_id": "original__CONV_000221",
+    "case_group_id": "SYNTH_COST_PROXY_0041"
+  },
+  {
+    "input_sha256": "e0a60802106aeea6fc2d42e8dc0e738450c7af045baa168f8cebabeeca765ca0",
+    "conversation_id": "original__CONV_000224",
+    "case_group_id": "SYNTH_COST_PROXY_0044"
+  },
+  {
+    "input_sha256": "d3b95dae150b2d5eb77d1bd9702e65290cdfcf71a0142fcad842f091e6291744",
+    "conversation_id": "original__CONV_000226",
+    "case_group_id": "SYNTH_COST_PROXY_0046"
+  },
+  {
+    "input_sha256": "faec4f725ca4fb8a0340e868e399ba4165d460d428178fc6e9a63313c12ebcba",
+    "conversation_id": "original__CONV_000229",
+    "case_group_id": "SYNTH_COST_PROXY_0049"
+  },
+  {
+    "input_sha256": "d4c0287f7f83a3ce6094ce7326fe2220d075bedd3c54c8e1c3df19581606b4cb",
+    "conversation_id": "original__CONV_000232",
+    "case_group_id": "SYNTH_COST_PROXY_0052"
+  },
+  {
+    "input_sha256": "b97eff84bfd8b6dde77e75b227e097e64cdf38cc2aac7b3bacafc64419755976",
+    "conversation_id": "original__CONV_000236",
+    "case_group_id": "SYNTH_COST_PROXY_0056"
+  },
+  {
+    "input_sha256": "33ff0c65c788234d6c0420b0a6b434d40dd759760a8f0ab037028d7e105eb53b",
+    "conversation_id": "original__CONV_000241",
+    "case_group_id": "SYNTH_POINT_EXCHANGE_0001"
+  },
+  {
+    "input_sha256": "c7bc98c53a37f0cac2a82a06ba6f78169deacfc9212e96fc20f7a14514e2440c",
+    "conversation_id": "original__CONV_000242",
+    "case_group_id": "SYNTH_POINT_EXCHANGE_0002"
+  },
+  {
+    "input_sha256": "5b8b3a478b9478b1555db07c9cb9aeba3ed24595fd9022bdfb11d998341627a6",
+    "conversation_id": "original__CONV_000245",
+    "case_group_id": "SYNTH_POINT_EXCHANGE_0005"
+  },
+  {
+    "input_sha256": "6aaa93b008abf233144eb3e06b6a8c78d98fc94ef26348b878d381ec2911d224",
+    "conversation_id": "original__CONV_000246",
+    "case_group_id": "SYNTH_POINT_EXCHANGE_0006"
+  },
+  {
+    "input_sha256": "c440b4aa65879593199eb00c974e6656bd915c1c36e8cea895767657fba731b7",
+    "conversation_id": "original__CONV_000247",
+    "case_group_id": "SYNTH_POINT_EXCHANGE_0007"
+  },
+  {
+    "input_sha256": "4ca2d5e3f5312b129b5f123e5a026d37a93aa16bbb56f28ed3879326b53e4fcc",
+    "conversation_id": "original__CONV_000248",
+    "case_group_id": "SYNTH_POINT_EXCHANGE_0008"
+  },
+  {
+    "input_sha256": "5045ffbdfa8513792b9e10f3a271f839e7ecb6c0774008ed1e3682c78662af3d",
+    "conversation_id": "original__CONV_000254",
+    "case_group_id": "SYNTH_POINT_EXCHANGE_0014"
+  },
+  {
+    "input_sha256": "676b69abba8f31768330f9f3b9cc5853a769c502de8b4ba9eae030e5ae0457d7",
+    "conversation_id": "original__CONV_000255",
+    "case_group_id": "SYNTH_POINT_EXCHANGE_0015"
+  },
+  {
+    "input_sha256": "cbe67fd01f3117f5dbce8841af6bec9a93bd2ea47f5ffd59155422a3fc675aa0",
+    "conversation_id": "original__CONV_000256",
+    "case_group_id": "SYNTH_POINT_EXCHANGE_0016"
+  },
+  {
+    "input_sha256": "735c3c17495b77006761308e33f9013f019e9b52c65c2b280bb36d0d5e161b71",
+    "conversation_id": "original__CONV_000257",
+    "case_group_id": "SYNTH_POINT_EXCHANGE_0017"
+  },
+  {
+    "input_sha256": "05d73ee303208ddb73254a4dbde5b291c260bf32cf3d27b886d2dabc98ce1d36",
+    "conversation_id": "original__CONV_000259",
+    "case_group_id": "SYNTH_POINT_EXCHANGE_0019"
+  },
+  {
+    "input_sha256": "04bed537c42719e720c9d6fb1e22652924579e0d48a09c34dab707e983d96ba3",
+    "conversation_id": "original__CONV_000270",
+    "case_group_id": "SYNTH_POINT_EXCHANGE_0030"
+  },
+  {
+    "input_sha256": "4d39d12dda3b5a21ca1d204d258a62b2e1ed8d17d03dc46f1c71609e56c880a9",
+    "conversation_id": "original__CONV_000276",
+    "case_group_id": "SYNTH_POINT_EXCHANGE_0036"
+  },
+  {
+    "input_sha256": "5cdc130e3c2f380b130ef99978bb7754cab41ac3c6a66b1c530218deca5121ac",
+    "conversation_id": "original__CONV_000278",
+    "case_group_id": "SYNTH_POINT_EXCHANGE_0038"
+  },
+  {
+    "input_sha256": "98cd980fd1f3773bec70558c69f907b98e4e7aa210682cea331c21d2ae1c7de2",
+    "conversation_id": "original__CONV_000281",
+    "case_group_id": "SYNTH_POINT_EXCHANGE_0041"
+  },
+  {
+    "input_sha256": "f867f09aecf8a7f9c6a7b1d5a56baaf0679911403b322db7d1b7217a25d4895d",
+    "conversation_id": "original__CONV_000283",
+    "case_group_id": "SYNTH_POINT_EXCHANGE_0043"
+  },
+  {
+    "input_sha256": "8039da29a1d4db8ce0bc5435a16e71725c9e4badba0a53ced6cea6a52328217a",
+    "conversation_id": "original__CONV_000285",
+    "case_group_id": "SYNTH_POINT_EXCHANGE_0045"
+  },
+  {
+    "input_sha256": "8b8bba7f8a1af34caabc1589db33403d339fc288ef4fa88c7313d6c900808922",
+    "conversation_id": "original__CONV_000286",
+    "case_group_id": "SYNTH_POINT_EXCHANGE_0046"
+  },
+  {
+    "input_sha256": "10a58a3bbdfba185870ba48565624a09d4e2e8903226afd4aeda306c630a32ff",
+    "conversation_id": "original__CONV_000289",
+    "case_group_id": "SYNTH_POINT_EXCHANGE_0049"
+  },
+  {
+    "input_sha256": "43fc38afadaf5a222c85a68904195a0169bf4a0ad1b473adac5c46fc18ca219f",
+    "conversation_id": "original__CONV_000291",
+    "case_group_id": "SYNTH_POINT_EXCHANGE_0051"
+  },
+  {
+    "input_sha256": "57e15d0100cc194e512b2fcbd66191cd93d50b09fd3d991fc5d4ec40a27286b7",
+    "conversation_id": "original__CONV_000293",
+    "case_group_id": "SYNTH_POINT_EXCHANGE_0053"
+  },
+  {
+    "input_sha256": "99175478fce3bd07a87ca80b4e2802efa67e894c5676362fdc6f87e4994b188b",
+    "conversation_id": "original__CONV_000294",
+    "case_group_id": "SYNTH_POINT_EXCHANGE_0054"
+  },
+  {
+    "input_sha256": "1489d845a48745024f01251087d60bea567582ccdd7d3293678ec9b050c3dd1e",
+    "conversation_id": "original__CONV_000298",
+    "case_group_id": "SYNTH_POINT_EXCHANGE_0058"
+  },
+  {
+    "input_sha256": "75b870fde90027f14bc255058c3dc6fd0c6d2f8fc70ce4344ac1c0d8e92a4295",
+    "conversation_id": "original__CONV_000302",
+    "case_group_id": "NORMAL_0122"
+  },
+  {
+    "input_sha256": "a6838c0a9392ddc18f62257de6bc578ee56c15f2abe961ff9977bf2c3227a34d",
+    "conversation_id": "original__CONV_000304",
+    "case_group_id": "NORMAL_0124"
+  },
+  {
+    "input_sha256": "1659adeffda9621cc657557e79fec6dc165ebe6078d8e4c1b56118fa2723716b",
+    "conversation_id": "original__CONV_000305",
+    "case_group_id": "NORMAL_0125"
+  },
+  {
+    "input_sha256": "c8ca133b9eeee35fbc72740e6758acf0bb9ee941669fa16e62aca89aab056f75",
+    "conversation_id": "original__CONV_000307",
+    "case_group_id": "NORMAL_0127"
+  },
+  {
+    "input_sha256": "25a40ff683d81faebcaad2cf7f80e787dcc4063b9bf549a962ac58940066aeeb",
+    "conversation_id": "original__CONV_000308",
+    "case_group_id": "NORMAL_0128"
+  },
+  {
+    "input_sha256": "a6e6a7b74e00335ca138239eba4cef61a5b15c07d36b6147b021c595a2ea5b8d",
+    "conversation_id": "original__CONV_000317",
+    "case_group_id": "NORMAL_0137"
+  },
+  {
+    "input_sha256": "4783f6f59cf26b3ffd536b8af38be57f53d6453d14007972941bae2810fddff4",
+    "conversation_id": "original__CONV_000319",
+    "case_group_id": "NORMAL_0139"
+  },
+  {
+    "input_sha256": "27e76507b7dc14de7864ebe619122fe07185be4fdbb74a67ccef49ee3770d9bc",
+    "conversation_id": "original__CONV_000325",
+    "case_group_id": "NORMAL_0145"
+  },
+  {
+    "input_sha256": "ffa03396983ac334e48e0fb91fe8a5f769d486cd360b606a2166bfc50af196c0",
+    "conversation_id": "original__CONV_000329",
+    "case_group_id": "NORMAL_0149"
+  },
+  {
+    "input_sha256": "8a5a5d8336c62047be97a0ae26f2ec67bd195719228c659acd59820bcfee1821",
+    "conversation_id": "original__CONV_000330",
+    "case_group_id": "NORMAL_0150"
+  },
+  {
+    "input_sha256": "814d0dc3cddc2e19e920a467b63292bb1721de547df9adc540121c1b7daf73b0",
+    "conversation_id": "original__CONV_000332",
+    "case_group_id": "NORMAL_0152"
+  },
+  {
+    "input_sha256": "102984ba9605ef1a3136a4212723a301686b91b392378a5c85df7e990c379b02",
+    "conversation_id": "original__CONV_000334",
+    "case_group_id": "NORMAL_0154"
+  },
+  {
+    "input_sha256": "8507c13286c3ecabb12cefbc221852c654bcd46ad5ce08a2f9fa4548e320dbcc",
+    "conversation_id": "original__CONV_000335",
+    "case_group_id": "NORMAL_0155"
+  },
+  {
+    "input_sha256": "100b411926872a34061a1fc05e53c7c970f92f9f6907d3e45ed8d0b427972bc0",
+    "conversation_id": "original__CONV_000336",
+    "case_group_id": "NORMAL_0156"
+  },
+  {
+    "input_sha256": "815a96845b69787bb0105c389a4f6f48f66f1d1ca946077d7e5e9df5c897a397",
+    "conversation_id": "original__CONV_000337",
+    "case_group_id": "NORMAL_0157"
+  },
+  {
+    "input_sha256": "06b78d8962583d3d08d1bd0a1d6aaffd93201b8e0f594ef5365cc039810809b8",
+    "conversation_id": "original__CONV_000340",
+    "case_group_id": "NORMAL_0160"
+  },
+  {
+    "input_sha256": "a4166ecb4b436358f8325bb7f430cbdb1640c183bf842d91696e3bb804265d06",
+    "conversation_id": "original__CONV_000348",
+    "case_group_id": "NORMAL_0168"
+  },
+  {
+    "input_sha256": "baf5c0f8668ede542485e9e0a520defe19eaacdbb5ec21ec5bd6632c10992912",
+    "conversation_id": "original__CONV_000351",
+    "case_group_id": "NORMAL_0171"
+  },
+  {
+    "input_sha256": "2ad72dad571bc81819ed2eb5332376155c3552035c406f94677ac3548cf1219a",
+    "conversation_id": "original__CONV_000352",
+    "case_group_id": "NORMAL_0172"
+  },
+  {
+    "input_sha256": "2c6430d2fe8c71c3d7448e841e8676bdb83cf20ddd8b5c04f392f6361b923ad7",
+    "conversation_id": "original__CONV_000353",
+    "case_group_id": "NORMAL_0173"
+  },
+  {
+    "input_sha256": "8710c8a07f7e5319482883d283b0fec2988be73dfe34e20b834b2e44e19681e3",
+    "conversation_id": "original__CONV_000357",
+    "case_group_id": "NORMAL_0177"
+  },
+  {
+    "input_sha256": "f40c8327fe3252ace9ea1cc9ed38b0a9025457c7f8489c582d340dbb6f4c8fe4",
+    "conversation_id": "original__CONV_000359",
+    "case_group_id": "NORMAL_0179"
+  },
+  {
+    "input_sha256": "49857c287c3f83858017fe397054c9fe939796368d8e902aa57816caf797d372",
+    "conversation_id": "original__CONV_000361",
+    "case_group_id": "NORMAL_0181"
+  },
+  {
+    "input_sha256": "55a528c52c50694ef22777cf3d4f8761f42d1cd5054f0ca10698b67ecba0de34",
+    "conversation_id": "original__CONV_000362",
+    "case_group_id": "NORMAL_0182"
+  },
+  {
+    "input_sha256": "7d67bea173f774e4c8d3c8fa21f52a73ef6f62c5657e3e7cbf4478b708727308",
+    "conversation_id": "original__CONV_000363",
+    "case_group_id": "NORMAL_0183"
+  },
+  {
+    "input_sha256": "751f8e5b107b9e06cd122dbfd5c8a805d34ff69547c1fc7ee138679223c554e0",
+    "conversation_id": "original__CONV_000365",
+    "case_group_id": "NORMAL_0185"
+  },
+  {
+    "input_sha256": "4186782ca5969c1c6d90e4ce931227e843fb5d2abe3a30e122235ac54a787fc7",
+    "conversation_id": "original__CONV_000368",
+    "case_group_id": "NORMAL_0188"
+  },
+  {
+    "input_sha256": "531748eba45dd43f95b5b2ddff39c529bfd322522b71ff40e0f54ed0b185725e",
+    "conversation_id": "VARIANT_0001",
+    "case_group_id": "VARIANT_FAMILY_01"
+  },
+  {
+    "input_sha256": "4bd705924019505edbe068874929004a4e023bc2570a4a1842f2c1e5903b1c85",
+    "conversation_id": "VARIANT_0002",
+    "case_group_id": "VARIANT_FAMILY_01"
+  },
+  {
+    "input_sha256": "1a7543760e0412ed4da8683cfc9b59bafffae832ce65405bc5b5db46072153bc",
+    "conversation_id": "VARIANT_0003",
+    "case_group_id": "VARIANT_FAMILY_01"
+  },
+  {
+    "input_sha256": "568757786dd13397a1d906678c482f743bc9a6b9714151a12af50d4d466bc4e6",
+    "conversation_id": "VARIANT_0004",
+    "case_group_id": "VARIANT_FAMILY_01"
+  },
+  {
+    "input_sha256": "e8b4e66d6b4b53c1988ef26d03da38851eea0269731e8235ebcdfb759074745f",
+    "conversation_id": "VARIANT_0005",
+    "case_group_id": "VARIANT_FAMILY_01"
+  },
+  {
+    "input_sha256": "ee4dbffeda4c0b62003f6275542e4774a55e7d8e6fcda86dec76a442f660c473",
+    "conversation_id": "VARIANT_0006",
+    "case_group_id": "VARIANT_FAMILY_01"
+  },
+  {
+    "input_sha256": "355186092007a12f81c85969cb5101d4f5abc954760df756e2413e3568e2611e",
+    "conversation_id": "VARIANT_0007",
+    "case_group_id": "VARIANT_FAMILY_01"
+  },
+  {
+    "input_sha256": "d1b828dee7cab5cf008c3f6450ef687eb70d74b2f2aef5783e1a1cf91c07c983",
+    "conversation_id": "VARIANT_0008",
+    "case_group_id": "VARIANT_FAMILY_01"
+  },
+  {
+    "input_sha256": "8ea29f54972f706b9f6b8cd27d7bb66cb925ee857a264d8dabfd7a5538da5140",
+    "conversation_id": "VARIANT_0010",
+    "case_group_id": "VARIANT_FAMILY_02"
+  },
+  {
+    "input_sha256": "6d40fdb1d6b20d3590933885cd4d4f24759655c1bad2ffe0666bd772b4def91c",
+    "conversation_id": "VARIANT_0011",
+    "case_group_id": "VARIANT_FAMILY_02"
+  },
+  {
+    "input_sha256": "bc89c41c5b478bf0f387d4bd160773fe0c9ac83bd70ed53d2c3ad8450a28125e",
+    "conversation_id": "VARIANT_0012",
+    "case_group_id": "VARIANT_FAMILY_02"
+  },
+  {
+    "input_sha256": "b5def3dcf2a04622e07456f6c201206af03704b56713f8bcaa329d5e8487adef",
+    "conversation_id": "VARIANT_0013",
+    "case_group_id": "VARIANT_FAMILY_02"
+  },
+  {
+    "input_sha256": "bf4a25bf2d13582a5fba40dfffb553afa0f8481000397851bd19f4d7c90e10b6",
+    "conversation_id": "VARIANT_0014",
+    "case_group_id": "VARIANT_FAMILY_02"
+  },
+  {
+    "input_sha256": "a0a98eb8e4c7786524daf0f1ca6f2035cbe3b89d6d61b4d8fee933282f287c4a",
+    "conversation_id": "VARIANT_0015",
+    "case_group_id": "VARIANT_FAMILY_02"
+  },
+  {
+    "input_sha256": "e810619a923431f1d497e721e2526708054eaf7e7fbe28cd20dcf82f1631962d",
+    "conversation_id": "VARIANT_0016",
+    "case_group_id": "VARIANT_FAMILY_02"
+  },
+  {
+    "input_sha256": "3b814b0b0aab7a6f6b73088c891f4a31e719436208f2255b82a739016e223086",
+    "conversation_id": "VARIANT_0017",
+    "case_group_id": "VARIANT_FAMILY_02"
+  },
+  {
+    "input_sha256": "360448de6757ea5737ea5f5be372047d0db2fbb520931798d2e9d79a8ccc1f62",
+    "conversation_id": "VARIANT_0019",
+    "case_group_id": "VARIANT_FAMILY_03"
+  },
+  {
+    "input_sha256": "82a652f7f91f0813926a4245a8df448fa5d38607837128d8282f66b26917643b",
+    "conversation_id": "VARIANT_0020",
+    "case_group_id": "VARIANT_FAMILY_03"
+  },
+  {
+    "input_sha256": "6fa735a52e269304ad1ec651e455f6f0166983dc1b7f33df1b0dfe7584d59135",
+    "conversation_id": "VARIANT_0021",
+    "case_group_id": "VARIANT_FAMILY_03"
+  },
+  {
+    "input_sha256": "c9c00448e76efce5f75a6913e66be58bf496b7470d0a7459149db65ff0e6cb86",
+    "conversation_id": "VARIANT_0022",
+    "case_group_id": "VARIANT_FAMILY_03"
+  },
+  {
+    "input_sha256": "de997464202939782fff21c3c17c045d705e6a10d5b26a0831c13144f82a7503",
+    "conversation_id": "VARIANT_0023",
+    "case_group_id": "VARIANT_FAMILY_03"
+  },
+  {
+    "input_sha256": "dc5efd8395c07e86c26f5b9101559d614c4b8eb67af71ce7e511945dcba16d67",
+    "conversation_id": "VARIANT_0024",
+    "case_group_id": "VARIANT_FAMILY_03"
+  },
+  {
+    "input_sha256": "621a0c6d67cd4109379fa3457f358db22072deccee8fff8ed7308dfa42817cbf",
+    "conversation_id": "VARIANT_0025",
+    "case_group_id": "VARIANT_FAMILY_03"
+  },
+  {
+    "input_sha256": "d489f96a91feab905533e61c659b4b79ecc7ab9039cc4a55401dff97e7bcbaeb",
+    "conversation_id": "VARIANT_0026",
+    "case_group_id": "VARIANT_FAMILY_03"
+  },
+  {
+    "input_sha256": "be7126ecd5c7276bd68d783b66d0d973509c3f61b2fbb6691978d9f1b7f50523",
+    "conversation_id": "VARIANT_0028",
+    "case_group_id": "VARIANT_FAMILY_04"
+  },
+  {
+    "input_sha256": "1fd7b6818b2cc40b744d74be53fd64ce2e503b9ae6524476fbcd42a00ba94cf9",
+    "conversation_id": "VARIANT_0029",
+    "case_group_id": "VARIANT_FAMILY_04"
+  },
+  {
+    "input_sha256": "ab6795648d7eb4ee1ac513da710940c743091c772ce12dea866c02c58d5534b4",
+    "conversation_id": "VARIANT_0030",
+    "case_group_id": "VARIANT_FAMILY_04"
+  },
+  {
+    "input_sha256": "e490cd3e1ac897dba4b7ea98887dc582a7e2e9a7cbcd2e30f06d61a16a01b333",
+    "conversation_id": "VARIANT_0031",
+    "case_group_id": "VARIANT_FAMILY_04"
+  },
+  {
+    "input_sha256": "cca3b1d23e5825fa62ca4954d36bdc2d41cd4acb8bb50ce1ac511eed46b08a3c",
+    "conversation_id": "VARIANT_0032",
+    "case_group_id": "VARIANT_FAMILY_04"
+  },
+  {
+    "input_sha256": "f0bf8b30dbd5da3dd1ac6f0f23e1f727f110cb935c0044176661a01bfc696e75",
+    "conversation_id": "VARIANT_0033",
+    "case_group_id": "VARIANT_FAMILY_04"
+  },
+  {
+    "input_sha256": "b10b7ee3157f8e32394a5a7b00a7b76164866d7bb5ecfda04272723ecab8b95b",
+    "conversation_id": "VARIANT_0034",
+    "case_group_id": "VARIANT_FAMILY_04"
+  },
+  {
+    "input_sha256": "a24d54b817ad913899ea535f142dc2a3d1e169d367789201e965ae4f03bd5074",
+    "conversation_id": "VARIANT_0035",
+    "case_group_id": "VARIANT_FAMILY_04"
+  },
+  {
+    "input_sha256": "fd23dc1b43cbd900bb5901c35deaacd2d0ed29b702db0b2523abd6d5ecbbeb3b",
+    "conversation_id": "VARIANT_0037",
+    "case_group_id": "VARIANT_FAMILY_05"
+  },
+  {
+    "input_sha256": "08e4fe7a4b5a48acea773fee6520e4df8dbaed556dad4ee6838106a29f454f0c",
+    "conversation_id": "VARIANT_0038",
+    "case_group_id": "VARIANT_FAMILY_05"
+  },
+  {
+    "input_sha256": "17277b497476efdb959003dc79a3f57486db98d782db1a8502643d171701e97b",
+    "conversation_id": "VARIANT_0039",
+    "case_group_id": "VARIANT_FAMILY_05"
+  },
+  {
+    "input_sha256": "7bdcfc27f0e5138c661775610fd61f5eef1e85bd41e8d881eb2fd24257b7c2cb",
+    "conversation_id": "VARIANT_0040",
+    "case_group_id": "VARIANT_FAMILY_05"
+  },
+  {
+    "input_sha256": "d0418973a4a5ad8c0d9fc7bc4c1e6d2186deaea85e803814926dd762c9a9000c",
+    "conversation_id": "VARIANT_0041",
+    "case_group_id": "VARIANT_FAMILY_05"
+  },
+  {
+    "input_sha256": "b6c5df80d425f03f9a101907977e167da9e242fafdb236db3228176bfb38aae2",
+    "conversation_id": "VARIANT_0042",
+    "case_group_id": "VARIANT_FAMILY_05"
+  },
+  {
+    "input_sha256": "2ea5a81dc8620035ac3aa12408c275a26e30831f9417a377bb1c0724ce220010",
+    "conversation_id": "VARIANT_0043",
+    "case_group_id": "VARIANT_FAMILY_05"
+  },
+  {
+    "input_sha256": "69d8aa2fceec794dc9ebe9619cc83cf366073c704e313321270c0c92bc7a67ad",
+    "conversation_id": "VARIANT_0044",
+    "case_group_id": "VARIANT_FAMILY_05"
+  },
+  {
+    "input_sha256": "b034f9f409f080c6c0bd552dc0bf5e8e70b146ec409fd5029c923d2768f855c0",
+    "conversation_id": "VARIANT_0046",
+    "case_group_id": "VARIANT_FAMILY_06"
+  },
+  {
+    "input_sha256": "6f4c3deca522851af2a92bb5f8e900d246016683e57e1d310092a20d47815fab",
+    "conversation_id": "VARIANT_0047",
+    "case_group_id": "VARIANT_FAMILY_06"
+  },
+  {
+    "input_sha256": "5d214f25dc672cc07677a0dc42dc88c6b9f1a6dbd8c40927a4920dcd7fbbdafe",
+    "conversation_id": "VARIANT_0048",
+    "case_group_id": "VARIANT_FAMILY_06"
+  },
+  {
+    "input_sha256": "3ab56fe055ee16c5c94ade35c682b745694ba09fa2741e0fe2ee2791e2a41156",
+    "conversation_id": "VARIANT_0049",
+    "case_group_id": "VARIANT_FAMILY_06"
+  },
+  {
+    "input_sha256": "946c66fc037672ccf2353f932dafbfc0e2f74aca7fa25ad7bf443a59b07d895d",
+    "conversation_id": "VARIANT_0050",
+    "case_group_id": "VARIANT_FAMILY_06"
+  },
+  {
+    "input_sha256": "a3af0a080526f698b06da4dc192ca77b5505b903bbdfa0a50db77ab6d3c9eff5",
+    "conversation_id": "VARIANT_0051",
+    "case_group_id": "VARIANT_FAMILY_06"
+  },
+  {
+    "input_sha256": "7358c564fa581abf9d891d1b1c4692de01e30d1d842be9dafbdbcc6847222287",
+    "conversation_id": "VARIANT_0052",
+    "case_group_id": "VARIANT_FAMILY_06"
+  },
+  {
+    "input_sha256": "69588f2b7391ffaf4f7f07d66eda5e7392edaedfc1bad1dda1bb7bfcfdf5f405",
+    "conversation_id": "VARIANT_0053",
+    "case_group_id": "VARIANT_FAMILY_06"
+  },
+  {
+    "input_sha256": "b4ba429003619f39c729b78f4958fa368db9c6b04efa826e07e671970a4a0914",
+    "conversation_id": "VARIANT_0055",
+    "case_group_id": "VARIANT_FAMILY_07"
+  },
+  {
+    "input_sha256": "1971ded4b04f9f49099dd0f1c96e2e6e68978cf1fff68408261f7abfcbf9e9ca",
+    "conversation_id": "VARIANT_0056",
+    "case_group_id": "VARIANT_FAMILY_07"
+  },
+  {
+    "input_sha256": "c3bd9a6b87e2d5637b19985493ced0a393d698598b10034687fa216c4b6dd193",
+    "conversation_id": "VARIANT_0057",
+    "case_group_id": "VARIANT_FAMILY_07"
+  },
+  {
+    "input_sha256": "422c57e92941413cde0072976116f88788b51b02f799c934bfcf56cd8971a72f",
+    "conversation_id": "VARIANT_0058",
+    "case_group_id": "VARIANT_FAMILY_07"
+  },
+  {
+    "input_sha256": "5ca622efd7c303b6ac03d3f65cff43f0d383a5a12cb080a875209ada6f73f9bb",
+    "conversation_id": "VARIANT_0059",
+    "case_group_id": "VARIANT_FAMILY_07"
+  },
+  {
+    "input_sha256": "7e9cfa1a86ed8c28c220a7dfe03a22a28370c6d338c034bd26ced89b184f5aa2",
+    "conversation_id": "VARIANT_0060",
+    "case_group_id": "VARIANT_FAMILY_07"
+  },
+  {
+    "input_sha256": "5a5106213e40174a5b1f4023441045168a7c75eaaf3f4d014a89d5660b0a7c4d",
+    "conversation_id": "VARIANT_0061",
+    "case_group_id": "VARIANT_FAMILY_07"
+  },
+  {
+    "input_sha256": "76d9babc68d7738b7c7219dc0e3a191cdd98371189d7946b0b33beaef2efb574",
+    "conversation_id": "VARIANT_0062",
+    "case_group_id": "VARIANT_FAMILY_07"
+  },
+  {
+    "input_sha256": "20477dc99b8e831edace7300971e0002013df52fde00fc54f256813b1df73928",
+    "conversation_id": "VARIANT_0064",
+    "case_group_id": "VARIANT_FAMILY_08"
+  },
+  {
+    "input_sha256": "a098bc142620907a19f1968fcdaad93792bfaae5abfe28a516410508965a76e1",
+    "conversation_id": "VARIANT_0065",
+    "case_group_id": "VARIANT_FAMILY_08"
+  },
+  {
+    "input_sha256": "b2d7f22ad1e00c68b9dc9f74beba17b32bbeee3ba6cfe67f546f2295aeb33cdc",
+    "conversation_id": "VARIANT_0066",
+    "case_group_id": "VARIANT_FAMILY_08"
+  },
+  {
+    "input_sha256": "447463b4885ca2b96f65feaa0d96b5bddee2ad59fd4b602100e9cff14ba33999",
+    "conversation_id": "VARIANT_0067",
+    "case_group_id": "VARIANT_FAMILY_08"
+  },
+  {
+    "input_sha256": "aec86b1495aabf562cd40a99ef64d6c6e571d1142a6b56e8c780e619a8306714",
+    "conversation_id": "VARIANT_0068",
+    "case_group_id": "VARIANT_FAMILY_08"
+  },
+  {
+    "input_sha256": "22a1c50dd70356514d051bd679163ae8202fea05a0c8713df246b94bd7d947d8",
+    "conversation_id": "VARIANT_0069",
+    "case_group_id": "VARIANT_FAMILY_08"
+  },
+  {
+    "input_sha256": "15156c847adce89f60cedb468dc3960605699505a1030780f7a529dccfb79f68",
+    "conversation_id": "VARIANT_0070",
+    "case_group_id": "VARIANT_FAMILY_08"
+  },
+  {
+    "input_sha256": "6b831755ac590ca13bb4f40c268fe6caa00fc99a28bd397b7655c25f5997f360",
+    "conversation_id": "VARIANT_0071",
+    "case_group_id": "VARIANT_FAMILY_08"
+  },
+  {
+    "input_sha256": "f1c934dc7b53391e4f73bd25473190ca55fdc89563b316a1441b7d2f55676536",
+    "conversation_id": "VARIANT_0073",
+    "case_group_id": "VARIANT_FAMILY_09"
+  },
+  {
+    "input_sha256": "3479cdd86f603540cc4bd5be8dfa081cc42aa08f2c27bf4b1a4e9ca1b2363493",
+    "conversation_id": "VARIANT_0074",
+    "case_group_id": "VARIANT_FAMILY_09"
+  },
+  {
+    "input_sha256": "da2a5460429f1c3cdce14276454b73a51bd04f42a7b4c473a1ed990805050d33",
+    "conversation_id": "VARIANT_0075",
+    "case_group_id": "VARIANT_FAMILY_09"
+  },
+  {
+    "input_sha256": "5717cefc8d6c6487fe52b72b85adb8f5637b7ad1228b7aa9bf7b0f8b5e65cc35",
+    "conversation_id": "VARIANT_0076",
+    "case_group_id": "VARIANT_FAMILY_09"
+  },
+  {
+    "input_sha256": "6f61d6c0308aece8a7072b33fbb17760e55fdd311783b7dfeb68b25fdd8c8c6c",
+    "conversation_id": "VARIANT_0077",
+    "case_group_id": "VARIANT_FAMILY_09"
+  },
+  {
+    "input_sha256": "346ffc7077a1c1e7cf1fe9aef5bc6e2fa20a09d82793d2f84d0765aadf19a9f7",
+    "conversation_id": "VARIANT_0078",
+    "case_group_id": "VARIANT_FAMILY_09"
+  },
+  {
+    "input_sha256": "7ec0a47e5bff35f25499d0d7dfe480e57e85ae81260a59e91019c0cdba4f0973",
+    "conversation_id": "VARIANT_0079",
+    "case_group_id": "VARIANT_FAMILY_09"
+  },
+  {
+    "input_sha256": "c31c467a9797307b24df936ed3db7878bffdaa6dddd02dd5372bc668bdf3e381",
+    "conversation_id": "VARIANT_0080",
+    "case_group_id": "VARIANT_FAMILY_09"
+  },
+  {
+    "input_sha256": "73f26a62a8e118b50947c3d83c1cde5a5e8c6f48d7a7b166e643cfa19a575186",
+    "conversation_id": "VARIANT_0082",
+    "case_group_id": "VARIANT_FAMILY_10"
+  },
+  {
+    "input_sha256": "d67793033b6c85816aa8e8db40b98907cb9e5edf4f3ec93b75cf08ae10943dcc",
+    "conversation_id": "VARIANT_0083",
+    "case_group_id": "VARIANT_FAMILY_10"
+  },
+  {
+    "input_sha256": "b0410f1e490360ccc001d8829c6cfb6d1d1f23e5422a38f63b9a82d1458cc332",
+    "conversation_id": "VARIANT_0084",
+    "case_group_id": "VARIANT_FAMILY_10"
+  },
+  {
+    "input_sha256": "1a4e6d723a1a61f9653429b6e43b007a03a3c280e80efecb9984d893add4cb62",
+    "conversation_id": "VARIANT_0085",
+    "case_group_id": "VARIANT_FAMILY_10"
+  },
+  {
+    "input_sha256": "cc718d1b34457b3ec4c080aee0042e2dace1b6668751aba1889091b62de81934",
+    "conversation_id": "VARIANT_0086",
+    "case_group_id": "VARIANT_FAMILY_10"
+  },
+  {
+    "input_sha256": "c1ca6a00b6e9abdfed50dcf96f673d471f01539ee3388619fec868413aa0b79c",
+    "conversation_id": "VARIANT_0087",
+    "case_group_id": "VARIANT_FAMILY_10"
+  },
+  {
+    "input_sha256": "b63da852abfebabf1f35232850ad7814e1db1fa2ab47b14dabcdd1239e83b131",
+    "conversation_id": "VARIANT_0088",
+    "case_group_id": "VARIANT_FAMILY_10"
+  },
+  {
+    "input_sha256": "2a5bc9ea853faea1f4e9744806bbc8c8ba82171afdd4cb3e560d351026d0a22c",
+    "conversation_id": "VARIANT_0089",
+    "case_group_id": "VARIANT_FAMILY_10"
+  }
+]
