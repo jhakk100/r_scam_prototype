@@ -7,6 +7,7 @@
 ```text
 r_scam_prototype/
 ├── V4/                  # 최종 코드, 검색 좌표, 데이터, 결과, 논문과 지도
+├── homepage/            # 로컬 홈페이지, 문장 확인과 실제 모델 분석
 ├── architecture/        # 공통 입력 계약과 모델 점수 계산 백엔드
 ├── model_training/      # 학습 도구와 어댑터 무결성 검사
 ├── dataset/             # 기존 원천 데이터와 정제 기록
@@ -27,12 +28,19 @@ python V4/serve_map.py
 실제 추론에는 원본 E2B 가중치와 최종 특화 어댑터, CUDA PyTorch 및 [추론 의존성](V4/requirements.txt)이 필요하다.
 설치 위치와 실행 방법은 [V4 실행 안내](V4/README.md)에 있다. 자동 다운로드나 재학습은 수행하지 않는다.
 
+### 로컬 홈페이지
+
+`homepage/마음체크_시작.cmd`를 실행한다. 대화를 붙여 넣고 문장·화자를 확인한 다음 분석할 수 있다. 문장 목록은 내부에서 스크롤되며, 결과 화면에는 위험 지수와 참고 사례를 표시한다.
+
+이미지 문장 추출을 사용하려면 최초 한 번 `python homepage/download_ocr.py`로 공개 OCR 자산을 준비한다. 홈페이지의 실제 분석에는 위의 모델 가중치와 Python 환경이 필요하다. 종료할 때는 `homepage/마음체크_종료.cmd`를 실행한다. 자세한 내용은 [홈페이지 안내](homepage/읽어주세요.md)에 있다.
+
 ## 문서와 결과
 
-- [최종 논문](V4/paper/romance_scam_ko.docx): 쉬운 용어 수정본, 구조도와 3차원 지도.
+- [최종 논문](V4/paper/romance_scam.docx): 용어 정리, 구조도·3차원 지도와 사례 수 비교 결과를 반영한 최신본.
 - [기술 명세](V4/docs/v4_technical_spec_ko.docx), [쉬운 설명 PDF](V4/docs/v4_easy_guide_ko.pdf).
 - [폴더 이전 안내](V4/docs/REPOSITORY_LAYOUT.md): 기존 기술 명세의 경로를 현재 배치에 대응시키는 안내.
 - [실험 결과](V4/experiments/d03-final-paired-20261006_205128/REPORT_KO.md).
+- [논문 보충 측정](V4/experiments/paper-support-20261007/): 좌표 후보와 사례 수 비교 측정, 재현 코드.
 
 | 구성 | 원본 176건 | 변형 80건 | 합산 256건 |
 |---|---:|---:|---:|

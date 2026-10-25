@@ -12,3 +12,7 @@ model_training/configs/train.local.json
 model_training/configs/train.20*.json
 *.log
 ~$*
+homepage/runtime/
+homepage/maeum-check-source/ocr/*.wasm
+homepage/maeum-check-source/ocr/*.wasm.js
+homepage/maeum-check-source/ocr/*.traineddata.gz

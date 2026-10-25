@@ -1,0 +1,105 @@
+{
+  "status": "PASSED",
+  "candidate_metric_counts_verified": 24,
+  "individual_votes_recomputed": 6128,
+  "candidate_fit_train_only": true,
+  "query_true_z_not_used": true,
+  "stored_z_label_fixed": true,
+  "chunked_inputs": 16,
+  "all_chunks_within_limit": true,
+  "protected_files_unchanged": true,
+  "manual_axis_collisions": {
+    "C02": {
+      "distinct_xy": 9,
+      "train_count": 226,
+      "mixed_label_cells": 4
+    },
+    "C03": {
+      "distinct_xy": 6,
+      "train_count": 226,
+      "mixed_label_cells": 2
+    },
+    "C04": {
+      "distinct_xy": 8,
+      "train_count": 226,
+      "mixed_label_cells": 4
+    },
+    "C05": {
+      "distinct_xy": 8,
+      "train_count": 226,
+      "mixed_label_cells": 2
+    },
+    "C06": {
+      "distinct_xy": 5,
+      "train_count": 226,
+      "mixed_label_cells": 2
+    },
+    "C07": {
+      "distinct_xy": 5,
+      "train_count": 226,
+      "mixed_label_cells": 2
+    },
+    "C08": {
+      "distinct_xy": 5,
+      "train_count": 226,
+      "mixed_label_cells": 2
+    },
+    "C09": {
+      "distinct_xy": 10,
+      "train_count": 226,
+      "mixed_label_cells": 6
+    },
+    "C10": {
+      "distinct_xy": 10,
+      "train_count": 226,
+      "mixed_label_cells": 2
+    },
+    "C11": {
+      "distinct_xy": 9,
+      "train_count": 226,
+      "mixed_label_cells": 5
+    },
+    "C12": {
+      "distinct_xy": 16,
+      "train_count": 226,
+      "mixed_label_cells": 8
+    },
+    "C13": {
+      "distinct_xy": 226,
+      "train_count": 226,
+      "mixed_label_cells": 0
+    },
+    "C14": {
+      "distinct_xy": 226,
+      "train_count": 226,
+      "mixed_label_cells": 0
+    },
+    "C15": {
+      "distinct_xy": 104,
+      "train_count": 226,
+      "mixed_label_cells": 6
+    },
+    "C16": {
+      "distinct_xy": 226,
+      "train_count": 226,
+      "mixed_label_cells": 0
+    },
+    "C17": {
+      "distinct_xy": 226,
+      "train_count": 226,
+      "mixed_label_cells": 0
+    },
+    "C18": {
+      "distinct_xy": 226,
+      "train_count": 226,
+      "mixed_label_cells": 0
+    },
+    "C19": {
+      "distinct_xy": 226,
+      "train_count": 226,
+      "mixed_label_cells": 0
+    }
+  },
+  "runtime_changed": false,
+  "paper_changed": false
+}

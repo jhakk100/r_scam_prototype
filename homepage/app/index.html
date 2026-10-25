@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>마음체크 | 로맨스 스캠 대화 분석</title>
+  <meta name="description" content="마음에 걸린 대화 속 위험 신호를 차분히 확인해 보세요.">
+  <link rel="icon" href="/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="/style.css">
+  <script type="module" src="/app.js"></script>
+</head>
+<body>
+<a class="skip-link" href="#main">본문으로 바로가기</a>
+<header class="topbar"><div class="top-inner">
+  <a href="#main" class="brand"><span class="brand-icon">♡</span><strong>마음체크</strong><span class="brand-sub">마음에 걸린 대화, 함께 확인해요</span></a>
+  <nav aria-label="주 메뉴"><a href="#main" class="active">대화 분석</a><button id="about-button">분석 기준</button><button id="privacy-button">개인정보 안내</button></nav>
+</div></header>
+<main id="main" class="container">
+  <p class="breadcrumb">⌂ &nbsp; › &nbsp; 대화 분석</p>
+  <div class="hero"><div><span class="eyebrow">♡ &nbsp; 혼자 고민하지 않아도 괜찮아요</span><h1>이 대화, 괜찮은 걸까요?</h1><p>조금이라도 마음이 쓰였다면, 여기서 천천히 확인해 보세요.</p></div><span class="privacy-pill">♧ &nbsp; 내 컴퓨터에서 분석 · 대화 파일 미보관</span></div>
+  <ol class="stepper" aria-label="분석 진행 단계">
+    <li data-step="0" class="current" aria-current="step"><span>01</span><strong>대화 업로드</strong></li>
+    <li data-step="1"><span>02</span><strong>문장 확인</strong></li>
+    <li data-step="2"><span>03</span><strong>분석 결과</strong></li>
+  </ol>
+  <p id="error" class="error" role="alert" hidden></p>
+  <div id="input-workspace" class="workspace">
+    <section id="upload-panel" class="card">
+      <div class="card-pad">
+        <div class="section-heading"><h2>어떤 대화가 마음에 걸렸나요?</h2><span class="small muted">카카오톡 · DM · 문자 등</span></div>
+        <div class="tabs" role="tablist" aria-label="입력 방식">
+          <button id="text-tab" role="tab" aria-selected="true" aria-controls="text-panel">▤ &nbsp; 텍스트 직접 입력</button>
+          <button id="image-tab" role="tab" aria-selected="false" aria-controls="image-panel" tabindex="-1">▧ &nbsp; 이미지 업로드</button>
+        </div>
+        <div id="text-panel" role="tabpanel" aria-labelledby="text-tab">
+          <label for="conversation">대화 내용</label>
+          <textarea id="conversation" rows="12" maxlength="16000" placeholder="상대방: 오늘 하루는 어땠어요?&#10;나: 잘 지냈어요.&#10;&#10;화자: 대화 내용 형식으로 붙여 넣어 주세요. 화자 없는 원문도 입력할 수 있어요."></textarea>
+          <p class="small muted">대화의 앞뒤 맥락과 순서를 함께 담아 주세요. 다음 화면에서 화자와 문장을 수정할 수 있어요.</p>
+        </div>
+        <div id="image-panel" role="tabpanel" aria-labelledby="image-tab" hidden>
+          <div class="dropzone" id="dropzone"><img src="/images/chat-companions.png" alt="서로 기대고 있는 파랑·초록 말풍선" width="190" height="128"><h3>마음에 걸린 대화를 올려 주세요</h3><p class="muted small">PNG · JPG · WEBP, 최대 4장 · 장당 10MB</p><label for="images" class="button secondary">이미지 선택</label><input id="images" type="file" accept="image/png,image/jpeg,image/webp" multiple></div>
+          <div id="image-list" class="image-list"></div>
+          <p id="ocr-status" class="small muted" role="status"></p>
+          <button id="extract-button" class="button secondary" disabled>이미지에서 문장 추출</button>
+          <p class="small muted">이미지는 브라우저 안에서 읽어요. 추출된 글자와 화자를 꼭 확인해 주세요.</p>
+        </div>
+      </div>
+      <div class="card-actions"><div class="examples"><span class="small muted">처음이라면</span><button id="scam-example" class="text-link">주의 대화 예시</button><button id="normal-example" class="text-link">일상 대화 예시</button></div><button id="review-button" class="button primary">문장 확인하기 →</button></div>
+    </section>
+    <section id="review-panel" class="card" hidden>
+      <div class="card-pad"><div class="section-heading"><h2 id="review-heading" tabindex="-1">분석할 문장을 확인해 주세요</h2><span id="message-count" class="small muted"></span></div>
+        <p class="small muted">화자와 대화 순서가 맞는지 확인해 주세요. 이미지에서 잘못 읽힌 문장은 직접 수정할 수 있어요.</p>
+        <div class="notice"><strong>개인정보를 한 번 더 확인해 주세요.</strong><p id="mask-note">이름 등 자동으로 가리지 못한 정보는 직접 지워 주세요.</p></div>
+        <div id="messages-editor" role="region" aria-label="분석할 대화 문장" tabindex="0"></div><button id="add-message" class="text-link">＋ 발화 추가</button>
+        <label class="consent"><input id="consent" type="checkbox"> 문장과 화자를 확인했으며, 이 내용으로 분석하는 데 동의합니다.</label>
+      </div>
+      <div class="card-actions"><button id="back-button" class="button secondary">← 입력 수정</button><button id="analyze-button" class="button primary" disabled>대화 분석하기 →</button></div>
+    </section>
+    <aside class="sidebar">
+      <section class="card aside-card"><h3>☷ &nbsp; 시작 전에, 세 가지만</h3><ul class="tips"><li><b>앞뒤 대화를 함께 담아 주세요</b><span>앞뒤 이야기와 대화 순서가 있으면 더 도움이 돼요.</span></li><li><b>글자와 화자를 확인해 주세요</b><span>사진 인식은 화자나 문장을 잘못 읽을 수 있어요.</span></li><li><b>이름·연락처는 가려 주세요</b><span>자동으로 가리지 못한 정보도 확인하세요.</span></li></ul><p class="aside-bottom">분석 결과는 상대방의 안전성을 보장하지 않아요.</p></section>
+    </aside>
+  </div>
+  <section id="progress-panel" class="card progress-panel" aria-labelledby="progress-heading" hidden><span class="spinner" aria-hidden="true"></span><h2 id="progress-heading" tabindex="-1">대화를 차분히 살펴보고 있어요</h2><p id="job-status" role="status" aria-live="polite"></p><p class="small muted">잠시만 기다려 주세요.</p></section>
+  <section id="result-panel" aria-label="분석 결과" hidden></section>
+  <div class="trust-row"><div><b>개인정보를 먼저 생각해요</b><p>분석 전 민감한 정보 가리기</p></div><div><b>앞뒤 맥락을 함께 살펴봐요</b><p>대화의 흐름을 담아 주세요</p></div><div><b>판단을 돕는 참고 정보예요</b><p>사기 확률이나 확정 판정이 아니에요</p></div></div>
+  <p class="disclaimer">ⓘ 분석 결과는 참고용 지수입니다. 실제 범죄 여부를 확정하거나 특정인을 범죄자로 단정하지 않습니다.</p>
+  <footer><span><strong>마음체크</strong> &nbsp; © 2026. 안전한 관계를 위한 작은 확인.</span></footer>
+</main>
+<dialog id="info-dialog"><div class="dialog-heading"><h2 id="dialog-title"></h2><button id="close-dialog" class="button secondary" aria-label="안내 닫기">닫기</button></div><div id="dialog-content"></div></dialog>
+</body>
+</html>

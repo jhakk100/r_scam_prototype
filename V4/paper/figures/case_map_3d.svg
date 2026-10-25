@@ -266,10 +266,10 @@
 <text x="191.0" y="153.0" font-family="Malgun Gothic,맑은 고딕,sans-serif" font-size="10" font-weight="400" text-anchor="end" fill="#000000">1</text>
 <text x="394" y="329" font-family="Malgun Gothic,맑은 고딕,sans-serif" font-size="11" font-weight="400" text-anchor="middle" fill="#000000">X  표현 성분 1</text>
 <text x="80" y="262" font-family="Malgun Gothic,맑은 고딕,sans-serif" font-size="11" font-weight="400" text-anchor="middle" fill="#000000">Y  표현 성분 2</text>
-<text x="155" y="126" font-family="Malgun Gothic,맑은 고딕,sans-serif" font-size="11" font-weight="400" text-anchor="middle" fill="#000000">Z  저장 라벨</text>
+<text x="155" y="126" font-family="Malgun Gothic,맑은 고딕,sans-serif" font-size="11" font-weight="400" text-anchor="middle" fill="#000000">Z  저장 분류</text>
 <circle cx="78" cy="20" r="3.5" fill="#27698B" stroke="white" stroke-width="0.2"/>
-<text x="89" y="24" font-family="Malgun Gothic,맑은 고딕,sans-serif" font-size="11" font-weight="400" text-anchor="start" fill="#000000">NON_SCAM   Z=0   113건</text>
+<text x="89" y="24" font-family="Malgun Gothic,맑은 고딕,sans-serif" font-size="11" font-weight="400" text-anchor="start" fill="#000000">NON-SCAM   Z=0   113건</text>
 <circle cx="335" cy="20" r="3.5" fill="#B44745" stroke="white" stroke-width="0.2"/>
 <text x="346" y="24" font-family="Malgun Gothic,맑은 고딕,sans-serif" font-size="11" font-weight="400" text-anchor="start" fill="#000000">SCAM   Z=1   113건</text>
-<text x="280" y="352.6" font-family="Malgun Gothic,맑은 고딕,sans-serif" font-size="10.6" font-weight="400" text-anchor="middle" fill="#000000">실제 검색에는 X·Y만 사용하며 Z는 라벨을 표시합니다</text>
+<text x="280" y="352.6" font-family="Malgun Gothic,맑은 고딕,sans-serif" font-size="10.6" font-weight="400" text-anchor="middle" fill="#000000">실제 검색에는 X·Y만 사용하며 Z는 분류를 표시합니다</text>
 </svg>

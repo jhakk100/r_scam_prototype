@@ -1,0 +1,142 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="560" height="570" viewBox="0 0 560 570">
+<rect width="560" height="570" fill="white"/>
+<text x="280" y="33" font-family="Malgun Gothic,맑은 고딕,sans-serif" font-size="12" font-weight="700" text-anchor="middle" fill="#000000">원본 테스트 176건에서 검색 단독 ACC</text>
+<polyline points="59,204.0 526,204.0" fill="none" stroke="#DCE2E6" stroke-width="0.7"/>
+<text x="50" y="208.0" font-family="Malgun Gothic,맑은 고딕,sans-serif" font-size="10" font-weight="400" text-anchor="end" fill="#000000">40</text>
+<polyline points="59,178.16666666666666 526,178.16666666666666" fill="none" stroke="#DCE2E6" stroke-width="0.7"/>
+<text x="50" y="182.16666666666666" font-family="Malgun Gothic,맑은 고딕,sans-serif" font-size="10" font-weight="400" text-anchor="end" fill="#000000">50</text>
+<polyline points="59,152.33333333333334 526,152.33333333333334" fill="none" stroke="#DCE2E6" stroke-width="0.7"/>
+<text x="50" y="156.33333333333334" font-family="Malgun Gothic,맑은 고딕,sans-serif" font-size="10" font-weight="400" text-anchor="end" fill="#000000">60</text>
+<polyline points="59,126.5 526,126.5" fill="none" stroke="#DCE2E6" stroke-width="0.7"/>
+<text x="50" y="130.5" font-family="Malgun Gothic,맑은 고딕,sans-serif" font-size="10" font-weight="400" text-anchor="end" fill="#000000">70</text>
+<polyline points="59,100.66666666666667 526,100.66666666666667" fill="none" stroke="#DCE2E6" stroke-width="0.7"/>
+<text x="50" y="104.66666666666667" font-family="Malgun Gothic,맑은 고딕,sans-serif" font-size="10" font-weight="400" text-anchor="end" fill="#000000">80</text>
+<polyline points="59,74.83333333333331 526,74.83333333333331" fill="none" stroke="#DCE2E6" stroke-width="0.7"/>
+<text x="50" y="78.83333333333331" font-family="Malgun Gothic,맑은 고딕,sans-serif" font-size="10" font-weight="400" text-anchor="end" fill="#000000">90</text>
+<polyline points="59,49.0 526,49.0" fill="none" stroke="#DCE2E6" stroke-width="0.7"/>
+<text x="50" y="53.0" font-family="Malgun Gothic,맑은 고딕,sans-serif" font-size="10" font-weight="400" text-anchor="end" fill="#000000">100</text>
+<polyline points="59,49 59,204 526,204" fill="none" stroke="#344A5B" stroke-width="1"/>
+<text x="50" y="38" font-family="Malgun Gothic,맑은 고딕,sans-serif" font-size="10" font-weight="400" text-anchor="end" fill="#000000">ACC (%)</text>
+<text x="59.0" y="221" font-family="Malgun Gothic,맑은 고딕,sans-serif" font-size="10" font-weight="400" text-anchor="middle" fill="#000000">22</text>
+<text x="136.83333333333331" y="221" font-family="Malgun Gothic,맑은 고딕,sans-serif" font-size="10" font-weight="400" text-anchor="middle" fill="#000000">56</text>
+<text x="269.6078431372549" y="221" font-family="Malgun Gothic,맑은 고딕,sans-serif" font-size="10" font-weight="400" text-anchor="middle" fill="#000000">114</text>
+<text x="397.80392156862746" y="221" font-family="Malgun Gothic,맑은 고딕,sans-serif" font-size="10" font-weight="400" text-anchor="middle" fill="#000000">170</text>
+<text x="526.0" y="221" font-family="Malgun Gothic,맑은 고딕,sans-serif" font-size="10" font-weight="400" text-anchor="middle" fill="#000000">226</text>
+<text x="293" y="242.4" font-family="Malgun Gothic,맑은 고딕,sans-serif" font-size="10.4" font-weight="400" text-anchor="middle" fill="#000000">저장된 검색 사례 수 (SCAM : NON-SCAM = 1 : 1)</text>
+<polyline points="59.0,182.57007575757575 59.0,160.5530303030303" fill="none" stroke="#1D668C" stroke-width="1"/>
+<polyline points="55.0,182.57007575757575 63.0,182.57007575757575" fill="none" stroke="#1D668C" stroke-width="1"/>
+<polyline points="55.0,160.5530303030303 63.0,160.5530303030303" fill="none" stroke="#1D668C" stroke-width="1"/>
+<polyline points="136.83333333333331,160.5530303030303 136.83333333333331,135.60037878787875" fill="none" stroke="#1D668C" stroke-width="1"/>
+<polyline points="132.83333333333331,160.5530303030303 140.83333333333331,160.5530303030303" fill="none" stroke="#1D668C" stroke-width="1"/>
+<polyline points="132.83333333333331,135.60037878787875 140.83333333333331,135.60037878787875" fill="none" stroke="#1D668C" stroke-width="1"/>
+<polyline points="269.6078431372549,137.0681818181818 269.6078431372549,110.64772727272727" fill="none" stroke="#1D668C" stroke-width="1"/>
+<polyline points="265.6078431372549,137.0681818181818 273.6078431372549,137.0681818181818" fill="none" stroke="#1D668C" stroke-width="1"/>
+<polyline points="265.6078431372549,110.64772727272727 273.6078431372549,110.64772727272727" fill="none" stroke="#1D668C" stroke-width="1"/>
+<polyline points="397.80392156862746,120.9223484848485 397.80392156862746,98.90530303030306" fill="none" stroke="#1D668C" stroke-width="1"/>
+<polyline points="393.80392156862746,120.9223484848485 401.80392156862746,120.9223484848485" fill="none" stroke="#1D668C" stroke-width="1"/>
+<polyline points="393.80392156862746,98.90530303030306 401.80392156862746,98.90530303030306" fill="none" stroke="#1D668C" stroke-width="1"/>
+<polyline points="526.0,107.71212121212123 526.0,104.77651515151516" fill="none" stroke="#1D668C" stroke-width="1"/>
+<polyline points="522.0,107.71212121212123 530.0,107.71212121212123" fill="none" stroke="#1D668C" stroke-width="1"/>
+<polyline points="522.0,104.77651515151516 530.0,104.77651515151516" fill="none" stroke="#1D668C" stroke-width="1"/>
+<polyline points="59.0,173.46969696969697 136.83333333333331,148.66382575757575 269.6078431372549,119.16098484848484 397.80392156862746,109.47348484848484 526.0,105.21685606060608" fill="none" stroke="#1D668C" stroke-width="1.8"/>
+<circle cx="59.0" cy="173.46969696969697" r="3" fill="#1D668C" stroke="white" stroke-width="0.2"/>
+<circle cx="136.83333333333331" cy="148.66382575757575" r="3" fill="#1D668C" stroke="white" stroke-width="0.2"/>
+<circle cx="269.6078431372549" cy="119.16098484848484" r="3" fill="#1D668C" stroke="white" stroke-width="0.2"/>
+<circle cx="397.80392156862746" cy="109.47348484848484" r="3" fill="#1D668C" stroke="white" stroke-width="0.2"/>
+<circle cx="526.0" cy="105.21685606060608" r="3" fill="#1D668C" stroke="white" stroke-width="0.2"/>
+<polyline points="70,262 89,262" fill="none" stroke="#1D668C" stroke-width="1.8"/>
+<text x="95" y="266.4" font-family="Malgun Gothic,맑은 고딕,sans-serif" font-size="10.4" font-weight="400" text-anchor="start" fill="#000000">이전 검색 방식</text>
+<polyline points="59.0,73.9526515151515 59.0,59.27462121212122" fill="none" stroke="#BF5E27" stroke-width="1"/>
+<polyline points="55.0,73.9526515151515 63.0,73.9526515151515" fill="none" stroke="#BF5E27" stroke-width="1"/>
+<polyline points="55.0,59.27462121212122 63.0,59.27462121212122" fill="none" stroke="#BF5E27" stroke-width="1"/>
+<polyline points="136.83333333333331,66.61363636363637 136.83333333333331,59.27462121212122" fill="none" stroke="#BF5E27" stroke-width="1"/>
+<polyline points="132.83333333333331,66.61363636363637 140.83333333333331,66.61363636363637" fill="none" stroke="#BF5E27" stroke-width="1"/>
+<polyline points="132.83333333333331,59.27462121212122 140.83333333333331,59.27462121212122" fill="none" stroke="#BF5E27" stroke-width="1"/>
+<polyline points="269.6078431372549,65.14583333333331 269.6078431372549,62.21022727272728" fill="none" stroke="#BF5E27" stroke-width="1"/>
+<polyline points="265.6078431372549,65.14583333333331 273.6078431372549,65.14583333333331" fill="none" stroke="#BF5E27" stroke-width="1"/>
+<polyline points="265.6078431372549,62.21022727272728 273.6078431372549,62.21022727272728" fill="none" stroke="#BF5E27" stroke-width="1"/>
+<polyline points="397.80392156862746,65.14583333333331 397.80392156862746,62.21022727272728" fill="none" stroke="#BF5E27" stroke-width="1"/>
+<polyline points="393.80392156862746,65.14583333333331 401.80392156862746,65.14583333333331" fill="none" stroke="#BF5E27" stroke-width="1"/>
+<polyline points="393.80392156862746,62.21022727272728 401.80392156862746,62.21022727272728" fill="none" stroke="#BF5E27" stroke-width="1"/>
+<polyline points="526.0,65.14583333333331 526.0,65.14583333333331" fill="none" stroke="#BF5E27" stroke-width="1"/>
+<polyline points="522.0,65.14583333333331 530.0,65.14583333333331" fill="none" stroke="#BF5E27" stroke-width="1"/>
+<polyline points="522.0,65.14583333333331 530.0,65.14583333333331" fill="none" stroke="#BF5E27" stroke-width="1"/>
+<polyline points="59.0,65.43939393939397 136.83333333333331,64.26515151515147 269.6078431372549,63.97159090909091 397.80392156862746,63.67803030303031 526.0,65.14583333333331" fill="none" stroke="#BF5E27" stroke-width="1.8"/>
+<circle cx="59.0" cy="65.43939393939397" r="3" fill="#BF5E27" stroke="white" stroke-width="0.2"/>
+<circle cx="136.83333333333331" cy="64.26515151515147" r="3" fill="#BF5E27" stroke="white" stroke-width="0.2"/>
+<circle cx="269.6078431372549" cy="63.97159090909091" r="3" fill="#BF5E27" stroke="white" stroke-width="0.2"/>
+<circle cx="397.80392156862746" cy="63.67803030303031" r="3" fill="#BF5E27" stroke="white" stroke-width="0.2"/>
+<circle cx="526.0" cy="65.14583333333331" r="3" fill="#BF5E27" stroke="white" stroke-width="0.2"/>
+<polyline points="288,262 307,262" fill="none" stroke="#BF5E27" stroke-width="1.8"/>
+<text x="313" y="266.4" font-family="Malgun Gothic,맑은 고딕,sans-serif" font-size="10.4" font-weight="400" text-anchor="start" fill="#000000">최종 검색 방식</text>
+<text x="280" y="302" font-family="Malgun Gothic,맑은 고딕,sans-serif" font-size="12" font-weight="700" text-anchor="middle" fill="#000000">합산 테스트 256건에서 모델과 최종 검색의 결합 ACC</text>
+<polyline points="59,473.0 526,473.0" fill="none" stroke="#DCE2E6" stroke-width="0.7"/>
+<text x="50" y="477.0" font-family="Malgun Gothic,맑은 고딕,sans-serif" font-size="10" font-weight="400" text-anchor="end" fill="#000000">40</text>
+<polyline points="59,447.1666666666667 526,447.1666666666667" fill="none" stroke="#DCE2E6" stroke-width="0.7"/>
+<text x="50" y="451.1666666666667" font-family="Malgun Gothic,맑은 고딕,sans-serif" font-size="10" font-weight="400" text-anchor="end" fill="#000000">50</text>
+<polyline points="59,421.3333333333333 526,421.3333333333333" fill="none" stroke="#DCE2E6" stroke-width="0.7"/>
+<text x="50" y="425.3333333333333" font-family="Malgun Gothic,맑은 고딕,sans-serif" font-size="10" font-weight="400" text-anchor="end" fill="#000000">60</text>
+<polyline points="59,395.5 526,395.5" fill="none" stroke="#DCE2E6" stroke-width="0.7"/>
+<text x="50" y="399.5" font-family="Malgun Gothic,맑은 고딕,sans-serif" font-size="10" font-weight="400" text-anchor="end" fill="#000000">70</text>
+<polyline points="59,369.6666666666667 526,369.6666666666667" fill="none" stroke="#DCE2E6" stroke-width="0.7"/>
+<text x="50" y="373.6666666666667" font-family="Malgun Gothic,맑은 고딕,sans-serif" font-size="10" font-weight="400" text-anchor="end" fill="#000000">80</text>
+<polyline points="59,343.8333333333333 526,343.8333333333333" fill="none" stroke="#DCE2E6" stroke-width="0.7"/>
+<text x="50" y="347.8333333333333" font-family="Malgun Gothic,맑은 고딕,sans-serif" font-size="10" font-weight="400" text-anchor="end" fill="#000000">90</text>
+<polyline points="59,318.0 526,318.0" fill="none" stroke="#DCE2E6" stroke-width="0.7"/>
+<text x="50" y="322.0" font-family="Malgun Gothic,맑은 고딕,sans-serif" font-size="10" font-weight="400" text-anchor="end" fill="#000000">100</text>
+<polyline points="59,318 59,473 526,473" fill="none" stroke="#344A5B" stroke-width="1"/>
+<text x="50" y="307" font-family="Malgun Gothic,맑은 고딕,sans-serif" font-size="10" font-weight="400" text-anchor="end" fill="#000000">ACC (%)</text>
+<text x="59.0" y="490" font-family="Malgun Gothic,맑은 고딕,sans-serif" font-size="10" font-weight="400" text-anchor="middle" fill="#000000">22</text>
+<text x="136.83333333333331" y="490" font-family="Malgun Gothic,맑은 고딕,sans-serif" font-size="10" font-weight="400" text-anchor="middle" fill="#000000">56</text>
+<text x="269.6078431372549" y="490" font-family="Malgun Gothic,맑은 고딕,sans-serif" font-size="10" font-weight="400" text-anchor="middle" fill="#000000">114</text>
+<text x="397.80392156862746" y="490" font-family="Malgun Gothic,맑은 고딕,sans-serif" font-size="10" font-weight="400" text-anchor="middle" fill="#000000">170</text>
+<text x="526.0" y="490" font-family="Malgun Gothic,맑은 고딕,sans-serif" font-size="10" font-weight="400" text-anchor="middle" fill="#000000">226</text>
+<text x="293" y="511.4" font-family="Malgun Gothic,맑은 고딕,sans-serif" font-size="10.4" font-weight="400" text-anchor="middle" fill="#000000">저장된 검색 사례 수 (SCAM : NON-SCAM = 1 : 1)</text>
+<polyline points="59.0,394.6927083333333 59.0,390.65625" fill="none" stroke="#1D668C" stroke-width="1"/>
+<polyline points="55.0,394.6927083333333 63.0,394.6927083333333" fill="none" stroke="#1D668C" stroke-width="1"/>
+<polyline points="55.0,390.65625 63.0,390.65625" fill="none" stroke="#1D668C" stroke-width="1"/>
+<polyline points="136.83333333333331,390.65625 136.83333333333331,381.57421875" fill="none" stroke="#1D668C" stroke-width="1"/>
+<polyline points="132.83333333333331,390.65625 140.83333333333331,390.65625" fill="none" stroke="#1D668C" stroke-width="1"/>
+<polyline points="132.83333333333331,381.57421875 140.83333333333331,381.57421875" fill="none" stroke="#1D668C" stroke-width="1"/>
+<polyline points="269.6078431372549,377.5377604166667 269.6078431372549,369.46484375" fill="none" stroke="#1D668C" stroke-width="1"/>
+<polyline points="265.6078431372549,377.5377604166667 273.6078431372549,377.5377604166667" fill="none" stroke="#1D668C" stroke-width="1"/>
+<polyline points="265.6078431372549,369.46484375 273.6078431372549,369.46484375" fill="none" stroke="#1D668C" stroke-width="1"/>
+<polyline points="397.80392156862746,368.4557291666667 397.80392156862746,365.4283854166667" fill="none" stroke="#1D668C" stroke-width="1"/>
+<polyline points="393.80392156862746,368.4557291666667 401.80392156862746,368.4557291666667" fill="none" stroke="#1D668C" stroke-width="1"/>
+<polyline points="393.80392156862746,365.4283854166667 401.80392156862746,365.4283854166667" fill="none" stroke="#1D668C" stroke-width="1"/>
+<polyline points="526.0,364.4192708333333 526.0,364.4192708333333" fill="none" stroke="#1D668C" stroke-width="1"/>
+<polyline points="522.0,364.4192708333333 530.0,364.4192708333333" fill="none" stroke="#1D668C" stroke-width="1"/>
+<polyline points="522.0,364.4192708333333 530.0,364.4192708333333" fill="none" stroke="#1D668C" stroke-width="1"/>
+<polyline points="59.0,392.6744791666667 136.83333333333331,386.0143229166667 269.6078431372549,373.1985677083333 397.80392156862746,367.04296875 526.0,364.4192708333333" fill="none" stroke="#1D668C" stroke-width="1.8"/>
+<circle cx="59.0" cy="392.6744791666667" r="3" fill="#1D668C" stroke="white" stroke-width="0.2"/>
+<circle cx="136.83333333333331" cy="386.0143229166667" r="3" fill="#1D668C" stroke="white" stroke-width="0.2"/>
+<circle cx="269.6078431372549" cy="373.1985677083333" r="3" fill="#1D668C" stroke="white" stroke-width="0.2"/>
+<circle cx="397.80392156862746" cy="367.04296875" r="3" fill="#1D668C" stroke="white" stroke-width="0.2"/>
+<circle cx="526.0" cy="364.4192708333333" r="3" fill="#1D668C" stroke="white" stroke-width="0.2"/>
+<polyline points="70,531 89,531" fill="none" stroke="#1D668C" stroke-width="1.8"/>
+<text x="95" y="535.4" font-family="Malgun Gothic,맑은 고딕,sans-serif" font-size="10.4" font-weight="400" text-anchor="start" fill="#000000">원본 모델 + 검색</text>
+<polyline points="59.0,320.0182291666667 59.0,320.0182291666667" fill="none" stroke="#BF5E27" stroke-width="1"/>
+<polyline points="55.0,320.0182291666667 63.0,320.0182291666667" fill="none" stroke="#BF5E27" stroke-width="1"/>
+<polyline points="55.0,320.0182291666667 63.0,320.0182291666667" fill="none" stroke="#BF5E27" stroke-width="1"/>
+<polyline points="136.83333333333331,320.0182291666667 136.83333333333331,320.0182291666667" fill="none" stroke="#BF5E27" stroke-width="1"/>
+<polyline points="132.83333333333331,320.0182291666667 140.83333333333331,320.0182291666667" fill="none" stroke="#BF5E27" stroke-width="1"/>
+<polyline points="132.83333333333331,320.0182291666667 140.83333333333331,320.0182291666667" fill="none" stroke="#BF5E27" stroke-width="1"/>
+<polyline points="269.6078431372549,320.0182291666667 269.6078431372549,320.0182291666667" fill="none" stroke="#BF5E27" stroke-width="1"/>
+<polyline points="265.6078431372549,320.0182291666667 273.6078431372549,320.0182291666667" fill="none" stroke="#BF5E27" stroke-width="1"/>
+<polyline points="265.6078431372549,320.0182291666667 273.6078431372549,320.0182291666667" fill="none" stroke="#BF5E27" stroke-width="1"/>
+<polyline points="397.80392156862746,320.0182291666667 397.80392156862746,320.0182291666667" fill="none" stroke="#BF5E27" stroke-width="1"/>
+<polyline points="393.80392156862746,320.0182291666667 401.80392156862746,320.0182291666667" fill="none" stroke="#BF5E27" stroke-width="1"/>
+<polyline points="393.80392156862746,320.0182291666667 401.80392156862746,320.0182291666667" fill="none" stroke="#BF5E27" stroke-width="1"/>
+<polyline points="526.0,320.0182291666667 526.0,320.0182291666667" fill="none" stroke="#BF5E27" stroke-width="1"/>
+<polyline points="522.0,320.0182291666667 530.0,320.0182291666667" fill="none" stroke="#BF5E27" stroke-width="1"/>
+<polyline points="522.0,320.0182291666667 530.0,320.0182291666667" fill="none" stroke="#BF5E27" stroke-width="1"/>
+<polyline points="59.0,320.0182291666667 136.83333333333331,320.0182291666667 269.6078431372549,320.0182291666667 397.80392156862746,320.0182291666667 526.0,320.0182291666667" fill="none" stroke="#BF5E27" stroke-width="1.8"/>
+<circle cx="59.0" cy="320.0182291666667" r="3" fill="#BF5E27" stroke="white" stroke-width="0.2"/>
+<circle cx="136.83333333333331" cy="320.0182291666667" r="3" fill="#BF5E27" stroke="white" stroke-width="0.2"/>
+<circle cx="269.6078431372549" cy="320.0182291666667" r="3" fill="#BF5E27" stroke="white" stroke-width="0.2"/>
+<circle cx="397.80392156862746" cy="320.0182291666667" r="3" fill="#BF5E27" stroke="white" stroke-width="0.2"/>
+<circle cx="526.0" cy="320.0182291666667" r="3" fill="#BF5E27" stroke="white" stroke-width="0.2"/>
+<polyline points="288,531 307,531" fill="none" stroke="#BF5E27" stroke-width="1.8"/>
+<text x="313" y="535.4" font-family="Malgun Gothic,맑은 고딕,sans-serif" font-size="10.4" font-weight="400" text-anchor="start" fill="#000000">특화 모델 + 검색</text>
+<text x="280" y="565" font-family="Malgun Gothic,맑은 고딕,sans-serif" font-size="10" font-weight="400" text-anchor="middle" fill="#46505B">점: 10개 구성의 평균   세로선: 최솟값–최댓값 (신뢰구간 아님)</text>
+</svg>

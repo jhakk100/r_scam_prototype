@@ -1,0 +1,255 @@
+{
+  "candidates": [
+    {
+      "id": "C00",
+      "name": "기존 V4, 길이 초과 포함",
+      "kind": "historical_control"
+    },
+    {
+      "id": "C01",
+      "name": "기존 검색 + 무손실 분할 임베딩",
+      "kind": "length_control"
+    },
+    {
+      "id": "C02",
+      "name": "비용 전가 / 출금·해제 의존",
+      "kind": "event_pair",
+      "x": {
+        "other_payment": 1,
+        "responsibility_shift": 1
+      },
+      "y": {
+        "unlock_condition": 1,
+        "escalation": 0.5
+      }
+    },
+    {
+      "id": "C03",
+      "name": "자원 통제 / 독립 확인 차단",
+      "kind": "event_pair",
+      "x": {
+        "unilateral_control": 1,
+        "credential_transfer": 1
+      },
+      "y": {
+        "verification_block": 1,
+        "opacity": 0.5
+      }
+    },
+    {
+      "id": "C04",
+      "name": "금전 요구 / 인증 접근 요구",
+      "kind": "event_pair",
+      "x": {
+        "other_payment": 1,
+        "fee_request": 0.5
+      },
+      "y": {
+        "credential_transfer": 1,
+        "unilateral_assignment": 0.5
+      }
+    },
+    {
+      "id": "C05",
+      "name": "요구 확대 / 시간·관계 압박",
+      "kind": "event_pair",
+      "x": {
+        "escalation": 1,
+        "unlock_condition": 0.5
+      },
+      "y": {
+        "urgency": 1,
+        "relationship_condition": 1
+      }
+    },
+    {
+      "id": "C06",
+      "name": "정보 불투명 / 타인 부담 부과",
+      "kind": "event_pair",
+      "x": {
+        "opacity": 1,
+        "verification_block": 1
+      },
+      "y": {
+        "responsibility_shift": 1,
+        "unlock_condition": 1
+      }
+    },
+    {
+      "id": "C07",
+      "name": "답변 회피 / 조건 악화",
+      "kind": "event_pair",
+      "x": {
+        "evasive_reply": 1,
+        "opacity": 0.5
+      },
+      "y": {
+        "escalation": 1,
+        "unlock_condition": 1
+      }
+    },
+    {
+      "id": "C08",
+      "name": "책임 이동 / 무단 지정",
+      "kind": "event_pair",
+      "x": {
+        "responsibility_shift": 1,
+        "other_payment": 0.5
+      },
+      "y": {
+        "unilateral_assignment": 1,
+        "credential_transfer": 0.5
+      }
+    },
+    {
+      "id": "C09",
+      "name": "일방 통제 / 자기 처리·확인",
+      "kind": "event_pair",
+      "x": {
+        "unilateral_control": 1,
+        "other_payment": 1,
+        "unlock_condition": 1
+      },
+      "y": {
+        "self_payment": 1,
+        "direct_verification": 1,
+        "explicit_choice": 0.5
+      }
+    },
+    {
+      "id": "C10",
+      "name": "관계 의존 / 설명 접근 제한",
+      "kind": "event_pair",
+      "x": {
+        "relationship_condition": 1,
+        "urgency": 0.5
+      },
+      "y": {
+        "opacity": 1,
+        "verification_block": 1,
+        "unilateral_control": 0.5
+      }
+    },
+    {
+      "id": "C11",
+      "name": "요구의 인과 / 행위 부정·선택",
+      "kind": "event_pair",
+      "x": {
+        "unlock_condition": 1,
+        "other_payment": 1,
+        "credential_transfer": 1
+      },
+      "y": {
+        "denied_control": 1,
+        "explicit_choice": 1,
+        "direct_verification": 0.5
+      }
+    },
+    {
+      "id": "C12",
+      "name": "발화된 요구 / 질문·검증 반응",
+      "kind": "event_pair",
+      "x": {
+        "declarative_request": 1,
+        "unilateral_assignment": 0.5
+      },
+      "y": {
+        "questions": 0.5,
+        "direct_verification": 1,
+        "evasive_reply": 1
+      }
+    },
+    {
+      "id": "C13",
+      "name": "원문 의미 임베딩 PCA 2축",
+      "kind": "semantic"
+    },
+    {
+      "id": "C14",
+      "name": "문자 표현 TF-IDF SVD 2축",
+      "kind": "lexical"
+    },
+    {
+      "id": "C15",
+      "name": "상호작용 사건 PCA 2축",
+      "kind": "events"
+    },
+    {
+      "id": "C16",
+      "name": "설명 투명성 / 개입·통제 의미축",
+      "kind": "anchors_control"
+    },
+    {
+      "id": "C17",
+      "name": "조건 의존 / 책임 배분 의미축",
+      "kind": "anchors_cost"
+    },
+    {
+      "id": "C18",
+      "name": "원문 의미 + 상호작용 PCA 2축",
+      "kind": "semantic_events"
+    },
+    {
+      "id": "C19",
+      "name": "원문 의미 + 기존 행동 + 사건 PCA 2축",
+      "kind": "multiview"
+    }
+  ],
+  "runtime": {
+    "experiment": "C:\\Users\\bjh38\\OneDrive\\바탕 화면\\r_scam_proto\\V4\\runtime",
+    "dataset": "C:\\Users\\bjh38\\OneDrive\\바탕 화면\\r_scam_proto\\V3\\dataset\\runs\\20261006_131323",
+    "model_run": "C:\\Users\\bjh38\\OneDrive\\바탕 화면\\r_scam_proto\\V3\\models\\runs\\20261006_131323",
+    "inference_config": "C:\\Users\\bjh38\\OneDrive\\바탕 화면\\r_scam_proto\\V3\\models\\runs\\20261006_131323\\inference_config.tested.json",
+    "projection": "C:\\Users\\bjh38\\OneDrive\\바탕 화면\\r_scam_proto\\V3\\dataset\\runs\\20261006_131323\\projection.json",
+    "index": "C:\\Users\\bjh38\\OneDrive\\바탕 화면\\r_scam_proto\\V4\\runtime\\rag_index.json",
+    "retrieval_config": "C:\\Users\\bjh38\\OneDrive\\바탕 화면\\r_scam_proto\\V4\\runtime\\retrieval-config.json",
+    "fusion_config": "C:\\Users\\bjh38\\OneDrive\\바탕 화면\\r_scam_proto\\V4\\fusion-config.json",
+    "balanced_test": "C:\\Users\\bjh38\\OneDrive\\바탕 화면\\r_scam_proto\\V4\\runtime\\test-balanced.json",
+    "model_variant": "v3_finetuned_final",
+    "temporary": false,
+    "paper_modification": false,
+    "selection_basis": "User selected V3-trained model; current V4 RAG retained",
+    "rag_policy_status": "retained_exploratory_not_claimed_optimal"
+  },
+  "fusion": {
+    "id": "temporary_quality_g0.65_c8_r0.7",
+    "type": "distance_gate",
+    "rag_cap": 0.7,
+    "distance_multiplier": 8.0,
+    "model_attenuation": 0.65,
+    "status": "TEMPORARY_EXPLORATORY",
+    "selection_basis": "User-selected provisional 65% after original E2B diagnostic sweep; not independently validated optimum",
+    "selected_date": "2026-10-06"
+  },
+  "test_counts": {
+    "original": 176,
+    "variant": 80
+  },
+  "rag_counts": {
+    "SCAM": 113,
+    "NON_SCAM": 113
+  },
+  "z_fixed": "stored known outcome only; no query ground-truth Z in search",
+  "xy_fit": "verified train226 only, no outcome labels in fit",
+  "final_k_max": 5,
+  "xy_candidates_use_global_pool": true,
+  "length_repair": "full text retained in <=512-token chunks; weighted normalized mean embedding",
+  "llm_scores": "matched actual selected V3 scores reused; no inference/training",
+  "value_scale": "training leave-one-group-out fifth-neighbor median matched to original metric",
+  "test_based_exploration": true,
+  "independent_validation": false,
+  "variant_labels_provisional": true,
+  "default_updated": false,
+  "paper_updated": false,
+  "protected_sha256": {
+    "C:\\Users\\bjh38\\OneDrive\\바탕 화면\\r_scam_proto\\V4\\active_runtime.json": "33d06610fe2127c70fbef0fb0b1dca8d4a6bcd77e7c6e8ec1cf045447ae7177a",
+    "C:\\Users\\bjh38\\OneDrive\\바탕 화면\\r_scam_proto\\V4\\fusion-config.json": "dbf3160330a7f624069a0c9c440cce6e279ad47c3f90055278e39c30a651c25b",
+    "C:\\Users\\bjh38\\OneDrive\\바탕 화면\\r_scam_proto\\V4\\runtime\\rag_index.json": "3084ec7bd555f069521671c80b61fd833c88e46ec87d21192450c9dca9048b95",
+    "C:\\Users\\bjh38\\OneDrive\\바탕 화면\\r_scam_proto\\V4\\runtime\\retrieval-config.json": "2d99d91ced73ca7736abfc6f8d2ba13abd1e09a16e210bf3834ee3931714e1b0",
+    "C:\\Users\\bjh38\\OneDrive\\바탕 화면\\r_scam_proto\\V3\\dataset\\runs\\20261006_131323\\projection.json": "28b8af831bebdf9d18da3d17dc79d7de012425fec714bb3c9ec2954a2da2ada8",
+    "C:\\Users\\bjh38\\OneDrive\\바탕 화면\\r_scam_proto\\V3\\models\\runs\\20261006_131323\\inference_config.tested.json": "cb0f846529f8eaebe7bec14416c6d65f55f1d36e6624696c6a46a2807f343095",
+    "C:\\Users\\bjh38\\OneDrive\\바탕 화면\\r_scam_proto\\V3\\doc\\paper\\romance_scam_technical_v3_ko.docx": "3a154bc31b020e0ddd478b7384738e54a3f5239b74516ca3923c11ad7a4b0af9",
+    "C:\\Users\\bjh38\\OneDrive\\바탕 화면\\r_scam_proto\\r_scam_prototype\\doc\\paper\\romance_scam_technical_draft_ko.docx": "b32ef00922a656640f884845f8e510f462fc48825ddbfc71aff212b9414b79c4"
+  },
+  "source_sha256": "372b3c73cd5c3b872ee4116a74c03c9d0f85377ffa3540bae45905e4cefc79bd"
+}

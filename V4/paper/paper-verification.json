@@ -1,0 +1,36 @@
+{
+  "status": "PASS",
+  "candidate_main_comparisons": 20,
+  "new_xy_candidates": 18,
+  "additional_controls": 4,
+  "historical_size_runs": 50,
+  "final_size_runs": 50,
+  "native_equations_unchanged": true,
+  "original_final_metric_cells_unchanged": true,
+  "terms_unified": true,
+  "sha256": "dff274c8399ab39affa5f2451e6811633fdd72aebcf838703fbe49f48ab0fcac",
+  "rendered_page_count": 14,
+  "visual_qa": "All 14 pages inspected; four changed pages inspected again after final text repairs; other ten pages pixel-identical to inspected render.",
+  "figures": 3,
+  "tables": 9,
+  "terms_removed": [
+    "V4",
+    "V3",
+    "D03",
+    "dataset22",
+    "비모수",
+    "코퍼스",
+    "우도",
+    "마진",
+    "휴리스틱"
+  ],
+  "title_and_image_captions_unified": true,
+  "renderer": "Read-only Word COM fallback after packaged renderer unavailable",
+  "findings": {
+    "historical_rag_mean_increases": true,
+    "final_rag_mean_monotonic": false,
+    "final_original_combination_mean_increases": true,
+    "specialized_combination_unchanged": true
+  },
+  "measurement_support": "../experiments/paper-support-20261007"
+}

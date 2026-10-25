@@ -1,0 +1,349 @@
+{
+  "status": "COMPLETED_EXPLORATORY",
+  "protocol": {
+    "method": "D03_plain_text_tfidf_svd_xy",
+    "sizes": [
+      22,
+      56,
+      114,
+      170,
+      226
+    ],
+    "seeds": [
+      42,
+      43,
+      44,
+      45,
+      46,
+      47,
+      48,
+      49,
+      50,
+      51
+    ],
+    "class_ratio": "1:1",
+    "sampling": "Nested separately by label; approximate topic proportions; same sampler as historical experiment",
+    "fit_pool_count": 226,
+    "projection_frozen": true,
+    "cutoff_frozen": true,
+    "fusion_frozen": true,
+    "test_counts": {
+      "original": 176,
+      "variant": 80
+    },
+    "model_scores_reused": true,
+    "new_llm_inference": false,
+    "new_training": false,
+    "query_z_used": false,
+    "independent_validation": false,
+    "source_sha256": "37dacf60bc82c16ade70c6c395abd36767f82de7a966271df6ed7448e0095a68",
+    "profile_sha256": "d913f149a2263d5faaba6e2e984dbaf71b5ac60b066669a9ec362e7ea1087f78",
+    "baseline_summary_sha256": "eb8c752d3db5002213b0117b39bd2d67e0eceb47d1795e8b15ee169a30702a89",
+    "full_size_predictions_match_previous": true,
+    "active_runtime_unchanged": true
+  },
+  "curve": [
+    {
+      "rag_size": 22,
+      "per_class": 11,
+      "metrics": {
+        "original": {
+          "rag_only": {
+            "mean": 0.9363636363636363,
+            "min": 0.9034090909090909,
+            "max": 0.9602272727272727
+          },
+          "original_combined": {
+            "mean": 0.6857954545454545,
+            "min": 0.6761363636363636,
+            "max": 0.6988636363636364
+          },
+          "specialized_combined": {
+            "mean": 1.0,
+            "min": 1.0,
+            "max": 1.0
+          }
+        },
+        "variant": {
+          "rag_only": {
+            "mean": 0.89625,
+            "min": 0.8625,
+            "max": 0.95
+          },
+          "original_combined": {
+            "mean": 0.76625,
+            "min": 0.7625,
+            "max": 0.775
+          },
+          "specialized_combined": {
+            "mean": 0.975,
+            "min": 0.975,
+            "max": 0.975
+          }
+        },
+        "all": {
+          "rag_only": {
+            "mean": 0.923828125,
+            "min": 0.890625,
+            "max": 0.94921875
+          },
+          "original_combined": {
+            "mean": 0.7109375,
+            "min": 0.703125,
+            "max": 0.71875
+          },
+          "specialized_combined": {
+            "mean": 0.9921875,
+            "min": 0.9921875,
+            "max": 0.9921875
+          }
+        }
+      }
+    },
+    {
+      "rag_size": 56,
+      "per_class": 28,
+      "metrics": {
+        "original": {
+          "rag_only": {
+            "mean": 0.940909090909091,
+            "min": 0.9318181818181818,
+            "max": 0.9602272727272727
+          },
+          "original_combined": {
+            "mean": 0.7164772727272728,
+            "min": 0.6931818181818182,
+            "max": 0.7386363636363636
+          },
+          "specialized_combined": {
+            "mean": 1.0,
+            "min": 1.0,
+            "max": 1.0
+          }
+        },
+        "variant": {
+          "rag_only": {
+            "mean": 0.90625,
+            "min": 0.875,
+            "max": 0.9375
+          },
+          "original_combined": {
+            "mean": 0.78125,
+            "min": 0.7625,
+            "max": 0.8
+          },
+          "specialized_combined": {
+            "mean": 0.975,
+            "min": 0.975,
+            "max": 0.975
+          }
+        },
+        "all": {
+          "rag_only": {
+            "mean": 0.930078125,
+            "min": 0.9140625,
+            "max": 0.953125
+          },
+          "original_combined": {
+            "mean": 0.73671875,
+            "min": 0.71875,
+            "max": 0.75390625
+          },
+          "specialized_combined": {
+            "mean": 0.9921875,
+            "min": 0.9921875,
+            "max": 0.9921875
+          }
+        }
+      }
+    },
+    {
+      "rag_size": 114,
+      "per_class": 57,
+      "metrics": {
+        "original": {
+          "rag_only": {
+            "mean": 0.9420454545454545,
+            "min": 0.9375,
+            "max": 0.9488636363636364
+          },
+          "original_combined": {
+            "mean": 0.7772727272727272,
+            "min": 0.7556818181818182,
+            "max": 0.7954545454545454
+          },
+          "specialized_combined": {
+            "mean": 1.0,
+            "min": 1.0,
+            "max": 1.0
+          }
+        },
+        "variant": {
+          "rag_only": {
+            "mean": 0.9075,
+            "min": 0.875,
+            "max": 0.9375
+          },
+          "original_combined": {
+            "mean": 0.80625,
+            "min": 0.775,
+            "max": 0.8125
+          },
+          "specialized_combined": {
+            "mean": 0.975,
+            "min": 0.975,
+            "max": 0.975
+          }
+        },
+        "all": {
+          "rag_only": {
+            "mean": 0.93125,
+            "min": 0.921875,
+            "max": 0.94140625
+          },
+          "original_combined": {
+            "mean": 0.786328125,
+            "min": 0.76953125,
+            "max": 0.80078125
+          },
+          "specialized_combined": {
+            "mean": 0.9921875,
+            "min": 0.9921875,
+            "max": 0.9921875
+          }
+        }
+      }
+    },
+    {
+      "rag_size": 170,
+      "per_class": 85,
+      "metrics": {
+        "original": {
+          "rag_only": {
+            "mean": 0.9431818181818181,
+            "min": 0.9375,
+            "max": 0.9488636363636364
+          },
+          "original_combined": {
+            "mean": 0.8090909090909092,
+            "min": 0.8011363636363636,
+            "max": 0.8181818181818182
+          },
+          "specialized_combined": {
+            "mean": 1.0,
+            "min": 1.0,
+            "max": 1.0
+          }
+        },
+        "variant": {
+          "rag_only": {
+            "mean": 0.9,
+            "min": 0.8875,
+            "max": 0.9125
+          },
+          "original_combined": {
+            "mean": 0.8125,
+            "min": 0.8125,
+            "max": 0.8125
+          },
+          "specialized_combined": {
+            "mean": 0.975,
+            "min": 0.975,
+            "max": 0.975
+          }
+        },
+        "all": {
+          "rag_only": {
+            "mean": 0.9296875,
+            "min": 0.921875,
+            "max": 0.93359375
+          },
+          "original_combined": {
+            "mean": 0.81015625,
+            "min": 0.8046875,
+            "max": 0.81640625
+          },
+          "specialized_combined": {
+            "mean": 0.9921875,
+            "min": 0.9921875,
+            "max": 0.9921875
+          }
+        }
+      }
+    },
+    {
+      "rag_size": 226,
+      "per_class": 113,
+      "metrics": {
+        "original": {
+          "rag_only": {
+            "mean": 0.9375,
+            "min": 0.9375,
+            "max": 0.9375
+          },
+          "original_combined": {
+            "mean": 0.8238636363636364,
+            "min": 0.8238636363636364,
+            "max": 0.8238636363636364
+          },
+          "specialized_combined": {
+            "mean": 1.0,
+            "min": 1.0,
+            "max": 1.0
+          }
+        },
+        "variant": {
+          "rag_only": {
+            "mean": 0.9,
+            "min": 0.9,
+            "max": 0.9
+          },
+          "original_combined": {
+            "mean": 0.8125,
+            "min": 0.8125,
+            "max": 0.8125
+          },
+          "specialized_combined": {
+            "mean": 0.975,
+            "min": 0.975,
+            "max": 0.975
+          }
+        },
+        "all": {
+          "rag_only": {
+            "mean": 0.92578125,
+            "min": 0.92578125,
+            "max": 0.92578125
+          },
+          "original_combined": {
+            "mean": 0.8203125,
+            "min": 0.8203125,
+            "max": 0.8203125
+          },
+          "specialized_combined": {
+            "mean": 0.9921875,
+            "min": 0.9921875,
+            "max": 0.9921875
+          }
+        }
+      }
+    }
+  ],
+  "trends": {
+    "original": {
+      "mean_nondecreasing": false,
+      "individual_nondecreasing_seeds": 0,
+      "seed_count": 10
+    },
+    "variant": {
+      "mean_nondecreasing": false,
+      "individual_nondecreasing_seeds": 2,
+      "seed_count": 10
+    },
+    "all": {
+      "mean_nondecreasing": false,
+      "individual_nondecreasing_seeds": 1,
+      "seed_count": 10
+    }
+  }
+}
