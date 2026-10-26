@@ -1,11 +1,13 @@
 import {parseText, maskSensitive, validateMessages} from './input.js';
 
 const $ = id => document.getElementById(id);
+const IMAGE_UPLOAD_ENABLED = false;
 const escape = text => String(text).replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 const number = n => Number(n).toFixed(1);
 const levelText = {HIGH:'주의가 필요한 대화', LOW:'위험 신호가 낮은 대화', UNKNOWN:'판단이 불확실한 대화'};
 const levelLabel = {HIGH:'주의', LOW:'낮음', UNKNOWN:'판단 유보'};
-let step = 0, busy = false, messages = [], images = [], examples = [], config = null, lastResult = null;
+let step = 0, busy = false, messages = [], images = [], config = null, lastResult = null;
+let analysisGeneration = 0;
 
 function showError(error) {
   $('error').textContent = error?.message || String(error);
@@ -13,6 +15,19 @@ function showError(error) {
   $('error').scrollIntoView({behavior:'smooth', block:'center'});
 }
 function clearError() { $('error').hidden = true; }
+function resetAnalysis() {
+  analysisGeneration++;
+  busy=false; messages=[]; lastResult=null;
+  $('conversation').value=''; $('result-panel').replaceChildren();
+  clearImages(); invalidateConsent(); clearError(); renderEditor();
+  $('job-status').textContent=''; $('ocr-status').textContent='';
+  $('mask-note').textContent='이름 등 자동으로 가리지 못한 정보는 직접 지워 주세요.';
+  $('images').disabled=!IMAGE_UPLOAD_ENABLED;
+  changeStep(0); setTab('text');
+}
+window.addEventListener('site-page-change', event => {
+  if (event.detail.page !== 'analysis') resetAnalysis();
+});
 function changeStep(value) {
   step = value;
   for (const item of document.querySelectorAll('[data-step]')) {
@@ -66,18 +81,6 @@ async function refreshStatus() {
   }
 }
 refreshStatus();
-
-async function loadExample(index) {
-  if (busy) return;
-  try {
-    clearError();
-    if (!examples.length) examples = await getJSON('/api/examples');
-    $('conversation').value = examples[index].messages.map(m => `${m.speaker}: ${m.text}`).join('\n');
-    setTab('text'); $('conversation').focus();
-  } catch (error) { showError(error); }
-}
-$('scam-example').onclick = () => loadExample(0);
-$('normal-example').onclick = () => loadExample(1);
 
 function renderEditor() {
   const scrollTop = $('messages-editor').scrollTop;
@@ -137,10 +140,10 @@ function renderImages() {
     button.onclick = () => { URL.revokeObjectURL(image.url); images.splice(index,1); renderImages(); };
     item.append(img, button); $('image-list').append(item);
   });
-  $('extract-button').disabled = !images.length || busy;
+  $('extract-button').disabled = !IMAGE_UPLOAD_ENABLED || !images.length || busy;
 }
 async function addImages(files) {
-  if (busy) return;
+  if (!IMAGE_UPLOAD_ENABLED || busy) return;
   try {
     clearError();
     if (images.length + files.length > 4) throw Error('이미지는 최대 4장까지 선택해 주세요.');
@@ -157,11 +160,11 @@ async function addImages(files) {
   $('images').value = '';
 }
 $('images').onchange = () => addImages(Array.from($('images').files));
-$('dropzone').ondragover = event => { event.preventDefault(); $('dropzone').classList.add('dragging'); };
+$('dropzone').ondragover = event => { event.preventDefault(); if (IMAGE_UPLOAD_ENABLED) $('dropzone').classList.add('dragging'); else event.dataTransfer.dropEffect = 'none'; };
 $('dropzone').ondragleave = () => $('dropzone').classList.remove('dragging');
-$('dropzone').ondrop = event => { event.preventDefault(); $('dropzone').classList.remove('dragging'); addImages(Array.from(event.dataTransfer.files)); };
+$('dropzone').ondrop = event => { event.preventDefault(); $('dropzone').classList.remove('dragging'); if (IMAGE_UPLOAD_ENABLED) addImages(Array.from(event.dataTransfer.files)); };
 $('extract-button').onclick = async () => {
-  if (busy || !images.length) return;
+  if (!IMAGE_UPLOAD_ENABLED || busy || !images.length) return;
   if (!config?.ocr_available) return showError(Error('이미지에서 글자를 읽을 수 없어요. 텍스트를 직접 입력해 주세요.'));
   busy = true; $('extract-button').disabled = true; $('review-button').disabled = true;
   $('images').disabled = true;
@@ -196,26 +199,31 @@ $('extract-button').onclick = async () => {
   } catch (error) { showError(error); $('ocr-status').textContent = '인식을 완료하지 못했어요. 텍스트로 직접 입력할 수 있어요.'; }
   finally {
     if (worker) await worker.terminate();
-    busy=false; $('images').disabled=false; $('review-button').disabled=!$('image-panel').hidden; renderImages();
+    busy=false; $('images').disabled=!IMAGE_UPLOAD_ENABLED; $('review-button').disabled=!$('image-panel').hidden; renderImages();
   }
 };
 
 $('analyze-button').onclick = async () => {
   if (busy || !$('consent').checked) return;
+  const generation = ++analysisGeneration;
   try {
     validateMessages(messages); clearError(); busy=true; changeStep(1);
     $('job-status').textContent = '분석을 시작하고 있어요.'; $('progress-heading').focus();
     const {job} = await getJSON('/api/analyze', {method:'POST', headers:{'Content-Type':'application/json'}, body:JSON.stringify({messages})});
+    if (generation !== analysisGeneration) return;
     let failures = 0;
     const started = Date.now();
     while (true) {
       await new Promise(resolve => setTimeout(resolve,1200));
+      if (generation !== analysisGeneration) return;
       let status;
       try { status = await getJSON(`/api/jobs/${job}`); failures=0; }
       catch (error) {
+        if (generation !== analysisGeneration) return;
         if (++failures >= 4) throw Error('분석 서버와 연결이 끊겼어요. 잠시 뒤 다시 시도해 주세요.');
         $('job-status').textContent='서버에 다시 연결하고 있어요.'; continue;
       }
+      if (generation !== analysisGeneration) return;
       if (status.state === 'error') throw Error(status.detail);
       if (status.state === 'done') {
         lastResult=status.result; busy=false; renderResult(lastResult); changeStep(2);
@@ -223,7 +231,7 @@ $('analyze-button').onclick = async () => {
       }
       $('job-status').textContent = `${status.state === 'loading' ? '분석을 준비하고 있어요.' : '대화 내용을 살펴보고 있어요.'} (${Math.floor((Date.now()-started)/1000)}초)`;
     }
-  } catch (error) { busy=false; changeStep(1); showError(error); }
+  } catch (error) { if (generation !== analysisGeneration) return; busy=false; changeStep(1); showError(error); }
 };
 
 function bubbles(items) {
@@ -253,11 +261,10 @@ function renderResult(data) {
     link.href=url; link.download='마음체크_분석결과.txt'; link.click(); setTimeout(() => URL.revokeObjectURL(url),1000);
   };
   $('edit-result').onclick = () => { invalidateConsent(); changeStep(1); $('review-heading').focus(); };
-  $('new-analysis').onclick = () => { messages=[]; lastResult=null; $('result-panel').replaceChildren(); $('conversation').value=''; invalidateConsent(); clearError(); changeStep(0); setTab('text'); $('conversation').focus(); };
+  $('new-analysis').onclick = () => { resetAnalysis(); $('conversation').focus(); };
 }
 
 function showInfo(title, html) { $('dialog-title').textContent=title; $('dialog-content').innerHTML=html; $('info-dialog').showModal(); }
-$('about-button').onclick = () => showInfo('분석 기준', '<p>입력한 대화의 흐름과 비슷한 사례를 참고해 위험 지수를 보여드려요.</p><p>40점 미만은 낮음, 40~60점은 판단 유보, 60점 초과는 주의 구간이에요.</p><p>점수는 실제 사기 확률이 아니며, 상대방의 안전성을 보장하지 않아요. 대화의 앞뒤 맥락과 실제 상황을 함께 확인해 주세요.</p>');
-$('privacy-button').onclick = () => showInfo('개인정보 처리 안내', '<p>이미지와 대화는 이 컴퓨터에서 처리해요. 확인한 대화만 분석에 사용하며, 파일로 자동 저장하지 않아요.</p><p>결과는 약 15분 뒤 정리돼요. 직접 보관하려면 결과 저장 버튼을 눌러 주세요.</p><p>일부 연락처 등은 자동으로 가려지지만, 이름·주소 등 남은 개인정보는 직접 확인해 주세요.</p>');
+$('privacy-button').onclick = () => showInfo('개인정보 처리 안내', '<p>분석용 이미지와 대화는 이 컴퓨터에서 처리해요. 확인한 대화만 분석에 사용하며, 파일로 자동 저장하지 않아요.</p><p>다른 페이지로 이동하면 입력과 분석 결과 화면은 초기화돼요. 서버의 분석 결과는 약 15분 뒤 정리돼요. 보관하려면 이동 전에 결과를 저장해 주세요.</p><p>커뮤니티에 직접 등록한 글·댓글과 닉네임은 게시판에 저장되어 방문자에게 보여요. 글과 댓글 비밀번호는 원문 대신 검증용 해시로 보관하며, 각각 수정·삭제할 때만 사용해요. 비밀번호를 잊으면 복구할 수 없어요.</p><p>게시글과 댓글에는 본인과 상대방의 이름·연락처·계좌·주소 등 식별 정보를 가려 주세요. 분석한 대화가 게시판에 자동으로 올라가지는 않아요.</p>');
 $('close-dialog').onclick = () => $('info-dialog').close();
 window.addEventListener('beforeunload', event => { if (busy) { event.preventDefault(); event.returnValue=''; } });

@@ -65,6 +65,8 @@ def main():
         raise SystemExit('Payload folder is not empty; existing parts are preserved.')
     folder.mkdir(exist_ok=True)
     files = sorted(p for p in source.rglob('*') if p.is_file()
+                   and p.relative_to(source).parts[0] != 'data'
+                   and p.name != '.payload-ready'
                    and 'runtime' not in p.relative_to(source).parts
                    and '__pycache__' not in p.relative_to(source).parts)
     writer = PartsWriter(folder, args.part_bytes)
@@ -94,7 +96,7 @@ def main():
         if not path.is_file():
             continue
         relative = path.relative_to(source)
-        if relative.parts[0] == 'runtime' or 'runtime' not in relative.parts or '__pycache__' in relative.parts:
+        if relative.parts[0] in ('runtime', 'data') or 'runtime' not in relative.parts or '__pycache__' in relative.parts:
             continue
         dest = folder/'configuration'/relative
         dest.parent.mkdir(parents=True, exist_ok=True)

@@ -10,8 +10,9 @@ import sys
 import threading
 import time
 import traceback
-from urllib.parse import unquote, urlsplit
+from urllib.parse import unquote, urlsplit, parse_qs
 import uuid
+from community import Community, BoardError
 
 HERE = Path(__file__).resolve().parent
 REPO = (HERE / 'engine' if (HERE / 'engine/V4/active_runtime.json').is_file() else
@@ -25,6 +26,7 @@ from architecture.pipeline.input import prepare_input
 from pipeline import V4Pipeline
 
 APP_ID = 'maeum-check-final-v4'
+board = Community(HERE / 'data/community.sqlite3')
 runtime = read(V4 / 'active_runtime.json')
 selection = read(V4 / 'final-selection.json')
 index_data = read(runtime['index'])
@@ -154,6 +156,29 @@ class Handler(BaseHTTPRequestHandler):
         if not self.valid_host():
             return self.send_json({'error': '허용되지 않은 호스트입니다.'}, 403)
         path = unquote(urlsplit(self.path).path)
+        if path == '/api/community/posts' or path.startswith('/api/community/posts/'):
+            try:
+                if path == '/api/community/posts':
+                    query = parse_qs(urlsplit(self.path).query)
+                    return self.send_json(board.list(query.get('q', [''])[0],
+                        query.get('category', [''])[0], int(query.get('page', ['1'])[0])))
+                parts = path.removeprefix('/api/community/posts/').split('/')
+                ident = parts[0]
+                if len(ident) != 32 or any(c not in '0123456789abcdef' for c in ident):
+                    raise BoardError('글을 찾을 수 없어요.', 404)
+                if len(parts) == 1:
+                    return self.send_json(board.get(ident))
+                if len(parts) == 2 and parts[1] == 'comments':
+                    query = parse_qs(urlsplit(self.path).query)
+                    return self.send_json(board.comments(ident, int(query.get('page', ['1'])[0])))
+                raise BoardError('찾을 수 없습니다.', 404)
+            except BoardError as exc:
+                return self.send_json({'error': str(exc)}, exc.status)
+            except ValueError:
+                return self.send_json({'error': '검색 조건을 확인해 주세요.'}, 400)
+            except Exception:
+                traceback.print_exc()
+                return self.send_json({'error': '게시판을 불러오지 못했어요. 잠시 뒤 다시 시도해 주세요.'}, 503)
         if path in ('/api/status', '/api/config'):
             with state_lock:
                 status = dict(state)
@@ -174,7 +199,7 @@ class Handler(BaseHTTPRequestHandler):
             examples = read(HERE / 'examples.json')
             return self.send_json([{'title': e['title'], 'messages': e['messages']} for e in examples[:2]])
         # Explicitly allow public UI assets only, excluding models and runtime files.
-        if path in ('/', '/index.html', '/app.js', '/input.js', '/style.css'):
+        if path in ('/', '/index.html', '/app.js', '/input.js', '/community.js', '/style.css'):
             target = STATIC / ('index.html' if path == '/' else path[1:])
         elif path.startswith(('/images/', '/ocr/', '/_next/static/')) or path == '/favicon.svg':
             target = (ORIGINAL / path[1:]).resolve()
@@ -197,8 +222,10 @@ class Handler(BaseHTTPRequestHandler):
         if not self.valid_host():
             return self.send_json({'error': '허용되지 않은 호스트입니다.'}, 403)
         if self.headers.get('Origin') not in (None, 'http://' + self.headers.get('Host', '')):
-            return self.send_json({'error': '이 홈페이지에서만 분석할 수 있습니다.'}, 403)
-        if urlsplit(self.path).path != '/api/analyze':
+            return self.send_json({'error': '이 홈페이지에서만 요청할 수 있습니다.'}, 403)
+        path = urlsplit(self.path).path
+        community_path = path == '/api/community/posts' or path.startswith('/api/community/posts/')
+        if path != '/api/analyze' and not community_path:
             return self.send_json({'error': '찾을 수 없습니다.'}, 404)
         try:
             if self.headers.get('Content-Type', '').split(';')[0] != 'application/json':
@@ -208,8 +235,32 @@ class Handler(BaseHTTPRequestHandler):
                 raise ValueError('입력 크기를 확인해 주세요.')
             self.connection.settimeout(15)
             value = json.loads(self.rfile.read(length))
-            messages = validate_messages(value)
         except (ValueError, TypeError, OSError) as exc:
+            return self.send_json({'error': str(exc)}, 400)
+        if community_path:
+            try:
+                if path == '/api/community/posts':
+                    return self.send_json(board.create(value, self.client_address[0]), 201)
+                parts = path.removeprefix('/api/community/posts/').split('/')
+                if (len(parts[0]) != 32
+                        or any(c not in '0123456789abcdef' for c in parts[0])):
+                    raise BoardError('찾을 수 없습니다.', 404)
+                if len(parts) == 2 and parts[1] in ('edit', 'delete'):
+                    return self.send_json(board.change(parts[0], parts[1], value, self.client_address[0]))
+                if len(parts) == 2 and parts[1] == 'comments':
+                    return self.send_json(board.create_comment(parts[0], value, self.client_address[0]), 201)
+                if (len(parts) == 4 and parts[1] == 'comments' and parts[3] in ('edit', 'delete')
+                        and len(parts[2]) == 32 and all(c in '0123456789abcdef' for c in parts[2])):
+                    return self.send_json(board.change_comment(parts[0], parts[2], parts[3], value, self.client_address[0]))
+                raise BoardError('찾을 수 없습니다.', 404)
+            except BoardError as exc:
+                return self.send_json({'error': str(exc)}, exc.status)
+            except Exception:
+                traceback.print_exc()
+                return self.send_json({'error': '글을 저장하지 못했어요. 잠시 뒤 다시 시도해 주세요.'}, 503)
+        try:
+            messages = validate_messages(value)
+        except (ValueError, TypeError) as exc:
             return self.send_json({'error': str(exc)}, 400)
         if not slot.acquire(blocking=False):
             return self.send_json({'error': '이전 분석이 끝난 뒤 다시 시도해 주세요.'}, 409)

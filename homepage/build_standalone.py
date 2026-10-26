@@ -97,8 +97,8 @@ def main():
         records[relative] = {'bytes': size, 'sha256': digest.hexdigest(), 'category': category}
 
     print('Copying homepage and frozen inference modules...', flush=True)
-    for name in ['server.py', 'start.ps1', 'stop.ps1', '마음체크_시작.cmd', '마음체크_종료.cmd',
-                 'examples.json', 'verify_integration.py', 'verify_standalone.py']:
+    for name in ['server.py', 'community.py', 'start.ps1', 'stop.ps1', '마음체크_시작.cmd', '마음체크_종료.cmd',
+                 'examples.json', 'verify_integration.py', 'verify_standalone.py', 'verify_community.py']:
         copy_file(HERE / name, name, 'application')
     for folder in ['app', 'maeum-check-source']:
         for path in (HERE / folder).rglob('*'):

@@ -25,7 +25,7 @@ def main():
     worker.start()
     client = urllib.request.build_opener(urllib.request.ProxyHandler({}))
     try:
-        for path in ('', 'app.js', 'input.js', 'style.css', 'favicon.svg',
+        for path in ('', 'app.js', 'input.js', 'community.js', 'style.css', 'favicon.svg',
                      'images/chat-companions.png', 'ocr/worker.min.js',
                      '_next/static/chunks/src-DXZWLGLI.js',
                      '_next/static/chunks/rolldown-runtime-C5USp2td.js',

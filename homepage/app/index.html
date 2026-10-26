@@ -8,16 +8,18 @@
   <link rel="icon" href="/favicon.svg" type="image/svg+xml">
   <link rel="stylesheet" href="/style.css">
   <script type="module" src="/app.js"></script>
+  <script type="module" src="/community.js"></script>
 </head>
 <body>
 <a class="skip-link" href="#main">본문으로 바로가기</a>
 <header class="topbar"><div class="top-inner">
   <a href="#main" class="brand"><span class="brand-icon">♡</span><strong>마음체크</strong><span class="brand-sub">마음에 걸린 대화, 함께 확인해요</span></a>
-  <nav aria-label="주 메뉴"><a href="#main" class="active">대화 분석</a><button id="about-button">분석 기준</button><button id="privacy-button">개인정보 안내</button></nav>
+  <nav aria-label="주 메뉴"><a id="analysis-link" href="#main" class="active" aria-current="page">대화 분석</a><a id="community-link" href="#community">커뮤니티</a><button id="privacy-button">개인정보 안내</button></nav>
 </div></header>
 <main id="main" class="container">
+ <div id="analysis-view">
   <p class="breadcrumb">⌂ &nbsp; › &nbsp; 대화 분석</p>
-  <div class="hero"><div><span class="eyebrow">♡ &nbsp; 혼자 고민하지 않아도 괜찮아요</span><h1>이 대화, 괜찮은 걸까요?</h1><p>조금이라도 마음이 쓰였다면, 여기서 천천히 확인해 보세요.</p></div><span class="privacy-pill">♧ &nbsp; 내 컴퓨터에서 분석 · 대화 파일 미보관</span></div>
+  <div class="hero"><div><span class="eyebrow">♡ &nbsp; 혼자 고민하지 않아도 괜찮아요</span><h1>이 대화, 괜찮은 걸까요?</h1><p>조금이라도 마음이 쓰였다면, 여기서 천천히 확인해 보세요.</p></div></div>
   <ol class="stepper" aria-label="분석 진행 단계">
     <li data-step="0" class="current" aria-current="step"><span>01</span><strong>대화 업로드</strong></li>
     <li data-step="1"><span>02</span><strong>문장 확인</strong></li>
@@ -34,18 +36,19 @@
         </div>
         <div id="text-panel" role="tabpanel" aria-labelledby="text-tab">
           <label for="conversation">대화 내용</label>
-          <textarea id="conversation" rows="12" maxlength="16000" placeholder="상대방: 오늘 하루는 어땠어요?&#10;나: 잘 지냈어요.&#10;&#10;화자: 대화 내용 형식으로 붙여 넣어 주세요. 화자 없는 원문도 입력할 수 있어요."></textarea>
-          <p class="small muted">대화의 앞뒤 맥락과 순서를 함께 담아 주세요. 다음 화면에서 화자와 문장을 수정할 수 있어요.</p>
+          <textarea id="conversation" rows="12" maxlength="16000" placeholder="상대방: 오늘 하루는 어땠어요?&#10;나: 잘 지냈어요.&#10;&#10;화자: 대화 내용 형식으로 붙여 넣어 주세요. 화자 없는 원문도 입력할 수 있어요.&#10;&#10;대화의 앞뒤 맥락과 순서를 함께 담아 주세요. 다음 화면에서 화자와 문장을 수정할 수 있어요." aria-describedby="model-caution"></textarea>
+          <p id="model-caution" class="small muted">모델은 실수할 수 있어요. 분석 결과는 참고용이며, 실제 상황과 함께 확인해 주세요.</p>
         </div>
         <div id="image-panel" role="tabpanel" aria-labelledby="image-tab" hidden>
-          <div class="dropzone" id="dropzone"><img src="/images/chat-companions.png" alt="서로 기대고 있는 파랑·초록 말풍선" width="190" height="128"><h3>마음에 걸린 대화를 올려 주세요</h3><p class="muted small">PNG · JPG · WEBP, 최대 4장 · 장당 10MB</p><label for="images" class="button secondary">이미지 선택</label><input id="images" type="file" accept="image/png,image/jpeg,image/webp" multiple></div>
+          <p id="image-upload-notice" class="notice">이미지 업로드는 아직 정식으로 지원하지 않아요.</p>
+          <div class="dropzone" id="dropzone" aria-disabled="true"><img src="/images/chat-companions.png" alt="서로 기대고 있는 파랑·초록 말풍선" width="190" height="128"><h3>이미지 업로드 준비 중</h3><p class="muted small">PNG · JPG · WEBP, 최대 4장 · 장당 10MB</p><button type="button" class="button secondary" disabled aria-describedby="image-upload-notice">이미지 선택</button><input id="images" type="file" accept="image/png,image/jpeg,image/webp" multiple disabled></div>
           <div id="image-list" class="image-list"></div>
           <p id="ocr-status" class="small muted" role="status"></p>
           <button id="extract-button" class="button secondary" disabled>이미지에서 문장 추출</button>
-          <p class="small muted">이미지는 브라우저 안에서 읽어요. 추출된 글자와 화자를 꼭 확인해 주세요.</p>
+          <p class="small muted">현재는 텍스트 직접 입력을 이용해 주세요.</p>
         </div>
       </div>
-      <div class="card-actions"><div class="examples"><span class="small muted">처음이라면</span><button id="scam-example" class="text-link">주의 대화 예시</button><button id="normal-example" class="text-link">일상 대화 예시</button></div><button id="review-button" class="button primary">문장 확인하기 →</button></div>
+      <div class="card-actions upload-actions"><button id="review-button" class="button primary">문장 확인하기 →</button></div>
     </section>
     <section id="review-panel" class="card" hidden>
       <div class="card-pad"><div class="section-heading"><h2 id="review-heading" tabindex="-1">분석할 문장을 확인해 주세요</h2><span id="message-count" class="small muted"></span></div>
@@ -58,14 +61,25 @@
     </section>
     <aside class="sidebar">
       <section class="card aside-card"><h3>☷ &nbsp; 시작 전에, 세 가지만</h3><ul class="tips"><li><b>앞뒤 대화를 함께 담아 주세요</b><span>앞뒤 이야기와 대화 순서가 있으면 더 도움이 돼요.</span></li><li><b>글자와 화자를 확인해 주세요</b><span>사진 인식은 화자나 문장을 잘못 읽을 수 있어요.</span></li><li><b>이름·연락처는 가려 주세요</b><span>자동으로 가리지 못한 정보도 확인하세요.</span></li></ul><p class="aside-bottom">분석 결과는 상대방의 안전성을 보장하지 않아요.</p></section>
+      <section class="card aside-card analysis-guide" aria-labelledby="analysis-guide-heading"><h3 id="analysis-guide-heading">분석 기준</h3><p>대화의 흐름과 비슷한 사례를 참고해 위험 지수를 보여드려요.</p><dl class="facts"><div><dt>낮음</dt><dd>40점 미만</dd></div><div><dt>판단 유보</dt><dd>40~60점</dd></div><div><dt>주의</dt><dd>60점 초과</dd></div></dl><p class="aside-bottom">점수는 실제 사기 확률이 아니에요. 대화의 앞뒤 맥락과 실제 상황을 함께 확인해 주세요.</p></section>
     </aside>
   </div>
   <section id="progress-panel" class="card progress-panel" aria-labelledby="progress-heading" hidden><span class="spinner" aria-hidden="true"></span><h2 id="progress-heading" tabindex="-1">대화를 차분히 살펴보고 있어요</h2><p id="job-status" role="status" aria-live="polite"></p><p class="small muted">잠시만 기다려 주세요.</p></section>
   <section id="result-panel" aria-label="분석 결과" hidden></section>
   <div class="trust-row"><div><b>개인정보를 먼저 생각해요</b><p>분석 전 민감한 정보 가리기</p></div><div><b>앞뒤 맥락을 함께 살펴봐요</b><p>대화의 흐름을 담아 주세요</p></div><div><b>판단을 돕는 참고 정보예요</b><p>사기 확률이나 확정 판정이 아니에요</p></div></div>
   <p class="disclaimer">ⓘ 분석 결과는 참고용 지수입니다. 실제 범죄 여부를 확정하거나 특정인을 범죄자로 단정하지 않습니다.</p>
+ </div>
+ <section id="community-view" aria-label="커뮤니티" hidden>
+  <p class="breadcrumb">⌂ &nbsp; › &nbsp; 커뮤니티</p>
+  <div class="hero"><div><span class="eyebrow">♡ &nbsp; 함께 나누는 경험</span><h1 id="community-heading" tabindex="-1">혼자 고민했던 일, 함께 나눠요</h1><p>의심스러웠던 순간과 겪었던 일을 나누며 서로의 판단을 도와요.</p></div><button id="community-write" class="button primary">＋ 글쓰기</button></div>
+  <p id="community-notice" class="board-feedback" role="status" hidden></p>
+  <p id="community-error" class="error" role="alert" hidden></p>
+  <div id="community-content" aria-busy="false"></div>
+ </section>
   <footer><span><strong>마음체크</strong> &nbsp; © 2026. 안전한 관계를 위한 작은 확인.</span></footer>
 </main>
 <dialog id="info-dialog"><div class="dialog-heading"><h2 id="dialog-title"></h2><button id="close-dialog" class="button secondary" aria-label="안내 닫기">닫기</button></div><div id="dialog-content"></div></dialog>
+<dialog id="delete-post-dialog" aria-labelledby="delete-post-title"><form id="delete-post-form"><h2 id="delete-post-title">이 글을 삭제할까요?</h2><p class="small muted">글에 달린 댓글도 함께 삭제되며 되돌릴 수 없어요. 작성할 때 정한 비밀번호를 입력해 주세요.</p><label for="delete-password">글 비밀번호</label><input id="delete-password" type="password" minlength="6" maxlength="128" required autocomplete="off"><p id="delete-post-error" class="error" role="alert" hidden></p><div class="board-actions"><button id="cancel-delete-post" type="button" class="button secondary">취소</button><button type="submit" class="button board-danger">삭제하기</button></div></form></dialog>
+<dialog id="comment-dialog" aria-labelledby="comment-dialog-title"><form id="comment-change-form"><h2 id="comment-dialog-title"></h2><div id="comment-edit-fields"><label for="comment-edit-author">닉네임</label><input id="comment-edit-author" type="text" maxlength="20"><label for="comment-edit-body">댓글 내용</label><textarea id="comment-edit-body" rows="5" maxlength="2000"></textarea><label class="consent"><input id="comment-edit-privacy" type="checkbox"> 개인정보를 가렸으며 게시판 방문자에게 공개하는 데 동의합니다.</label></div><p id="comment-delete-note" class="small muted" hidden>삭제한 댓글은 되돌릴 수 없어요.</p><label for="comment-change-password">댓글 비밀번호 확인</label><input id="comment-change-password" type="password" minlength="6" maxlength="128" required autocomplete="off"><p id="comment-change-error" class="error" role="alert" hidden></p><div class="board-actions"><button id="cancel-comment-change" class="button secondary" type="button">취소</button><button id="submit-comment-change" class="button primary" type="submit">저장하기</button></div></form></dialog>
 </body>
 </html>

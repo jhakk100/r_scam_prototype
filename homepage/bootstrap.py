@@ -12,6 +12,36 @@ sys.path.insert(0, str(HERE / 'bootstrap-libs'))
 import zstandard
 
 
+def update_application(output):
+    """Apply small tracked app updates without repackaging unchanged model weights."""
+    names = ['server.py', 'community.py', 'verify_community.py', 'app/index.html', 'app/app.js',
+             'app/input.js', 'app/community.js', 'app/style.css', 'standalone-guide.md']
+    manifest_path = output / 'manifest.json'
+    manifest = json.loads(manifest_path.read_text(encoding='utf-8'))
+    changed = False
+    for name in names:
+        relative = '읽어주세요.md' if name == 'standalone-guide.md' else name
+        source, target = HERE / name, output / relative
+        data = source.read_bytes()
+        digest = hashlib.sha256(data).hexdigest()
+        if not target.is_file() or hashlib.sha256(target.read_bytes()).hexdigest() != digest:
+            target.parent.mkdir(parents=True, exist_ok=True)
+            temporary = target.with_name(target.name + '.update')
+            temporary.write_bytes(data)
+            temporary.replace(target)
+        row = {'bytes': len(data), 'sha256': digest,
+               'category': 'documentation' if name == 'standalone-guide.md' else
+                           'web_assets' if name.startswith('app/') else 'application'}
+        if manifest['files'].get(relative) != row:
+            manifest['files'][relative] = row
+            changed = True
+    if changed:
+        manifest['application_source'] = 'homepage tracked source; model payload unchanged'
+        temporary = manifest_path.with_suffix('.json.update')
+        temporary.write_text(json.dumps(manifest, ensure_ascii=False, indent=2) + '\n', encoding='utf-8')
+        temporary.replace(manifest_path)
+
+
 class PartsReader(io.RawIOBase):
     def __init__(self, parts):
         self.parts = iter(parts)
@@ -47,6 +77,7 @@ def main():
     output = HERE / '실행묶음'
     ready = output / '.payload-ready'
     if ready.is_file() and ready.read_text(encoding='ascii') == identity:
+        update_application(output)
         print('Offline application is ready.', flush=True)
         return
     if manifest['format'] != 'tar.zstd.parts.v1':
@@ -115,6 +146,7 @@ def main():
               'all_restored_hashes_match':True}
     (output/'runtime').mkdir(exist_ok=True)
     (output/'runtime/payload-verification.json').write_text(json.dumps(report, indent=2), encoding='utf-8')
+    update_application(output)
     print('Offline application restored and verified.', flush=True)
 
 
